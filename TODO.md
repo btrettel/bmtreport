@@ -4,21 +4,13 @@
 
 - Add bmtslides.cls.
 - Add bmtcv.cls.
-- Add bmt.mk
-- Finish make check
-- bmt-diction (Convert existing writing check file to a diction database.)
+- Finish make check.
+- Convert existing writing check file to a diction file.
 - DOUBTSS package
-- TeXidote for grammar checking
+- Use [TeXtidote](https://github.com/sylvainhalle/textidote) for grammar checking.
 
 ## bmtreport.cls
 
-- check PDF document information
-- check log file
-- check that PDF/A compliant
-- <https://tex.stackexchange.com/a/69086/9945>
-- compile different specific test files to test different features, e.g., test each class option, e.g., have a file which will raise a warning to see if that leads to an error
-- Make tests to ensure that metadata is present, etc.
-- Check XMP metadata in Adobe Acrobat on Windows.
 - draft option
 - refcheck
 - Have flags for various manual checks, e.g., reading out loud.
@@ -28,6 +20,12 @@
    - revision history/changelog after appendices
    - transparency/conflict-of-interest/research-integrity statement
    - top right of front page: QR code with link to article?
+   - latexmk
+   - Digital signature?
+      - <https://tex.stackexchange.com/questions/30354/digital-signature>
+      - <https://www.pdf-insecurity.org/>
+      - <http://jsignpdf.sourceforge.net/>
+         - <https://github.com/kwart/jsignpdf>
 - later
    - Automatically embed files? embedfile does not seem to support LuaTeX.
    - Make CJK font available with a flag.
@@ -56,25 +54,23 @@
 
 ### make
 
-- Switch to LuaLaTeX with Make files and latexmk.
 - <https://github.com/atrettel/grfstyl/blob/master/tex-example/Makefile>
-- first run
-   - `lualatex "\PassOptionsToClass{normalwarnings}{bmtreport}\input{bmtreport}"`
-   - <https://tex.stackexchange.com/a/22525/9945>
 - <https://tex.stackexchange.com/questions/27878/pdflatex-bash-script-to-supress-all-output-except-error-messages>
 - <https://tex.stackexchange.com/questions/tagged/warnings%2berrors?tab=Votes>
 - <https://tex.stackexchange.com/questions/84246/warnings-and-errors-highlighting-when-compiling-in-bash-environment>
-- <https://www.oreilly.com/library/view/managing-projects-with/0596006101/ch06.html>: "Avoiding Duplicate Code"
-- <http://gnu-make.2324884.n4.nabble.com/How-can-I-avoid-duplication-of-code-in-makefiles-td4784.html>
-- Digital signature?
-   - <https://tex.stackexchange.com/questions/30354/digital-signature>
-   - <https://www.pdf-insecurity.org/>
-   - <http://jsignpdf.sourceforge.net/>
-      - <https://github.com/kwart/jsignpdf>
 
 ### make check
 
-- check text itself for particular phrases
-- Use list of phrases which are not allowed in bibliography, etc., rather than the clunky shell script.
+- Check text itself for particular phrases with diction and shell script for what diction can't handle. diction is preferred, however, as it can put the recommendations inline.
+- For text which should not appear in the bibliography, write a Python script with an input CSV file rather than the clunky shell script. That'll be easier to manage in the long run.
 
-### make test
+## tests for bmtreport and other classes
+
+- Make sure that document compiles in both lualatex and pdflatex
+- check PDF document information
+- check log file
+- (later) check that PDF/A compliant
+- <https://tex.stackexchange.com/a/69086/9945>
+- compile different specific test files to test different features, e.g., test each class option, e.g., have a file which will raise a warning to see if that leads to an error
+- Make tests to ensure that metadata is present, etc.
+- (manual test) Check XMP metadata in Adobe Acrobat on Windows.

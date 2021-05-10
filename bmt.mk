@@ -19,14 +19,16 @@ $(key).pdf: $(key).bcf $(key).tex
 	lualatex --halt-on-error $(key).tex
 
 $(key).bcf: $(key).tex
+	# https://tex.stackexchange.com/a/22525/9945
 	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
 	biber $(key) --validate-datamodel --fixinits --isbn13 --isbn-normalise
 
 .PHONY: clean
 clean:
-	-rm -rvf *.blg *.bcf *.log *.blg *.lot *.toc *.idx *.aux *.bbl *.lof *.out *.run.xml /tmp/par* *.abstract abstract.tex title.tex *.tmp
+	-rm -rvf *.blg *.bcf *.log *.blg *.lot *.toc *.idx *.aux *.bbl *.lof *.out *.run.xml /tmp/par* *.abstract abstract.tex title.tex *.tmp $(key).txt
 
 .PHONY: check
 check: $(key).tex
 	aspell -t -c $(key).tex
 	chktex -q -I0 -n1 -n2 -n44 -n25 $(key).tex
+	#diction -s -L bmt $(key).txt

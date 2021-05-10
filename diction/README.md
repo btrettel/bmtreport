@@ -7,6 +7,8 @@
 - <https://www.builtinla.com/2015/03/23/50-startup-words-and-phrases-should-be-banned>
 - TODO: <https://www.muckrock.com/news/archives/2017/jul/14/cias-style-guide/>
 - TODO: <https://groups.google.com/forum/#!topic/usaafricadialogue/21VgaOKZQqI>
+- TODO: <https://github.com/dspinellis/unix-history-repo/blob/BSD-4_1_snap-Snapshot-Development/.ref-BSD-4/usr/src/cmd/diction/dict.d>
+- TODO: <https://github.com/dspinellis/unix-history-repo/blob/BSD-4_1_snap-Snapshot-Development/.ref-BSD-4/usr/src/cmd/diction/explain.d>
 
 ## title
 

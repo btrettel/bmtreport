@@ -15,7 +15,7 @@
 % along with bmtreport.  If not, see <https://www.gnu.org/licenses/>.
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{bmtreport}[2021/04/17 Custom BMT report class]
+\ProvidesClass{bmtreport}[2021/05/09 BMT report class]
 
 \RequirePackage[l2tabu, orthodox]{nag}
 \RequirePackage{etoolbox}
