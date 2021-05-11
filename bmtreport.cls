@@ -37,6 +37,10 @@
 \togglefalse{revnoset}
 \newtoggle{opendata}
 \togglefalse{opendata}
+\newtoggle{nometadatachecks}
+\togglefalse{nometadatachecks}
+\newtoggle{abstractmetadata}
+\toggletrue{abstractmetadata}
 
 \newtoggle{subjclassset}
 \togglefalse{subjclassset}
@@ -47,6 +51,8 @@
 
 \DeclareOption{fairuse}{\toggletrue{fairuse}}
 \DeclareOption{tradesecret}{\toggletrue{tradesecret}}
+\DeclareOption{nometadatachecks}{\toggletrue{nometadatachecks}}
+\DeclareOption{noabstractmetadata}{\togglefalse{abstractmetadata}}
 \DeclareOption{ccbysa}{
    \toggletrue{ccbysa}
    \iftoggle{tradesecret}{\PackageError{bmtreport}{Can not set a trade secret report as CC BY-SA.}{}}{}
@@ -269,6 +275,20 @@ end
 % needs to be loaded before hyperref
 \RequirePackage{setspace}
 
+% biblatex documentation: > When using the hyperref package, it is preferable to load it after biblatex.
+\RequirePackage[
+   backref=true,
+   natbib=true,
+   style=alphabetic,
+   backend=biber,
+   giveninits=true,
+   maxcitenames=3,
+   maxbibnames=99
+]{biblatex}
+% was style=numeric-comp, but changed due to:
+% https://dblab.cs.toronto.edu/~miller/Research/writing.html
+% > Unless required by the restrictions of a journal or conference, use more than cryptic numbers for citations. It is hard for a reader to remember the meaning of Reference 42. This forces her to repeatedly look this up as she is reading. If you use the more common convention of author initials and year (e.g., [AO72]), it is much easier to remember common references.
+
 \RequirePackage{hyperxmp}
 \RequirePackage[unicode]{hyperref}
 %\RequirePackage{breakurl}
@@ -279,17 +299,6 @@ end
    pdflang       = {en-US},
    pdfcontacturl = {http://trettel.us/contact.html}
 }
-
-% Load doclicense after hyperref and hyperxmp so that it knows to add the metadata.
-% Later: I commented out doclicense as it seems to conflict with biblatex, I want to reduce dependencies, and I don't like the phrases it uses. I'm keeping the main part of the code here in case I want to go back to doclicense in the future.
-%\iftoggle{ccbysa}{
-   %\RequirePackage[
-       %type={CC},
-       %modifier={by-sa},
-       %version={4.0},
-       %lang={english}
-   %]{doclicense}
-   %}{}
 
 \newcommand*{\docids}[2][]{
    \assertnonempty{#2}
@@ -359,18 +368,14 @@ end
 % https://www.semipol.de/2018/06/12/latex-best-practices.html#hyperlinks-to-floats-and-not-their-captions
 \RequirePackage{hypcap} % load after hyperref
 
-% load after doclicense
-\RequirePackage[
-   backref=true,
-   natbib=true,
-   style=alphabetic,
-   backend=biber,
-   giveninits=true,
-   maxcitenames=3,
-   maxbibnames=99
-]{biblatex} % was style=numeric-comp, but changed due to:
-% https://dblab.cs.toronto.edu/~miller/Research/writing.html
-% > Unless required by the restrictions of a journal or conference, use more than cryptic numbers for citations. It is hard for a reader to remember the meaning of Reference 42. This forces her to repeatedly look this up as she is reading. If you use the more common convention of author initials and year (e.g., [AO72]), it is much easier to remember common references.
+% For putting the number of references, figures, etc. at the end of an abstract.
+% https://en.wikibooks.org/wiki/LaTeX/Counters#LaTeX_default_counters
+\usepackage{totcount}
+% Requires biblatex.
+% https://tex.stackexchange.com/a/202797/9945
+\newtotcounter{citenum}
+\AtEveryBibitem{\stepcounter{citenum}}
+\regtotcounter{figure}
 
 % Needs to be placed down here to avoid a clash with some other package.
 \iftoggle{translation}{\RequirePackage{transcheck}}{}
@@ -417,10 +422,32 @@ end
 \RequirePackage{environ}
 \let\svabstract\abstract
 \let\svendabstract\endabstract
+\iftoggle{abstractmetadata}{
 \RenewEnviron{abstract}{
-  \svabstract\BODY\svendabstract
-  \expandafter\gdef\expandafter\theabstract\expandafter{\BODY}
-}
+   \svabstract\BODY%
+   \ifnumequal{\totvalue{citenum}}{1}{%
+      \ \total{citenum} reference.}{%
+      \ \total{citenum} references.}%
+   \ifnumequal{\totvalue{figure}}{1}{%
+      \ \total{figure} figure.}{%
+      \ \total{figure} figures.}%
+   \svendabstract
+   \expandafter\gdef\expandafter\theabstract\expandafter{\BODY}
+}}{
+\RenewEnviron{abstract}{
+   \svabstract\BODY\svendabstract
+   \expandafter\gdef\expandafter\theabstract\expandafter{\BODY}
+}}
+
+%\RenewEnviron{abstract}{
+   %\svabstract\BODY%
+   %\directlua{%
+      %n_ref = "\totvalue{citenum}"
+      %tex.print(n_ref)
+   %}%
+   %references.\svendabstract
+   %\expandafter\gdef\expandafter\theabstract\expandafter{\BODY}
+%}
 
 % Guidelines on marking CC works: https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license
 % TODO?: add a trade secrecy notice?
@@ -441,50 +468,52 @@ end
                    .. "/Subject (\thesubjclass)"
                    .. "/Keywords (\thekeywords)")
          }%
-      \luaexec{%
-         s = "\thetitle"
-         n = string.len(s)
-         texio.write_nl("Title character count: ")
-         texio.write(n)
-         if n>75 then
-            tex.error("Title is over 75 characters long")
-         end
-         out = io.open("title.tex", "w")
-         out:write(s)
-         out:write('.')
-         io.close(out)
-         }%
-      \luaexec{%
-         s = "\thekeywords"
-         _,n = s:gsub(",","")
-         n = n + 1
-         texio.write_nl("Keyword count: ")
-         texio.write(n)
-         if n>5 then
-            tex.error("More than 5 keywords")
-         end
-         }%
-      \luaexec{%
-         s = "\theabstract"
-         % Word count
-         % https://stackoverflow.com/a/29136751/1124489
-         _,n_words = s:gsub("\%S+","")
-         texio.write_nl("Abstract word count: ")
-         texio.write(n_words)
-         if n_words>150 then
-            tex.error("Abstract is longer than 150 words")
-         end
-         % https://www.apsdfd2019.org/abstract-submission
-         % APS DFD abstract limit is 1300 characters.
-         n_chars = string.len(s)
-         texio.write_nl("Abstract character count: ")
-         texio.write(n_chars)
-         if n_chars>1300 then
-            tex.error("Abstract is over 1300 characters long")
-         end
-         out = io.open("abstract.tex", "w")
-         out:write(s)
-         io.close(out)
+      \iftoggle{nometadatachecks}{}{
+         \luaexec{%
+            s = \luastring{\thetitle}
+            n = string.len(s)
+            texio.write_nl("Title character count: ")
+            texio.write(n)
+            if n>75 then
+               tex.error("Title is over 75 characters long")
+            end
+            out = io.open("title.tex", "w")
+            out:write(s)
+            out:write('.')
+            io.close(out)
+            }%
+         \luaexec{%
+            s = \luastring{\thekeywords}
+            _,n = s:gsub(",","")
+            n = n + 1
+            texio.write_nl("Keyword count: ")
+            texio.write(n)
+            if n>5 then
+               tex.error("More than 5 keywords")
+            end
+            }%
+         \luaexec{%
+            s = \luastring{\theabstract}
+            % Word count
+            % https://stackoverflow.com/a/29136751/1124489
+            _,n_words = s:gsub("\%S+","")
+            texio.write_nl("Abstract word count: ")
+            texio.write(n_words)
+            if n_words>150 then
+               tex.error("Abstract is longer than 150 words")
+            end
+            % https://www.apsdfd2019.org/abstract-submission
+            % APS DFD abstract limit is 1300 characters.
+            n_chars = string.len(s)
+            texio.write_nl("Abstract character count: ")
+            texio.write(n_chars)
+            if n_chars>1300 then
+               tex.error("Abstract is over 1300 characters long")
+            end
+            out = io.open("abstract.tex", "w")
+            out:write(s)
+            io.close(out)
+            }%
          }%
    \else%
       \pdfinfo{/Title (\thetitle)

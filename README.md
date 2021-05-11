@@ -1,8 +1,6 @@
-# bmtreport and bmtslides classes for LaTeX, along with some Makefiles
+# bmtreport and related classes for LaTeX, along with related writing scripts and databases
 
 ## Installation
-
-### Summary
 
 Modify depending on where you keep this repository. The following works for me.
 
@@ -13,7 +11,13 @@ sudo ln -s ~/repos/bmtreport/bmt.mk /usr/local/include/
 ln -s ~/repos/bmtreport/bmtreport.cls ~/texmf/tex/latex/
 ```
 
-###
+### Details for diction
+
+While the `-f` flag allows specification of a diction database, the databases in the `/usr/share/diction/` directory seem to be selected with the `-L` flag. While intended for languages, I want the command to be global, so I am using the `-L` flag in the Makefile.
+
+It is more convenient for me to keep the diction databases as CSV files, which I convert to diction datbases with `csv_to_diction.py`. This allows me to edit the database with a spreadsheet program.
+
+#### Details for make
 
 The Make include files should be symlinked in a [place that Make checks](https://www.gnu.org/software/make/manual/html_node/Include.html):
 

@@ -49,6 +49,7 @@
    - https://tug.org/FontCatalogue/firasansmath/>
    - https://en.wikipedia.org/wiki/Fira_(typeface)>
    - https://fonts.google.com/specimen/Fira+Sans>
+- Make bmtslides have associated presentation number in the BMT-P series. Due to the ephemeral nature of slides, use a hash instead of an increasing integer.
 
 ## Makefile
 
@@ -58,6 +59,7 @@
 - <https://tex.stackexchange.com/questions/27878/pdflatex-bash-script-to-supress-all-output-except-error-messages>
 - <https://tex.stackexchange.com/questions/tagged/warnings%2berrors?tab=Votes>
 - <https://tex.stackexchange.com/questions/84246/warnings-and-errors-highlighting-when-compiling-in-bash-environment>
+- Have local diction file to help catch issues specific to the local paper. local.diction. Make Makefile automatically recognize this and use it.
 
 ### make check
 
