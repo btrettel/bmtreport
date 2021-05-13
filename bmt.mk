@@ -15,7 +15,7 @@
 # along with bmtreport.  If not, see <https://www.gnu.org/licenses/>.
 
 $(key).pdf: $(key).bcf $(key).tex
-	lualatex --halt-on-error -draftmode $(key).tex
+	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
 	lualatex --halt-on-error $(key).tex
 
 $(key).bcf: $(key).tex
@@ -31,4 +31,13 @@ clean:
 check: $(key).tex
 	aspell -t -c $(key).tex
 	chktex -q -I0 -n1 -n2 -n44 -n25 $(key).tex
+	test -f $(key).diction && diction -s -f $(key).diction $(key).tex || true
+	test -f $(key).sh && ./$(key).sh $(key).tex || true
 	#diction -s -L bmt $(key).txt
+
+.PHONY: again
+again: $(key).tex
+	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
+	biber $(key) --validate-datamodel --fixinits --isbn13 --isbn-normalise
+	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
+	lualatex --halt-on-error $(key).tex

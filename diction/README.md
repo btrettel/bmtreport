@@ -9,6 +9,8 @@
 - TODO: <https://groups.google.com/forum/#!topic/usaafricadialogue/21VgaOKZQqI>
 - TODO: <https://github.com/dspinellis/unix-history-repo/blob/BSD-4_1_snap-Snapshot-Development/.ref-BSD-4/usr/src/cmd/diction/dict.d>
 - TODO: <https://github.com/dspinellis/unix-history-repo/blob/BSD-4_1_snap-Snapshot-Development/.ref-BSD-4/usr/src/cmd/diction/explain.d>
+- <https://www.scribbr.com/academic-writing/taboo-words/>
+- <https://web.archive.org/web/20130115032012/http://www.economist.com/style-guide/unnecessary-words>
 
 ## title
 

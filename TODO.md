@@ -7,7 +7,6 @@
 - Finish make check.
 - Convert existing writing check file to a diction file.
 - DOUBTSS package
-- Use [TeXtidote](https://github.com/sylvainhalle/textidote) for grammar checking.
 
 ## bmtreport.cls
 
@@ -65,6 +64,9 @@
 
 - Check text itself for particular phrases with diction and shell script for what diction can't handle. diction is preferred, however, as it can put the recommendations inline.
 - For text which should not appear in the bibliography, write a Python script with an input CSV file rather than the clunky shell script. That'll be easier to manage in the long run.
+- Use [TeXtidote](https://github.com/sylvainhalle/textidote) for grammar checking.
+- <https://news.ycombinator.com/item?id=13297379>
+- Add ability to make comments to diction CSV file and add commented out items from previous file.
 
 ## tests for bmtreport and other classes
 

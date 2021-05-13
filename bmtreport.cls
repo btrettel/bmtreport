@@ -412,7 +412,7 @@ end
 \urlstyle{rm}
 
 % add the section number to the equation
-\numberwithin{equation}{section}
+\iftoggle{translation}{}{\numberwithin{equation}{section}}
 
 % Provides the \thetitle, \theauthor, and \thedate commands.
 \RequirePackage{titling}
