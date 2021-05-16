@@ -477,6 +477,12 @@ end
             if n>75 then
                tex.error("Title is over 75 characters long")
             end
+            _,n_words = s:gsub("\%S+","")
+            texio.write_nl("Title word count: ")
+            texio.write(n_words)
+            if n_words>15 then
+               tex.error("Title is over 15 words long")
+            end
             out = io.open("title.tex", "w")
             out:write(s)
             out:write('.')
@@ -489,7 +495,7 @@ end
             texio.write_nl("Keyword count: ")
             texio.write(n)
             if n>5 then
-               tex.error("More than 5 keywords")
+               tex.error("There are more than 5 keywords")
             end
             }%
          \luaexec{%
@@ -500,7 +506,7 @@ end
             texio.write_nl("Abstract word count: ")
             texio.write(n_words)
             if n_words>150 then
-               tex.error("Abstract is longer than 150 words")
+               tex.error("Abstract is over 150 words long")
             end
             % https://www.apsdfd2019.org/abstract-submission
             % APS DFD abstract limit is 1300 characters.
@@ -525,7 +531,7 @@ end
       pdfdate={\thedate}
    }
    \nolinenumbers\singlespacing\null\vfill
-   \noindent Citation: \theauthor, ``\thetitle'', \iftoggle{translation}{Translation}{Technical report} \reportprefix\nobreakdash-\docnumber, \thedate. \iftoggle{doiset}{\thedoi.}{} \\[1em]
+   \noindent Citation: \theauthor, ``\thetitle'', \iftoggle{translation}{Translation}{\iftoggle{note}{Note}{Technical report}} \reportprefix\nobreakdash-\docnumber, \thedate. \iftoggle{doiset}{\thedoi.}{} \\[1em]
    \iftoggle{opendata}{\noindent \opendataprefix: \opendatasource \\[1em]}{}%
    \iftoggle{revnoset}{\hypersetup{pdfversionid={\revno}} \noindent Revision \#: \revno}{}%
    \iftoggle{fairuse}{}{\\%

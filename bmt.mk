@@ -31,9 +31,10 @@ clean:
 check: $(key).tex
 	aspell -t -c $(key).tex
 	chktex -q -I0 -n1 -n2 -n44 -n25 $(key).tex
-	test -f $(key).diction && diction -s -f $(key).diction $(key).tex || true
-	test -f $(key).sh && ./$(key).sh $(key).tex || true
+	detex -n $(key).tex > $(key).txt
+	test -f $(key).diction && diction -sn -f $(key).diction $(key).txt || true
 	#diction -s -L bmt $(key).txt
+	test -f $(key).sh && ./$(key).sh $(key).tex || true
 
 .PHONY: again
 again: $(key).tex
