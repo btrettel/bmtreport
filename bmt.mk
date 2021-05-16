@@ -41,3 +41,7 @@ again: $(key).tex
 	biber $(key) --validate-datamodel --fixinits --isbn13 --isbn-normalise
 	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
 	lualatex --halt-on-error $(key).tex
+
+.PHONY: todo
+todo: $(key).tex
+	grep -in TODO $(key).tex

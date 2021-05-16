@@ -15,7 +15,7 @@
 % along with bmtreport.  If not, see <https://www.gnu.org/licenses/>.
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{bmtreport}[2021/05/09 BMT report class]
+\ProvidesClass{bmtreport}[2021/05/15 BMT report class]
 
 \RequirePackage[l2tabu, orthodox]{nag}
 \RequirePackage{etoolbox}
@@ -380,7 +380,7 @@ end
 % Needs to be placed down here to avoid a clash with some other package.
 \iftoggle{translation}{\RequirePackage{transcheck}}{}
 
-\input{/home/ben/notes/computer-setup/headers/macros.tex}
+\RequirePackage{bmtmacros}
 
 % make description environment not use bold letters
 % http://www.latex-community.org/forum/viewtopic.php?f=44&t=4204

@@ -67,6 +67,11 @@
 - Use [TeXtidote](https://github.com/sylvainhalle/textidote) for grammar checking.
 - <https://news.ycombinator.com/item?id=13297379>
 - Add ability to make comments to diction CSV file and add commented out items from previous file.
+- <https://github.com/get-alex/alex>
+   - <https://www.reddit.com/r/programmingcirclejerk/comments/3kknoc/take_your_writing_to_a_next_level_without/>
+   - <https://news.ycombinator.com/item?id=10199414>
+- <http://proselint.com/>
+   - <https://news.ycombinator.com/item?id=11232882>
 
 ## tests for bmtreport and other classes
 

@@ -19,3 +19,28 @@ grep --color -i '^Improvement\b' $tempdir/title.txt # https://www.uspto.gov/web/
 grep --color -i '^Improvements\b' $tempdir/title.txt # https://www.uspto.gov/web/offices/pac/mpep/s606.html
 grep --color -i '^Design\b' $tempdir/title.txt # https://www.uspto.gov/web/offices/pac/mpep/s606.html
 grep --color -i '^Designs\b' $tempdir/title.txt # https://www.uspto.gov/web/offices/pac/mpep/s606.html
+grep -H -n -i --color '\b,,\b' $1 # double
+grep -H -n -i --color '\b\.\.\b' $1 # double
+grep -H -n -i --color '\b??\b' $1 # double
+grep -H -n -i --color '\b::\b' $1 # double
+grep -H -n -i --color '\b;;\b' $1 # double
+grep -H -n -i --color "\b''\b" $1 # double
+grep -H -n -i --color '\b""\b' $1 # double
+grep -H -n -i --color ' ~' $1 # change to just one whitespace?
+grep -H -n -i --color ' ,' $1 # whitespace before comma seems wrong
+grep -H -n -i --color ' \.' $1 # whitespace before period seems wrong
+grep -H -n -i --color '~\.' $1 # whitespace before period seems wrong
+grep -H -n -i --color ',\s*\w+(?:\s+\w+)*,\s*\w+(?:\s+\w+)* and\b' $1 # Oxford comma, https://stackoverflow.com/a/39979115
+grep -H -n -i --color 'equation [0-9]+' $1 # use equation labels
+grep -H -n -i --color 'equation~[0-9]+' $1 # use equation labels
+grep -H -n -i --color 'equations [0-9]+' $1 # use equation labels
+grep -H -n -i --color 'equations~[0-9]+' $1 # use equation labels
+grep -H -n -i --color '\binsert \w* here\b' $1 # motivated by https://commons.wikimedia.org/wiki/File:Insert_statistical_method_here_-_BMC_Systems_Biology_2011_-_5(Suppl_3)_-_S4.png
+grep -H -n -i --color '\binsert \w* \w* here\b' $1
+grep -H -n -i --color '\binsert \w* \w* \w* here\b' $1
+grep -H -n -i --color '\badd \w* here\b' $1
+grep -H -n -i --color '\badd \w* \w* here\b' $1
+grep -H -n -i --color '\badd \w* \w* \w* here\b' $1
+#grep -H -n -i --color '\bpseudo-[a-z]\b' $1
+#grep -H -n -i --color '\b[a-z]-gate\b' $1
+grep -H -n -i --color '\bfall flat on \w* face\b' $1

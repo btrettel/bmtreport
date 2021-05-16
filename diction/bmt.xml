@@ -1,0 +1,2246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gnm:Workbook xmlns:gnm="http://www.gnumeric.org/v10.dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gnumeric.org/v9.xsd">
+  <gnm:Version Epoch="1" Major="12" Minor="35" Full="1.12.35"/>
+  <gnm:Attributes>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_horizontal_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_vertical_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_notebook_tabs</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::do_auto_completion</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::is_protected</gnm:name>
+      <gnm:value>FALSE</gnm:value>
+    </gnm:Attribute>
+  </gnm:Attributes>
+  <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
+    <office:meta>
+      <dc:date>2021-05-15T19:42:59Z</dc:date>
+      <meta:creation-date>2021-05-15T14:04:41Z</meta:creation-date>
+    </office:meta>
+  </office:document-meta>
+  <gnm:Calculation ManualRecalc="0" EnableIteration="1" MaxIterations="100" IterationTolerance="0.001" FloatRadix="2" FloatDigits="53"/>
+  <gnm:SheetNameIndex>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">bmt.csv</gnm:SheetName>
+  </gnm:SheetNameIndex>
+  <gnm:Geometry Width="636" Height="768"/>
+  <gnm:Sheets>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>bmt.csv</gnm:Name>
+      <gnm:MaxCol>1</gnm:MaxCol>
+      <gnm:MaxRow>1085</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Names>
+        <gnm:Name>
+          <gnm:name>Print_Area</gnm:name>
+          <gnm:value>#REF!</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+        <gnm:Name>
+          <gnm:name>Sheet_Title</gnm:name>
+          <gnm:value>&quot;bmt.csv&quot;</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+      </gnm:Names>
+      <gnm:PrintInformation>
+        <gnm:Margins>
+          <gnm:top Points="120" PrefUnit="mm"/>
+          <gnm:bottom Points="120" PrefUnit="mm"/>
+          <gnm:left Points="72" PrefUnit="mm"/>
+          <gnm:right Points="72" PrefUnit="mm"/>
+          <gnm:header Points="72" PrefUnit="mm"/>
+          <gnm:footer Points="72" PrefUnit="mm"/>
+        </gnm:Margins>
+        <gnm:Scale type="percentage" percentage="100"/>
+        <gnm:vcenter value="0"/>
+        <gnm:hcenter value="0"/>
+        <gnm:grid value="0"/>
+        <gnm:even_if_only_styles value="0"/>
+        <gnm:monochrome value="0"/>
+        <gnm:draft value="0"/>
+        <gnm:titles value="0"/>
+        <gnm:do_not_print value="0"/>
+        <gnm:print_range value="GNM_PRINT_ACTIVE_SHEET"/>
+        <gnm:order>d_then_r</gnm:order>
+        <gnm:orientation>portrait</gnm:orientation>
+        <gnm:Header Left="" Middle="&amp;[TAB]" Right=""/>
+        <gnm:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
+        <gnm:paper>na_letter</gnm:paper>
+        <gnm:comments placement="GNM_PRINT_COMMENTS_IN_PLACE"/>
+        <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
+      </gnm:PrintInformation>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="48"/>
+      <gnm:Rows DefaultSizePts="12.75">
+        <gnm:RowInfo No="4" Unit="13.5"/>
+        <gnm:RowInfo No="166" Unit="13.5" Count="905"/>
+      </gnm:Rows>
+      <gnm:Selections CursorCol="0" CursorRow="193">
+        <gnm:Selection startCol="0" startRow="193" endCol="0" endRow="193"/>
+      </gnm:Selections>
+      <gnm:Cells>
+        <gnm:Cell Row="0" Col="0" ValueType="60">\baccused</gnm:Cell>
+        <gnm:Cell Row="0" Col="1" ValueType="60">(expressions of doubt)</gnm:Cell>
+        <gnm:Cell Row="1" Col="0" ValueType="60">\badverse</gnm:Cell>
+        <gnm:Cell Row="1" Col="1" ValueType="60">(clarity, most people don't know what this means)</gnm:Cell>
+        <gnm:Cell Row="2" Col="0" ValueType="60">\badversely</gnm:Cell>
+        <gnm:Cell Row="2" Col="1" ValueType="60">(clarity, most people don't know what this means)</gnm:Cell>
+        <gnm:Cell Row="3" Col="0" ValueType="60">\bahead of the curve</gnm:Cell>
+        <gnm:Cell Row="3" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="4" Col="0" ValueType="60">\ball but</gnm:Cell>
+        <gnm:Cell Row="4" Col="1" ValueType="60">possibly all except (e.g., all but forgotten. This means the opposite to most people. Often can be removed too.)</gnm:Cell>
+        <gnm:Cell Row="5" Col="0" ValueType="60">\ball due respect</gnm:Cell>
+        <gnm:Cell Row="5" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="6" Col="0" ValueType="60">\balleged</gnm:Cell>
+        <gnm:Cell Row="6" Col="1" ValueType="60">(expressions of doubt)</gnm:Cell>
+        <gnm:Cell Row="7" Col="0" ValueType="60">\balmost definitely</gnm:Cell>
+        <gnm:Cell Row="7" Col="1" ValueType="60">(oxymoron)</gnm:Cell>
+        <gnm:Cell Row="8" Col="0" ValueType="60">\balmost exactly</gnm:Cell>
+        <gnm:Cell Row="8" Col="1" ValueType="60">nearly/approximately (oxymoron)</gnm:Cell>
+        <gnm:Cell Row="9" Col="0" ValueType="60">\bare a thing</gnm:Cell>
+        <gnm:Cell Row="9" Col="1" ValueType="60">exist (cliche)</gnm:Cell>
+        <gnm:Cell Row="10" Col="0" ValueType="60">\bargumentation</gnm:Cell>
+        <gnm:Cell Row="10" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="11" Col="0" ValueType="60">\bat once</gnm:Cell>
+        <gnm:Cell Row="11" Col="1" ValueType="60">simultaneously (clarity)</gnm:Cell>
+        <gnm:Cell Row="12" Col="0" ValueType="60">\bat the end of the day</gnm:Cell>
+        <gnm:Cell Row="12" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="13" Col="0" ValueType="60">\bbang for your buck</gnm:Cell>
+        <gnm:Cell Row="13" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="14" Col="0" ValueType="60">\bbarking up the wrong tree</gnm:Cell>
+        <gnm:Cell Row="14" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="15" Col="0" ValueType="60">\bbear fruit</gnm:Cell>
+        <gnm:Cell Row="15" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="16" Col="0" ValueType="60">\bbreak down</gnm:Cell>
+        <gnm:Cell Row="16" Col="1" ValueType="60">are no longer valid (clarity)</gnm:Cell>
+        <gnm:Cell Row="17" Col="0" ValueType="60">\bbreak down barriers</gnm:Cell>
+        <gnm:Cell Row="17" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="18" Col="0" ValueType="60">\bbreak things</gnm:Cell>
+        <gnm:Cell Row="18" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="19" Col="0" ValueType="60">\bbuilding bridges</gnm:Cell>
+        <gnm:Cell Row="19" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="20" Col="0" ValueType="60">\bcaliber</gnm:Cell>
+        <gnm:Cell Row="20" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="21" Col="0" ValueType="60">\bcommensurate</gnm:Cell>
+        <gnm:Cell Row="21" Col="1" ValueType="60">(clarity, use synonym)</gnm:Cell>
+        <gnm:Cell Row="22" Col="0" ValueType="60">\bconsidered harmful</gnm:Cell>
+        <gnm:Cell Row="22" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="23" Col="0" ValueType="60">\bcookie cutter</gnm:Cell>
+        <gnm:Cell Row="23" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="24" Col="0" ValueType="60">\bcrawl</gnm:Cell>
+        <gnm:Cell Row="24" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="25" Col="0" ValueType="60">\bcreative destruction</gnm:Cell>
+        <gnm:Cell Row="25" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="26" Col="0" ValueType="60">\bcute</gnm:Cell>
+        <gnm:Cell Row="26" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="27" Col="0" ValueType="60">\bdefinite possibility</gnm:Cell>
+        <gnm:Cell Row="27" Col="1" ValueType="60">possibility (oxymoron)</gnm:Cell>
+        <gnm:Cell Row="28" Col="0" ValueType="60">\bdesiderata</gnm:Cell>
+        <gnm:Cell Row="28" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="29" Col="0" ValueType="60">\bdevil is in the details</gnm:Cell>
+        <gnm:Cell Row="29" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="30" Col="0" ValueType="60">\bdiscourse</gnm:Cell>
+        <gnm:Cell Row="30" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="31" Col="0" ValueType="60">\bdisrupt</gnm:Cell>
+        <gnm:Cell Row="31" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="32" Col="0" ValueType="60">\bdisrupting</gnm:Cell>
+        <gnm:Cell Row="32" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="33" Col="0" ValueType="60">\bdisrupts</gnm:Cell>
+        <gnm:Cell Row="33" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="34" Col="0" ValueType="60">\bdog in the fight</gnm:Cell>
+        <gnm:Cell Row="34" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="35" Col="0" ValueType="60">\becosystem</gnm:Cell>
+        <gnm:Cell Row="35" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="36" Col="0" ValueType="60">\bepic</gnm:Cell>
+        <gnm:Cell Row="36" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="37" Col="0" ValueType="60">\bextensive experience</gnm:Cell>
+        <gnm:Cell Row="37" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="38" Col="0" ValueType="60">\bextreme</gnm:Cell>
+        <gnm:Cell Row="38" Col="1" ValueType="60">(exaggerated)</gnm:Cell>
+        <gnm:Cell Row="39" Col="0" ValueType="60">\bextremely</gnm:Cell>
+        <gnm:Cell Row="39" Col="1" ValueType="60">(exaggerated)</gnm:Cell>
+        <gnm:Cell Row="40" Col="0" ValueType="60">\bfood fight</gnm:Cell>
+        <gnm:Cell Row="40" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="41" Col="0" ValueType="60">\bgoat rope</gnm:Cell>
+        <gnm:Cell Row="41" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="42" Col="0" ValueType="60">\bgrease the skids</gnm:Cell>
+        <gnm:Cell Row="42" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="43" Col="0" ValueType="60">\bground truth</gnm:Cell>
+        <gnm:Cell Row="43" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="44" Col="0" ValueType="60">\bgrowth industries</gnm:Cell>
+        <gnm:Cell Row="44" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="45" Col="0" ValueType="60">\bgrowth industry</gnm:Cell>
+        <gnm:Cell Row="45" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="46" Col="0" ValueType="60">\bherding cats</gnm:Cell>
+        <gnm:Cell Row="46" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="47" Col="0" ValueType="60">\bhockey stick growth</gnm:Cell>
+        <gnm:Cell Row="47" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="48" Col="0" ValueType="60">\bhodograph</gnm:Cell>
+        <gnm:Cell Row="48" Col="1" ValueType="60">(archaic)</gnm:Cell>
+        <gnm:Cell Row="49" Col="0" ValueType="60">\bholding feet to the fire</gnm:Cell>
+        <gnm:Cell Row="49" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="50" Col="0" ValueType="60">\bin a nutshell</gnm:Cell>
+        <gnm:Cell Row="50" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="51" Col="0" ValueType="60">\binnovation</gnm:Cell>
+        <gnm:Cell Row="51" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="52" Col="0" ValueType="60">\binnovative</gnm:Cell>
+        <gnm:Cell Row="52" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="53" Col="0" ValueType="60">\bin these economic times</gnm:Cell>
+        <gnm:Cell Row="53" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="54" Col="0" ValueType="60">\birregardless</gnm:Cell>
+        <gnm:Cell Row="54" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="55" Col="0" ValueType="60">\bis a thing</gnm:Cell>
+        <gnm:Cell Row="55" Col="1" ValueType="60">exists (cliche)</gnm:Cell>
+        <gnm:Cell Row="56" Col="0" ValueType="60">\bis over</gnm:Cell>
+        <gnm:Cell Row="56" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="57" Col="0" ValueType="60">bi-weekly</gnm:Cell>
+        <gnm:Cell Row="57" Col="1" ValueType="60">(ambiguous, use &quot;every other week&quot; or &quot;twice a week&quot;)</gnm:Cell>
+        <gnm:Cell Row="58" Col="0" ValueType="60">biweekly</gnm:Cell>
+        <gnm:Cell Row="58" Col="1" ValueType="60">(ambiguous, use &quot;every other week&quot; or &quot;twice a week&quot;)</gnm:Cell>
+        <gnm:Cell Row="59" Col="0" ValueType="60">\bkeep the plates spinning</gnm:Cell>
+        <gnm:Cell Row="59" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="60" Col="0" ValueType="60">\bkinda</gnm:Cell>
+        <gnm:Cell Row="60" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="61" Col="0" ValueType="60">\bkind of</gnm:Cell>
+        <gnm:Cell Row="61" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="62" Col="0" ValueType="60">\bleaning forward in the saddle</gnm:Cell>
+        <gnm:Cell Row="62" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="63" Col="0" ValueType="60">\blessons learned</gnm:Cell>
+        <gnm:Cell Row="63" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="64" Col="0" ValueType="60">\blet a thousand flowers bloom</gnm:Cell>
+        <gnm:Cell Row="64" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="65" Col="0" ValueType="60">\blongpole in the tent</gnm:Cell>
+        <gnm:Cell Row="65" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="66" Col="0" ValueType="60">\blots of</gnm:Cell>
+        <gnm:Cell Row="66" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="67" Col="0" ValueType="60">\blow hanging fruit</gnm:Cell>
+        <gnm:Cell Row="67" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="68" Col="0" ValueType="60">\bmission critical</gnm:Cell>
+        <gnm:Cell Row="68" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="69" Col="0" ValueType="60">\bmodulate</gnm:Cell>
+        <gnm:Cell Row="69" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="70" Col="0" ValueType="60">\bmodulates</gnm:Cell>
+        <gnm:Cell Row="70" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="71" Col="0" ValueType="60">\bmore than ever</gnm:Cell>
+        <gnm:Cell Row="71" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="72" Col="0" ValueType="60">\bmuse</gnm:Cell>
+        <gnm:Cell Row="72" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="73" Col="0" ValueType="60">\bmused</gnm:Cell>
+        <gnm:Cell Row="73" Col="1" ValueType="60">considered (cliche)</gnm:Cell>
+        <gnm:Cell Row="74" Col="0" ValueType="60">\bmusings</gnm:Cell>
+        <gnm:Cell Row="74" Col="1" ValueType="60">thoughts (cliche)</gnm:Cell>
+        <gnm:Cell Row="75" Col="0" ValueType="60">\bmusing</gnm:Cell>
+        <gnm:Cell Row="75" Col="1" ValueType="60">thinking (cliche)</gnm:Cell>
+        <gnm:Cell Row="76" Col="0" ValueType="60">\bnatch</gnm:Cell>
+        <gnm:Cell Row="76" Col="1" ValueType="60">naturally (cliche)</gnm:Cell>
+        <gnm:Cell Row="77" Col="0" ValueType="60">\bnever</gnm:Cell>
+        <gnm:Cell Row="77" Col="1" ValueType="60">(exaggerated)</gnm:Cell>
+        <gnm:Cell Row="78" Col="0" ValueType="60">\bnot ready for prime time</gnm:Cell>
+        <gnm:Cell Row="78" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="79" Col="0" ValueType="60">\bnovel</gnm:Cell>
+        <gnm:Cell Row="79" Col="1" ValueType="60">(as an adjective, i.e. this is a novel method)</gnm:Cell>
+        <gnm:Cell Row="80" Col="0" ValueType="60">\bnovelty</gnm:Cell>
+        <gnm:Cell Row="80" Col="1" ValueType="60">(as an adjective, i.e. this is a novel method)</gnm:Cell>
+        <gnm:Cell Row="81" Col="0" ValueType="60">\bobviously</gnm:Cell>
+        <gnm:Cell Row="81" Col="1" ValueType="60">apparently (not always obvious)</gnm:Cell>
+        <gnm:Cell Row="82" Col="0" ValueType="60">\bof course</gnm:Cell>
+        <gnm:Cell Row="82" Col="1" ValueType="60">not always obvious (cliche)</gnm:Cell>
+        <gnm:Cell Row="83" Col="0" ValueType="60">\bokays</gnm:Cell>
+        <gnm:Cell Row="83" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="84" Col="0" ValueType="60">\bon a weekly basis</gnm:Cell>
+        <gnm:Cell Row="84" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="85" Col="0" ValueType="60">\bon steroids</gnm:Cell>
+        <gnm:Cell Row="85" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="86" Col="0" ValueType="60">\bopen a can of worms</gnm:Cell>
+        <gnm:Cell Row="86" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="87" Col="0" ValueType="60">\bout of steam</gnm:Cell>
+        <gnm:Cell Row="87" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="88" Col="0" ValueType="60">\boutside of the box</gnm:Cell>
+        <gnm:Cell Row="88" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="89" Col="0" ValueType="60">\bpain point</gnm:Cell>
+        <gnm:Cell Row="89" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="90" Col="0" ValueType="60">\bpain points</gnm:Cell>
+        <gnm:Cell Row="90" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="91" Col="0" ValueType="60">\bparadigm shift</gnm:Cell>
+        <gnm:Cell Row="91" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="92" Col="0" ValueType="60">\bperfunctory</gnm:Cell>
+        <gnm:Cell Row="92" Col="1" ValueType="60">(clarity)</gnm:Cell>
+        <gnm:Cell Row="93" Col="0" ValueType="60">\bpontificate</gnm:Cell>
+        <gnm:Cell Row="93" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="94" Col="0" ValueType="60">\bpontificating</gnm:Cell>
+        <gnm:Cell Row="94" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="95" Col="0" ValueType="60">\bpontification</gnm:Cell>
+        <gnm:Cell Row="95" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="96" Col="0" ValueType="60">\bprose</gnm:Cell>
+        <gnm:Cell Row="96" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="97" Col="0" ValueType="60">\bpurported</gnm:Cell>
+        <gnm:Cell Row="97" Col="1" ValueType="60">(expressions of doubt)</gnm:Cell>
+        <gnm:Cell Row="98" Col="0" ValueType="60">\bpushing the envelope</gnm:Cell>
+        <gnm:Cell Row="98" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="99" Col="0" ValueType="60">\bquantum leap</gnm:Cell>
+        <gnm:Cell Row="99" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="100" Col="0" ValueType="60">\breally</gnm:Cell>
+        <gnm:Cell Row="100" Col="1" ValueType="60">(exaggerated)</gnm:Cell>
+        <gnm:Cell Row="101" Col="0" ValueType="60">\bred herring</gnm:Cell>
+        <gnm:Cell Row="101" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="102" Col="0" ValueType="60">\breinvent the wheel</gnm:Cell>
+        <gnm:Cell Row="102" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="103" Col="0" ValueType="60">\bresults-oriented</gnm:Cell>
+        <gnm:Cell Row="103" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="104" Col="0" ValueType="60">\brun it up the flag pole</gnm:Cell>
+        <gnm:Cell Row="104" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="105" Col="0" ValueType="60">\bsame sheet of music</gnm:Cell>
+        <gnm:Cell Row="105" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="106" Col="0" ValueType="60">\bseamless</gnm:Cell>
+        <gnm:Cell Row="106" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="107" Col="0" ValueType="60">\bself licking ice cream cone</gnm:Cell>
+        <gnm:Cell Row="107" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="108" Col="0" ValueType="60">\bsense of urgency</gnm:Cell>
+        <gnm:Cell Row="108" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="109" Col="0" ValueType="60">\bshowstopper</gnm:Cell>
+        <gnm:Cell Row="109" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="110" Col="0" ValueType="60">\bslippery slope</gnm:Cell>
+        <gnm:Cell Row="110" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="111" Col="0" ValueType="60">\bso-called</gnm:Cell>
+        <gnm:Cell Row="111" Col="1" ValueType="60">(expressions of doubt)</gnm:Cell>
+        <gnm:Cell Row="112" Col="0" ValueType="60">\bsooner rather than later</gnm:Cell>
+        <gnm:Cell Row="112" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="113" Col="0" ValueType="60">\bstove pipe</gnm:Cell>
+        <gnm:Cell Row="113" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="114" Col="0" ValueType="60">\bstraw man</gnm:Cell>
+        <gnm:Cell Row="114" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="115" Col="0" ValueType="60">\bstrawman</gnm:Cell>
+        <gnm:Cell Row="115" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="116" Col="0" ValueType="60">\bsuperfluous</gnm:Cell>
+        <gnm:Cell Row="116" Col="1" ValueType="60">(clarity)</gnm:Cell>
+        <gnm:Cell Row="117" Col="0" ValueType="60">\bsupposed</gnm:Cell>
+        <gnm:Cell Row="117" Col="1" ValueType="60">(expressions of doubt)</gnm:Cell>
+        <gnm:Cell Row="118" Col="0" ValueType="60">\bsynergies</gnm:Cell>
+        <gnm:Cell Row="118" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="119" Col="0" ValueType="60">\bsynergism</gnm:Cell>
+        <gnm:Cell Row="119" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="120" Col="0" ValueType="60">\bsynergistic</gnm:Cell>
+        <gnm:Cell Row="120" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="121" Col="0" ValueType="60">\bsynergize</gnm:Cell>
+        <gnm:Cell Row="121" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="122" Col="0" ValueType="60">\bsynergy</gnm:Cell>
+        <gnm:Cell Row="122" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="123" Col="0" ValueType="60">\btake it to the next level</gnm:Cell>
+        <gnm:Cell Row="123" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="124" Col="0" ValueType="60">\btalk off line</gnm:Cell>
+        <gnm:Cell Row="124" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="125" Col="0" ValueType="60">\bteach how to fish</gnm:Cell>
+        <gnm:Cell Row="125" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="126" Col="0" ValueType="60">\bthe best</gnm:Cell>
+        <gnm:Cell Row="126" Col="1" ValueType="60">(exaggerated)</gnm:Cell>
+        <gnm:Cell Row="127" Col="0" ValueType="60">\bthe cart before the horse</gnm:Cell>
+        <gnm:Cell Row="127" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="128" Col="0" ValueType="60">\bthe fact is</gnm:Cell>
+        <gnm:Cell Row="128" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="129" Col="0" ValueType="60">\bthe fact of the matter is</gnm:Cell>
+        <gnm:Cell Row="129" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="130" Col="0" ValueType="60">\bthe long and short of it is</gnm:Cell>
+        <gnm:Cell Row="130" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="131" Col="0" ValueType="60">\bthinking out of the box</gnm:Cell>
+        <gnm:Cell Row="131" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="132" Col="0" ValueType="60">\bthinking outside of the box</gnm:Cell>
+        <gnm:Cell Row="132" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="133" Col="0" ValueType="60">\bthinking outside the box</gnm:Cell>
+        <gnm:Cell Row="133" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="134" Col="0" ValueType="60">\bthink outside the box</gnm:Cell>
+        <gnm:Cell Row="134" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="135" Col="0" ValueType="60">\bto be honest with you</gnm:Cell>
+        <gnm:Cell Row="135" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="136" Col="0" ValueType="60">\btouch base</gnm:Cell>
+        <gnm:Cell Row="136" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="137" Col="0" ValueType="60">\bunicorn</gnm:Cell>
+        <gnm:Cell Row="137" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="138" Col="0" ValueType="60">\bunimaginable</gnm:Cell>
+        <gnm:Cell Row="138" Col="1" ValueType="60">(exaggerated)</gnm:Cell>
+        <gnm:Cell Row="139" Col="0" ValueType="60">\bunimaginably</gnm:Cell>
+        <gnm:Cell Row="139" Col="1" ValueType="60">(exaggerated)</gnm:Cell>
+        <gnm:Cell Row="140" Col="0" ValueType="60">\bunreasonable effectiveness</gnm:Cell>
+        <gnm:Cell Row="140" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="141" Col="0" ValueType="60">\butilize</gnm:Cell>
+        <gnm:Cell Row="141" Col="1" ValueType="60">use (clarity)</gnm:Cell>
+        <gnm:Cell Row="142" Col="0" ValueType="60">\bvery</gnm:Cell>
+        <gnm:Cell Row="142" Col="1" ValueType="60">(exaggerated)</gnm:Cell>
+        <gnm:Cell Row="143" Col="0" ValueType="60">\bwith all due respect</gnm:Cell>
+        <gnm:Cell Row="143" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="144" Col="0" ValueType="60">\bwonk</gnm:Cell>
+        <gnm:Cell Row="144" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="145" Col="0" ValueType="60">\bwonkish</gnm:Cell>
+        <gnm:Cell Row="145" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="146" Col="0" ValueType="60">\bwork in a vacuum</gnm:Cell>
+        <gnm:Cell Row="146" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="147" Col="0" ValueType="60">\bworst</gnm:Cell>
+        <gnm:Cell Row="147" Col="1" ValueType="60">(exaggerated)</gnm:Cell>
+        <gnm:Cell Row="148" Col="0" ValueType="60">\bzero tolerance</gnm:Cell>
+        <gnm:Cell Row="148" Col="1" ValueType="60">(cliche)</gnm:Cell>
+        <gnm:Cell Row="149" Col="0" ValueType="60">\bnotably</gnm:Cell>
+        <gnm:Cell Row="149" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="150" Col="0" ValueType="60">\binterestingly</gnm:Cell>
+        <gnm:Cell Row="150" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="151" Col="0" ValueType="60">\bit should be noted</gnm:Cell>
+        <gnm:Cell Row="151" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="152" Col="0" ValueType="60">\bclearly</gnm:Cell>
+        <gnm:Cell Row="152" Col="1" ValueType="60">(editorializing; try apparently)</gnm:Cell>
+        <gnm:Cell Row="153" Col="0" ValueType="60">\bcertainly</gnm:Cell>
+        <gnm:Cell Row="153" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="154" Col="0" ValueType="60">\bwithout a doubt</gnm:Cell>
+        <gnm:Cell Row="154" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="155" Col="0" ValueType="60">\bundoubtedly</gnm:Cell>
+        <gnm:Cell Row="155" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="156" Col="0" ValueType="60">\bwithout doubt</gnm:Cell>
+        <gnm:Cell Row="156" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="157" Col="0" ValueType="60">\bnaturally</gnm:Cell>
+        <gnm:Cell Row="157" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="158" Col="0" ValueType="60">\bfortunately</gnm:Cell>
+        <gnm:Cell Row="158" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="159" Col="0" ValueType="60">\bhappily</gnm:Cell>
+        <gnm:Cell Row="159" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="160" Col="0" ValueType="60">\bunfortunately</gnm:Cell>
+        <gnm:Cell Row="160" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="161" Col="0" ValueType="60">\btragically</gnm:Cell>
+        <gnm:Cell Row="161" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="162" Col="0" ValueType="60">\bultimately</gnm:Cell>
+        <gnm:Cell Row="162" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="163" Col="0" ValueType="60">\bsadly</gnm:Cell>
+        <gnm:Cell Row="163" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="164" Col="0" ValueType="60">\bsalient</gnm:Cell>
+        <gnm:Cell Row="164" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="165" Col="0" ValueType="60">\bsalience</gnm:Cell>
+        <gnm:Cell Row="165" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="166" Col="0" ValueType="60">#\bwhat's in a name</gnm:Cell>
+        <gnm:Cell Row="166" Col="1" ValueType="60">(annoying)</gnm:Cell>
+        <gnm:Cell Row="167" Col="0" ValueType="60">#\balways</gnm:Cell>
+        <gnm:Cell Row="167" Col="1" ValueType="60">(exaggerated)</gnm:Cell>
+        <gnm:Cell Row="168" Col="0" ValueType="60">#\bperfect</gnm:Cell>
+        <gnm:Cell Row="168" Col="1" ValueType="60">(exaggerated)</gnm:Cell>
+        <gnm:Cell Row="169" Col="0" ValueType="60">#\bmost</gnm:Cell>
+        <gnm:Cell Row="169" Col="1" ValueType="60">(exaggerated)</gnm:Cell>
+        <gnm:Cell Row="170" Col="0" ValueType="60">#\bclear</gnm:Cell>
+        <gnm:Cell Row="170" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="171" Col="0" ValueType="60">#\bfortunately</gnm:Cell>
+        <gnm:Cell Row="171" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="172" Col="0" ValueType="60">#\bunfortunately</gnm:Cell>
+        <gnm:Cell Row="172" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="173" Col="0" ValueType="60">#\bultimately</gnm:Cell>
+        <gnm:Cell Row="173" Col="1" ValueType="60">(editorializing)</gnm:Cell>
+        <gnm:Cell Row="174" Col="0" ValueType="60">\ba the</gnm:Cell>
+        <gnm:Cell Row="174" Col="1" ValueType="60">(double article)</gnm:Cell>
+        <gnm:Cell Row="175" Col="0" ValueType="60">\bthe a</gnm:Cell>
+        <gnm:Cell Row="175" Col="1" ValueType="60">(double article)</gnm:Cell>
+        <gnm:Cell Row="176" Col="0" ValueType="60">\bfrom to</gnm:Cell>
+        <gnm:Cell Row="176" Col="1" ValueType="60">(unlikely)</gnm:Cell>
+        <gnm:Cell Row="177" Col="0" ValueType="60">\bthe affect</gnm:Cell>
+        <gnm:Cell Row="177" Col="1" ValueType="60">the effect (likely)</gnm:Cell>
+        <gnm:Cell Row="178" Col="0" ValueType="60">\bthere too few</gnm:Cell>
+        <gnm:Cell Row="178" Col="1" ValueType="60">there are too few (likely)</gnm:Cell>
+        <gnm:Cell Row="179" Col="0" ValueType="60">\bwith on</gnm:Cell>
+        <gnm:Cell Row="179" Col="1" ValueType="60">(unlikely)</gnm:Cell>
+        <gnm:Cell Row="180" Col="0" ValueType="60">\bsuch as like</gnm:Cell>
+        <gnm:Cell Row="180" Col="1" ValueType="60">(wordy)</gnm:Cell>
+        <gnm:Cell Row="181" Col="0" ValueType="60">\bfurther more</gnm:Cell>
+        <gnm:Cell Row="181" Col="1" ValueType="60">furthermore (one word)</gnm:Cell>
+        <gnm:Cell Row="182" Col="0" ValueType="60">\bsafe guard</gnm:Cell>
+        <gnm:Cell Row="182" Col="1" ValueType="60">safeguard (one word)</gnm:Cell>
+        <gnm:Cell Row="183" Col="0" ValueType="60">\bthat be</gnm:Cell>
+        <gnm:Cell Row="183" Col="1" ValueType="60">(unlikely)</gnm:Cell>
+        <gnm:Cell Row="184" Col="0" ValueType="60">\bthey shows</gnm:Cell>
+        <gnm:Cell Row="184" Col="1" ValueType="60">(conjugation error)</gnm:Cell>
+        <gnm:Cell Row="185" Col="0" ValueType="60">\bless that than</gnm:Cell>
+        <gnm:Cell Row="185" Col="1" ValueType="60">less than that</gnm:Cell>
+        <gnm:Cell Row="186" Col="0" ValueType="60">\bto illicit</gnm:Cell>
+        <gnm:Cell Row="186" Col="1" ValueType="60">to elicit</gnm:Cell>
+        <gnm:Cell Row="187" Col="0" ValueType="60">\bthis lead to</gnm:Cell>
+        <gnm:Cell Row="187" Col="1" ValueType="60">this leads to or this led to (conjugation error)</gnm:Cell>
+        <gnm:Cell Row="188" Col="0" ValueType="60">\bmistakes were made</gnm:Cell>
+        <gnm:Cell Row="188" Col="1" ValueType="60">(https://en.wikipedia.org/wiki/Mistakes_were_made)</gnm:Cell>
+        <gnm:Cell Row="189" Col="0" ValueType="60">\badd here</gnm:Cell>
+        <gnm:Cell Row="189" Col="1" ValueType="60">(likely incomplete)</gnm:Cell>
+        <gnm:Cell Row="190" Col="0" ValueType="60">\btodo</gnm:Cell>
+        <gnm:Cell Row="190" Col="1" ValueType="60">(likely incomplete)</gnm:Cell>
+        <gnm:Cell Row="191" Col="0" ValueType="60">\binsert here</gnm:Cell>
+        <gnm:Cell Row="191" Col="1" ValueType="60">(likely incomplete)</gnm:Cell>
+        <gnm:Cell Row="192" Col="0" ValueType="60">\be.g,</gnm:Cell>
+        <gnm:Cell Row="192" Col="1" ValueType="60">e.g.,</gnm:Cell>
+        <gnm:Cell Row="193" Col="0" ValueType="60">\bi.e,</gnm:Cell>
+        <gnm:Cell Row="193" Col="1" ValueType="60">i.e.,</gnm:Cell>
+        <gnm:Cell Row="194" Col="0" ValueType="60">\bclinical trail</gnm:Cell>
+        <gnm:Cell Row="194" Col="1" ValueType="60">clinical trial (atomic typo)</gnm:Cell>
+        <gnm:Cell Row="195" Col="0" ValueType="60">\bclinical trails</gnm:Cell>
+        <gnm:Cell Row="195" Col="1" ValueType="60">clinical trial (atomic typo)</gnm:Cell>
+        <gnm:Cell Row="196" Col="0" ValueType="60">\bdirected acrylic graph</gnm:Cell>
+        <gnm:Cell Row="196" Col="1" ValueType="60">directed acyclic graph (atomic typo)</gnm:Cell>
+        <gnm:Cell Row="197" Col="0" ValueType="60">\bcleave</gnm:Cell>
+        <gnm:Cell Row="197" Col="1" ValueType="60">(ambiguous, &quot;Janus word&quot;)</gnm:Cell>
+        <gnm:Cell Row="198" Col="0" ValueType="60">\bclip</gnm:Cell>
+        <gnm:Cell Row="198" Col="1" ValueType="60">(ambiguous, &quot;Janus word&quot;)</gnm:Cell>
+        <gnm:Cell Row="199" Col="0" ValueType="60">\boversight</gnm:Cell>
+        <gnm:Cell Row="199" Col="1" ValueType="60">(ambiguous, &quot;Janus word&quot;)</gnm:Cell>
+        <gnm:Cell Row="200" Col="0" ValueType="60">\bperuse</gnm:Cell>
+        <gnm:Cell Row="200" Col="1" ValueType="60">(ambiguous, &quot;Janus word&quot;)</gnm:Cell>
+        <gnm:Cell Row="201" Col="0" ValueType="60">\bsanction</gnm:Cell>
+        <gnm:Cell Row="201" Col="1" ValueType="60">(ambiguous, &quot;Janus word&quot;)</gnm:Cell>
+        <gnm:Cell Row="202" Col="0" ValueType="60">\bgenerally</gnm:Cell>
+        <gnm:Cell Row="202" Col="1" ValueType="60">consider usually (generally means &quot;in all cases&quot; to many)</gnm:Cell>
+        <gnm:Cell Row="203" Col="0" ValueType="60">\bwould of</gnm:Cell>
+        <gnm:Cell Row="203" Col="1" ValueType="60">would have</gnm:Cell>
+        <gnm:Cell Row="204" Col="0" ValueType="60">\bcould of</gnm:Cell>
+        <gnm:Cell Row="204" Col="1" ValueType="60">could have</gnm:Cell>
+        <gnm:Cell Row="205" Col="0" ValueType="60">\bshould of</gnm:Cell>
+        <gnm:Cell Row="205" Col="1" ValueType="60">should have</gnm:Cell>
+        <gnm:Cell Row="206" Col="0" ValueType="60">\bhad of</gnm:Cell>
+        <gnm:Cell Row="206" Col="1" ValueType="60">had have</gnm:Cell>
+        <gnm:Cell Row="207" Col="0" ValueType="60">\bnear miss</gnm:Cell>
+        <gnm:Cell Row="207" Col="1" ValueType="60">near hit</gnm:Cell>
+        <gnm:Cell Row="208" Col="0" ValueType="60">\bnear-miss</gnm:Cell>
+        <gnm:Cell Row="208" Col="1" ValueType="60">near-hit</gnm:Cell>
+        <gnm:Cell Row="209" Col="0" ValueType="60">\bcult</gnm:Cell>
+        <gnm:Cell Row="209" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="210" Col="0" ValueType="60">\bcults</gnm:Cell>
+        <gnm:Cell Row="210" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="211" Col="0" ValueType="60">\bcult of personality</gnm:Cell>
+        <gnm:Cell Row="211" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="212" Col="0" ValueType="60">\bracist</gnm:Cell>
+        <gnm:Cell Row="212" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="213" Col="0" ValueType="60">\bracists</gnm:Cell>
+        <gnm:Cell Row="213" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="214" Col="0" ValueType="60">\bperverted</gnm:Cell>
+        <gnm:Cell Row="214" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="215" Col="0" ValueType="60">\bsect</gnm:Cell>
+        <gnm:Cell Row="215" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="216" Col="0" ValueType="60">\bsects</gnm:Cell>
+        <gnm:Cell Row="216" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="217" Col="0" ValueType="60">\bfundamentalist</gnm:Cell>
+        <gnm:Cell Row="217" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="218" Col="0" ValueType="60">\bfundamentalists</gnm:Cell>
+        <gnm:Cell Row="218" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="219" Col="0" ValueType="60">\bheretic</gnm:Cell>
+        <gnm:Cell Row="219" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="220" Col="0" ValueType="60">\bhereticical</gnm:Cell>
+        <gnm:Cell Row="220" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="221" Col="0" ValueType="60">\bheretics</gnm:Cell>
+        <gnm:Cell Row="221" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="222" Col="0" ValueType="60">\bextremist</gnm:Cell>
+        <gnm:Cell Row="222" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="223" Col="0" ValueType="60">\bextremists</gnm:Cell>
+        <gnm:Cell Row="223" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="224" Col="0" ValueType="60">\bdenialist</gnm:Cell>
+        <gnm:Cell Row="224" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="225" Col="0" ValueType="60">\bdenialists</gnm:Cell>
+        <gnm:Cell Row="225" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="226" Col="0" ValueType="60">\bterrorist</gnm:Cell>
+        <gnm:Cell Row="226" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="227" Col="0" ValueType="60">\bterrorists</gnm:Cell>
+        <gnm:Cell Row="227" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="228" Col="0" ValueType="60">\bfreedom fighter</gnm:Cell>
+        <gnm:Cell Row="228" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="229" Col="0" ValueType="60">\bfreedom fighters</gnm:Cell>
+        <gnm:Cell Row="229" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="230" Col="0" ValueType="60">\bcontroversial</gnm:Cell>
+        <gnm:Cell Row="230" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="231" Col="0" ValueType="60">\bnonsense</gnm:Cell>
+        <gnm:Cell Row="231" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="232" Col="0" ValueType="60">\bnonsensical</gnm:Cell>
+        <gnm:Cell Row="232" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="233" Col="0" ValueType="60">\bterrorist</gnm:Cell>
+        <gnm:Cell Row="233" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="234" Col="0" ValueType="60">\bterrorists</gnm:Cell>
+        <gnm:Cell Row="234" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="235" Col="0" ValueType="60">\bgarbage</gnm:Cell>
+        <gnm:Cell Row="235" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="236" Col="0" ValueType="60">\btrash</gnm:Cell>
+        <gnm:Cell Row="236" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="237" Col="0" ValueType="60">\bcompletely wrong</gnm:Cell>
+        <gnm:Cell Row="237" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="238" Col="0" ValueType="60">\bpretentious</gnm:Cell>
+        <gnm:Cell Row="238" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="239" Col="0" ValueType="60">\bpretensions</gnm:Cell>
+        <gnm:Cell Row="239" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="240" Col="0" ValueType="60">\bjunk</gnm:Cell>
+        <gnm:Cell Row="240" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="241" Col="0" ValueType="60">\bmuck</gnm:Cell>
+        <gnm:Cell Row="241" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="242" Col="0" ValueType="60">\bproblem with this paper</gnm:Cell>
+        <gnm:Cell Row="242" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="243" Col="0" ValueType="60">\bdesperate</gnm:Cell>
+        <gnm:Cell Row="243" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="244" Col="0" ValueType="60">\bannoying</gnm:Cell>
+        <gnm:Cell Row="244" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="245" Col="0" ValueType="60">\bhot air</gnm:Cell>
+        <gnm:Cell Row="245" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="246" Col="0" ValueType="60">\bhot-air</gnm:Cell>
+        <gnm:Cell Row="246" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="247" Col="0" ValueType="60">\blimited contribution</gnm:Cell>
+        <gnm:Cell Row="247" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="248" Col="0" ValueType="60">\bhype</gnm:Cell>
+        <gnm:Cell Row="248" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="249" Col="0" ValueType="60">\bhyped</gnm:Cell>
+        <gnm:Cell Row="249" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="250" Col="0" ValueType="60">\bover-hype</gnm:Cell>
+        <gnm:Cell Row="250" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="251" Col="0" ValueType="60">\boverhype</gnm:Cell>
+        <gnm:Cell Row="251" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="252" Col="0" ValueType="60">\bover-hyped</gnm:Cell>
+        <gnm:Cell Row="252" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="253" Col="0" ValueType="60">\boverhyped</gnm:Cell>
+        <gnm:Cell Row="253" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="254" Col="0" ValueType="60">\bvacuous</gnm:Cell>
+        <gnm:Cell Row="254" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="255" Col="0" ValueType="60">\bhave no clue</gnm:Cell>
+        <gnm:Cell Row="255" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="256" Col="0" ValueType="60">\bhave a clue</gnm:Cell>
+        <gnm:Cell Row="256" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="257" Col="0" ValueType="60">\btrivial</gnm:Cell>
+        <gnm:Cell Row="257" Col="1" ValueType="60">(but okay to say trivial solution, etc.)</gnm:Cell>
+        <gnm:Cell Row="258" Col="0" ValueType="60">\bincomprehensible</gnm:Cell>
+        <gnm:Cell Row="258" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="259" Col="0" ValueType="60">\bincoherent</gnm:Cell>
+        <gnm:Cell Row="259" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="260" Col="0" ValueType="60">\bundigestible</gnm:Cell>
+        <gnm:Cell Row="260" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="261" Col="0" ValueType="60">\btortuous</gnm:Cell>
+        <gnm:Cell Row="261" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="262" Col="0" ValueType="60">\bhave not read</gnm:Cell>
+        <gnm:Cell Row="262" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="263" Col="0" ValueType="60">#\bunaware of</gnm:Cell>
+        <gnm:Cell Row="263" Col="1" ValueType="60">(e.g., are unaware of, appear unaware of, etc.)</gnm:Cell>
+        <gnm:Cell Row="264" Col="0" ValueType="60">\bunderwhelming</gnm:Cell>
+        <gnm:Cell Row="264" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="265" Col="0" ValueType="60">\bgaudy</gnm:Cell>
+        <gnm:Cell Row="265" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="266" Col="0" ValueType="60">\bdoesn't make sense</gnm:Cell>
+        <gnm:Cell Row="266" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="267" Col="0" ValueType="60">\bdoes not make sense</gnm:Cell>
+        <gnm:Cell Row="267" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="268" Col="0" ValueType="60">\bwaste</gnm:Cell>
+        <gnm:Cell Row="268" Col="1" ValueType="60">(e.g., waste of time, etc.)</gnm:Cell>
+        <gnm:Cell Row="269" Col="0" ValueType="60">\bwasted</gnm:Cell>
+        <gnm:Cell Row="269" Col="1" ValueType="60">(e.g., wasted two years)</gnm:Cell>
+        <gnm:Cell Row="270" Col="0" ValueType="60">\bconfuse</gnm:Cell>
+        <gnm:Cell Row="270" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="271" Col="0" ValueType="60">\bconfusing</gnm:Cell>
+        <gnm:Cell Row="271" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="272" Col="0" ValueType="60">\bconfused</gnm:Cell>
+        <gnm:Cell Row="272" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="273" Col="0" ValueType="60">\bconfusingly</gnm:Cell>
+        <gnm:Cell Row="273" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="274" Col="0" ValueType="60">\bdon't understand</gnm:Cell>
+        <gnm:Cell Row="274" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="275" Col="0" ValueType="60">\bdo not understand</gnm:Cell>
+        <gnm:Cell Row="275" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="276" Col="0" ValueType="60">\bperplexed</gnm:Cell>
+        <gnm:Cell Row="276" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="277" Col="0" ValueType="60">\bperplexity</gnm:Cell>
+        <gnm:Cell Row="277" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="278" Col="0" ValueType="60">\bviolate the laws</gnm:Cell>
+        <gnm:Cell Row="278" Col="1" ValueType="60">(of physics, thermodynamics, etc.)</gnm:Cell>
+        <gnm:Cell Row="279" Col="0" ValueType="60">\bmistake</gnm:Cell>
+        <gnm:Cell Row="279" Col="1" ValueType="60">(as a verb and noun)</gnm:Cell>
+        <gnm:Cell Row="280" Col="0" ValueType="60">\bdisingenuously</gnm:Cell>
+        <gnm:Cell Row="280" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="281" Col="0" ValueType="60">\bdisingenuous</gnm:Cell>
+        <gnm:Cell Row="281" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="282" Col="0" ValueType="60">\bmajor error</gnm:Cell>
+        <gnm:Cell Row="282" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="283" Col="0" ValueType="60">\bmajor errors</gnm:Cell>
+        <gnm:Cell Row="283" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="284" Col="0" ValueType="60">\bmajor problem</gnm:Cell>
+        <gnm:Cell Row="284" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="285" Col="0" ValueType="60">\bmajor problems</gnm:Cell>
+        <gnm:Cell Row="285" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="286" Col="0" ValueType="60">\bbalderdash</gnm:Cell>
+        <gnm:Cell Row="286" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="287" Col="0" ValueType="60">\bboring</gnm:Cell>
+        <gnm:Cell Row="287" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="288" Col="0" ValueType="60">\bmake sense</gnm:Cell>
+        <gnm:Cell Row="288" Col="1" ValueType="60">(do not make sense, etc.)</gnm:Cell>
+        <gnm:Cell Row="289" Col="0" ValueType="60">\bdisappointing</gnm:Cell>
+        <gnm:Cell Row="289" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="290" Col="0" ValueType="60">\bdisappointment</gnm:Cell>
+        <gnm:Cell Row="290" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="291" Col="0" ValueType="60">\bfishing expedition</gnm:Cell>
+        <gnm:Cell Row="291" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="292" Col="0" ValueType="60">\bfragmented</gnm:Cell>
+        <gnm:Cell Row="292" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="293" Col="0" ValueType="60">\bdisconnected</gnm:Cell>
+        <gnm:Cell Row="293" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="294" Col="0" ValueType="60">\bdeceptive</gnm:Cell>
+        <gnm:Cell Row="294" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="295" Col="0" ValueType="60">\bawful</gnm:Cell>
+        <gnm:Cell Row="295" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="296" Col="0" ValueType="60">\bclickbait</gnm:Cell>
+        <gnm:Cell Row="296" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="297" Col="0" ValueType="60">\bstraw man</gnm:Cell>
+        <gnm:Cell Row="297" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="298" Col="0" ValueType="60">\bstrawman</gnm:Cell>
+        <gnm:Cell Row="298" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="299" Col="0" ValueType="60">\blittle value</gnm:Cell>
+        <gnm:Cell Row="299" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="300" Col="0" ValueType="60">\billogic</gnm:Cell>
+        <gnm:Cell Row="300" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="301" Col="0" ValueType="60">\billogical</gnm:Cell>
+        <gnm:Cell Row="301" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="302" Col="0" ValueType="60">\bargument is weak</gnm:Cell>
+        <gnm:Cell Row="302" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="303" Col="0" ValueType="60">\bunsubstantiated</gnm:Cell>
+        <gnm:Cell Row="303" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="304" Col="0" ValueType="60">\boverstatement</gnm:Cell>
+        <gnm:Cell Row="304" Col="1" ValueType="60">(but overstate sounds okay)</gnm:Cell>
+        <gnm:Cell Row="305" Col="0" ValueType="60">\bpolemic</gnm:Cell>
+        <gnm:Cell Row="305" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="306" Col="0" ValueType="60">\bwriting style</gnm:Cell>
+        <gnm:Cell Row="306" Col="1" ValueType="60">(no tone arguments)</gnm:Cell>
+        <gnm:Cell Row="307" Col="0" ValueType="60">\bnaïve</gnm:Cell>
+        <gnm:Cell Row="307" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="308" Col="0" ValueType="60">\bnaive</gnm:Cell>
+        <gnm:Cell Row="308" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="309" Col="0" ValueType="60">\bna\&quot;{i}ve</gnm:Cell>
+        <gnm:Cell Row="309" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="310" Col="0" ValueType="60">\bglimpse</gnm:Cell>
+        <gnm:Cell Row="310" Col="1" ValueType="60">(e.g., glimpse of promise)</gnm:Cell>
+        <gnm:Cell Row="311" Col="0" ValueType="60">\btrite</gnm:Cell>
+        <gnm:Cell Row="311" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="312" Col="0" ValueType="60">\binelegant</gnm:Cell>
+        <gnm:Cell Row="312" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="313" Col="0" ValueType="60">#\bobvious</gnm:Cell>
+        <gnm:Cell Row="313" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="314" Col="0" ValueType="60">\bspurious</gnm:Cell>
+        <gnm:Cell Row="314" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="315" Col="0" ValueType="60">\bspuriously</gnm:Cell>
+        <gnm:Cell Row="315" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="316" Col="0" ValueType="60">#\bincomplete</gnm:Cell>
+        <gnm:Cell Row="316" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="317" Col="0" ValueType="60">\bhasty</gnm:Cell>
+        <gnm:Cell Row="317" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="318" Col="0" ValueType="60">\bhastily</gnm:Cell>
+        <gnm:Cell Row="318" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="319" Col="0" ValueType="60">#\bsuperficial</gnm:Cell>
+        <gnm:Cell Row="319" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="320" Col="0" ValueType="60">\bdisaster</gnm:Cell>
+        <gnm:Cell Row="320" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="321" Col="0" ValueType="60">\bpoor</gnm:Cell>
+        <gnm:Cell Row="321" Col="1" ValueType="60">(e.g., poor job)</gnm:Cell>
+        <gnm:Cell Row="322" Col="0" ValueType="60">\bpoorly</gnm:Cell>
+        <gnm:Cell Row="322" Col="1" ValueType="60">(e.g., poorly justified)</gnm:Cell>
+        <gnm:Cell Row="323" Col="0" ValueType="60">\bpoorly written</gnm:Cell>
+        <gnm:Cell Row="323" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="324" Col="0" ValueType="60">\bpoorly conceived</gnm:Cell>
+        <gnm:Cell Row="324" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="325" Col="0" ValueType="60">#\binsufficient</gnm:Cell>
+        <gnm:Cell Row="325" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="326" Col="0" ValueType="60">\bnot good</gnm:Cell>
+        <gnm:Cell Row="326" Col="1" ValueType="60">(e.g., not good enough)</gnm:Cell>
+        <gnm:Cell Row="327" Col="0" ValueType="60">#\bobscure</gnm:Cell>
+        <gnm:Cell Row="327" Col="1" ValueType="60">(when used to mean hide)</gnm:Cell>
+        <gnm:Cell Row="328" Col="0" ValueType="60">#\bobscured</gnm:Cell>
+        <gnm:Cell Row="328" Col="1" ValueType="60">(when used to mean hide)</gnm:Cell>
+        <gnm:Cell Row="329" Col="0" ValueType="60">\bhiding</gnm:Cell>
+        <gnm:Cell Row="329" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="330" Col="0" ValueType="60">\bhid</gnm:Cell>
+        <gnm:Cell Row="330" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="331" Col="0" ValueType="60">\bhide</gnm:Cell>
+        <gnm:Cell Row="331" Col="1" ValueType="60">(e.g., hide something)</gnm:Cell>
+        <gnm:Cell Row="332" Col="0" ValueType="60">\bdetriment</gnm:Cell>
+        <gnm:Cell Row="332" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="333" Col="0" ValueType="60">\bwrong</gnm:Cell>
+        <gnm:Cell Row="333" Col="1" ValueType="60">(Might imply a moral judgment. Prefer false/incorrect.)</gnm:Cell>
+        <gnm:Cell Row="334" Col="0" ValueType="60">\bmislead</gnm:Cell>
+        <gnm:Cell Row="334" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="335" Col="0" ValueType="60">\bmisleading</gnm:Cell>
+        <gnm:Cell Row="335" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="336" Col="0" ValueType="60">\bmadness</gnm:Cell>
+        <gnm:Cell Row="336" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="337" Col="0" ValueType="60">\bscratching my head</gnm:Cell>
+        <gnm:Cell Row="337" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="338" Col="0" ValueType="60">\bpulling my hair out</gnm:Cell>
+        <gnm:Cell Row="338" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="339" Col="0" ValueType="60">\bgive up</gnm:Cell>
+        <gnm:Cell Row="339" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="340" Col="0" ValueType="60">\btedious</gnm:Cell>
+        <gnm:Cell Row="340" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="341" Col="0" ValueType="60">\bleast interesting</gnm:Cell>
+        <gnm:Cell Row="341" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="342" Col="0" ValueType="60">\butter</gnm:Cell>
+        <gnm:Cell Row="342" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="343" Col="0" ValueType="60">\bbullshit</gnm:Cell>
+        <gnm:Cell Row="343" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="344" Col="0" ValueType="60">\bterrible</gnm:Cell>
+        <gnm:Cell Row="344" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="345" Col="0" ValueType="60">\brespectable</gnm:Cell>
+        <gnm:Cell Row="345" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="346" Col="0" ValueType="60">\bdespair</gnm:Cell>
+        <gnm:Cell Row="346" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="347" Col="0" ValueType="60">\bpersonally offended</gnm:Cell>
+        <gnm:Cell Row="347" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="348" Col="0" ValueType="60">\bpathetic</gnm:Cell>
+        <gnm:Cell Row="348" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="349" Col="0" ValueType="60">\bproblematic</gnm:Cell>
+        <gnm:Cell Row="349" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="350" Col="0" ValueType="60">\bjoke</gnm:Cell>
+        <gnm:Cell Row="350" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="351" Col="0" ValueType="60">\bpresumptuous</gnm:Cell>
+        <gnm:Cell Row="351" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="352" Col="0" ValueType="60">\bignorant</gnm:Cell>
+        <gnm:Cell Row="352" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="353" Col="0" ValueType="60">\bdownright</gnm:Cell>
+        <gnm:Cell Row="353" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="354" Col="0" ValueType="60">\bdangerous</gnm:Cell>
+        <gnm:Cell Row="354" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="355" Col="0" ValueType="60">\bfail</gnm:Cell>
+        <gnm:Cell Row="355" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="356" Col="0" ValueType="60">\bfails</gnm:Cell>
+        <gnm:Cell Row="356" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="357" Col="0" ValueType="60">\bfailed</gnm:Cell>
+        <gnm:Cell Row="357" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="358" Col="0" ValueType="60">\bfailing</gnm:Cell>
+        <gnm:Cell Row="358" Col="1" ValueType="60">(offensive, but failure, fails, etc. can be okay)</gnm:Cell>
+        <gnm:Cell Row="359" Col="0" ValueType="60">#\bno attempt</gnm:Cell>
+        <gnm:Cell Row="359" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="360" Col="0" ValueType="60">#\bvague</gnm:Cell>
+        <gnm:Cell Row="360" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="361" Col="0" ValueType="60">\bdisgrace</gnm:Cell>
+        <gnm:Cell Row="361" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="362" Col="0" ValueType="60">\binaccessible</gnm:Cell>
+        <gnm:Cell Row="362" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="363" Col="0" ValueType="60">\bwishful thinking</gnm:Cell>
+        <gnm:Cell Row="363" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="364" Col="0" ValueType="60">#\banecdotal</gnm:Cell>
+        <gnm:Cell Row="364" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="365" Col="0" ValueType="60">#\banecdote</gnm:Cell>
+        <gnm:Cell Row="365" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="366" Col="0" ValueType="60">\bhopeless</gnm:Cell>
+        <gnm:Cell Row="366" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="367" Col="0" ValueType="60">\bhypocrite</gnm:Cell>
+        <gnm:Cell Row="367" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="368" Col="0" ValueType="60">\bhypocritical</gnm:Cell>
+        <gnm:Cell Row="368" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="369" Col="0" ValueType="60">\bhypocritically</gnm:Cell>
+        <gnm:Cell Row="369" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="370" Col="0" ValueType="60">\begregious</gnm:Cell>
+        <gnm:Cell Row="370" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="371" Col="0" ValueType="60">\begregiously</gnm:Cell>
+        <gnm:Cell Row="371" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="372" Col="0" ValueType="60">\bawful</gnm:Cell>
+        <gnm:Cell Row="372" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="373" Col="0" ValueType="60">\bawfully</gnm:Cell>
+        <gnm:Cell Row="373" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="374" Col="0" ValueType="60">\bweak paper</gnm:Cell>
+        <gnm:Cell Row="374" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="375" Col="0" ValueType="60">\bbad science</gnm:Cell>
+        <gnm:Cell Row="375" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="376" Col="0" ValueType="60">\bunscientific</gnm:Cell>
+        <gnm:Cell Row="376" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="377" Col="0" ValueType="60">\bafterthought</gnm:Cell>
+        <gnm:Cell Row="377" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="378" Col="0" ValueType="60">\bunexciting</gnm:Cell>
+        <gnm:Cell Row="378" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="379" Col="0" ValueType="60">\belementary</gnm:Cell>
+        <gnm:Cell Row="379" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="380" Col="0" ValueType="60">\bdevious</gnm:Cell>
+        <gnm:Cell Row="380" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="381" Col="0" ValueType="60">\bbad scholarship</gnm:Cell>
+        <gnm:Cell Row="381" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="382" Col="0" ValueType="60">\bschizophrenic</gnm:Cell>
+        <gnm:Cell Row="382" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="383" Col="0" ValueType="60">#\binaccurate</gnm:Cell>
+        <gnm:Cell Row="383" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="384" Col="0" ValueType="60">\bclumsy</gnm:Cell>
+        <gnm:Cell Row="384" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="385" Col="0" ValueType="60">\bclumsiness</gnm:Cell>
+        <gnm:Cell Row="385" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="386" Col="0" ValueType="60">\bpasse</gnm:Cell>
+        <gnm:Cell Row="386" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="387" Col="0" ValueType="60">\bdiscourteous</gnm:Cell>
+        <gnm:Cell Row="387" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="388" Col="0" ValueType="60">\binnane</gnm:Cell>
+        <gnm:Cell Row="388" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="389" Col="0" ValueType="60">\borthodoxy</gnm:Cell>
+        <gnm:Cell Row="389" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="390" Col="0" ValueType="60">\bunethical</gnm:Cell>
+        <gnm:Cell Row="390" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="391" Col="0" ValueType="60">\bethical</gnm:Cell>
+        <gnm:Cell Row="391" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="392" Col="0" ValueType="60">\bbaffling</gnm:Cell>
+        <gnm:Cell Row="392" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="393" Col="0" ValueType="60">\bdid not read</gnm:Cell>
+        <gnm:Cell Row="393" Col="1" ValueType="60">(e.g., Author X did not read paper Y. Instead, say something like &quot;Author X cited paper Y, but we did not find their argument convincing because Z.&quot;)</gnm:Cell>
+        <gnm:Cell Row="394" Col="0" ValueType="60">\bdamning</gnm:Cell>
+        <gnm:Cell Row="394" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="395" Col="0" ValueType="60">\bgarbage in</gnm:Cell>
+        <gnm:Cell Row="395" Col="1" ValueType="60">(e.g., garbage in, garbage out)</gnm:Cell>
+        <gnm:Cell Row="396" Col="0" ValueType="60">\bgarbage out</gnm:Cell>
+        <gnm:Cell Row="396" Col="1" ValueType="60">(e.g., garbage in, garbage out)</gnm:Cell>
+        <gnm:Cell Row="397" Col="0" ValueType="60">\bcomplete nonsense</gnm:Cell>
+        <gnm:Cell Row="397" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="398" Col="0" ValueType="60">#\bsimplistic</gnm:Cell>
+        <gnm:Cell Row="398" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="399" Col="0" ValueType="60">\bdebunk</gnm:Cell>
+        <gnm:Cell Row="399" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="400" Col="0" ValueType="60">\bdebunked</gnm:Cell>
+        <gnm:Cell Row="400" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="401" Col="0" ValueType="60">\bdebunking</gnm:Cell>
+        <gnm:Cell Row="401" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="402" Col="0" ValueType="60">\bshoddy</gnm:Cell>
+        <gnm:Cell Row="402" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="403" Col="0" ValueType="60">\bbullshit</gnm:Cell>
+        <gnm:Cell Row="403" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="404" Col="0" ValueType="60">\bdelusion</gnm:Cell>
+        <gnm:Cell Row="404" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="405" Col="0" ValueType="60">\bdelusions</gnm:Cell>
+        <gnm:Cell Row="405" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="406" Col="0" ValueType="60">\bdelusional</gnm:Cell>
+        <gnm:Cell Row="406" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="407" Col="0" ValueType="60">\bnutcase</gnm:Cell>
+        <gnm:Cell Row="407" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="408" Col="0" ValueType="60">\bgrandiose</gnm:Cell>
+        <gnm:Cell Row="408" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="409" Col="0" ValueType="60">\boddball</gnm:Cell>
+        <gnm:Cell Row="409" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="410" Col="0" ValueType="60">\bodd ball</gnm:Cell>
+        <gnm:Cell Row="410" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="411" Col="0" ValueType="60">\bodd-ball</gnm:Cell>
+        <gnm:Cell Row="411" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="412" Col="0" ValueType="60">\bpseudoscience</gnm:Cell>
+        <gnm:Cell Row="412" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="413" Col="0" ValueType="60">\bpseudo-science</gnm:Cell>
+        <gnm:Cell Row="413" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="414" Col="0" ValueType="60">\bno scientific evidence</gnm:Cell>
+        <gnm:Cell Row="414" Col="1" ValueType="60">(e.g., there is no scientific evidence)</gnm:Cell>
+        <gnm:Cell Row="415" Col="0" ValueType="60">\bdiscredit</gnm:Cell>
+        <gnm:Cell Row="415" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="416" Col="0" ValueType="60">\bdiscredited</gnm:Cell>
+        <gnm:Cell Row="416" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="417" Col="0" ValueType="60">\bshill</gnm:Cell>
+        <gnm:Cell Row="417" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="418" Col="0" ValueType="60">\bfringe</gnm:Cell>
+        <gnm:Cell Row="418" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="419" Col="0" ValueType="60">\bunorthodox</gnm:Cell>
+        <gnm:Cell Row="419" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="420" Col="0" ValueType="60">\bheterodox</gnm:Cell>
+        <gnm:Cell Row="420" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="421" Col="0" ValueType="60">\bpropaganda</gnm:Cell>
+        <gnm:Cell Row="421" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="422" Col="0" ValueType="60">\brant</gnm:Cell>
+        <gnm:Cell Row="422" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="423" Col="0" ValueType="60">\brants</gnm:Cell>
+        <gnm:Cell Row="423" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="424" Col="0" ValueType="60">\branting</gnm:Cell>
+        <gnm:Cell Row="424" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="425" Col="0" ValueType="60">\brantings</gnm:Cell>
+        <gnm:Cell Row="425" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="426" Col="0" ValueType="60">\bnotorious</gnm:Cell>
+        <gnm:Cell Row="426" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="427" Col="0" ValueType="60">\bnotoriously</gnm:Cell>
+        <gnm:Cell Row="427" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="428" Col="0" ValueType="60">\bdetriment</gnm:Cell>
+        <gnm:Cell Row="428" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="429" Col="0" ValueType="60">\bdetrimental</gnm:Cell>
+        <gnm:Cell Row="429" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="430" Col="0" ValueType="60">\bdisappointing</gnm:Cell>
+        <gnm:Cell Row="430" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="431" Col="0" ValueType="60">\bdisappoint</gnm:Cell>
+        <gnm:Cell Row="431" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="432" Col="0" ValueType="60">\bdisconcerting</gnm:Cell>
+        <gnm:Cell Row="432" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="433" Col="0" ValueType="60">\bdiscouraging</gnm:Cell>
+        <gnm:Cell Row="433" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="434" Col="0" ValueType="60">\bdisheartening</gnm:Cell>
+        <gnm:Cell Row="434" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="435" Col="0" ValueType="60">\bdisturbing</gnm:Cell>
+        <gnm:Cell Row="435" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="436" Col="0" ValueType="60">\bfrustrating</gnm:Cell>
+        <gnm:Cell Row="436" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="437" Col="0" ValueType="60">\bfutile</gnm:Cell>
+        <gnm:Cell Row="437" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="438" Col="0" ValueType="60">\bhopeless</gnm:Cell>
+        <gnm:Cell Row="438" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="439" Col="0" ValueType="60">#\bimpossible</gnm:Cell>
+        <gnm:Cell Row="439" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="440" Col="0" ValueType="60">#\binadequate</gnm:Cell>
+        <gnm:Cell Row="440" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="441" Col="0" ValueType="60">#\binadequacy</gnm:Cell>
+        <gnm:Cell Row="441" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="442" Col="0" ValueType="60">\bineffective</gnm:Cell>
+        <gnm:Cell Row="442" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="443" Col="0" ValueType="60">#\binsignificant</gnm:Cell>
+        <gnm:Cell Row="443" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="444" Col="0" ValueType="60">#\birrelevant</gnm:Cell>
+        <gnm:Cell Row="444" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="445" Col="0" ValueType="60">\bmediocre</gnm:Cell>
+        <gnm:Cell Row="445" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="446" Col="0" ValueType="60">\bpessimistic</gnm:Cell>
+        <gnm:Cell Row="446" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="447" Col="0" ValueType="60">\bsubstandard</gnm:Cell>
+        <gnm:Cell Row="447" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="448" Col="0" ValueType="60">\bunacceptable</gnm:Cell>
+        <gnm:Cell Row="448" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="449" Col="0" ValueType="60">\bunpromising</gnm:Cell>
+        <gnm:Cell Row="449" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="450" Col="0" ValueType="60">\bunsatisfactory</gnm:Cell>
+        <gnm:Cell Row="450" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="451" Col="0" ValueType="60">\bunsatisfying</gnm:Cell>
+        <gnm:Cell Row="451" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="452" Col="0" ValueType="60">\buseless</gnm:Cell>
+        <gnm:Cell Row="452" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="453" Col="0" ValueType="60">#\bweak</gnm:Cell>
+        <gnm:Cell Row="453" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="454" Col="0" ValueType="60">\bworrisome</gnm:Cell>
+        <gnm:Cell Row="454" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="455" Col="0" ValueType="60">\bexaggerates</gnm:Cell>
+        <gnm:Cell Row="455" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="456" Col="0" ValueType="60">\bexaggeration</gnm:Cell>
+        <gnm:Cell Row="456" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="457" Col="0" ValueType="60">\bexaggerating</gnm:Cell>
+        <gnm:Cell Row="457" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="458" Col="0" ValueType="60">\bepitome</gnm:Cell>
+        <gnm:Cell Row="458" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="459" Col="0" ValueType="60">\bquestionable</gnm:Cell>
+        <gnm:Cell Row="459" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="460" Col="0" ValueType="60">\btinged</gnm:Cell>
+        <gnm:Cell Row="460" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="461" Col="0" ValueType="60">\bhorrible</gnm:Cell>
+        <gnm:Cell Row="461" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="462" Col="0" ValueType="60">\bhorrific</gnm:Cell>
+        <gnm:Cell Row="462" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="463" Col="0" ValueType="60">\binfantilizes</gnm:Cell>
+        <gnm:Cell Row="463" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="464" Col="0" ValueType="60">\binfantilize</gnm:Cell>
+        <gnm:Cell Row="464" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="465" Col="0" ValueType="60">\bideology</gnm:Cell>
+        <gnm:Cell Row="465" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="466" Col="0" ValueType="60">\bideological</gnm:Cell>
+        <gnm:Cell Row="466" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="467" Col="0" ValueType="60">#\bmyth</gnm:Cell>
+        <gnm:Cell Row="467" Col="1" ValueType="60">(Could be okay even outside of the study of ancient literature. This doesn't seem to have any judgment best I can tell.)</gnm:Cell>
+        <gnm:Cell Row="468" Col="0" ValueType="60">\bcontroversial</gnm:Cell>
+        <gnm:Cell Row="468" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="469" Col="0" ValueType="60">#\bcontroversy</gnm:Cell>
+        <gnm:Cell Row="469" Col="1" ValueType="60">(could be okay)</gnm:Cell>
+        <gnm:Cell Row="470" Col="0" ValueType="60">\bpartisan</gnm:Cell>
+        <gnm:Cell Row="470" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="471" Col="0" ValueType="60">\bfirst thing</gnm:Cell>
+        <gnm:Cell Row="471" Col="1" ValueType="60">(know the first thing, knew the first thing)</gnm:Cell>
+        <gnm:Cell Row="472" Col="0" ValueType="60">\bfull of errors</gnm:Cell>
+        <gnm:Cell Row="472" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="473" Col="0" ValueType="60">\bfilled with errors</gnm:Cell>
+        <gnm:Cell Row="473" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="474" Col="0" ValueType="60">\bunprofessional</gnm:Cell>
+        <gnm:Cell Row="474" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="475" Col="0" ValueType="60">\bpetty</gnm:Cell>
+        <gnm:Cell Row="475" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="476" Col="0" ValueType="60">\bnastiness</gnm:Cell>
+        <gnm:Cell Row="476" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="477" Col="0" ValueType="60">\bmath error</gnm:Cell>
+        <gnm:Cell Row="477" Col="1" ValueType="60">(can be okay)</gnm:Cell>
+        <gnm:Cell Row="478" Col="0" ValueType="60">\bmath errors</gnm:Cell>
+        <gnm:Cell Row="478" Col="1" ValueType="60">(can be okay)</gnm:Cell>
+        <gnm:Cell Row="479" Col="0" ValueType="60">\bvery wrong</gnm:Cell>
+        <gnm:Cell Row="479" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="480" Col="0" ValueType="60">\bembarass</gnm:Cell>
+        <gnm:Cell Row="480" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="481" Col="0" ValueType="60">\bembarassing</gnm:Cell>
+        <gnm:Cell Row="481" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="482" Col="0" ValueType="60">\bembarassingly</gnm:Cell>
+        <gnm:Cell Row="482" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="483" Col="0" ValueType="60">\bgimmick</gnm:Cell>
+        <gnm:Cell Row="483" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="484" Col="0" ValueType="60">\bpassable</gnm:Cell>
+        <gnm:Cell Row="484" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="485" Col="0" ValueType="60">\buninformed</gnm:Cell>
+        <gnm:Cell Row="485" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="486" Col="0" ValueType="60">\bcrap</gnm:Cell>
+        <gnm:Cell Row="486" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="487" Col="0" ValueType="60">\bcrappy</gnm:Cell>
+        <gnm:Cell Row="487" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="488" Col="0" ValueType="60">\bostensibly</gnm:Cell>
+        <gnm:Cell Row="488" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="489" Col="0" ValueType="60">\breinventing the wheel</gnm:Cell>
+        <gnm:Cell Row="489" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="490" Col="0" ValueType="60">\breinvented the wheel</gnm:Cell>
+        <gnm:Cell Row="490" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="491" Col="0" ValueType="60">\bno new ideas</gnm:Cell>
+        <gnm:Cell Row="491" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="492" Col="0" ValueType="60">\bno understanding</gnm:Cell>
+        <gnm:Cell Row="492" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="493" Col="0" ValueType="60">\blacking</gnm:Cell>
+        <gnm:Cell Row="493" Col="1" ValueType="60">(sorely lacking, so lacking in all respects, etc.)</gnm:Cell>
+        <gnm:Cell Row="494" Col="0" ValueType="60">\bno rationale</gnm:Cell>
+        <gnm:Cell Row="494" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="495" Col="0" ValueType="60">\bzero rationale</gnm:Cell>
+        <gnm:Cell Row="495" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="496" Col="0" ValueType="60">\bno reason</gnm:Cell>
+        <gnm:Cell Row="496" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="497" Col="0" ValueType="60">\bzero reason</gnm:Cell>
+        <gnm:Cell Row="497" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="498" Col="0" ValueType="60">\bzero reasons</gnm:Cell>
+        <gnm:Cell Row="498" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="499" Col="0" ValueType="60">\bnot credible</gnm:Cell>
+        <gnm:Cell Row="499" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="500" Col="0" ValueType="60">\bbarely acceptable</gnm:Cell>
+        <gnm:Cell Row="500" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="501" Col="0" ValueType="60">\bbarely acceptable</gnm:Cell>
+        <gnm:Cell Row="501" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="502" Col="0" ValueType="60">\bbunkrupt</gnm:Cell>
+        <gnm:Cell Row="502" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="503" Col="0" ValueType="60">\bcontribute nothing</gnm:Cell>
+        <gnm:Cell Row="503" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="504" Col="0" ValueType="60">\btrying to impress</gnm:Cell>
+        <gnm:Cell Row="504" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="505" Col="0" ValueType="60">\bself-contradictory</gnm:Cell>
+        <gnm:Cell Row="505" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="506" Col="0" ValueType="60">\bobscolete</gnm:Cell>
+        <gnm:Cell Row="506" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="507" Col="0" ValueType="60">\bignorance</gnm:Cell>
+        <gnm:Cell Row="507" Col="1" ValueType="60">(complete ignorance, etc.)</gnm:Cell>
+        <gnm:Cell Row="508" Col="0" ValueType="60">\bno novelty</gnm:Cell>
+        <gnm:Cell Row="508" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="509" Col="0" ValueType="60">\bcontradict themself</gnm:Cell>
+        <gnm:Cell Row="509" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="510" Col="0" ValueType="60">\bcontradict themselves</gnm:Cell>
+        <gnm:Cell Row="510" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="511" Col="0" ValueType="60">\brubbish</gnm:Cell>
+        <gnm:Cell Row="511" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="512" Col="0" ValueType="60">\bgrossly</gnm:Cell>
+        <gnm:Cell Row="512" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="513" Col="0" ValueType="60">\bfrankly</gnm:Cell>
+        <gnm:Cell Row="513" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="514" Col="0" ValueType="60">\bfrank</gnm:Cell>
+        <gnm:Cell Row="514" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="515" Col="0" ValueType="60">\boverreliance</gnm:Cell>
+        <gnm:Cell Row="515" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="516" Col="0" ValueType="60">\bover-reliance</gnm:Cell>
+        <gnm:Cell Row="516" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="517" Col="0" ValueType="60">\bentitlement</gnm:Cell>
+        <gnm:Cell Row="517" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="518" Col="0" ValueType="60">\bblithely</gnm:Cell>
+        <gnm:Cell Row="518" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="519" Col="0" ValueType="60">\bhave failed</gnm:Cell>
+        <gnm:Cell Row="519" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="520" Col="0" ValueType="60">\bexpended no effort</gnm:Cell>
+        <gnm:Cell Row="520" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="521" Col="0" ValueType="60">\btrying to actually understand</gnm:Cell>
+        <gnm:Cell Row="521" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="522" Col="0" ValueType="60">\bhowling</gnm:Cell>
+        <gnm:Cell Row="522" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="523" Col="0" ValueType="60">\bkludge</gnm:Cell>
+        <gnm:Cell Row="523" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="524" Col="0" ValueType="60">\bspaghetti code</gnm:Cell>
+        <gnm:Cell Row="524" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="525" Col="0" ValueType="60">\bpoorly understood</gnm:Cell>
+        <gnm:Cell Row="525" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="526" Col="0" ValueType="60">\bpoorly-understood</gnm:Cell>
+        <gnm:Cell Row="526" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="527" Col="0" ValueType="60">\bcherry pick</gnm:Cell>
+        <gnm:Cell Row="527" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="528" Col="0" ValueType="60">\bcherry-pick</gnm:Cell>
+        <gnm:Cell Row="528" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="529" Col="0" ValueType="60">\bcherry picked</gnm:Cell>
+        <gnm:Cell Row="529" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="530" Col="0" ValueType="60">\bcherry-picked</gnm:Cell>
+        <gnm:Cell Row="530" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="531" Col="0" ValueType="60">\bcherry picking</gnm:Cell>
+        <gnm:Cell Row="531" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="532" Col="0" ValueType="60">\bcherry-picking</gnm:Cell>
+        <gnm:Cell Row="532" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="533" Col="0" ValueType="60">\bpseudoscientific</gnm:Cell>
+        <gnm:Cell Row="533" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="534" Col="0" ValueType="60">\bdemonstrably false</gnm:Cell>
+        <gnm:Cell Row="534" Col="1" ValueType="60">(might be a bit redundant, and the intensifier seem too harsh)</gnm:Cell>
+        <gnm:Cell Row="535" Col="0" ValueType="60">\bcliché</gnm:Cell>
+        <gnm:Cell Row="535" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="536" Col="0" ValueType="60">\bclich\'{e}</gnm:Cell>
+        <gnm:Cell Row="536" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="537" Col="0" ValueType="60">\bcliche</gnm:Cell>
+        <gnm:Cell Row="537" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="538" Col="0" ValueType="60">\bsenseless</gnm:Cell>
+        <gnm:Cell Row="538" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="539" Col="0" ValueType="60">\bflat wrong</gnm:Cell>
+        <gnm:Cell Row="539" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="540" Col="0" ValueType="60">\bflat out wrong</gnm:Cell>
+        <gnm:Cell Row="540" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="541" Col="0" ValueType="60">\bjarring</gnm:Cell>
+        <gnm:Cell Row="541" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="542" Col="0" ValueType="60">\bmisleading</gnm:Cell>
+        <gnm:Cell Row="542" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="543" Col="0" ValueType="60">\bmisled</gnm:Cell>
+        <gnm:Cell Row="543" Col="1" ValueType="60">(Might be okay, e.g., &quot;Research X was mislead by using too low a Re.&quot;)</gnm:Cell>
+        <gnm:Cell Row="544" Col="0" ValueType="60">\bcanard</gnm:Cell>
+        <gnm:Cell Row="544" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="545" Col="0" ValueType="60">\bfatal blow</gnm:Cell>
+        <gnm:Cell Row="545" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="546" Col="0" ValueType="60">\bconveniently</gnm:Cell>
+        <gnm:Cell Row="546" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="547" Col="0" ValueType="60">\bincompetent</gnm:Cell>
+        <gnm:Cell Row="547" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="548" Col="0" ValueType="60">\bincompetence</gnm:Cell>
+        <gnm:Cell Row="548" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="549" Col="0" ValueType="60">\bfailure</gnm:Cell>
+        <gnm:Cell Row="549" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="550" Col="0" ValueType="60">\bexcuse</gnm:Cell>
+        <gnm:Cell Row="550" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="551" Col="0" ValueType="60">\bexcuses</gnm:Cell>
+        <gnm:Cell Row="551" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="552" Col="0" ValueType="60">\bcheat</gnm:Cell>
+        <gnm:Cell Row="552" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="553" Col="0" ValueType="60">\bcheated</gnm:Cell>
+        <gnm:Cell Row="553" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="554" Col="0" ValueType="60">\bcheating</gnm:Cell>
+        <gnm:Cell Row="554" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="555" Col="0" ValueType="60">\bshame</gnm:Cell>
+        <gnm:Cell Row="555" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="556" Col="0" ValueType="60">\bdisgrace</gnm:Cell>
+        <gnm:Cell Row="556" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="557" Col="0" ValueType="60">\bdisgraces</gnm:Cell>
+        <gnm:Cell Row="557" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="558" Col="0" ValueType="60">\bradical</gnm:Cell>
+        <gnm:Cell Row="558" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="559" Col="0" ValueType="60">\bradicals</gnm:Cell>
+        <gnm:Cell Row="559" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="560" Col="0" ValueType="60">\bstilted</gnm:Cell>
+        <gnm:Cell Row="560" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="561" Col="0" ValueType="60">\bconvoluted</gnm:Cell>
+        <gnm:Cell Row="561" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="562" Col="0" ValueType="60">\bdiatribe</gnm:Cell>
+        <gnm:Cell Row="562" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="563" Col="0" ValueType="60">\barrogance</gnm:Cell>
+        <gnm:Cell Row="563" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="564" Col="0" ValueType="60">\barrogant</gnm:Cell>
+        <gnm:Cell Row="564" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="565" Col="0" ValueType="60">\bappalled</gnm:Cell>
+        <gnm:Cell Row="565" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="566" Col="0" ValueType="60">\bappalling</gnm:Cell>
+        <gnm:Cell Row="566" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="567" Col="0" ValueType="60">\bappall</gnm:Cell>
+        <gnm:Cell Row="567" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="568" Col="0" ValueType="60">\bappalls</gnm:Cell>
+        <gnm:Cell Row="568" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="569" Col="0" ValueType="60">\bawful</gnm:Cell>
+        <gnm:Cell Row="569" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="570" Col="0" ValueType="60">\bbullshit</gnm:Cell>
+        <gnm:Cell Row="570" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="571" Col="0" ValueType="60">\bcrude</gnm:Cell>
+        <gnm:Cell Row="571" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="572" Col="0" ValueType="60">\bcynical</gnm:Cell>
+        <gnm:Cell Row="572" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="573" Col="0" ValueType="60">\bcynic</gnm:Cell>
+        <gnm:Cell Row="573" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="574" Col="0" ValueType="60">\begotist</gnm:Cell>
+        <gnm:Cell Row="574" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="575" Col="0" ValueType="60">\begotistical</gnm:Cell>
+        <gnm:Cell Row="575" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="576" Col="0" ValueType="60">\bhate</gnm:Cell>
+        <gnm:Cell Row="576" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="577" Col="0" ValueType="60">\bhates</gnm:Cell>
+        <gnm:Cell Row="577" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="578" Col="0" ValueType="60">\bhopeless</gnm:Cell>
+        <gnm:Cell Row="578" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="579" Col="0" ValueType="60">\bhopelessly</gnm:Cell>
+        <gnm:Cell Row="579" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="580" Col="0" ValueType="60">\binferior</gnm:Cell>
+        <gnm:Cell Row="580" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="581" Col="0" ValueType="60">\binferiority</gnm:Cell>
+        <gnm:Cell Row="581" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="582" Col="0" ValueType="60">\bhumiliating</gnm:Cell>
+        <gnm:Cell Row="582" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="583" Col="0" ValueType="60">\bhumiliate</gnm:Cell>
+        <gnm:Cell Row="583" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="584" Col="0" ValueType="60">\bhumiliates</gnm:Cell>
+        <gnm:Cell Row="584" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="585" Col="0" ValueType="60">\bhumiliated</gnm:Cell>
+        <gnm:Cell Row="585" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="586" Col="0" ValueType="60">\birritate</gnm:Cell>
+        <gnm:Cell Row="586" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="587" Col="0" ValueType="60">\birritates</gnm:Cell>
+        <gnm:Cell Row="587" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="588" Col="0" ValueType="60">\birritating</gnm:Cell>
+        <gnm:Cell Row="588" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="589" Col="0" ValueType="60">\blazy</gnm:Cell>
+        <gnm:Cell Row="589" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="590" Col="0" ValueType="60">\blaziest</gnm:Cell>
+        <gnm:Cell Row="590" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="591" Col="0" ValueType="60">\blied</gnm:Cell>
+        <gnm:Cell Row="591" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="592" Col="0" ValueType="60">\blies</gnm:Cell>
+        <gnm:Cell Row="592" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="593" Col="0" ValueType="60">\bliar</gnm:Cell>
+        <gnm:Cell Row="593" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="594" Col="0" ValueType="60">\blying</gnm:Cell>
+        <gnm:Cell Row="594" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="595" Col="0" ValueType="60">\bludicrous</gnm:Cell>
+        <gnm:Cell Row="595" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="596" Col="0" ValueType="60">\bludicrously</gnm:Cell>
+        <gnm:Cell Row="596" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="597" Col="0" ValueType="60">\blunatic</gnm:Cell>
+        <gnm:Cell Row="597" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="598" Col="0" ValueType="60">\blunatics</gnm:Cell>
+        <gnm:Cell Row="598" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="599" Col="0" ValueType="60">\bangry</gnm:Cell>
+        <gnm:Cell Row="599" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="600" Col="0" ValueType="60">\banger</gnm:Cell>
+        <gnm:Cell Row="600" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="601" Col="0" ValueType="60">\bangered</gnm:Cell>
+        <gnm:Cell Row="601" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="602" Col="0" ValueType="60">\bmocking</gnm:Cell>
+        <gnm:Cell Row="602" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="603" Col="0" ValueType="60">\bmaddening</gnm:Cell>
+        <gnm:Cell Row="603" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="604" Col="0" ValueType="60">\bobnoxious</gnm:Cell>
+        <gnm:Cell Row="604" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="605" Col="0" ValueType="60">\bobnoxiously</gnm:Cell>
+        <gnm:Cell Row="605" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="606" Col="0" ValueType="60">\bstubborn</gnm:Cell>
+        <gnm:Cell Row="606" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="607" Col="0" ValueType="60">\bstubbornly</gnm:Cell>
+        <gnm:Cell Row="607" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="608" Col="0" ValueType="60">\bvain</gnm:Cell>
+        <gnm:Cell Row="608" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="609" Col="0" ValueType="60">\bancient</gnm:Cell>
+        <gnm:Cell Row="609" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="610" Col="0" ValueType="60">\barchaic</gnm:Cell>
+        <gnm:Cell Row="610" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="611" Col="0" ValueType="60">\beccentric</gnm:Cell>
+        <gnm:Cell Row="611" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="612" Col="0" ValueType="60">\beccentrics</gnm:Cell>
+        <gnm:Cell Row="612" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="613" Col="0" ValueType="60">\bthird rate</gnm:Cell>
+        <gnm:Cell Row="613" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="614" Col="0" ValueType="60">\bthird-rate</gnm:Cell>
+        <gnm:Cell Row="614" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="615" Col="0" ValueType="60">\bcharlatan</gnm:Cell>
+        <gnm:Cell Row="615" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="616" Col="0" ValueType="60">\bcharlatans</gnm:Cell>
+        <gnm:Cell Row="616" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="617" Col="0" ValueType="60">\bbaloney</gnm:Cell>
+        <gnm:Cell Row="617" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="618" Col="0" ValueType="60">\bposeur</gnm:Cell>
+        <gnm:Cell Row="618" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="619" Col="0" ValueType="60">\bposer</gnm:Cell>
+        <gnm:Cell Row="619" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="620" Col="0" ValueType="60">\bposeurs</gnm:Cell>
+        <gnm:Cell Row="620" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="621" Col="0" ValueType="60">\bposers</gnm:Cell>
+        <gnm:Cell Row="621" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="622" Col="0" ValueType="60">\bmind numbing</gnm:Cell>
+        <gnm:Cell Row="622" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="623" Col="0" ValueType="60">\bbaffle</gnm:Cell>
+        <gnm:Cell Row="623" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="624" Col="0" ValueType="60">\bbamboozle</gnm:Cell>
+        <gnm:Cell Row="624" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="625" Col="0" ValueType="60">\bunquestioningly</gnm:Cell>
+        <gnm:Cell Row="625" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="626" Col="0" ValueType="60">\bunsophisticated</gnm:Cell>
+        <gnm:Cell Row="626" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="627" Col="0" ValueType="60">\bmuddle</gnm:Cell>
+        <gnm:Cell Row="627" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="628" Col="0" ValueType="60">\bmuddles</gnm:Cell>
+        <gnm:Cell Row="628" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="629" Col="0" ValueType="60">\bdogma</gnm:Cell>
+        <gnm:Cell Row="629" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="630" Col="0" ValueType="60">\bso-called</gnm:Cell>
+        <gnm:Cell Row="630" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="631" Col="0" ValueType="60">\bso called</gnm:Cell>
+        <gnm:Cell Row="631" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="632" Col="0" ValueType="60">\bdubious</gnm:Cell>
+        <gnm:Cell Row="632" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="633" Col="0" ValueType="60">\bdubiously</gnm:Cell>
+        <gnm:Cell Row="633" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="634" Col="0" ValueType="60">\bbald assertion</gnm:Cell>
+        <gnm:Cell Row="634" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="635" Col="0" ValueType="60">\bbald assertions</gnm:Cell>
+        <gnm:Cell Row="635" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="636" Col="0" ValueType="60">\bsloppy</gnm:Cell>
+        <gnm:Cell Row="636" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="637" Col="0" ValueType="60">\bmeaningless</gnm:Cell>
+        <gnm:Cell Row="637" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="638" Col="0" ValueType="60">\bmeaninglessly</gnm:Cell>
+        <gnm:Cell Row="638" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="639" Col="0" ValueType="60">\bsnake oil</gnm:Cell>
+        <gnm:Cell Row="639" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="640" Col="0" ValueType="60">\bstagnant</gnm:Cell>
+        <gnm:Cell Row="640" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="641" Col="0" ValueType="60">\bstagnated</gnm:Cell>
+        <gnm:Cell Row="641" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="642" Col="0" ValueType="60">\boverrated</gnm:Cell>
+        <gnm:Cell Row="642" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="643" Col="0" ValueType="60">\bover-rated</gnm:Cell>
+        <gnm:Cell Row="643" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="644" Col="0" ValueType="60">\bpolitically motivated</gnm:Cell>
+        <gnm:Cell Row="644" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="645" Col="0" ValueType="60">\bhand waving</gnm:Cell>
+        <gnm:Cell Row="645" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="646" Col="0" ValueType="60">\bhand waves</gnm:Cell>
+        <gnm:Cell Row="646" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="647" Col="0" ValueType="60">\bhand wavy</gnm:Cell>
+        <gnm:Cell Row="647" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="648" Col="0" ValueType="60">\bhandwaving</gnm:Cell>
+        <gnm:Cell Row="648" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="649" Col="0" ValueType="60">\bhandwaves</gnm:Cell>
+        <gnm:Cell Row="649" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="650" Col="0" ValueType="60">\bhandwavy</gnm:Cell>
+        <gnm:Cell Row="650" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="651" Col="0" ValueType="60">\bridiculous</gnm:Cell>
+        <gnm:Cell Row="651" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="652" Col="0" ValueType="60">\bsilly</gnm:Cell>
+        <gnm:Cell Row="652" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="653" Col="0" ValueType="60">\bfanciful</gnm:Cell>
+        <gnm:Cell Row="653" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="654" Col="0" ValueType="60">\bsacred beliefs</gnm:Cell>
+        <gnm:Cell Row="654" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="655" Col="0" ValueType="60">\bbrazen</gnm:Cell>
+        <gnm:Cell Row="655" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="656" Col="0" ValueType="60">\bbrazenly</gnm:Cell>
+        <gnm:Cell Row="656" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="657" Col="0" ValueType="60">\bstupid</gnm:Cell>
+        <gnm:Cell Row="657" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="658" Col="0" ValueType="60">\bstupidity</gnm:Cell>
+        <gnm:Cell Row="658" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="659" Col="0" ValueType="60">\bblinkered</gnm:Cell>
+        <gnm:Cell Row="659" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="660" Col="0" ValueType="60">\bcloseminded</gnm:Cell>
+        <gnm:Cell Row="660" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="661" Col="0" ValueType="60">\bclose minded</gnm:Cell>
+        <gnm:Cell Row="661" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="662" Col="0" ValueType="60">\bclose-minded</gnm:Cell>
+        <gnm:Cell Row="662" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="663" Col="0" ValueType="60">\bguise</gnm:Cell>
+        <gnm:Cell Row="663" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="664" Col="0" ValueType="60">\bcause offense</gnm:Cell>
+        <gnm:Cell Row="664" Col="1" ValueType="60">(wordy too; offend would be shorter)</gnm:Cell>
+        <gnm:Cell Row="665" Col="0" ValueType="60">\bvocal</gnm:Cell>
+        <gnm:Cell Row="665" Col="1" ValueType="60">(could be okay)</gnm:Cell>
+        <gnm:Cell Row="666" Col="0" ValueType="60">\bunpopular</gnm:Cell>
+        <gnm:Cell Row="666" Col="1" ValueType="60">(could be okay)</gnm:Cell>
+        <gnm:Cell Row="667" Col="0" ValueType="60">\binsane</gnm:Cell>
+        <gnm:Cell Row="667" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="668" Col="0" ValueType="60">\binsanely</gnm:Cell>
+        <gnm:Cell Row="668" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="669" Col="0" ValueType="60">\bsanely</gnm:Cell>
+        <gnm:Cell Row="669" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="670" Col="0" ValueType="60">\bcrazy</gnm:Cell>
+        <gnm:Cell Row="670" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="671" Col="0" ValueType="60">\bcrazies</gnm:Cell>
+        <gnm:Cell Row="671" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="672" Col="0" ValueType="60">\bbacklash</gnm:Cell>
+        <gnm:Cell Row="672" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="673" Col="0" ValueType="60">\bscandal</gnm:Cell>
+        <gnm:Cell Row="673" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="674" Col="0" ValueType="60">\bscandalous</gnm:Cell>
+        <gnm:Cell Row="674" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="675" Col="0" ValueType="60">\bover-reaction</gnm:Cell>
+        <gnm:Cell Row="675" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="676" Col="0" ValueType="60">\boverreaction</gnm:Cell>
+        <gnm:Cell Row="676" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="677" Col="0" ValueType="60">#\bhonest</gnm:Cell>
+        <gnm:Cell Row="677" Col="1" ValueType="60">(to be honest, etc., seems to be a prelude into something potentially offensive)</gnm:Cell>
+        <gnm:Cell Row="678" Col="0" ValueType="60">\bhonestly</gnm:Cell>
+        <gnm:Cell Row="678" Col="1" ValueType="60">(can be okay if clarifying)</gnm:Cell>
+        <gnm:Cell Row="679" Col="0" ValueType="60">\bno offense</gnm:Cell>
+        <gnm:Cell Row="679" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="680" Col="0" ValueType="60">\bcoward</gnm:Cell>
+        <gnm:Cell Row="680" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="681" Col="0" ValueType="60">\ba spade</gnm:Cell>
+        <gnm:Cell Row="681" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="682" Col="0" ValueType="60">\bno nonsense</gnm:Cell>
+        <gnm:Cell Row="682" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="683" Col="0" ValueType="60">\bfool</gnm:Cell>
+        <gnm:Cell Row="683" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="684" Col="0" ValueType="60">\bfools</gnm:Cell>
+        <gnm:Cell Row="684" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="685" Col="0" ValueType="60">\bfooled</gnm:Cell>
+        <gnm:Cell Row="685" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="686" Col="0" ValueType="60">\btricked</gnm:Cell>
+        <gnm:Cell Row="686" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="687" Col="0" ValueType="60">\bill informed</gnm:Cell>
+        <gnm:Cell Row="687" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="688" Col="0" ValueType="60">\bill-informed</gnm:Cell>
+        <gnm:Cell Row="688" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="689" Col="0" ValueType="60">\bdefective</gnm:Cell>
+        <gnm:Cell Row="689" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="690" Col="0" ValueType="60">\bmentally ill</gnm:Cell>
+        <gnm:Cell Row="690" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="691" Col="0" ValueType="60">\bsatanic</gnm:Cell>
+        <gnm:Cell Row="691" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="692" Col="0" ValueType="60">\bscientific soundness</gnm:Cell>
+        <gnm:Cell Row="692" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="693" Col="0" ValueType="60">\bon its face</gnm:Cell>
+        <gnm:Cell Row="693" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="694" Col="0" ValueType="60">\bbetrayed</gnm:Cell>
+        <gnm:Cell Row="694" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="695" Col="0" ValueType="60">\bfaçade</gnm:Cell>
+        <gnm:Cell Row="695" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="696" Col="0" ValueType="60">\bfacade</gnm:Cell>
+        <gnm:Cell Row="696" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="697" Col="0" ValueType="60">\bsavage</gnm:Cell>
+        <gnm:Cell Row="697" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="698" Col="0" ValueType="60">\bsavages</gnm:Cell>
+        <gnm:Cell Row="698" Col="1" ValueType="60">(Both noun and verb. But &quot;Bob savages Julia's research&quot; could be okay. Though maybe Bob would think it's an exageration.)</gnm:Cell>
+        <gnm:Cell Row="699" Col="0" ValueType="60">\buncivilized</gnm:Cell>
+        <gnm:Cell Row="699" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="700" Col="0" ValueType="60">\bmisrepresent</gnm:Cell>
+        <gnm:Cell Row="700" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="701" Col="0" ValueType="60">\bmisrepresented</gnm:Cell>
+        <gnm:Cell Row="701" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="702" Col="0" ValueType="60">\bmisrepresentation</gnm:Cell>
+        <gnm:Cell Row="702" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="703" Col="0" ValueType="60">\bturgid</gnm:Cell>
+        <gnm:Cell Row="703" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="704" Col="0" ValueType="60">\bgimmick</gnm:Cell>
+        <gnm:Cell Row="704" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="705" Col="0" ValueType="60">\bhaphazard</gnm:Cell>
+        <gnm:Cell Row="705" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="706" Col="0" ValueType="60">\bhaphazardly</gnm:Cell>
+        <gnm:Cell Row="706" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="707" Col="0" ValueType="60">\berror filled</gnm:Cell>
+        <gnm:Cell Row="707" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="708" Col="0" ValueType="60">\berror-filled</gnm:Cell>
+        <gnm:Cell Row="708" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="709" Col="0" ValueType="60">\berror prone</gnm:Cell>
+        <gnm:Cell Row="709" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="710" Col="0" ValueType="60">\berror-prone</gnm:Cell>
+        <gnm:Cell Row="710" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="711" Col="0" ValueType="60">\bcumbersome</gnm:Cell>
+        <gnm:Cell Row="711" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="712" Col="0" ValueType="60">\bfalsehood</gnm:Cell>
+        <gnm:Cell Row="712" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="713" Col="0" ValueType="60">\bfalsehoods</gnm:Cell>
+        <gnm:Cell Row="713" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="714" Col="0" ValueType="60">\bincapable</gnm:Cell>
+        <gnm:Cell Row="714" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="715" Col="0" ValueType="60">\bdiatribe</gnm:Cell>
+        <gnm:Cell Row="715" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="716" Col="0" ValueType="60">\bdenier</gnm:Cell>
+        <gnm:Cell Row="716" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="717" Col="0" ValueType="60">\bdeniers</gnm:Cell>
+        <gnm:Cell Row="717" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="718" Col="0" ValueType="60">\bembarrassment</gnm:Cell>
+        <gnm:Cell Row="718" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="719" Col="0" ValueType="60">\bcomplacency</gnm:Cell>
+        <gnm:Cell Row="719" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="720" Col="0" ValueType="60">\bdetriment</gnm:Cell>
+        <gnm:Cell Row="720" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="721" Col="0" ValueType="60">\bshoddy</gnm:Cell>
+        <gnm:Cell Row="721" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="722" Col="0" ValueType="60">\bpoor analysis</gnm:Cell>
+        <gnm:Cell Row="722" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="723" Col="0" ValueType="60">\bbunk</gnm:Cell>
+        <gnm:Cell Row="723" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="724" Col="0" ValueType="60">\bimproprieties</gnm:Cell>
+        <gnm:Cell Row="724" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="725" Col="0" ValueType="60">\bimpropriety</gnm:Cell>
+        <gnm:Cell Row="725" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="726" Col="0" ValueType="60">\brubbish</gnm:Cell>
+        <gnm:Cell Row="726" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="727" Col="0" ValueType="60">\bflawed</gnm:Cell>
+        <gnm:Cell Row="727" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="728" Col="0" ValueType="60">\bsquander</gnm:Cell>
+        <gnm:Cell Row="728" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="729" Col="0" ValueType="60">\bsquanders</gnm:Cell>
+        <gnm:Cell Row="729" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="730" Col="0" ValueType="60">\bsquandered</gnm:Cell>
+        <gnm:Cell Row="730" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="731" Col="0" ValueType="60">\bdubious</gnm:Cell>
+        <gnm:Cell Row="731" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="732" Col="0" ValueType="60">\bmislead</gnm:Cell>
+        <gnm:Cell Row="732" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="733" Col="0" ValueType="60">\bhumdrum</gnm:Cell>
+        <gnm:Cell Row="733" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="734" Col="0" ValueType="60">\bshaky foundation</gnm:Cell>
+        <gnm:Cell Row="734" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="735" Col="0" ValueType="60">\buninteresting</gnm:Cell>
+        <gnm:Cell Row="735" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="736" Col="0" ValueType="60">\bunforgivable</gnm:Cell>
+        <gnm:Cell Row="736" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="737" Col="0" ValueType="60">\bpeddling</gnm:Cell>
+        <gnm:Cell Row="737" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="738" Col="0" ValueType="60">\bpeddles</gnm:Cell>
+        <gnm:Cell Row="738" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="739" Col="0" ValueType="60">\braving</gnm:Cell>
+        <gnm:Cell Row="739" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="740" Col="0" ValueType="60">\begomania</gnm:Cell>
+        <gnm:Cell Row="740" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="741" Col="0" ValueType="60">\bbatshit</gnm:Cell>
+        <gnm:Cell Row="741" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="742" Col="0" ValueType="60">\ba crank</gnm:Cell>
+        <gnm:Cell Row="742" Col="1" ValueType="60">(distinguish from the verb crank)</gnm:Cell>
+        <gnm:Cell Row="743" Col="0" ValueType="60">\bbloated</gnm:Cell>
+        <gnm:Cell Row="743" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="744" Col="0" ValueType="60">\batrocious</gnm:Cell>
+        <gnm:Cell Row="744" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="745" Col="0" ValueType="60">\boutmoded</gnm:Cell>
+        <gnm:Cell Row="745" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="746" Col="0" ValueType="60">\bdeliberately omit</gnm:Cell>
+        <gnm:Cell Row="746" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="747" Col="0" ValueType="60">\bdeliberately omitted</gnm:Cell>
+        <gnm:Cell Row="747" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="748" Col="0" ValueType="60">\bcommonplace</gnm:Cell>
+        <gnm:Cell Row="748" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="749" Col="0" ValueType="60">\bblockhead</gnm:Cell>
+        <gnm:Cell Row="749" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="750" Col="0" ValueType="60">\bphilistine</gnm:Cell>
+        <gnm:Cell Row="750" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="751" Col="0" ValueType="60">\bcrackpot</gnm:Cell>
+        <gnm:Cell Row="751" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="752" Col="0" ValueType="60">\bcrackpots</gnm:Cell>
+        <gnm:Cell Row="752" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="753" Col="0" ValueType="60">\bfarce</gnm:Cell>
+        <gnm:Cell Row="753" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="754" Col="0" ValueType="60">\bfarcical</gnm:Cell>
+        <gnm:Cell Row="754" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="755" Col="0" ValueType="60">\babysmal</gnm:Cell>
+        <gnm:Cell Row="755" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="756" Col="0" ValueType="60">\bmumbo-jumbo</gnm:Cell>
+        <gnm:Cell Row="756" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="757" Col="0" ValueType="60">\bmumbo jumbo</gnm:Cell>
+        <gnm:Cell Row="757" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="758" Col="0" ValueType="60">\bsmoke and mirrors</gnm:Cell>
+        <gnm:Cell Row="758" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="759" Col="0" ValueType="60">\bhysteria</gnm:Cell>
+        <gnm:Cell Row="759" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="760" Col="0" ValueType="60">\bhysterical</gnm:Cell>
+        <gnm:Cell Row="760" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="761" Col="0" ValueType="60">\bserious</gnm:Cell>
+        <gnm:Cell Row="761" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="762" Col="0" ValueType="60">\bwell, actually</gnm:Cell>
+        <gnm:Cell Row="762" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="763" Col="0" ValueType="60">\bwell actually</gnm:Cell>
+        <gnm:Cell Row="763" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="764" Col="0" ValueType="60">\bactually</gnm:Cell>
+        <gnm:Cell Row="764" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="765" Col="0" ValueType="60">\bhowlers</gnm:Cell>
+        <gnm:Cell Row="765" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="766" Col="0" ValueType="60">\bwoo</gnm:Cell>
+        <gnm:Cell Row="766" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="767" Col="0" ValueType="60">\birresponsible</gnm:Cell>
+        <gnm:Cell Row="767" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="768" Col="0" ValueType="60">\btotally</gnm:Cell>
+        <gnm:Cell Row="768" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="769" Col="0" ValueType="60">\bconflate</gnm:Cell>
+        <gnm:Cell Row="769" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="770" Col="0" ValueType="60">\bactual insight</gnm:Cell>
+        <gnm:Cell Row="770" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="771" Col="0" ValueType="60">\btrue insight</gnm:Cell>
+        <gnm:Cell Row="771" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="772" Col="0" ValueType="60">\breal insight</gnm:Cell>
+        <gnm:Cell Row="772" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="773" Col="0" ValueType="60">\binappropriate</gnm:Cell>
+        <gnm:Cell Row="773" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="774" Col="0" ValueType="60">\bdivisive</gnm:Cell>
+        <gnm:Cell Row="774" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="775" Col="0" ValueType="60">\bdivisiveness</gnm:Cell>
+        <gnm:Cell Row="775" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="776" Col="0" ValueType="60">#\binsensitive</gnm:Cell>
+        <gnm:Cell Row="776" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="777" Col="0" ValueType="60">\binsensitively</gnm:Cell>
+        <gnm:Cell Row="777" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="778" Col="0" ValueType="60">\bblasphemy</gnm:Cell>
+        <gnm:Cell Row="778" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="779" Col="0" ValueType="60">\bsacrilege</gnm:Cell>
+        <gnm:Cell Row="779" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="780" Col="0" ValueType="60">\bsacrilegious</gnm:Cell>
+        <gnm:Cell Row="780" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="781" Col="0" ValueType="60">\bheresy</gnm:Cell>
+        <gnm:Cell Row="781" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="782" Col="0" ValueType="60">\bheresies</gnm:Cell>
+        <gnm:Cell Row="782" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="783" Col="0" ValueType="60">\bindecent</gnm:Cell>
+        <gnm:Cell Row="783" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="784" Col="0" ValueType="60">\bunamerican</gnm:Cell>
+        <gnm:Cell Row="784" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="785" Col="0" ValueType="60">\bun-American</gnm:Cell>
+        <gnm:Cell Row="785" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="786" Col="0" ValueType="60">\bsexist</gnm:Cell>
+        <gnm:Cell Row="786" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="787" Col="0" ValueType="60">\bsexists</gnm:Cell>
+        <gnm:Cell Row="787" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="788" Col="0" ValueType="60">\bimproper</gnm:Cell>
+        <gnm:Cell Row="788" Col="1" ValueType="60">(can be okay, e.g. &quot;improper integral&quot;)</gnm:Cell>
+        <gnm:Cell Row="789" Col="0" ValueType="60">\bcavalier</gnm:Cell>
+        <gnm:Cell Row="789" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="790" Col="0" ValueType="60">\bsanctimonious</gnm:Cell>
+        <gnm:Cell Row="790" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="791" Col="0" ValueType="60">\bcheap shot</gnm:Cell>
+        <gnm:Cell Row="791" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="792" Col="0" ValueType="60">\bincredulous</gnm:Cell>
+        <gnm:Cell Row="792" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="793" Col="0" ValueType="60">\bfaulty</gnm:Cell>
+        <gnm:Cell Row="793" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="794" Col="0" ValueType="60">\brambling</gnm:Cell>
+        <gnm:Cell Row="794" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="795" Col="0" ValueType="60">\brambles</gnm:Cell>
+        <gnm:Cell Row="795" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="796" Col="0" ValueType="60">\bsupposedly</gnm:Cell>
+        <gnm:Cell Row="796" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="797" Col="0" ValueType="60">\bsupposed to</gnm:Cell>
+        <gnm:Cell Row="797" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="798" Col="0" ValueType="60">\bblatant</gnm:Cell>
+        <gnm:Cell Row="798" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="799" Col="0" ValueType="60">\bblatantly</gnm:Cell>
+        <gnm:Cell Row="799" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="800" Col="0" ValueType="60">\bmisguided</gnm:Cell>
+        <gnm:Cell Row="800" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="801" Col="0" ValueType="60">\boversensitive</gnm:Cell>
+        <gnm:Cell Row="801" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="802" Col="0" ValueType="60">\bover-sensitive</gnm:Cell>
+        <gnm:Cell Row="802" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="803" Col="0" ValueType="60">\bavowed</gnm:Cell>
+        <gnm:Cell Row="803" Col="1" ValueType="60">(offensive, e.g., avowed atheist)</gnm:Cell>
+        <gnm:Cell Row="804" Col="0" ValueType="60">\bdevoid</gnm:Cell>
+        <gnm:Cell Row="804" Col="1" ValueType="60">(devoid/absent, latter is less obscure)</gnm:Cell>
+        <gnm:Cell Row="805" Col="0" ValueType="60">\bblunt</gnm:Cell>
+        <gnm:Cell Row="805" Col="1" ValueType="60">(can be okay,e.g., blunt instrument)</gnm:Cell>
+        <gnm:Cell Row="806" Col="0" ValueType="60">\butopian</gnm:Cell>
+        <gnm:Cell Row="806" Col="1" ValueType="60">(used sarcastically)</gnm:Cell>
+        <gnm:Cell Row="807" Col="0" ValueType="60">\btired</gnm:Cell>
+        <gnm:Cell Row="807" Col="1" ValueType="60">(e.g. tired argument)</gnm:Cell>
+        <gnm:Cell Row="808" Col="0" ValueType="60">\bfabricate</gnm:Cell>
+        <gnm:Cell Row="808" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="809" Col="0" ValueType="60">\bvain</gnm:Cell>
+        <gnm:Cell Row="809" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="810" Col="0" ValueType="60">\bego</gnm:Cell>
+        <gnm:Cell Row="810" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="811" Col="0" ValueType="60">\begotistical</gnm:Cell>
+        <gnm:Cell Row="811" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="812" Col="0" ValueType="60">\begotistic</gnm:Cell>
+        <gnm:Cell Row="812" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="813" Col="0" ValueType="60">\bscreed</gnm:Cell>
+        <gnm:Cell Row="813" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="814" Col="0" ValueType="60">\bovertone</gnm:Cell>
+        <gnm:Cell Row="814" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="815" Col="0" ValueType="60">\bovertones</gnm:Cell>
+        <gnm:Cell Row="815" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="816" Col="0" ValueType="60">\bmilitant</gnm:Cell>
+        <gnm:Cell Row="816" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="817" Col="0" ValueType="60">\bsinister</gnm:Cell>
+        <gnm:Cell Row="817" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="818" Col="0" ValueType="60">\bclownish</gnm:Cell>
+        <gnm:Cell Row="818" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="819" Col="0" ValueType="60">\bmendacity</gnm:Cell>
+        <gnm:Cell Row="819" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="820" Col="0" ValueType="60">\bpithy</gnm:Cell>
+        <gnm:Cell Row="820" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="821" Col="0" ValueType="60">\boutright</gnm:Cell>
+        <gnm:Cell Row="821" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="822" Col="0" ValueType="60">\bridicule</gnm:Cell>
+        <gnm:Cell Row="822" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="823" Col="0" ValueType="60">\bardent</gnm:Cell>
+        <gnm:Cell Row="823" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="824" Col="0" ValueType="60">\bworrisome</gnm:Cell>
+        <gnm:Cell Row="824" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="825" Col="0" ValueType="60">\bidiosyncratic</gnm:Cell>
+        <gnm:Cell Row="825" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="826" Col="0" ValueType="60">\blittle hope</gnm:Cell>
+        <gnm:Cell Row="826" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="827" Col="0" ValueType="60">\bno hope</gnm:Cell>
+        <gnm:Cell Row="827" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="828" Col="0" ValueType="60">\bdisgraceful</gnm:Cell>
+        <gnm:Cell Row="828" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="829" Col="0" ValueType="60">\bdisgrace</gnm:Cell>
+        <gnm:Cell Row="829" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="830" Col="0" ValueType="60">\bludicrous</gnm:Cell>
+        <gnm:Cell Row="830" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="831" Col="0" ValueType="60">\bludicrously</gnm:Cell>
+        <gnm:Cell Row="831" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="832" Col="0" ValueType="60">\bfalsification</gnm:Cell>
+        <gnm:Cell Row="832" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="833" Col="0" ValueType="60">\bfalsified</gnm:Cell>
+        <gnm:Cell Row="833" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="834" Col="0" ValueType="60">\bdefamatory</gnm:Cell>
+        <gnm:Cell Row="834" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="835" Col="0" ValueType="60">\bpoisoning</gnm:Cell>
+        <gnm:Cell Row="835" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="836" Col="0" ValueType="60">\bpoisoned</gnm:Cell>
+        <gnm:Cell Row="836" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="837" Col="0" ValueType="60">\bpoison</gnm:Cell>
+        <gnm:Cell Row="837" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="838" Col="0" ValueType="60">\bvenom</gnm:Cell>
+        <gnm:Cell Row="838" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="839" Col="0" ValueType="60">\bincompetently</gnm:Cell>
+        <gnm:Cell Row="839" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="840" Col="0" ValueType="60">\bincompetent</gnm:Cell>
+        <gnm:Cell Row="840" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="841" Col="0" ValueType="60">\bbaseless</gnm:Cell>
+        <gnm:Cell Row="841" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="842" Col="0" ValueType="60">\binvent non-existent</gnm:Cell>
+        <gnm:Cell Row="842" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="843" Col="0" ValueType="60">\binvent nonexistent</gnm:Cell>
+        <gnm:Cell Row="843" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="844" Col="0" ValueType="60">\bdubious</gnm:Cell>
+        <gnm:Cell Row="844" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="845" Col="0" ValueType="60">\binappropriate method</gnm:Cell>
+        <gnm:Cell Row="845" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="846" Col="0" ValueType="60">\binappropriate methods</gnm:Cell>
+        <gnm:Cell Row="846" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="847" Col="0" ValueType="60">\bmethod is inappropriate</gnm:Cell>
+        <gnm:Cell Row="847" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="848" Col="0" ValueType="60">\bimplausible assumptions</gnm:Cell>
+        <gnm:Cell Row="848" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="849" Col="0" ValueType="60">\bimplausible assumption</gnm:Cell>
+        <gnm:Cell Row="849" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="850" Col="0" ValueType="60">\boverpromises</gnm:Cell>
+        <gnm:Cell Row="850" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="851" Col="0" ValueType="60">\boverpromise</gnm:Cell>
+        <gnm:Cell Row="851" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="852" Col="0" ValueType="60">\binadequately supported assumptions</gnm:Cell>
+        <gnm:Cell Row="852" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="853" Col="0" ValueType="60">\binadequately supported assumption</gnm:Cell>
+        <gnm:Cell Row="853" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="854" Col="0" ValueType="60">\bpreposterous</gnm:Cell>
+        <gnm:Cell Row="854" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="855" Col="0" ValueType="60">\bpreposterously</gnm:Cell>
+        <gnm:Cell Row="855" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="856" Col="0" ValueType="60">\bstrange</gnm:Cell>
+        <gnm:Cell Row="856" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="857" Col="0" ValueType="60">\bstrangely</gnm:Cell>
+        <gnm:Cell Row="857" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="858" Col="0" ValueType="60">\bdubious</gnm:Cell>
+        <gnm:Cell Row="858" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="859" Col="0" ValueType="60">\bdubiously</gnm:Cell>
+        <gnm:Cell Row="859" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="860" Col="0" ValueType="60">\boverconfident</gnm:Cell>
+        <gnm:Cell Row="860" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="861" Col="0" ValueType="60">\boverconfidence</gnm:Cell>
+        <gnm:Cell Row="861" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="862" Col="0" ValueType="60">\bpassé</gnm:Cell>
+        <gnm:Cell Row="862" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="863" Col="0" ValueType="60">\bpasse</gnm:Cell>
+        <gnm:Cell Row="863" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="864" Col="0" ValueType="60">\bmeaningless</gnm:Cell>
+        <gnm:Cell Row="864" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="865" Col="0" ValueType="60">\bterrible science</gnm:Cell>
+        <gnm:Cell Row="865" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="866" Col="0" ValueType="60">\butterly</gnm:Cell>
+        <gnm:Cell Row="866" Col="1" ValueType="60">(offensive, e.g., utterly failed, failed utterly, failed you utterly)</gnm:Cell>
+        <gnm:Cell Row="867" Col="0" ValueType="60">\bunfounded</gnm:Cell>
+        <gnm:Cell Row="867" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="868" Col="0" ValueType="60">\barcane</gnm:Cell>
+        <gnm:Cell Row="868" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="869" Col="0" ValueType="60">\blaughably</gnm:Cell>
+        <gnm:Cell Row="869" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="870" Col="0" ValueType="60">\bflimsy</gnm:Cell>
+        <gnm:Cell Row="870" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="871" Col="0" ValueType="60">\bdoom</gnm:Cell>
+        <gnm:Cell Row="871" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="872" Col="0" ValueType="60">\bdoomed</gnm:Cell>
+        <gnm:Cell Row="872" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="873" Col="0" ValueType="60">\bdooming</gnm:Cell>
+        <gnm:Cell Row="873" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="874" Col="0" ValueType="60">\blackadaisical</gnm:Cell>
+        <gnm:Cell Row="874" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="875" Col="0" ValueType="60">\blackadaisically</gnm:Cell>
+        <gnm:Cell Row="875" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="876" Col="0" ValueType="60">\bfad</gnm:Cell>
+        <gnm:Cell Row="876" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="877" Col="0" ValueType="60">\bprolix</gnm:Cell>
+        <gnm:Cell Row="877" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="878" Col="0" ValueType="60">\bnot the remotest</gnm:Cell>
+        <gnm:Cell Row="878" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="879" Col="0" ValueType="60">\bfictional</gnm:Cell>
+        <gnm:Cell Row="879" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="880" Col="0" ValueType="60">\bfiction</gnm:Cell>
+        <gnm:Cell Row="880" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="881" Col="0" ValueType="60">\bfraud</gnm:Cell>
+        <gnm:Cell Row="881" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="882" Col="0" ValueType="60">\bfraudulent</gnm:Cell>
+        <gnm:Cell Row="882" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="883" Col="0" ValueType="60">#\bhack</gnm:Cell>
+        <gnm:Cell Row="883" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="884" Col="0" ValueType="60">#\bhacked</gnm:Cell>
+        <gnm:Cell Row="884" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="885" Col="0" ValueType="60">\bfoolish</gnm:Cell>
+        <gnm:Cell Row="885" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="886" Col="0" ValueType="60">\bfoolishly</gnm:Cell>
+        <gnm:Cell Row="886" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="887" Col="0" ValueType="60">\bdead wrong</gnm:Cell>
+        <gnm:Cell Row="887" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="888" Col="0" ValueType="60">\bdismissive</gnm:Cell>
+        <gnm:Cell Row="888" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="889" Col="0" ValueType="60">\brepetitive</gnm:Cell>
+        <gnm:Cell Row="889" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="890" Col="0" ValueType="60">\bsmug</gnm:Cell>
+        <gnm:Cell Row="890" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="891" Col="0" ValueType="60">\bill reasoned</gnm:Cell>
+        <gnm:Cell Row="891" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="892" Col="0" ValueType="60">\bill-reasoned</gnm:Cell>
+        <gnm:Cell Row="892" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="893" Col="0" ValueType="60">\bpeddling</gnm:Cell>
+        <gnm:Cell Row="893" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="894" Col="0" ValueType="60">\brambling</gnm:Cell>
+        <gnm:Cell Row="894" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="895" Col="0" ValueType="60">\bramble</gnm:Cell>
+        <gnm:Cell Row="895" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="896" Col="0" ValueType="60">\bdownvote</gnm:Cell>
+        <gnm:Cell Row="896" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="897" Col="0" ValueType="60">\bdownvotes</gnm:Cell>
+        <gnm:Cell Row="897" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="898" Col="0" ValueType="60">\bdownvoting</gnm:Cell>
+        <gnm:Cell Row="898" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="899" Col="0" ValueType="60">\bdown-vote</gnm:Cell>
+        <gnm:Cell Row="899" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="900" Col="0" ValueType="60">\bdown-votes</gnm:Cell>
+        <gnm:Cell Row="900" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="901" Col="0" ValueType="60">\bdown-voting</gnm:Cell>
+        <gnm:Cell Row="901" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="902" Col="0" ValueType="60">\bcheap rhetoric</gnm:Cell>
+        <gnm:Cell Row="902" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="903" Col="0" ValueType="60">\binvective</gnm:Cell>
+        <gnm:Cell Row="903" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="904" Col="0" ValueType="60">\bvindictive</gnm:Cell>
+        <gnm:Cell Row="904" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="905" Col="0" ValueType="60">\bintolerant</gnm:Cell>
+        <gnm:Cell Row="905" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="906" Col="0" ValueType="60">\bblind spot</gnm:Cell>
+        <gnm:Cell Row="906" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="907" Col="0" ValueType="60">\bblind spots</gnm:Cell>
+        <gnm:Cell Row="907" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="908" Col="0" ValueType="60">\bhasty</gnm:Cell>
+        <gnm:Cell Row="908" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="909" Col="0" ValueType="60">\bdevastating</gnm:Cell>
+        <gnm:Cell Row="909" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="910" Col="0" ValueType="60">\bdevastated</gnm:Cell>
+        <gnm:Cell Row="910" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="911" Col="0" ValueType="60">\bdevastate</gnm:Cell>
+        <gnm:Cell Row="911" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="912" Col="0" ValueType="60">\bflippant</gnm:Cell>
+        <gnm:Cell Row="912" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="913" Col="0" ValueType="60">\bflippantly</gnm:Cell>
+        <gnm:Cell Row="913" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="914" Col="0" ValueType="60">\bbrainless</gnm:Cell>
+        <gnm:Cell Row="914" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="915" Col="0" ValueType="60">\bmindless</gnm:Cell>
+        <gnm:Cell Row="915" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="916" Col="0" ValueType="60">\bdroves</gnm:Cell>
+        <gnm:Cell Row="916" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="917" Col="0" ValueType="60">\bdogmatic</gnm:Cell>
+        <gnm:Cell Row="917" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="918" Col="0" ValueType="60">\bintolerance</gnm:Cell>
+        <gnm:Cell Row="918" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="919" Col="0" ValueType="60">\bcanard</gnm:Cell>
+        <gnm:Cell Row="919" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="920" Col="0" ValueType="60">\bhalf assed</gnm:Cell>
+        <gnm:Cell Row="920" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="921" Col="0" ValueType="60">\bhalf-assed</gnm:Cell>
+        <gnm:Cell Row="921" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="922" Col="0" ValueType="60">\bbanal</gnm:Cell>
+        <gnm:Cell Row="922" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="923" Col="0" ValueType="60">\bbanality</gnm:Cell>
+        <gnm:Cell Row="923" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="924" Col="0" ValueType="60">\bimpotent</gnm:Cell>
+        <gnm:Cell Row="924" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="925" Col="0" ValueType="60">\bcompletely foreign</gnm:Cell>
+        <gnm:Cell Row="925" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="926" Col="0" ValueType="60">\boverheated</gnm:Cell>
+        <gnm:Cell Row="926" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="927" Col="0" ValueType="60">\bself-defeating</gnm:Cell>
+        <gnm:Cell Row="927" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="928" Col="0" ValueType="60">\bself defeating</gnm:Cell>
+        <gnm:Cell Row="928" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="929" Col="0" ValueType="60">\bflippant</gnm:Cell>
+        <gnm:Cell Row="929" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="930" Col="0" ValueType="60">\bflippantly</gnm:Cell>
+        <gnm:Cell Row="930" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="931" Col="0" ValueType="60">\buncritical</gnm:Cell>
+        <gnm:Cell Row="931" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="932" Col="0" ValueType="60">\buncritically</gnm:Cell>
+        <gnm:Cell Row="932" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="933" Col="0" ValueType="60">\bsecond rate</gnm:Cell>
+        <gnm:Cell Row="933" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="934" Col="0" ValueType="60">\bsecond-rate</gnm:Cell>
+        <gnm:Cell Row="934" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="935" Col="0" ValueType="60">\bthird rate</gnm:Cell>
+        <gnm:Cell Row="935" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="936" Col="0" ValueType="60">\bthird-rate</gnm:Cell>
+        <gnm:Cell Row="936" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="937" Col="0" ValueType="60">\bboring</gnm:Cell>
+        <gnm:Cell Row="937" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="938" Col="0" ValueType="60">\bdisgusting</gnm:Cell>
+        <gnm:Cell Row="938" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="939" Col="0" ValueType="60">\bbrutal</gnm:Cell>
+        <gnm:Cell Row="939" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="940" Col="0" ValueType="60">\buneven</gnm:Cell>
+        <gnm:Cell Row="940" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="941" Col="0" ValueType="60">\bflawed</gnm:Cell>
+        <gnm:Cell Row="941" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="942" Col="0" ValueType="60">\bdistasteful</gnm:Cell>
+        <gnm:Cell Row="942" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="943" Col="0" ValueType="60">\bsenseless</gnm:Cell>
+        <gnm:Cell Row="943" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="944" Col="0" ValueType="60">\btiresome</gnm:Cell>
+        <gnm:Cell Row="944" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="945" Col="0" ValueType="60">\bridden</gnm:Cell>
+        <gnm:Cell Row="945" Col="1" ValueType="60">(e.g., cliché ridden)</gnm:Cell>
+        <gnm:Cell Row="946" Col="0" ValueType="60">\bbland</gnm:Cell>
+        <gnm:Cell Row="946" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="947" Col="0" ValueType="60">\bmoronic</gnm:Cell>
+        <gnm:Cell Row="947" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="948" Col="0" ValueType="60">\bjuvenile</gnm:Cell>
+        <gnm:Cell Row="948" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="949" Col="0" ValueType="60">\bdisappointing</gnm:Cell>
+        <gnm:Cell Row="949" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="950" Col="0" ValueType="60">\boutdated</gnm:Cell>
+        <gnm:Cell Row="950" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="951" Col="0" ValueType="60">\bdiscredit</gnm:Cell>
+        <gnm:Cell Row="951" Col="1" ValueType="60">(discredited research would be preferred to discredited researcher, e.g. of someone getting this wrong: http://andrewgelman.com/2018/03/03/brian-wansinks-misrepresentation-data-research-methods-known-years/)</gnm:Cell>
+        <gnm:Cell Row="952" Col="0" ValueType="60">\bdiscredits</gnm:Cell>
+        <gnm:Cell Row="952" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="953" Col="0" ValueType="60">\bdiscredited</gnm:Cell>
+        <gnm:Cell Row="953" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="954" Col="0" ValueType="60">\bmisdeed</gnm:Cell>
+        <gnm:Cell Row="954" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="955" Col="0" ValueType="60">\bmisdeeds</gnm:Cell>
+        <gnm:Cell Row="955" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="956" Col="0" ValueType="60">\binept</gnm:Cell>
+        <gnm:Cell Row="956" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="957" Col="0" ValueType="60">\bclueless</gnm:Cell>
+        <gnm:Cell Row="957" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="958" Col="0" ValueType="60">\bbogus</gnm:Cell>
+        <gnm:Cell Row="958" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="959" Col="0" ValueType="60">\berroneous</gnm:Cell>
+        <gnm:Cell Row="959" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="960" Col="0" ValueType="60">\berroneously</gnm:Cell>
+        <gnm:Cell Row="960" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="961" Col="0" ValueType="60">\babsurd</gnm:Cell>
+        <gnm:Cell Row="961" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="962" Col="0" ValueType="60">\babsurdly</gnm:Cell>
+        <gnm:Cell Row="962" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="963" Col="0" ValueType="60">\birrationalism</gnm:Cell>
+        <gnm:Cell Row="963" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="964" Col="0" ValueType="60">\boverblown</gnm:Cell>
+        <gnm:Cell Row="964" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="965" Col="0" ValueType="60">\bself-important</gnm:Cell>
+        <gnm:Cell Row="965" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="966" Col="0" ValueType="60">\bcomplete failure</gnm:Cell>
+        <gnm:Cell Row="966" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="967" Col="0" ValueType="60">\bwrongful</gnm:Cell>
+        <gnm:Cell Row="967" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="968" Col="0" ValueType="60">\bwrongfully</gnm:Cell>
+        <gnm:Cell Row="968" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="969" Col="0" ValueType="60">\btroll</gnm:Cell>
+        <gnm:Cell Row="969" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="970" Col="0" ValueType="60">\btrolls</gnm:Cell>
+        <gnm:Cell Row="970" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="971" Col="0" ValueType="60">\bidiot</gnm:Cell>
+        <gnm:Cell Row="971" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="972" Col="0" ValueType="60">\bidiots</gnm:Cell>
+        <gnm:Cell Row="972" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="973" Col="0" ValueType="60">\bmoron</gnm:Cell>
+        <gnm:Cell Row="973" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="974" Col="0" ValueType="60">\bmorons</gnm:Cell>
+        <gnm:Cell Row="974" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="975" Col="0" ValueType="60">\bloon</gnm:Cell>
+        <gnm:Cell Row="975" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="976" Col="0" ValueType="60">\bloony</gnm:Cell>
+        <gnm:Cell Row="976" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="977" Col="0" ValueType="60">\bloons</gnm:Cell>
+        <gnm:Cell Row="977" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="978" Col="0" ValueType="60">\belitist</gnm:Cell>
+        <gnm:Cell Row="978" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="979" Col="0" ValueType="60">\belitists</gnm:Cell>
+        <gnm:Cell Row="979" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="980" Col="0" ValueType="60">\bideologue</gnm:Cell>
+        <gnm:Cell Row="980" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="981" Col="0" ValueType="60">\bideologues</gnm:Cell>
+        <gnm:Cell Row="981" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="982" Col="0" ValueType="60">\bnutjob</gnm:Cell>
+        <gnm:Cell Row="982" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="983" Col="0" ValueType="60">\bnutjobs</gnm:Cell>
+        <gnm:Cell Row="983" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="984" Col="0" ValueType="60">\bnut</gnm:Cell>
+        <gnm:Cell Row="984" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="985" Col="0" ValueType="60">\bnuts</gnm:Cell>
+        <gnm:Cell Row="985" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="986" Col="0" ValueType="60">\bthug</gnm:Cell>
+        <gnm:Cell Row="986" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="987" Col="0" ValueType="60">\bthugs</gnm:Cell>
+        <gnm:Cell Row="987" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="988" Col="0" ValueType="60">\bzealot</gnm:Cell>
+        <gnm:Cell Row="988" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="989" Col="0" ValueType="60">\bzealots</gnm:Cell>
+        <gnm:Cell Row="989" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="990" Col="0" ValueType="60">\bzealotry</gnm:Cell>
+        <gnm:Cell Row="990" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="991" Col="0" ValueType="60">\bnitwit</gnm:Cell>
+        <gnm:Cell Row="991" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="992" Col="0" ValueType="60">\bnitwits</gnm:Cell>
+        <gnm:Cell Row="992" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="993" Col="0" ValueType="60">\btrash</gnm:Cell>
+        <gnm:Cell Row="993" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="994" Col="0" ValueType="60">\bhippie</gnm:Cell>
+        <gnm:Cell Row="994" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="995" Col="0" ValueType="60">\bhippies</gnm:Cell>
+        <gnm:Cell Row="995" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="996" Col="0" ValueType="60">\bscum</gnm:Cell>
+        <gnm:Cell Row="996" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="997" Col="0" ValueType="60">\bcrony</gnm:Cell>
+        <gnm:Cell Row="997" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="998" Col="0" ValueType="60">\bcronies</gnm:Cell>
+        <gnm:Cell Row="998" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="999" Col="0" ValueType="60">\blemming</gnm:Cell>
+        <gnm:Cell Row="999" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1000" Col="0" ValueType="60">\blemmings</gnm:Cell>
+        <gnm:Cell Row="1000" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1001" Col="0" ValueType="60">\bloser</gnm:Cell>
+        <gnm:Cell Row="1001" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1002" Col="0" ValueType="60">\blosers</gnm:Cell>
+        <gnm:Cell Row="1002" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1003" Col="0" ValueType="60">\bbigot</gnm:Cell>
+        <gnm:Cell Row="1003" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1004" Col="0" ValueType="60">\bbigots</gnm:Cell>
+        <gnm:Cell Row="1004" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1005" Col="0" ValueType="60">\bbigoted</gnm:Cell>
+        <gnm:Cell Row="1005" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1006" Col="0" ValueType="60">\bwacko</gnm:Cell>
+        <gnm:Cell Row="1006" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1007" Col="0" ValueType="60">\bwackos</gnm:Cell>
+        <gnm:Cell Row="1007" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1008" Col="0" ValueType="60">\bblowhard</gnm:Cell>
+        <gnm:Cell Row="1008" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1009" Col="0" ValueType="60">\bblowhards</gnm:Cell>
+        <gnm:Cell Row="1009" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1010" Col="0" ValueType="60">\bmisogynist</gnm:Cell>
+        <gnm:Cell Row="1010" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1011" Col="0" ValueType="60">\bmisogynists</gnm:Cell>
+        <gnm:Cell Row="1011" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1012" Col="0" ValueType="60">\bobstructionist</gnm:Cell>
+        <gnm:Cell Row="1012" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1013" Col="0" ValueType="60">\bobstructionists</gnm:Cell>
+        <gnm:Cell Row="1013" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1014" Col="0" ValueType="60">\bfanatic</gnm:Cell>
+        <gnm:Cell Row="1014" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1015" Col="0" ValueType="60">\bfanatics</gnm:Cell>
+        <gnm:Cell Row="1015" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1016" Col="0" ValueType="60">\bfanatical</gnm:Cell>
+        <gnm:Cell Row="1016" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1017" Col="0" ValueType="60">\brubish</gnm:Cell>
+        <gnm:Cell Row="1017" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1018" Col="0" ValueType="60">\bnutty</gnm:Cell>
+        <gnm:Cell Row="1018" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1019" Col="0" ValueType="60">\bunhinged</gnm:Cell>
+        <gnm:Cell Row="1019" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1020" Col="0" ValueType="60">\bfaintest</gnm:Cell>
+        <gnm:Cell Row="1020" Col="1" ValueType="60">(offensive, e.g., faintest clue, faintest idea)</gnm:Cell>
+        <gnm:Cell Row="1021" Col="0" ValueType="60">\bunconscionable</gnm:Cell>
+        <gnm:Cell Row="1021" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1022" Col="0" ValueType="60">\bshitshow</gnm:Cell>
+        <gnm:Cell Row="1022" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1023" Col="0" ValueType="60">\bshameful</gnm:Cell>
+        <gnm:Cell Row="1023" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1024" Col="0" ValueType="60">\brip off</gnm:Cell>
+        <gnm:Cell Row="1024" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1025" Col="0" ValueType="60">\brip-off</gnm:Cell>
+        <gnm:Cell Row="1025" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1026" Col="0" ValueType="60">\bripoff</gnm:Cell>
+        <gnm:Cell Row="1026" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1027" Col="0" ValueType="60">\bhuge mistake</gnm:Cell>
+        <gnm:Cell Row="1027" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1028" Col="0" ValueType="60">\bcopycat</gnm:Cell>
+        <gnm:Cell Row="1028" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1029" Col="0" ValueType="60">\bshameless</gnm:Cell>
+        <gnm:Cell Row="1029" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1030" Col="0" ValueType="60">\bshamelessly</gnm:Cell>
+        <gnm:Cell Row="1030" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1031" Col="0" ValueType="60">\bblunder</gnm:Cell>
+        <gnm:Cell Row="1031" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1032" Col="0" ValueType="60">\bblunders</gnm:Cell>
+        <gnm:Cell Row="1032" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1033" Col="0" ValueType="60">\bpreposterous</gnm:Cell>
+        <gnm:Cell Row="1033" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1034" Col="0" ValueType="60">\bpreposterously</gnm:Cell>
+        <gnm:Cell Row="1034" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1035" Col="0" ValueType="60">\bparrot</gnm:Cell>
+        <gnm:Cell Row="1035" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1036" Col="0" ValueType="60">\bparrots</gnm:Cell>
+        <gnm:Cell Row="1036" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1037" Col="0" ValueType="60">\bparroted</gnm:Cell>
+        <gnm:Cell Row="1037" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1038" Col="0" ValueType="60">\bderided</gnm:Cell>
+        <gnm:Cell Row="1038" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1039" Col="0" ValueType="60">\bderides</gnm:Cell>
+        <gnm:Cell Row="1039" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1040" Col="0" ValueType="60">\bderiding</gnm:Cell>
+        <gnm:Cell Row="1040" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1041" Col="0" ValueType="60">\btravesty</gnm:Cell>
+        <gnm:Cell Row="1041" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1042" Col="0" ValueType="60">\bvomit</gnm:Cell>
+        <gnm:Cell Row="1042" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1043" Col="0" ValueType="60">\bbizarre</gnm:Cell>
+        <gnm:Cell Row="1043" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1044" Col="0" ValueType="60">\bcross your mind</gnm:Cell>
+        <gnm:Cell Row="1044" Col="1" ValueType="60">(e.g., did the thought ever cross your mind)</gnm:Cell>
+        <gnm:Cell Row="1045" Col="0" ValueType="60">\bcrossed your mind</gnm:Cell>
+        <gnm:Cell Row="1045" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1046" Col="0" ValueType="60">\bcross their mind</gnm:Cell>
+        <gnm:Cell Row="1046" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1047" Col="0" ValueType="60">\bcrossed their mind</gnm:Cell>
+        <gnm:Cell Row="1047" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1048" Col="0" ValueType="60">\bvicious</gnm:Cell>
+        <gnm:Cell Row="1048" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1049" Col="0" ValueType="60">\bdehumanizing</gnm:Cell>
+        <gnm:Cell Row="1049" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1050" Col="0" ValueType="60">\btroubling</gnm:Cell>
+        <gnm:Cell Row="1050" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1051" Col="0" ValueType="60">\btroubles</gnm:Cell>
+        <gnm:Cell Row="1051" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1052" Col="0" ValueType="60">\btroubled</gnm:Cell>
+        <gnm:Cell Row="1052" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1053" Col="0" ValueType="60">\biconoclast</gnm:Cell>
+        <gnm:Cell Row="1053" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1054" Col="0" ValueType="60">\biconoclasts</gnm:Cell>
+        <gnm:Cell Row="1054" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1055" Col="0" ValueType="60">\biconoclastic</gnm:Cell>
+        <gnm:Cell Row="1055" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1056" Col="0" ValueType="60">\breplete</gnm:Cell>
+        <gnm:Cell Row="1056" Col="1" ValueType="60">(replete with errors)</gnm:Cell>
+        <gnm:Cell Row="1057" Col="0" ValueType="60">\bgibberish</gnm:Cell>
+        <gnm:Cell Row="1057" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1058" Col="0" ValueType="60">\babsurdity</gnm:Cell>
+        <gnm:Cell Row="1058" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1059" Col="0" ValueType="60">\binane</gnm:Cell>
+        <gnm:Cell Row="1059" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1060" Col="0" ValueType="60">\bvapid</gnm:Cell>
+        <gnm:Cell Row="1060" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1061" Col="0" ValueType="60">\bpointless</gnm:Cell>
+        <gnm:Cell Row="1061" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1062" Col="0" ValueType="60">\bworthless</gnm:Cell>
+        <gnm:Cell Row="1062" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1063" Col="0" ValueType="60">\bhokum</gnm:Cell>
+        <gnm:Cell Row="1063" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1064" Col="0" ValueType="60">\bcryptic</gnm:Cell>
+        <gnm:Cell Row="1064" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1065" Col="0" ValueType="60">\bdrivel</gnm:Cell>
+        <gnm:Cell Row="1065" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1066" Col="0" ValueType="60">\bnot even wrong</gnm:Cell>
+        <gnm:Cell Row="1066" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1067" Col="0" ValueType="60">\bpoppycock</gnm:Cell>
+        <gnm:Cell Row="1067" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1068" Col="0" ValueType="60">\binsipid</gnm:Cell>
+        <gnm:Cell Row="1068" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1069" Col="0" ValueType="60">\buninspired</gnm:Cell>
+        <gnm:Cell Row="1069" Col="1" ValueType="60">(offensive)</gnm:Cell>
+        <gnm:Cell Row="1070" Col="0" ValueType="60">\briddled</gnm:Cell>
+        <gnm:Cell Row="1070" Col="1" ValueType="60">(offensive)</gnm:Cell>
+      </gnm:Cells>
+      <gnm:SheetLayout TopLeft="A185"/>
+      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
+    </gnm:Sheet>
+  </gnm:Sheets>
+  <gnm:UIData SelectedTab="0"/>
+</gnm:Workbook>

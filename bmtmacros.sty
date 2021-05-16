@@ -1,0 +1,361 @@
+% Copyright 2021 Ben Trettel.
+% This file is part of bmtreport <https://github.com/btrettel/bmtreport>.
+% 
+% bmtreport is free software: you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation, either version 3 of the License, or
+% (at your option) any later version.
+% 
+% bmtreport is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+% 
+% You should have received a copy of the GNU General Public License
+% along with bmtreport.  If not, see <https://www.gnu.org/licenses/>.
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{bmtmacros}[2021/05/15 BMT macros]
+
+% ## Bibliography macros
+
+% TODO: Look into adding input validation for these. Limited character sets?
+% TODO: Check that provided page ranges are within the page limits provided? Too complicated for now, though would probably catch some typos and be educational.
+
+% Some comments about custom fields here:
+% https://tex.stackexchange.com/questions/466407/compilation-fails-with-biblatex-source-map-but-works-if-bib-file-is-modified
+
+% Add macros for OCLC, MR, Zbl, etc.
+\newcommand*{\DOI}[1]{DOI: \href{https://dx.doi.org/#1}{\nolinkurl{#1}}} % https://tex.stackexchange.com/a/111701/9945
+\newrobustcmd*{\OCLClink}[1]{\href{https://www.worldcat.org/oclc/#1}{#1}\RequirePosInt{#1}}
+\newrobustcmd*{\OCLC}[1]{OCLC: \OCLClink{#1}}
+\newcommand*{\NTIS}[1]{NTIS: \href{https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/#1.xhtml}{#1}}
+\newcommand*{\LCCN}[1]{LCCN: \href{https://lccn.loc.gov/#1}{#1}}
+\newcommand*{\ISSN}[1]{ISSN: \href{https://www.worldcat.org/search?q=issn\%3A#1}{#1}}
+\newcommand*{\BL}[1]{British Library: \href{http://explore.bl.uk/BLVU1:LSCOP-ALL:#1}{#1}} % HTTPS does not work as of 2018-11-09.
+\newcommand*{\RSL}[1]{Russian State Library: \url{https://search.rsl.ru/en/record/#1}}
+\newcommand*{\AtDLCTRS}{(In the Library of Congress Technical Reports \& Standards collection.)}
+\newcommand*{\AtDLCTRSand}[1]{(In the Library of Congress Technical Reports \& Standards collection#1.)}
+\newcommand*{\underPB}{ under the PB number}
+\newcommand*{\archived}[2]{archived at \url{#1} on #2}
+\newcommand*{\Archived}[2]{Archived at \url{#1} on #2}
+\newcommand*{\Abstractat}[1]{Abstract at: \url{#1}}
+\newcommand*{\Abstractof}[1]{Abstract of: \fullcite{#1}\mybibexclude{#1}}
+\newcommand*{\Abstract}{Abstract: }
+\newcommand*{\Abstracts}{Abstracts: }
+\newcommand*{\Discussion}[1]{Discussion: \cite{#1}}
+\newcommand*{\citebib}[2]{\cite[#2]{#1}}
+\newcommand*{\AlternativeURL}[1]{Alternative URL: \url{#1}}
+\newcommand*{\AlternativeURLs}[2]{Alternative URLs: \url{#1}, \url{#2}}
+\newcommand*{\Paperno}[1]{Paper no.\ #1}
+\newcommand*{\Alsosee}[1]{Also see: \fullcite{#1}\mybibexclude{#1}}
+\newcommand*{\Alsoseecite}[1]{Also see: \cite{#1}}
+\newcommand*{\Alsoseecorrections}[1]{Also see the corrections noted by: \cite{#1}}
+\newcommand*{\Alsoseetrans}[1]{Also see the additional translation: \fullcite{#1}\mybibexclude{#1}}
+\newcommand*{\Extendedversion}[1]{Extended version of: \fullcite{#1}\mybibexclude{#1}}
+\newcommand*{\SlidesURL}[1]{Slides at: \url{#1}}
+%\newcommand*{\Erratum}[1]{Erratum-ibid.\ \fullcite{#1}\mybibexclude{#1}}
+\newcommand*{\Errata}[1]{Errata: #1}
+\newcommand*{\Errataextra}[2]{Errata#2: #1}
+\newcommand*{\ErrataURL}[1]{\Errata{\url{#1}}}
+\newcommand*{\ErrataURLextra}[2]{\Errataextra{\url{#1}}{#2}}
+\newcommand*{\Erratacite}[1]{\Errata{\fullcite{#1}\mybibexclude{#1}}}
+\newcommand*{\Authoremail}[1]{(Available from the author: \href{mailto:#1}{#1}.)}
+\newcommand*{\DocUUID}[1]{Document UUID: #1}
+\newcommand*{\SVNrev}[1]{SVN revision no.: #1}
+\newcommand*{\SLA}[2]{\cite[p.~#2]{dejuhasz_spray_#1}}
+\newcommand*{\SLApp}[2]{\cite[pp.~#2]{dejuhasz_spray_#1}}
+\newcommand*{\FOI}[2]{Obtained via FOI request number #2 to #1.}
+\newcommand*{\FOIA}[2]{Obtained via FOIA request number #2 to #1.}
+\newcommand*{\FOIAonline}[1]{\href{https://www.foiaonline.gov/foiaonline/action/public/submissionDetails?trackingNumber=#1\&type=request}{#1}}
+\newrobustcmd*{\MR}[1]{MR: \href{https://mathscinet.ams.org/mathscinet-getitem?mr=#1}{#1}\RequirePosInt{#1}}
+\newcommand*{\Zbl}[1]{Zbl: \href{https://zbmath.org/?q=an:#1}{#1}}
+\newcommand*{\TT}[1]{TT: #1}
+\newcommand*{\TTsource}[2]{\TT{#1} (#2)}
+\newcommand*{\TTsourceURL}[3]{\TT{\href{#3}{#1}} (#2)}
+\newrobustcmd*{\PB}[1]{PB: #1\RequirePosInt{#1}}
+\newcommand*{\DTIC}[1]{DTIC: #1}
+\newcommand*{\DTIClink}[1]{\DTIC{\url{https://apps.dtic.mil/docs/citations/#1}}}
+\newcommand*{\NASA}[1]{NASA: #1}
+\newrobustcmd*{\JPRS}[1]{JPRS: #1\RequirePosInt{#1}}
+\newrobustcmd*{\ATI}[1]{DTIC ATI: #1\RequirePosInt{#1}}
+\newrobustcmd*{\TIP}[1]{DTIC TIP: U#1\RequirePosInt{#1}}
+\newrobustcmd*{\ARC}[1]{ARC: #1\RequirePosInt{#1}}
+\newcommand*{\Addno}[1]{Additional report number: #1}
+\newcommand*{\EnglishAbstract}{Includes English abstract.}
+\newcommand*{\PubPeer}[1]{PubPeer: \href{https://pubpeer.com/publications/#1}{#1}} % This produced very long links that are unlikely to break correctly.
+%\newcommand*{\PubPeer}[1]{PubPeer: \PubPeerURL{\citefield{#1}{doi}}}
+%\newcommand*{\PubPeerURL}[1]{\url{https://pubpeer.com/search?q=#1}}
+%\newcommand*{\PubPeer}[1]{PubPeer: \url{https://pubpeer.com/search?q=#1}}
+\newcommand*{\TNA}[2]{The National Archives (UK): \href{#2}{#1}}
+\newcommand*{\NARA}[1]{NARA identifier: \href{https://catalog.archives.gov/id/#1}{#1}}
+\newcommand*{\CA}[1]{Chemical Abstracts: #1}
+
+\DeclareBibliographyCategory{ignore}
+\newcommand{\mybibexclude}[1]{\addtocategory{ignore}{#1}}
+
+% ## Math macros
+
+% for ensemble averages
+% TODO: Convert to \DeclarePairedDelimiter?
+\newcommand{\avg}[1]{\left\langle #1 \right\rangle}
+\newcommand{\savg}[1]{\langle #1 \rangle}
+% https://tex.stackexchange.com/q/448/9945
+\newcommand{\cavg}[2]{\left\langle #1 \ \middle|\ #2 \right\rangle}
+% https://tex.stackexchange.com/q/187162/9945
+\newcommand{\scavg}[2]{\langle #1 \mid #2 \rangle}
+
+% for thermodynamic partial derivatives
+\newcommand{\dpdc}[3]{\left(\dpd{#1}{#2}\right)_{#3}}
+
+% for material derivatives
+\newcommand{\D}[2]{\frac{\Dif\kern1pt#1}{\Dif\kern1pt#2}}
+
+% inline derivatives
+\newcommand{\ipd}[2]{\partial\kern1pt#1 / \partial\kern1pt#2}
+\newcommand{\iod}[2]{\dif\kern1pt#1 / \dif\kern1pt#2}
+\newcommand{\iosecd}[2]{\dif^{\kern2pt 2}\kern-2pt#1 / \dif\kern1pt#2^2}
+
+% make \e be the same as \cdot 10^
+\providecommand{\e}[1]{\ensuremath{\cdot 10^{#1}}}
+
+% new math operators
+\DeclareMathOperator{\sgn}{sgn}
+\newcommand{\vectornorm}[1]{\left|\left|\mathrmbf{#1}\right|\right|}
+\DeclareMathOperator{\atan}{atan}
+\DeclareMathOperator{\erf}{erf}
+\DeclareMathOperator{\erfinv}{erfinv}
+\DeclareMathOperator{\LambertW}{W}
+\newcommand{\mytilde}{~\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}~}
+\newcommand{\Order}[1]{\ensuremath{\mathcal{O}\left(#1\right)}}
+\newcommand{\Ordersb}[1]{\ensuremath{\mathcal{O}\left[#1\right]}}
+\newcommand{\sOrder}[1]{\ensuremath{\mathcal{O}(#1)}}
+%\DeclarePairedDelimiter\abs{\lvert}{\rvert}% https://tex.stackexchange.com/a/43009/9945
+%\newcommand{\abs}[1]{\lvert#1\rvert}
+
+\newcommand{\Bo}{\mathrm{Bo}}
+\newcommand{\Ec}{\mathrm{Ec}}
+\newcommand{\Fr}{\mathrm{Fr}}
+\newcommand{\Oh}{\mathrm{Oh}}
+\newcommand{\Pe}{\mathrm{Pe}}
+\renewcommand{\Pr}{\mathrm{Pr}}
+\newcommand{\Real}{\Re~}
+\renewcommand{\Re}{\mathrm{Re}}
+\newcommand{\Tu}{\mathrm{Tu}}
+\newcommand{\We}{\mathrm{We}}
+\newcommand{\Ma}{\mathrm{Ma}}
+
+\newcommand{\Tubar}{\overline{\Tu}}
+\newcommand{\Lambdabar}{\overline{\Lambda}}
+\newcommand{\Ubar}{\overline{U}}
+\newcommand{\kbar}{\overline{k}}
+\newcommand{\epsbar}{\overline{\varepsilon}}
+\newcommand{\ebar}{\overline{e}} % used for turbulent initial disturbance level theory in CDRSV review section
+
+%\newcommand{\Unet}{\mathcal{U}}
+\newcommand{\Unet}{U_\text{net}}
+
+\newcommand{\Relo}{\Re_{\ell0}}
+\newcommand{\Welo}{\We_{\ell0}}
+\newcommand{\Wego}{\We_{\text{g}0}}
+\newcommand{\Ohlo}{\Oh_{\ell0}}
+\newcommand{\Welocrit}{\We_{\ell0,\text{crit}}}
+\newcommand{\Wegocrit}{\We_{\text{g}0,\text{crit}}}
+\newcommand{\Relocrit}{\Re_{\ell0,\text{crit}}}
+\newcommand{\Relotrans}{\Re_{\ell0,\text{trans}}}
+\newcommand{\Reloturb}{\Re_{\ell0,\text{turb}}}
+\newcommand{\rhol}{\rho_{\ell}}
+\newcommand{\rhog}{\rho_\text{g}}
+\newcommand{\nul}{\nu_{\ell}}
+\newcommand{\nug}{\nu_\text{g}}
+\newcommand{\mul}{\mu_{\ell}}
+\newcommand{\mug}{\mu_\text{g}}
+\newcommand{\Prl}{\Pr_\ell}
+% also need to change trajectory and jet breakup scripts when changing these
+% 2018-11-30: search for _\text{l
+
+\newcommand{\xbavg}{\savg{x_\text{b}}}
+\newcommand{\tbavg}{\savg{t_\text{b}}}
+\newcommand{\sigmaxb}{\sigma_{x_\text{b}}}
+\newcommand{\xiavg}{\savg{x_\text{i}}}
+\newcommand{\thetai}{{\theta_\text{i}}}
+\newcommand{\udavg}{\savg{u_\text{d}}}
+\newcommand{\vdavg}{\savg{v_\text{d}}}
+\newcommand{\Dmax}{D_\text{max}}
+\newcommand{\Frh}{\Fr_{h_0}}
+\newcommand{\Xb}{X_\text{b}}
+\newcommand{\Yb}{Y_\text{b}}
+\newcommand{\Ub}{U_\text{b}}
+\newcommand{\Ubvec}{\vec{U}_\text{b}}
+\newcommand{\Vb}{V_\text{b}}
+\newcommand{\Ud}{U_\text{d}}
+\newcommand{\Udvec}{\vec{U}_\text{d}}
+\newcommand{\Vd}{V_\text{d}}
+\newcommand{\Xd}{X_\text{d}}
+\newcommand{\Xdvec}{\vec{X}_\text{d}}
+\newcommand{\Yd}{Y_\text{d}}
+\newcommand{\Ugvec}{\vec{U}_\text{g}}
+\newcommand{\Vg}{V_\text{g}}
+\newcommand{\Uj}{U_\text{j}}
+\newcommand{\Vj}{V_\text{j}}
+\newcommand{\Xj}{X_\text{j}}
+\newcommand{\Yj}{Y_\text{j}}
+\newcommand{\Ad}{A_\text{d}}
+\newcommand{\mdrop}{m_\text{d}}
+\newcommand{\Cd}{C_\text{d}}
+\newcommand{\taumax}{\tau_\text{max}}
+\newcommand{\Relxtrans}{\Re_{\ell{}x,\text{trans}}}
+\newcommand{\xtrans}{x_\text{trans}}
+\newcommand{\Frr}{\Fr_\text{r}}
+\newcommand{\dr}{d_\text{r}}
+\newcommand{\utau}{u_\tau}
+\newcommand{\utauo}{u_{\tau,0}}
+% TODO: tan theta_i/2
+% TODO: x_\text{b}
+% TODO: x_\text{i}
+% TODO: \overline{\varepsilon}
+
+\newcommand{\Range}{R}
+\newcommand{\height}{h}
+\newcommand{\etaR}{\eta_R}
+\newcommand{\etah}{\eta_h}
+\newcommand{\Rs}{R^*}
+\newcommand{\hs}{h^*}
+
+\newcommand{\CLR}{C_\text{LR}}
+\newcommand{\CTR}{C_\text{TR}}
+
+\newcommand{\uprime}{{u^\prime}}
+\newcommand{\vprime}{{v^\prime}}
+\newcommand{\wprime}{{w^\prime}}
+\newcommand{\uprimesub}[1]{u^\prime_{#1}}
+\newcommand{\vprimesub}[1]{v^\prime_{#1}}
+\newcommand{\uprimebar}[1]{\overline{\uprimesub{#1}}}
+\newcommand{\uprimebarno}[1]{\overline{\uprime}}
+\newcommand{\vprimebar}[1]{\overline{\vprimesub{#1}}}
+\newcommand{\vprimebarno}{\overline{\vprime}}
+\newcommand{\Tuexp}[1]{\Tu_0^{#1}}
+\newcommand{\Tubarexp}[1]{\Tubar_0^{\kern1.0pt #1}}
+\newcommand{\mdotp}{\dot{m}^{\prime}}
+\newcommand{\mdotpp}{\dot{m}^{\prime\prime}}
+\newcommand{\avgmdotpp}{\savg{\mdotpp}}
+
+% https://tex.stackexchange.com/a/69017
+\makeatletter
+\DeclareRobustCommand{\Vol}{\text{\volumedash}V}
+\newcommand{\volumedash}{%
+  \makebox[0pt][l]{%
+    \ooalign{\hfil\hphantom{$\m@th V$}\hfil\cr\kern0.08em--\hfil\cr}%
+  }%
+}
+\makeatother
+%\newcommand{\Vol}{\rotatebox[origin=c]{180}{\ensuremath{A}}}
+\newcommand{\Volsub}{\Vol}
+\newcommand{\Volsubsub}{\Vol}
+
+% very large manually set bracket size
+% https://tex.stackexchange.com/a/6796
+\makeatletter
+\newcommand{\vast}{\bBigg@{3}}
+\newcommand{\Vast}{\bBigg@{4}}
+\makeatother
+
+% stacked text for underbraces
+\newcommand{\ubtext}[2]{\stackrel{\text{\scriptsize#1}}{\text{\scriptsize#2}}}
+
+% approximately proportional to symbol
+% from https://tex.stackexchange.com/questions/33538/how-to-get-an-approximately-proportional-to-symbol
+\newcommand{\appropto}{\mathrel{\vcenter{
+  \offinterlineskip\halign{\hfil$##$\cr
+    \propto\cr\noalign{\kern2pt}\sim\cr\noalign{\kern-2pt}}}}}
+
+\newcommand*{\cancelzero}[1]{\cancelto{\scriptstyle 0}{#1}}
+
+%% closed square, cube, etc., roots
+%% https://tex.stackexchange.com/questions/29834/closed-square-root-symbo
+%\let\oldsqrt\sqrt
+%% it defines the new \sqrt in terms of the old one
+%\def\sqrt{\mathpalette\DHLhksqrt}
+%\def\DHLhksqrt#1#2{%
+%\setbox0=\hbox{$#1\oldsqrt{#2\,}$}\dimen0=\ht0
+%\advance\dimen0-0.2\ht0
+%\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+%{\box0\lower0.4pt\box2}}
+
+% These are environments for equation, equation*, align, and align* that have not yet been checked by DOUBTS. These will return a warning unless changed to their corresponding real environment.
+\newenvironment{uncheckedequation}
+{\begin{equation}}
+{\end{equation}\PackageWarning{DOUBTS}{Check with DOUBTS.}}
+
+\newenvironment{uncheckedequation*}
+{\begin{equation*}}
+{\end{equation}\PackageWarning{DOUBTS}{Check with DOUBTS.}}
+
+\newenvironment{uncheckedalign}
+{\begin{align}}
+{\end{align}\PackageWarning{DOUBTS}{Check with DOUBTS.}}
+
+\newenvironment{uncheckedalign*}
+{\begin{align*}}
+{\end{align*}\PackageWarning{DOUBTS}{Check with DOUBTS.}}
+
+\newcommand*{\tripleprime}{\prime\prime\prime}
+
+% https://tex.stackexchange.com/a/97246/9945
+\DeclareMathOperator{\sech}{sech}
+\DeclareMathOperator{\csch}{csch}
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+\DeclareMathOperator{\arccosh}{arccosh}
+\DeclareMathOperator{\arcsinh}{arcsinh}
+\DeclareMathOperator{\arctanh}{arctanh}
+\DeclareMathOperator{\arcsech}{arcsech}
+\DeclareMathOperator{\arccsch}{arccsch}
+\DeclareMathOperator{\arccoth}{arccoth} 
+
+% ## Misc. macros
+
+\newcommand{\codesnipplet}[1]{\texttt{#1}}
+
+% https://blog.roland-kluge.de/?p=720
+% https://github.com/GNUAspell/aspell/issues/305
+% Don't check a section with aspell.
+\newcommand{\aspellskip}[1]{#1}
+\newcommand{\aspellskipinput}[1]{\input{#1}}
+
+% ## Reference macros
+
+% convenient commands for referencing equations, figures, and tables
+
+\renewcommand*{\eqref}[1]{equation~\ref{eqn:#1}}
+\newcommand*{\Eqref}[1]{Equation~\ref{eqn:#1}}
+\newcommand*{\eqsref}[2]{equations~\ref{eqn:#1}~and~\ref{eqn:#2}}
+\newcommand*{\Eqsref}[2]{Equations~\ref{eqn:#1}~and~\ref{eqn:#2}}
+\newcommand*{\eqssref}[3]{equations~\ref{eqn:#1},~\ref{eqn:#2},~and~\ref{eqn:#3}}
+\newcommand*{\Eqssref}[3]{Equations~\ref{eqn:#1},~\ref{eqn:#2},~and~\ref{eqn:#3}}
+\newcommand*{\eqsthref}[2]{equations~\ref{eqn:#1}~through~\ref{eqn:#2}}
+
+\renewcommand*{\figref}[1]{figure~\ref{fig:#1}}
+\newcommand*{\Figref}[1]{Figure~\ref{fig:#1}}
+\newcommand*{\figsref}[2]{figures~\ref{fig:#1}~and~\ref{fig:#2}}
+\newcommand*{\Figsref}[2]{Figures~\ref{fig:#1}~and~\ref{fig:#2}}
+\newcommand*{\figsthref}[2]{figures~\ref{fig:#1}~through~\ref{fig:#2}}
+\newcommand*{\Figsthref}[2]{Figures~\ref{fig:#1}~through~\ref{fig:#2}}
+
+\newcommand*{\tabref}[1]{table~\ref{tab:#1}}
+\newcommand*{\Tabref}[1]{Table~\ref{tab:#1}}
+\newcommand*{\tabsref}[2]{tables~\ref{tab:#1}~and~\ref{tab:#2}}
+\newcommand*{\Tabsref}[2]{Tables~\ref{tab:#1}~and~\ref{tab:#2}}
+
+\renewcommand*{\secref}[1]{\S~\ref{sec:#1}}
+\newcommand*{\Secref}[1]{\S~\ref{sec:#1}}
+\newcommand*{\chapref}[1]{chapter~\ref{chap:#1}}
+\newcommand*{\Chapref}[1]{Chapter~\ref{chap:#1}}
+\newcommand*{\chapsref}[2]{chapters~\ref{chap:#1}~and~\ref{chap:#2}}
+%\newcommand*{\chapsecref}[2]{chapter~\ref{chap:#1}, \secref{#2}}
+\newcommand*{\Appref}[1]{Appendix~\ref{chap:#1}}
+\renewcommand*{\appref}[1]{appendix~\ref{chap:#1}}
+
+\newcommand*{\fnref}[1]{footnote~\ref{fn:#1}}
+\newcommand*{\fnpageref}[1]{\fnref{#1} on page~\pageref{fn:#1}}

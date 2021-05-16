@@ -9,6 +9,9 @@ sudo ln -s ~/repos/bmtreport/diction/titles.diction /usr/share/diction/titles
 sudo ln -s ~/repos/bmtreport/diction/bmt.diction /usr/share/diction/bmt
 sudo ln -s ~/repos/bmtreport/bmt.mk /usr/local/include/
 ln -s ~/repos/bmtreport/bmtreport.cls ~/texmf/tex/latex/
+ln -s ~/repos/bmtreport/bmtmacros.sty ~/texmf/tex/latex/
+ln -s ~/repos/bmtreport/bmtslides.cls ~/texmf/tex/latex/
+texhash
 ```
 
 ### Details for diction
