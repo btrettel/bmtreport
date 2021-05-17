@@ -34,6 +34,8 @@ check: $(key).tex
 	detex -n $(key).tex > $(key).txt
 	test -f $(key).diction && diction -sn -f $(key).diction $(key).txt || true
 	#diction -s -L bmt $(key).txt
+	
+	# Put whether to run on additional diction files in $(key).sh.
 	test -f $(key).sh && ./$(key).sh $(key).tex || true
 
 .PHONY: again
@@ -41,6 +43,10 @@ again: $(key).tex
 	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
 	biber $(key) --validate-datamodel --fixinits --isbn13 --isbn-normalise
 	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
+	lualatex --halt-on-error $(key).tex
+
+.PHONY: once
+once: $(key).tex
 	lualatex --halt-on-error $(key).tex
 
 .PHONY: todo
