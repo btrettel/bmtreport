@@ -22,8 +22,10 @@
 
 \newtoggle{revnoset}
 \togglefalse{revnoset}
+\newtoggle{doiset}
+\togglefalse{doiset}
 
-\LoadClass[final]{beamer}
+\LoadClass[t]{beamer}
 
 \newcommand*{\asserttoggletrue}[1]{\iftoggle{#1}{}{\PackageError{asserts}{Toggle expected to be true but not: #1}{}}}
 \newcommand*{\asserttogglefalse}[1]{\iftoggle{#1}{\PackageError{asserts}{Toggle expected to be false but not: #1}{}}{}}
@@ -95,8 +97,8 @@ end
    \RequirePackage{unicode-math}
    \RequirePackage{lualatex-math}
    
-   \setmainfont{FiraMath}
-   \setsansfont{FiraMath}
+   \setmainfont{FiraSans}
+   \setsansfont{FiraSans} % FiraMath has no bold.
    \setmathfont{FiraMath}
    
    %\setmainfont{Open Sans}
@@ -164,6 +166,11 @@ end
    \newcommand*{\docnumber}{#2}
    \ifstrempty{#1}{}{\toggletrue{revnoset}\newcommand*{\revno}{#1}}
    }
+\newcommand*{\setdoi}[1]{%
+   \assertnonempty{#1}%
+   \gdef\thedoi{\DOI{#1}}% needs to be defined with gdef as otherwise the scope would be limited to the environment
+   \global\toggletrue{doiset}%
+   }
 
 % https://www.semipol.de/2018/06/12/latex-best-practices.html#hyperlinks-to-floats-and-not-their-captions
 \RequirePackage{hypcap} % load after hyperref
@@ -223,13 +230,19 @@ end
 % Change frame total in Beamer footer to be last slide number
 % https://tex.stackexchange.com/a/333684
 \setbeamertemplate{footline}{%
-   \hfill% 
+   \large%
+   \hspace{1em}BMT-P-\docnumber%
+   \hfill%
+   \iftoggle{doiset}{\thedoi\hfill}{}%
    \usebeamercolor[fg]{page number in head/foot}% 
    \usebeamerfont{page number in head/foot}% 
    \large\insertframenumber%
-   \,/\,\inserttotalframenumber
-   \kern1em\vskip2pt% 
+   \,/\,\inserttotalframenumber%
+   \kern1em\vskip2pt%
 }
 
 \usetikzlibrary{patterns}
 \usetikzlibrary{shapes}
+
+% https://tex.stackexchange.com/q/11622/9945
+%\setlength{\parskip}{\baselineskip}
