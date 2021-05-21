@@ -25,7 +25,7 @@
   </gnm:Attributes>
   <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
     <office:meta>
-      <dc:date>2021-05-16T22:39:16Z</dc:date>
+      <dc:date>2021-05-20T23:47:23Z</dc:date>
       <meta:creation-date>2021-05-16T22:37:33Z</meta:creation-date>
     </office:meta>
   </office:document-meta>
@@ -33,7 +33,7 @@
   <gnm:SheetNameIndex>
     <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">titles.csv</gnm:SheetName>
   </gnm:SheetNameIndex>
-  <gnm:Geometry Width="636" Height="768"/>
+  <gnm:Geometry Width="1280" Height="770"/>
   <gnm:Sheets>
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
       <gnm:Name>titles.csv</gnm:Name>
@@ -80,7 +80,12 @@
         <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
       </gnm:PrintInformation>
       <gnm:Styles>
-        <gnm:StyleRegion startCol="0" startRow="0" endCol="255" endRow="65535">
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="255" endRow="65534">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="65535" endCol="255" endRow="65535">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -88,10 +93,10 @@
       </gnm:Styles>
       <gnm:Cols DefaultSizePts="48"/>
       <gnm:Rows DefaultSizePts="12.75">
-        <gnm:RowInfo No="95" Unit="13.5" Count="4"/>
+        <gnm:RowInfo No="95" Unit="13.5" Count="3"/>
       </gnm:Rows>
-      <gnm:Selections CursorCol="0" CursorRow="17">
-        <gnm:Selection startCol="0" startRow="17" endCol="0" endRow="17"/>
+      <gnm:Selections CursorCol="0" CursorRow="94">
+        <gnm:Selection startCol="0" startRow="94" endCol="0" endRow="94"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="0" ValueType="60">\badvance</gnm:Cell>
@@ -284,16 +289,14 @@
         <gnm:Cell Row="93" Col="1" ValueType="60">(clickbait)</gnm:Cell>
         <gnm:Cell Row="94" Col="0" ValueType="60">\byou see what</gnm:Cell>
         <gnm:Cell Row="94" Col="1" ValueType="60">(clickbait)</gnm:Cell>
-        <gnm:Cell Row="95" Col="0" ValueType="60">\bgreen</gnm:Cell>
+        <gnm:Cell Row="95" Col="0" ValueType="60">\befficient</gnm:Cell>
         <gnm:Cell Row="95" Col="1" ValueType="60">(puffery)</gnm:Cell>
-        <gnm:Cell Row="96" Col="0" ValueType="60">\befficient</gnm:Cell>
+        <gnm:Cell Row="96" Col="0" ValueType="60">\bsuperior</gnm:Cell>
         <gnm:Cell Row="96" Col="1" ValueType="60">(puffery)</gnm:Cell>
-        <gnm:Cell Row="97" Col="0" ValueType="60">\bsuperior</gnm:Cell>
+        <gnm:Cell Row="97" Col="0" ValueType="60">\benhanced</gnm:Cell>
         <gnm:Cell Row="97" Col="1" ValueType="60">(puffery)</gnm:Cell>
-        <gnm:Cell Row="98" Col="0" ValueType="60">\benhanced</gnm:Cell>
-        <gnm:Cell Row="98" Col="1" ValueType="60">(puffery)</gnm:Cell>
       </gnm:Cells>
-      <gnm:SheetLayout TopLeft="A1"/>
+      <gnm:SheetLayout TopLeft="A54"/>
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
     </gnm:Sheet>
   </gnm:Sheets>
