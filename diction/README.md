@@ -121,3 +121,24 @@ http://www.vox.com/science-and-health/2016/9/30/13077658/statcheck-psychology-re
 - <http://datacolada.org/9>
 - <https://scholar.google.com/scholar?cluster=995761586192180436&hl=en&as_sdt=0,44>
 - <TODO: http://bjgp.org/content/62/605/656>
+
+## TODO: patents
+
+Make patent drafting diction database. Put appropriate case law in the comment. Label as "patent profanity" as that term seems to be in common use. If unclear about why someone included a particular term, ask on the Patents Stack Exchange.
+
+- Google search for "patent profanity" (no quotes).
+- Include relative phrases.
+- <https://patents.stackexchange.com/questions/19186/why-not-refer-to-the-invention-as-the-invention>
+- <https://patents.stackexchange.com/a/3295>
+- <https://corridorlaw.com/words-to-avoid-when-filing-patent-applications/>
+- <https://krajec.com/prohibited-words-in-a-patent-must/>
+- <https://attorneyatlawmagazine.com/patent-profanity>
+- <https://sites.nd.edu/patentlaw/2013/02/04/patent-profanity-its-not-what-you-think/>
+- <https://web.archive.org/web/20090210131413/http://www.patentlyo.com/patent/2009/02/no-no-words-what-words-do-you-avoid-in-patent-applications.html>
+- <https://web.archive.org/web/20090211234220/http://www.patentlyo.com/patent/2009/02/no-no-words-what-words-do-you-avoid-in-patent-applications/comments/page/2/>
+- <https://web.archive.org/web/20090405094459/http://www.patentlyo.com/patent/2009/02/no-no-words-what-words-do-you-avoid-in-patent-applications/comments/page/3/>
+- <https://web.archive.org/web/20090406011742/http://www.patentlyo.com/patent/2009/02/no-no-words-what-words-do-you-avoid-in-patent-applications/comments/page/4/>
+- <https://patentablydefined.com/2007/05/21/prosecution-profanity-words-to-avoid-in-prosecution-part-1/>
+- <https://www.bpmlegal.com/content/howtopat7>
+- <https://ocpatentlawyer.com/lesson/word-invention/>
+- <https://www.finnegan.com/en/insights/articles/practical-considerations-and-strategies-in-drafting-u-s-patent.html>

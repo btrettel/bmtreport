@@ -16,3 +16,9 @@ do
    mv -f temp.csv $f
    python3 csv_to_diction.py $f
 done
+
+# spell check the diction files
+for f in *.diction
+do
+   aspell -c $f
+done

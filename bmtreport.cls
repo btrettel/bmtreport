@@ -505,6 +505,10 @@ end
             _,n_words = s:gsub("\%S+","")
             texio.write_nl("Abstract word count: ")
             texio.write(n_words)
+            % https://www.uspto.gov/web/offices/pac/mpep/s608.html#d0e44136
+            if n_words<50 then
+               tex.error("Abstract is under 50 words long")
+            end
             if n_words>150 then
                tex.error("Abstract is over 150 words long")
             end
