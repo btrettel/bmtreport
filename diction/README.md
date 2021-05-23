@@ -1,5 +1,7 @@
 # bmtreport diction files
 
+- TODO: Make *warning* diction file to identify things which are not necessarily wrong but could indicate that something is wrong. Run this less frequently; bmt.diction is intended to identify likely errors, not simply possible errors.
+
 ## text
 
 - TODO: Pinker talk: minimize hedging: somewhat, fairly, nearly, seemingly, in part, relatively, comparatively, predominantly, to some extent, so to speak, presumably, virtually, literally. Not sure I agree with him. I think hedging is honest.

@@ -33,10 +33,12 @@ check: $(key).tex
 	chktex -q -I0 -n1 -n2 -n44 -n25 $(key).tex
 	detex -n $(key).tex > $(key).txt
 	test -f $(key).diction && diction -sn -f $(key).diction $(key).txt || true
-	#diction -s -L bmt $(key).txt
+	#diction -s -L errors $(key).txt
 	
 	# Put whether to run on additional diction files in $(key).sh.
 	test -f $(key).sh && ./$(key).sh $(key).tex || true
+	
+	# TODO: spell check the bib file
 
 .PHONY: again
 again: $(key).tex

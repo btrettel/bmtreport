@@ -25,6 +25,8 @@ with open(sys.argv[1]) as csv_file:
       assert(len(row) == 3)
       assert(row[0] != '')
       assert(row[1] != '')
+      # TODO: assert('(' in row[1])
+      # TODO: assert(')' in row[1])
       assert(not('#' in row[0][1:]))
       if prev_first_col == row[0]:
          sys.exit('Duplicate: '+row[0]+' ('+sys.argv[1]+')')

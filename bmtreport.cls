@@ -70,23 +70,7 @@
 \ProcessOptions\relax
 \LoadClass[11pt,oneside]{article}
 
-% For type checking.
-% https://texfaq.org/FAQ-isitanum
-\def\IsPositive#1{
-  TT\fi
-  \ifcat_\ifnum0<0#1 _\else A\fi
-}
-\newcommand*{\RequirePosInt}[1]{
-   \if\IsPositive{#1}
-      \typeout{Is positive integer: #1}
-   \else
-      \PackageError{asserts}{Positive integer expected: #1}{}%
-   \fi
-}
-
-\newcommand*{\asserttoggletrue}[1]{\iftoggle{#1}{}{\PackageError{asserts}{Toggle expected to be true but not: #1}{}}}
-\newcommand*{\asserttogglefalse}[1]{\iftoggle{#1}{\PackageError{asserts}{Toggle expected to be false but not: #1}{}}{}}
-\newcommand*{\assertnonempty}[1]{\ifstrempty{#1}{\PackageError{asserts}{Expected to be not empty}{}}{}} % Works on arguments passed through macros, but not on macros themselves.
+\RequirePackage{asserts}
 
 % Adds \boldsymbol to make Greek letters bold in math mode
 \RequirePackage{amsbsy}
