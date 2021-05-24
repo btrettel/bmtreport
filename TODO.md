@@ -2,11 +2,11 @@
 
 ## Files
 
-- Add bmtslides.cls.
 - Add bmtcv.cls.
 - Finish make check.
 - Convert existing writing check file to a diction file.
 - DOUBTSS package
+- eqcheck Python package\; add to Python PATH
 
 ## bmtreport.cls
 
@@ -60,6 +60,20 @@
 - <https://tex.stackexchange.com/questions/84246/warnings-and-errors-highlighting-when-compiling-in-bash-environment>
 - Have local diction file to help catch issues specific to the local paper. local.diction. Make Makefile automatically recognize this and use it.
 
+### make arxiv
+
+- put everything in `arxiv/` directory
+- change absolute filenames to relative
+- <https://arxiv.org/help/faq/texlive>
+- Use specific versions of pdflatex and biber per <https://tex.stackexchange.com/a/467471/9945>.
+- <https://github.com/plk/biblatex/wiki/biblatex-and-the-arXiv>
+- <https://tex.stackexchange.com/a/271460/9945>
+- <https://github.com/djsutherland/arxiv-collector>
+   - Might be best to avoid external dependencies and use your own script for this.
+- <https://github.com/google-research/arxiv-latex-cleaner/>
+- <https://tex.stackexchange.com/q/358831/9945>
+- <https://tex.stackexchange.com/q/26990/9945>
+
 ### make check
 
 - Check text itself for particular phrases with diction and shell script for what diction can't handle. diction is preferred, however, as it can put the recommendations inline.
@@ -83,3 +97,4 @@
 - compile different specific test files to test different features, e.g., test each class option, e.g., have a file which will raise a warning to see if that leads to an error
 - Make tests to ensure that metadata is present, etc.
 - (manual test) Check XMP metadata in Adobe Acrobat on Windows.
+- Run chktex, lacheck, and TeXidate on class and style files.

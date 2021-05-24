@@ -5,8 +5,12 @@
 Modify depending on where you keep this repository. The following works for me.
 
 ```
-sudo ln -s ~/repos/bmtreport/diction/titles.diction /usr/share/diction/titles
 sudo ln -s ~/repos/bmtreport/diction/errors.diction /usr/share/diction/errors
+sudo ln -s ~/repos/bmtreport/diction/fluids.diction /usr/share/diction/fluids
+sudo ln -s ~/repos/bmtreport/diction/patents.diction /usr/share/diction/patents
+sudo ln -s ~/repos/bmtreport/diction/titles.diction /usr/share/diction/titles
+sudo ln -s ~/repos/bmtreport/diction/translations.diction /usr/share/diction/translations
+sudo ln -s ~/repos/bmtreport/diction/warnings.diction /usr/share/diction/warnings
 sudo ln -s ~/repos/bmtreport/bmt.mk /usr/local/include/
 ln -s ~/repos/bmtreport/asserts.sty ~/texmf/tex/latex/
 ln -s ~/repos/bmtreport/bmtreport.cls ~/texmf/tex/latex/

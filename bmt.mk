@@ -14,12 +14,17 @@
 # You should have received a copy of the GNU General Public License
 # along with bmtreport.  If not, see <https://www.gnu.org/licenses/>.
 
+#https://unix.stackexchange.com/a/470502/13847
+ifndef diction_options
+override diction_options = -L errors
+endif
+
 $(key).pdf: $(key).bcf $(key).tex
 	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
 	lualatex --halt-on-error $(key).tex
 
+# https://tex.stackexchange.com/a/22525/9945
 $(key).bcf: $(key).tex
-	# https://tex.stackexchange.com/a/22525/9945
 	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
 	biber $(key) --validate-datamodel --fixinits --isbn13 --isbn-normalise
 
@@ -27,18 +32,15 @@ $(key).bcf: $(key).tex
 clean:
 	-rm -rvf *.blg *.bcf *.log *.blg *.lot *.toc *.idx *.aux *.bbl *.lof *.out *.run.xml /tmp/par* *.abstract abstract.tex title.tex *.tmp $(key).txt
 
+# TODO: spell check the bib file
 .PHONY: check
 check: $(key).tex
 	aspell -t -c $(key).tex
 	chktex -q -I0 -n1 -n2 -n44 -n25 $(key).tex
 	detex -n $(key).tex > $(key).txt
 	test -f $(key).diction && diction -sn -f $(key).diction $(key).txt || true
-	#diction -s -L errors $(key).txt
-	
-	# Put whether to run on additional diction files in $(key).sh.
+	diction -s $(diction_options) $(key).txt
 	test -f $(key).sh && ./$(key).sh $(key).tex || true
-	
-	# TODO: spell check the bib file
 
 .PHONY: again
 again: $(key).tex
@@ -54,3 +56,10 @@ once: $(key).tex
 .PHONY: todo
 todo: $(key).tex
 	grep -in TODO $(key).tex
+
+.PHONY: pdflatex
+pdflatex: $(key).tex
+	pdflatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
+	biber $(key) --validate-datamodel --fixinits --isbn13 --isbn-normalise
+	pdflatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
+	pdflatex --halt-on-error $(key).tex

@@ -1,9 +1,10 @@
 # bmtreport diction files
 
-- TODO: Make *warning* diction file to identify things which are not necessarily wrong but could indicate that something is wrong. Run this less frequently; bmt.diction is intended to identify likely errors, not simply possible errors.
+- DONE: Make *warning* diction file to identify things which are not necessarily wrong but could indicate that something is wrong. Run this less frequently; bmt.diction is intended to identify likely errors, not simply possible errors.
 
 ## text
 
+- TODO: ~/notes/writing/words-and-phrases.txt
 - TODO: Pinker talk: minimize hedging: somewhat, fairly, nearly, seemingly, in part, relatively, comparatively, predominantly, to some extent, so to speak, presumably, virtually, literally. Not sure I agree with him. I think hedging is honest.
 - Relative terminology: about, superior, similar, comparable, essentially, type, of the order of, substantially, substantial portion, the order of about
 - Exemplary language: e.g. "material such as rock wool or asbestos", "halogen, for example, chlorine" (It is the broader example or the specific example? I would read it as broader. This seems to be more of a problem for claims than writing in general.) (I also recall that "i.e." and "e.g." are misunderstood in general so should be discouraged in favor of "that is" and "for example" respectively.)
