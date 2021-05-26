@@ -2,6 +2,8 @@
 
 It would be nice to perform "spot checks" on equations printed in a document. A *parallel* implementation in a separate (say Python) file is one way, but the equations are not necessarily the same in this case.
 
+Idea: Require good practices that help with error detection, like grouping terms into dimensionless numbers to help spot dimensionality errors.
+
 ## How can the same equation be tested?
 
 - <https://tex.stackexchange.com/q/52392/9945>

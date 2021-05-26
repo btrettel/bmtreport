@@ -33,7 +33,7 @@ with open(sys.argv[1]) as csv_file:
       num_rows = num_rows + 1
       if row[0].startswith('\\b'):
          outfile.write(' '+row[0][2:]+'\t'+row[1]+'\n')
-      elif row[0].startswith('\\'):
+      elif row[0].startswith('\\') and (sys.argv[1][0:-4] != 'tex'):
          sys.exit('Likely should start with \\b: '+row[0]+' ('+sys.argv[1]+')')
       else:
          if not(row[0].startswith('#')): # These lines are commented out.

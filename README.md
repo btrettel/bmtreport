@@ -5,6 +5,7 @@
 Modify depending on where you keep this repository. The following works for me.
 
 ```
+export PATH=/home/ben/repos/bmtreport/:$PATH
 sudo ln -s ~/repos/bmtreport/diction/errors.diction /usr/share/diction/errors
 sudo ln -s ~/repos/bmtreport/diction/fluids.diction /usr/share/diction/fluids
 sudo ln -s ~/repos/bmtreport/diction/patents.diction /usr/share/diction/patents

@@ -1,12 +1,16 @@
 # To-do list
 
+- <https://www.dickimaw-books.com/latex/admin/>
+
 ## Files
 
 - Add bmtcv.cls.
 - Finish make check.
 - Convert existing writing check file to a diction file.
 - DOUBTSS package
-- eqcheck Python package\; add to Python PATH
+- eqcheck Python package; add to Python PATH
+- Business card
+- Invoice
 
 ## bmtreport.cls
 
