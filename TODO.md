@@ -1,10 +1,13 @@
 # To-do list
 
 - <https://www.dickimaw-books.com/latex/admin/>
+- Tight feedback loop: (make quick or something like that?) (<https://news.ycombinator.com/item?id=20009123>):
+   > So knowing this, my approach is to *use a system that continuously shows the typeset output* as I type, if I can. That way errors are usually obvious and easy to find. If that's not practical with your favorite editor, just manually run LaTex on your source frequently to see how your document is progressing. The times I've had to do serious puzzling over what was happening were almost always because I had pages of complex text entered before checking to see the output.
 
 ## Files
 
 - Add bmtcv.cls.
+- Add bmtbook.cls.
 - Finish make check.
 - Convert existing writing check file to a diction file.
 - DOUBTSS package
@@ -45,19 +48,11 @@
          - Extra math commands from commath aren't recognized, making the equations not render.
          - pandoc does recognize my bib file correctly, but the inline citations are a bit mangled; the "p." part that starts many of optional arguments is cut off for some reason: "Wu (1992, 68, fig. 4.2)" should be "Wu (1992, p. 68, fig. 4.2)".
 
-## bmtslides.cls
-
-- Make beamer version of this. Use Fira Math?
-   - <https://github.com/firamath/firamath>
-   - https://tug.org/FontCatalogue/firasansmath/>
-   - https://en.wikipedia.org/wiki/Fira_(typeface)>
-   - https://fonts.google.com/specimen/Fira+Sans>
-- Make bmtslides have associated presentation number in the BMT-P series. Due to the ephemeral nature of slides, use a hash instead of an increasing integer.
-
 ## Makefile
 
 ### make
 
+- Change the Makefile to not assume that the bmtreport class was used, e.g., make switch to bmtslides. It compiles as-is but isn't strictly right.
 - <https://github.com/atrettel/grfstyl/blob/master/tex-example/Makefile>
 - <https://tex.stackexchange.com/questions/27878/pdflatex-bash-script-to-supress-all-output-except-error-messages>
 - <https://tex.stackexchange.com/questions/tagged/warnings%2berrors?tab=Votes>
@@ -77,6 +72,7 @@
 - <https://github.com/google-research/arxiv-latex-cleaner/>
 - <https://tex.stackexchange.com/q/358831/9945>
 - <https://tex.stackexchange.com/q/26990/9945>
+- <https://news.ycombinator.com/item?id=21850466>
 
 ### make check
 
@@ -89,7 +85,24 @@
    - <https://www.reddit.com/r/programmingcirclejerk/comments/3kknoc/take_your_writing_to_a_next_level_without/>
    - <https://news.ycombinator.com/item?id=10199414>
 - <http://proselint.com/>
+   - <https://github.com/amperser/proselint>
    - <https://news.ycombinator.com/item?id=11232882>
+
+#### bib file checks
+
+- Spell check the bib file.
+- Check for whether smart or normal quotes are used in titles. Make consistent.
+- Check that ILASS and ICLASS are set as the proceedings titles, with no conference names.
+- Check all conference papers to make sure that editors were not set as authors.
+- Check the end of each citation for a period.
+- Check for proper capitalization of all titles.
+- Check for broken links. <https://bootlin.com/blog/pdf-link-checker/>
+- Check for missing page numbers. Every journal article and conference paper must have page numbers if they exist.
+- Check that all DTIC links are to the correct reports.
+- Search the bib file for "BibLateX quality report" and fix things as needed.
+- Degree names are inconsistent. PhD vs. Dr.-Ing. vs. Candidate of Technical Sciences. The first is an abbreviation with no periods, the second an abbreviation with periods, and the last unabbreviated.
+- Check for consistency with period at the end of the addendum. Should have no period in the typical case.
+- Check that locations are consistent, e.g., using two letter abbreviations for states.
 
 ## tests for bmtreport and other classes
 
@@ -102,3 +115,12 @@
 - Make tests to ensure that metadata is present, etc.
 - (manual test) Check XMP metadata in Adobe Acrobat on Windows.
 - Run chktex, lacheck, and TeXidate on class and style files.
+
+## Ambiguity detection
+
+- <https://link.springer.com/chapter/10.1007/978-3-642-14192-8_20>
+- site:github.com ambiguity detection
+- <https://github.com/vaibhav29498/Cross-Domain-Ambiguity-Detection>
+- <https://github.com/kach/nearley/issues/168>
+- <https://github.com/nvasudevan/sinbad>
+- <https://github.com/topics/text-detection-ambiguity>

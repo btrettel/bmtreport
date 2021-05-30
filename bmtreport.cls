@@ -41,6 +41,8 @@
 \togglefalse{nometadatachecks}
 \newtoggle{abstractmetadata}
 \toggletrue{abstractmetadata}
+\newtoggle{git}
+\togglefalse{git}
 
 \newtoggle{subjclassset}
 \togglefalse{subjclassset}
@@ -67,16 +69,44 @@
    \toggletrue{note}
    }
 \DeclareOption{normalwarnings}{\togglefalse{warningsaserrors}}
+\DeclareOption{git}{\toggletrue{git}}
 \ProcessOptions\relax
 \LoadClass[11pt,oneside]{article}
 
+\iftoggle{git}{\toggletrue{revnoset}\input{git.tex}}{}
+
 \RequirePackage{asserts}
+
+\RequirePackage[pagewise]{lineno}
+\RequirePackage{accsupp}
+\modulolinenumbers[5]
+% The \BeginAccSupp and \EndAccSupp parts make the line numbers not selectable text, which presumably will help those using screen readers and also definitely helps when copying text.
+% https://tex.stackexchange.com/a/158886/9945
+\renewcommand{\linenumberfont}{\bfseries\footnotesize\BeginAccSupp{ActualText=}}
+\appto{\LineNumber}{\EndAccSupp{}}
 
 % Adds \boldsymbol to make Greek letters bold in math mode
 \RequirePackage{amsbsy}
 
 % Improvements to amsmath, which it also loads.
 \RequirePackage{mathtools}
+
+% Fix lineno so that the line numbers are correct around amsmath environments. Needs to load after amsmath is loaded, and lineno needs to load before amsmath.
+% https://tex.stackexchange.com/a/461192/9945
+% Patch 'normal' math environments:
+\newcommand*\linenomathpatch[1]{%
+  \cspreto{#1}{\linenomath}%
+  \cspreto{#1*}{\linenomath}%
+  \csappto{end#1}{\endlinenomath}%
+  \csappto{end#1*}{\endlinenomath}%
+}
+
+\linenomathpatch{equation}
+\linenomathpatch{gather}
+\linenomathpatch{multline}
+\linenomathpatch{align}
+\linenomathpatch{alignat}
+\linenomathpatch{flalign}
 
 % This seems to conflict with the mathtools package and needs to be loaded after it or else it won't work. It is preferable to load this as soon as possible in order to catch as many warnings as possible.
 \iftoggle{warningsaserrors}{
@@ -231,14 +261,6 @@ end
    ]{geometry}
 
 \RequirePackage{graphicx}
-
-\RequirePackage[pagewise]{lineno}
-\RequirePackage{accsupp}
-\modulolinenumbers[5]
-% The \BeginAccSupp and \EndAccSupp parts make the line numbers not selectable text, which presumably will help those using screen readers and also definitely helps when copying text.
-% https://tex.stackexchange.com/a/158886/9945
-\renewcommand{\linenumberfont}{\bfseries\footnotesize\BeginAccSupp{ActualText=}}
-\appto{\LineNumber}{\EndAccSupp{}}
 
 \RequirePackage{siunitx}
 \DeclareSIUnit[number-unit-product = ]\percent{\char`\%} % remove space before percentage sign
@@ -521,8 +543,8 @@ end
    \nolinenumbers\singlespacing\null\vfill
    \noindent Citation: \theauthor, ``\thetitle'', \iftoggle{translation}{Translation}{\iftoggle{note}{Note}{Technical report}} \reportprefix\nobreakdash-\docnumber, \thedate. \iftoggle{doiset}{\thedoi.}{} \\[1em]
    \iftoggle{opendata}{\noindent \opendataprefix: \opendatasource \\[1em]}{}%
-   \iftoggle{revnoset}{\hypersetup{pdfversionid={\revno}} \noindent Revision \#: \revno}{}%
-   \iftoggle{fairuse}{}{\\%
+   \iftoggle{revnoset}{\hypersetup{pdfversionid={\revno}} \noindent Revision ID: \revno\\}{}%
+   \iftoggle{fairuse}{}{%
       %\noindent Contact info.: \url{http://trettel.us/contact.html} \\
       \noindent \url{http://trettel.us/} \\
       \noindent\copyright \the\year{} \theauthor.
