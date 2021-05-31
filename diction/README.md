@@ -47,6 +47,7 @@
 - TODO: <https://whyevolutionistrue.com/2019/11/18/words-and-phrases-i-hate-5/>
 - TODO: <https://news.ycombinator.com/item?id=17834084>
 - TODO: <https://lifehacker.com/replace-these-words-in-your-writing-1831622515>
+- TODO: <https://www.atrixnet.com/bs-generator.html>
 - TODO: <https://johnaugust.com/2016/the-workaholics-list-of-banned-phrases>
 - ambiguous
    - <https://english.stackexchange.com/questions/50658/are-there-any-words-i-can-use-to-disambiguate-biweekly>

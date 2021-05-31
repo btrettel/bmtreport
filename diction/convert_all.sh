@@ -14,7 +14,7 @@ for f in *.csv
 do
    sort $f | uniq > temp.csv
    mv -f temp.csv $f
-   python3 csv_to_diction.py $f
+   python3 ../csv_to_diction.py $f
 done
 
 # spell check the diction files

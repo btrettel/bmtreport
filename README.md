@@ -6,6 +6,7 @@ Modify depending on where you keep this repository. The following works for me.
 
 ```
 export PATH=/home/ben/repos/bmtreport/:$PATH
+export BMTPATH=/home/ben/repos/bmtreport
 sudo ln -s ~/repos/bmtreport/diction/errors.diction /usr/share/diction/errors
 sudo ln -s ~/repos/bmtreport/diction/fluids.diction /usr/share/diction/fluids
 sudo ln -s ~/repos/bmtreport/diction/patents.diction /usr/share/diction/patents
@@ -20,11 +21,22 @@ ln -s ~/repos/bmtreport/bmtslides.cls ~/texmf/tex/latex/
 texhash
 ```
 
+### Requirements
+
+- lualatex
+- pdflatex (optional)
+- biber
+- Pandoc
+- Python 3 (for diction file generator script `csv_to_diction.py` and equation checking script `eqcheck`)
+- bash (a [bash variable](https://stackoverflow.com/a/58233291/1124489) is used)
+- pico2wave from libttspico-utils (for make speak)
+- mplayer (for make speak)
+
 ### Details for diction
 
 While the `-f` flag allows specification of a diction database, the databases in the `/usr/share/diction/` directory seem to be selected with the `-L` flag. While intended for languages, I want the command to be global, so I am using the `-L` flag in the Makefile.
 
-It is more convenient for me to keep the diction databases as CSV files, which I convert to diction datbases with `csv_to_diction.py`. This allows me to edit the database with a spreadsheet program.
+It is more convenient for me to keep the diction databases as CSV files, which I convert to diction databases with `csv_to_diction.py`. This allows me to edit the database with a spreadsheet program.
 
 #### Details for make
 

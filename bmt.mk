@@ -23,6 +23,13 @@ git_file=git.tex
 git_root:=$(shell git rev-parse --show-toplevel)
 endif
 
+# If I do it this way rather than having multiple copies of the target, then there is less duplicate code that needs to be kept consistent.
+ifeq (,$(wildcard $(key).csv))
+diction_file=
+else
+diction_file=$(key).diction
+endif
+
 $(key).pdf: $(key).bcf $(key).tex
 	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
 	lualatex --halt-on-error $(key).tex
@@ -45,31 +52,35 @@ git.tex: $(git_root)/.git/logs/HEAD
 
 .PHONY: clean
 clean:
-	-rm -rvf *.blg *.bcf *.log *.blg *.lot *.toc *.idx *.aux *.bbl *.lof *.out *.run.xml /tmp/par* *.abstract abstract.tex title.tex *.tmp $(key).txt title.txt abstract.txt git.tex
+	-rm -rvf *.blg *.bcf *.log *.blg *.lot *.toc *.idx *.aux *.bbl *.lof *.out *.run.xml /tmp/par* abstract.tex title.tex *.tmp $(key).txt title.txt abstract.txt git.tex $(key).diction
+
+# old: detex -n $(key).tex > $(key).txt
+# old version of Pandoc: pandoc --lua-filter=remove-math-and-images.lua --bibliography trettel_turbulent_2021.bib trettel_turbulent_2021.tex -s -t plain -o trettel_turbulent_2021.txt
+# old version of Pandoc: echo '\nocite{*}' | pandoc -f latex --bibliography trettel_turbulent_2021.bib -s -t plain -o bibliography.txt
+# TODO: Figure out how to make this file work if the bmtreport repo is located elsewhere such that a user does not need to modify this code and instead (e.g.) sets a variable or PATH elsewhere.
+# https://tex.stackexchange.com/a/599425/9945
+$(key).txt title.txt abstract.txt: $(key).tex $(key).bib title.tex abstract.tex
+	pandoc --lua-filter=$$BMTPATH/remove-math-and-images.lua --bibliography $(key).bib $(key).tex -s --citeproc -t plain -o $(key).txt
+	detex -n title.tex > title.txt
+	detex -n abstract.tex > abstract.txt
+
+$(key).diction: $(key).csv
+	csv_to_diction.py $(key).csv
+	aspell -c $(key).diction
 
 # https://stackoverflow.com/a/60639947/1124489
 #  | less -r -F --no-init
 # TODO: Add abstract diction file and checking.
 .PHONY: check
-check: $(key).tex title.tex abstract.tex
+check: $(key).tex $(key).txt title.tex abstract.tex $(diction_file)
 	aspell -t -c $(key).tex
+	aspell -c $(key).txt
 	chktex -q -I0 -n1 -n2 -n44 -n25 $(key).tex | less
-	detex -n $(key).tex > $(key).txt
-	detex -n title.tex > title.txt
-	detex -n abstract.tex > abstract.txt
 	test -f $(key).diction && diction -sn -f $(key).diction $(key).txt | grep --color=always '\[[^][]*]' | less -r || true
 	diction -s -L errors $(key).txt | grep --color=always '\[[^][]*]' | less -r
-	diction -s -L title title.txt | grep --color=always '\[[^][]*]' | less -r
+	diction -s -L titles title.txt | grep --color=always '\[[^][]*]' | less -r
 	test -f $(key).sh && ./$(key).sh $(key).tex | less -r || true
-	test -f $(key)-eqcheck.ini && eqcheck.py $(key)-eqcheck.ini | less -r || true
-	-rm -rvf $(key).txt title.txt abstract.txt
-
-.PHONY: again
-again: $(key).tex
-	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
-	biber $(key) --validate-datamodel --fixinits --isbn13 --isbn-normalise
-	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
-	lualatex --halt-on-error $(key).tex
+	#test -f $(key)-eqcheck.ini && eqcheck.py $(key)-eqcheck.ini | less -r || true
 
 .PHONY: once
 once: $(key).tex
@@ -78,6 +89,19 @@ once: $(key).tex
 .PHONY: todo
 todo: $(key).tex
 	grep -in TODO $(key).tex
+
+# old: espeak -s 155 -v en-us --ipa -f $(key).txt
+# https://www.linuxlinks.com/speechtools/
+# https://askubuntu.com/q/53896/39992
+.PHONY: speak
+speak: $(key).txt abstract.txt
+	$(eval tempdir:=$(shell mktemp -d))
+	echo $(tempdir)
+	cat abstract.txt | pico2wave -w $(tempdir)/abstract.wav
+	mplayer $(tempdir)/abstract.wav
+	cat $(key).txt | pico2wave -w $(tempdir)/$(key).wav
+	mplayer $(tempdir)/$(key).wav
+	rm -rv $(tempdir)/
 
 .PHONY: pdflatex
 pdflatex: $(key).tex
