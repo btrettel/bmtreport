@@ -18,6 +18,7 @@ ln -s ~/repos/bmtreport/asserts.sty ~/texmf/tex/latex/
 ln -s ~/repos/bmtreport/bmtreport.cls ~/texmf/tex/latex/
 ln -s ~/repos/bmtreport/bmtmacros.sty ~/texmf/tex/latex/
 ln -s ~/repos/bmtreport/bmtslides.cls ~/texmf/tex/latex/
+ln -s ~/repos/bmtreport/bmtbook.cls ~/texmf/tex/latex/
 texhash
 ```
 

@@ -3,6 +3,7 @@
 - <https://www.dickimaw-books.com/latex/admin/>
 - Tight feedback loop: (make quick or something like that?) (<https://news.ycombinator.com/item?id=20009123>):
    > So knowing this, my approach is to *use a system that continuously shows the typeset output* as I type, if I can. That way errors are usually obvious and easy to find. If that's not practical with your favorite editor, just manually run LaTex on your source frequently to see how your document is progressing. The times I've had to do serious puzzling over what was happening were almost always because I had pages of complex text entered before checking to see the output.
+- <https://www.semipol.de/posts/2018/06/latex-best-practices-lessons-learned-from-writing-a-phd-thesis/>
 
 ## Files
 
@@ -58,6 +59,8 @@
 - <https://tex.stackexchange.com/questions/tagged/warnings%2berrors?tab=Votes>
 - <https://tex.stackexchange.com/questions/84246/warnings-and-errors-highlighting-when-compiling-in-bash-environment>
 - Have local diction file to help catch issues specific to the local paper. local.diction. Make Makefile automatically recognize this and use it.
+- Other ways to convert to plain text: <https://tex.stackexchange.com/q/102397/9945>
+   - <https://github.com/pkubowicz/opendetex>
 
 ### make arxiv
 
