@@ -60,6 +60,7 @@
    - TODO: <https://groups.google.com/forum/#!topic/usaafricadialogue/21VgaOKZQqI>
 - TODO: <https://github.com/dspinellis/unix-history-repo/blob/BSD-4_1_snap-Snapshot-Development/.ref-BSD-4/usr/src/cmd/diction/dict.d>
 - TODO: <https://github.com/dspinellis/unix-history-repo/blob/BSD-4_1_snap-Snapshot-Development/.ref-BSD-4/usr/src/cmd/diction/explain.d>
+- TODO: <https://en.wikipedia.org/wiki/Weasel_word>
 - <https://www.scribbr.com/academic-writing/taboo-words/>
 - <https://web.archive.org/web/20130115032012/http://www.economist.com/style-guide/unnecessary-words>
 - <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Expressions_of_doubt>
