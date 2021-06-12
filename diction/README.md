@@ -67,6 +67,8 @@
 - <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing>
 - <https://retractionwatch.com/2017/11/14/phantom-reference-made-article-got-almost-400-citations/#comment-1497535>
 - <https://retractionwatch.com/2017/11/14/phantom-reference-made-article-got-almost-400-citations/#comment-1497583>
+- MAYBE: <http://www.tameri.com/write/academese.html>
+- TODO: <https://www.words-to-use.com/words/movies-tv/>
 - mondegreens, misunderstood phrases
    - TODO: <http://grammarist.com/mondegreens/>
    - TODO: <http://www.lifehack.org/articles/communication/25-common-phrases-that-youre-saying-wrong.html>
@@ -118,6 +120,13 @@
    - Okay: misstate, misnomer, skeptical, myth, overstate (but not overstatement), discrepancy, discrepancies, misinformed, implausible, mistaken, misconduct
    - <http://www.paulgraham.com/say.html>
    - <https://www.recurse.com/manual>
+- probability
+   - TODO: <https://en.wikipedia.org/wiki/Words_of_estimative_probability>
+   - TODO: <https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays/6words.html>
+   - TODO: gelman_beyond_2017
+   - TODO: <http://web.archive.org/web/20120428195642/http://www2.napier.ac.uk:80/getready/writing_presenting/style.html#cautious>
+   - TODO: <https://writing.markfullmer.com/tentative-style> first link
+   - TODO: <https://www.reddit.com/r/slatestarcodex/comments/80sd4v/what_are_the_chances_translating_terms_into/>
 
 ## title
 

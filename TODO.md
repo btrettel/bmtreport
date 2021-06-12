@@ -90,6 +90,10 @@
 - <http://proselint.com/>
    - <https://github.com/amperser/proselint>
    - <https://news.ycombinator.com/item?id=11232882>
+- Plagiarism detection in case I accidentally produce something similar to something else.
+   - Google search: command line plagiarism detection
+   - <https://github.com/frizensami/plagiarism-basic>
+   - <https://github.com/diogocabral/sherlock>
 
 #### bib file checks
 
