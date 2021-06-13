@@ -44,11 +44,13 @@
 \bannoying,(offensive),
 \banti-American,(offensive),
 "\ba possibility","(probability; remove and instead be quantitative when possible)",
+"\ba posteriori","derived from observed facts (English is preferred to Latin)",
 \bappalled,(offensive),
 \bappalling,(offensive),
 \bappall,(offensive),
 \bappalls,(offensive),
 "#\bappears to","(probability; remove and instead be quantitative when possible)",
+"\ba priori","by reasoning alone (English is preferred to Latin)",
 "\ba promising",(puffery),
 \barcane,(offensive),
 \barchaic,(offensive),
@@ -283,6 +285,7 @@
 \bdecent,(puffery),
 \bdeceptive,(offensive),
 \bdecidedly,(puffery),
+"\bde facto","in reality or fact (English is preferred to Latin)",
 \bdefamatory,(offensive),
 \bdefective,(offensive),
 "\bdefinite possibility","possibility (oxymoron)",
@@ -290,6 +293,7 @@
 \bdefinitive,(puffery),
 "\bdegree of certainty","(probability; remove and instead be quantitative when possible)",
 \bdehumanizing,(offensive),
+"\bde jure","by law (English is preferred to Latin)",
 "\bdeliberately omit",(offensive),
 "\bdeliberately omitted",(offensive),
 \bdelightful,(puffery),
@@ -338,6 +342,8 @@
 \bdisgraces,(offensive),
 \bdisgusting,(offensive),
 \bdisheartening,(offensive),
+\bdishonest,"(offensive, hard to demonstrate that they know something is false)",https://discord.com/channels/696106118438453268/696115478866821232/853389450641539093
+\bdishonesty,"(offensive, hard to demonstrate that they know something is false)",https://discord.com/channels/696106118438453268/696115478866821232/853389450641539093
 \bdisinformation,"(offensive, could also be puffery)",https://academia.stackexchange.com/a/151521/31143
 \bdisingenuously,(offensive),
 \bdisingenuous,(offensive),
@@ -783,9 +789,10 @@
 "\blessons learned",(cliche),
 "\bless that than","less than that",
 "\blet a thousand flowers bloom",(cliche),
-\bliar,(offensive),
-\blied,(offensive),
-\blies,(offensive),
+\bliar,"(offensive, hard to demonstrate that they know something is false)",https://discord.com/channels/696106118438453268/696115478866821232/853389450641539093
+\blied,"(offensive, hard to demonstrate that they know something is false)",https://discord.com/channels/696106118438453268/696115478866821232/853389450641539093
+\blie,"(offensive, hard to demonstrate that they know something is false)",https://discord.com/channels/696106118438453268/696115478866821232/853389450641539093
+\blies,"(offensive, hard to demonstrate that they know something is false, but can be okay in some contexts)",https://discord.com/channels/696106118438453268/696115478866821232/853389450641539093
 #\blikely,"(probability; remove and instead be quantitative when possible)",
 "\blimited contribution",(offensive),
 \blionized,(puffery),
@@ -807,7 +814,7 @@
 \bludicrous,(offensive),
 \blunatic,(offensive),
 \blunatics,(offensive),
-\blying,(offensive),
+\blying,"(offensive, hard to demonstrate that they know something is false)",https://discord.com/channels/696106118438453268/696115478866821232/853389450641539093
 \bmaddening,(offensive),
 \bmadness,(offensive),
 \bmagically,(puffery),
@@ -1081,6 +1088,7 @@
 \bpretensions,(offensive),
 \bpretentious,(offensive),
 "\bpretty good chance","(probability; remove and instead be quantitative when possible)",
+"\bprima facie","as it seems at first sight (English is preferred to Latin)",
 "\bprinciple function","principal function (atomic typo)",https://afterdeadline.blogs.nytimes.com/2013/02/12/when-spell-check-cant-help-17/
 \bprized,(puffery),
 #\bprobable,"(probability; remove and instead be quantitative when possible)",

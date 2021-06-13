@@ -82,10 +82,6 @@ check: $(key).tex $(key).txt title.tex abstract.tex $(diction_file)
 	test -f $(key).sh && ./$(key).sh $(key).tex | less -r || true
 	#test -f $(key)-eqcheck.ini && eqcheck.py $(key)-eqcheck.ini | less -r || true
 
-.PHONY: once
-once: $(key).tex
-	lualatex --halt-on-error $(key).tex
-
 .PHONY: todo
 todo: $(key).tex
 	grep -in TODO $(key).tex

@@ -43,6 +43,12 @@
 \toggletrue{abstractmetadata}
 \newtoggle{git}
 \togglefalse{git}
+\newtoggle{lineno}
+\toggletrue{lineno}
+\newtoggle{parano}
+\togglefalse{parano}
+\newtoggle{doublespacing} % I used to use spacing, but realistically this isn't enough to put too many comments on the page, which is why one typically uses double or one-half spacing. I have plenty of margin, however, so this may not be a problem.
+\togglefalse{doublespacing}
 
 \newtoggle{subjclassset}
 \togglefalse{subjclassset}
@@ -70,6 +76,10 @@
    }
 \DeclareOption{normalwarnings}{\togglefalse{warningsaserrors}}
 \DeclareOption{git}{\toggletrue{git}}
+\DeclareOption{lineno}{\toggletrue{lineno}\togglefalse{parano}}
+\DeclareOption{parano}{\toggletrue{parano}\togglefalse{lineno}}
+\DeclareOption{nolineparano}{\togglefalse{lineno}\togglefalse{parano}}
+\DeclareOption{doublespacing}{\toggletrue{doublespacing}}
 \ProcessOptions\relax
 \LoadClass[11pt,oneside]{article}
 
@@ -77,13 +87,47 @@
 
 \RequirePackage{asserts}
 
-\RequirePackage[pagewise]{lineno}
+% TODO: document fnref and fnpageref in bmtmacros
+% TODO: document \linelabel
+% TODO: make pararef? Look into refcount package. https://tex.stackexchange.com/q/474807/9945 https://www.overleaf.com/learn/latex/Counters
+
+% Advantage of paragraph numbers over line numbers: Paragraph numbers are independent of the formatting, e.g., changing the font size will not change the paragraph number but it often would change the line numbers.
+% Seems to not number certain paragraphs.
+% Changes the spacing in sections without text (i.e., incomplete sections), but does not seem to change the spacing appreciably in sections with text. Not a major issue.
+% TODO: number list items
+\iftoggle{parano}{
+\asserttogglefalse{lineno}
+%\setlength{\parindent}{0pt} % Similar to the line below but apparently with negative effects.
+%\usepackage[skip=0em]{parskip} % Removes all paragraph indentation. The paragraph number will indicate that a new paragraph has started now.
+% wright_presenting_1977 p. 98: > Hartley and Burnhill (1976) have suggested on the basis of their own research findings that leaving an empty line between paragraphs is a more effective cue for the reader than just indenting the first line of the new paragraph.
+% https://tex.stackexchange.com/a/74173/9945
+%\usepackage[parfill]{parskip}
+\usepackage[skip=0.5em]{parskip}
+\RequirePackage{parano}
 \RequirePackage{accsupp}
+%\renewcommand\theparano{\BeginAccSupp{ActualText=}{\bfseries\footnotesize[\arabic{parano}]}\EndAccSupp{}}
+\RequirePackage{fmtcount}
+\renewcommand\theparano{\BeginAccSupp{ActualText=}{\bfseries\footnotesize[\padzeroes[4]{\decimal{parano}}]}\EndAccSupp{}}
+% This command will make a paragraph number when it was not, but I don't understand why.
+\newcommand\para{\@startsection{paragraph}{4}{\z@}%
+                                    {0em}%
+                                    {0em}%
+                                    {\normalfont\normalsize}}
+}{}
+
+\iftoggle{lineno}{
+\asserttogglefalse{parano}
+%\RequirePackage[pagewise]{lineno}
+\RequirePackage{lineno}
+\RequirePackage{accsupp}
+\RequirePackage{indentfirst} % indent all paragraphs
 \modulolinenumbers[5]
 % The \BeginAccSupp and \EndAccSupp parts make the line numbers not selectable text, which presumably will help those using screen readers and also definitely helps when copying text.
 % https://tex.stackexchange.com/a/158886/9945
 \renewcommand{\linenumberfont}{\bfseries\footnotesize\BeginAccSupp{ActualText=}}
-\appto{\LineNumber}{\EndAccSupp{}}
+\appto{\LineNumber}{\enspace\EndAccSupp{}} % Could remove \enspace before the \EndAccSupp{} to move number closer
+\newcommand\para{}
+}{}
 
 % Adds \boldsymbol to make Greek letters bold in math mode
 \RequirePackage{amsbsy}
@@ -91,6 +135,7 @@
 % Improvements to amsmath, which it also loads.
 \RequirePackage{mathtools}
 
+\iftoggle{lineno}{
 % Fix lineno so that the line numbers are correct around amsmath environments. Needs to load after amsmath is loaded, and lineno needs to load before amsmath.
 % https://tex.stackexchange.com/a/461192/9945
 % Patch 'normal' math environments:
@@ -107,6 +152,7 @@
 \linenomathpatch{align}
 \linenomathpatch{alignat}
 \linenomathpatch{flalign}
+}{}
 
 % This seems to conflict with the mathtools package and needs to be loaded after it or else it won't work. It is preferable to load this as soon as possible in order to catch as many warnings as possible.
 \iftoggle{warningsaserrors}{
@@ -278,8 +324,10 @@ end
 \pgfplotsset{compat=1.16} % https://tex.stackexchange.com/a/81912
 \usetikzlibrary{arrows}
 
+\iftoggle{doublespacing}{
 % needs to be loaded before hyperref
 \RequirePackage{setspace}
+}{}
 
 % biblatex documentation: > When using the hyperref package, it is preferable to load it after biblatex.
 \RequirePackage[
@@ -344,7 +392,7 @@ end
    \end{quotation}
    \asserttoggletrue{subjclassset}%
    \global\toggletrue{keywordsset}%
-   \iftoggle{translation}{}{\linenumbers}%
+   \iftoggle{translation}{}{\iftoggle{lineno}{\linenumbers}{}\iftoggle{parano}{\parano}{}}%
    }
 \newcommand*{\setdoi}[1]{%
    \assertnonempty{#1}%
@@ -368,7 +416,7 @@ end
    \addtocounter{footnote}{-1}%
    \endgroup%
    \vspace{-1em}
-   \linenumbers%
+   \iftoggle{lineno}{\linenumbers}{}\iftoggle{parano}{\parano}{}%
    }
 
 % https://www.semipol.de/2018/06/12/latex-best-practices.html#hyperlinks-to-floats-and-not-their-captions
@@ -540,7 +588,7 @@ end
    \hypersetup{
       pdfdate={\thedate}
    }
-   \nolinenumbers\singlespacing\null\vfill
+   \iftoggle{lineno}{\nolinenumbers}{}\iftoggle{parano}{\endparano}{}\iftoggle{doublespacing}{\singlespacing\null}{}\vfill
    \noindent Citation: \theauthor, ``\thetitle'', \iftoggle{translation}{Translation}{\iftoggle{note}{Note}{Technical report}} \reportprefix\nobreakdash-\docnumber, \thedate. \iftoggle{doiset}{\thedoi.}{} \\[1em]
    \iftoggle{opendata}{\noindent \opendataprefix: \opendatasource \\[1em]}{}%
    \iftoggle{revnoset}{\hypersetup{pdfversionid={\revno}} \noindent Revision ID: \revno\\}{}%
@@ -585,13 +633,15 @@ end
    \cfoot{\thepage\ of \pageref{LastPage}}
 }
 
+\iftoggle{doublespacing}{
 % Automatically make first page style the cover style and set the document to use 1.5 spacing.
 % https://tex.stackexchange.com/a/12574/9945
 % Needs to be after the setup of fancyhdr.
 % Note that \appto{}{} from etoolbox doesn't seem to work here for some reason.
 \makeatletter
-\g@addto@macro{\maketitle}{\thispagestyle{cover}\onehalfspacing}
+\g@addto@macro{\maketitle}{\thispagestyle{cover}\doublespacing}
 \makeatother
+}{}
 
 % Remove line numbers from references, as you can simply refer to the citation key.
-\pretocmd{\printbibliography}{\nolinenumbers}{}{}
+\pretocmd{\printbibliography}{\iftoggle{lineno}{\nolinenumbers}{}\iftoggle{parano}{\endparano}{}}{}{}
