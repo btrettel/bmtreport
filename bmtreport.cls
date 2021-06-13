@@ -633,15 +633,13 @@ end
    \cfoot{\thepage\ of \pageref{LastPage}}
 }
 
-\iftoggle{doublespacing}{
-% Automatically make first page style the cover style and set the document to use 1.5 spacing.
+% Automatically make first page style the cover style and set the document to use double spacing if requested.
 % https://tex.stackexchange.com/a/12574/9945
 % Needs to be after the setup of fancyhdr.
 % Note that \appto{}{} from etoolbox doesn't seem to work here for some reason.
 \makeatletter
-\g@addto@macro{\maketitle}{\thispagestyle{cover}\doublespacing}
+\g@addto@macro{\maketitle}{\thispagestyle{cover}\iftoggle{doublespacing}{\doublespacing}{}}
 \makeatother
-}{}
 
 % Remove line numbers from references, as you can simply refer to the citation key.
 \pretocmd{\printbibliography}{\iftoggle{lineno}{\nolinenumbers}{}\iftoggle{parano}{\endparano}{}}{}{}
