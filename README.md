@@ -33,7 +33,7 @@ texhash
 - pico2wave from libttspico-utils (for make speak)
 - mplayer (for make speak)
 
-### Details for diction
+#### Details for diction
 
 While the `-f` flag allows specification of a diction database, the databases in the `/usr/share/diction/` directory seem to be selected with the `-L` flag. While intended for languages, I want the command to be global, so I am using the `-L` flag in the Makefile.
 
