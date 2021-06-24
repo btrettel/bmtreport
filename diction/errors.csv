@@ -82,6 +82,7 @@
 \bawfully,(offensive),
 \bawful,(offensive),
 \bbacklash,(offensive),
+\bbad,"poor/negative (offensive, informal)",
 "\bbad scholarship",(offensive),
 "\bbad science",(offensive),
 \bbaffle,(offensive),
@@ -103,11 +104,14 @@
 \bbastard,(profanity),
 \bbatshit,(offensive),
 "\bbear fruit",(cliche),
+\bbeautiful,(puffery),
+\bbeauty,(puffery),
 \bbeloved,(puffery),
 "\bbest in breed",(puffery),
 \bbest-in-breed,(puffery),
 \bbetrayed,(offensive),
 "\bbetter than even","(probability; remove and instead be quantitative when possible)",
+\bbig,"large/sizable (informal)",
 \bbigoted,(offensive),
 \bbigot,(offensive),
 \bbigots,(offensive),
@@ -156,9 +160,10 @@
 \bcaliber,(cliche),
 \bcanard,(offensive),
 \bcanonical,(puffery),
+"\bcase and effect","cause and effect",
 "\bcause offense","(wordy too; offend would be shorter)",
 \bcavalier,(offensive),
-\bcelebrated,(puffery),
+\bcelebrated,(puffery),"nazarenko_nonlinear_2000, kumar_asymptotic_2021"
 \bcertainly,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 \bchampioning,(puffery),
 \bchampion,(puffery),
@@ -429,6 +434,8 @@
 \bexcuse,(offensive),
 \bexcuses,(offensive),
 "\bexpended no effort",(offensive),
+\bexperimentalist,"experimenter (more common)",
+\bexperimentalists,"experimenters (more common)",
 \bexpert,(puffery),
 \bexquisitely,(puffery),
 \bexquisite,(puffery),
@@ -903,6 +910,7 @@
 \bnaive,(offensive),
 \bnaïve,(offensive),
 \bnastiness,(offensive),
+\bnasty,(offensive),
 \bnatch,"naturally (cliche)",
 \bnaturally,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 "\bnear miss","near hit",
@@ -1388,6 +1396,7 @@
 "\btrying to actually understand",(offensive),
 "\btrying to impress",(offensive),
 \bturgid,(offensive),
+\bugly,(offensive),
 \bultimately,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 #\bultimately,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 \bunacceptable,(offensive),
@@ -1497,6 +1506,8 @@
 "\bwith on",(unlikely),
 "\bwithout a doubt",(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 "\bwithout doubt",(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
+\bwonderfully,(puffery),
+\bwonderful,(puffery),
 \bwonk,(cliche),
 \bwonkish,(cliche),
 \bwoo,(offensive),

@@ -13,6 +13,8 @@
 - Relative terminology: about, superior, similar, comparable, essentially, type, of the order of, substantially, substantial portion, the order of about
 - Exemplary language: e.g. "material such as rock wool or asbestos", "halogen, for example, chlorine" (It is the broader example or the specific example? I would read it as broader. This seems to be more of a problem for claims than writing in general.) (I also recall that "i.e." and "e.g." are misunderstood in general so should be discouraged in favor of "that is" and "for example" respectively.)
 - MPEP 2173.05 has many good suggestions about how to write unambiguously (and also some that are specific to patents or particular parts of patents)
+- <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Synonyms_for_said>
+- <http://www.captureplanning.com/articles/words-to-avoid.cfm>
 - <http://www.vox.com/science-and-health/2016/9/30/13077658/statcheck-psychology-replication>
 - TODO: <https://news.ycombinator.com/item?id=12643978>
 - TODO: Check for citations without page numbers.
@@ -51,6 +53,7 @@
 - TODO: <https://johnaugust.com/2016/the-workaholics-list-of-banned-phrases>
 - ambiguous
    - <https://english.stackexchange.com/questions/50658/are-there-any-words-i-can-use-to-disambiguate-biweekly>
+   - <https://github.com/zonination/perceptions>
 - annoying words or phrases, pretentious words, buzzwords, cliches
    - <http://www.cs.columbia.edu/~hgs/etc/writing-rules.html>
    - <https://www.builtinla.com/2015/03/23/50-startup-words-and-phrases-should-be-banned>

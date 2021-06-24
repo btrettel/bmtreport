@@ -35,7 +35,7 @@ $(key).pdf: $(key).bcf $(key).tex
 	lualatex --halt-on-error $(key).tex
 
 # https://tex.stackexchange.com/a/22525/9945
-$(key).bcf title.tex abstract.tex: $(key).tex $(key).bib $(git_file)
+$(key).bcf title.tex abstract.tex subjclass.txt: $(key).tex $(key).bib $(git_file)
 	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
 	biber $(key) --validate-datamodel --fixinits --isbn13 --isbn-normalise
 ifdef extra_runs
@@ -72,7 +72,7 @@ $(key).diction: $(key).csv
 #  | less -r -F --no-init
 # TODO: Add abstract diction file and checking.
 .PHONY: check
-check: $(key).tex $(key).txt title.tex abstract.tex $(diction_file)
+check: $(key).tex $(key).txt title.tex abstract.tex subjclass.txt $(diction_file)
 	aspell -t -c $(key).tex
 	aspell -c $(key).txt
 	chktex -q -I0 -n1 -n2 -n44 -n25 $(key).tex | less
@@ -81,6 +81,7 @@ check: $(key).tex $(key).txt title.tex abstract.tex $(diction_file)
 	diction -s -L titles title.txt | grep --color=always '\[[^][]*]' | less -r
 	test -f $(key).sh && ./$(key).sh $(key).tex | less -r || true
 	#test -f $(key)-eqcheck.ini && eqcheck.py $(key)-eqcheck.ini | less -r || true
+	validate_subjclasses.py
 
 .PHONY: todo
 todo: $(key).tex

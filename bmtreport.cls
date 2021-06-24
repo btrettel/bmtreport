@@ -381,7 +381,7 @@ end
    \assertnonempty{#1}%
    \assertnonempty{#2}%
    \noindent \textbf{#1:} #2 \\%
-   \global\appto{\thesubjclass}{, #1: #2}%
+   \global\appto{\thesubjclass}{; #1: #2}%
    \asserttoggletrue{subjclassset}%
    }
 \newcommand*{\keywords}[1]{%
@@ -522,7 +522,7 @@ end
                    .. "/Subject (\thesubjclass)"
                    .. "/Keywords (\thekeywords)")
          }%
-      \iftoggle{nometadatachecks}{}{
+      \iftoggle{nometadatachecks}{}{% TODO: As-is the Makefile does not stop checking the metadata in make check if this toggle is set. The Makefile should recognize the toggle and stop certain checks there in addition to here.
          \luaexec{%
             s = \luastring{\thetitle}
             n = string.len(s)
@@ -551,6 +551,12 @@ end
             if n>5 then
                tex.error("There are more than 5 keywords")
             end
+            }%
+         \luaexec{%
+            s = \luastring{\thesubjclass}
+            out = io.open("subjclass.txt", "w")
+            out:write(s)
+            io.close(out)
             }%
          \luaexec{%
             s = \luastring{\theabstract}
