@@ -7,6 +7,8 @@
 # b - beginner mistakes?
 # ! - commented out?
 
+# TODO: Find non-closed parentheses.
+
 import sys
 import csv
 
@@ -28,6 +30,8 @@ with open(sys.argv[1]) as csv_file:
       # TODO: assert('(' in row[1])
       # TODO: assert(')' in row[1])
       assert(not('#' in row[0][1:]))
+      assert(not('TODO' in row[0]))
+      assert(not('TODO' in row[1]))
       if prev_first_col == row[0]:
          sys.exit('Duplicate: '+row[0]+' ('+sys.argv[1]+')')
       num_rows = num_rows + 1
