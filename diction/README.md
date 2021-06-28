@@ -130,6 +130,77 @@
    - TODO: <http://web.archive.org/web/20120428195642/http://www2.napier.ac.uk:80/getready/writing_presenting/style.html#cautious>
    - TODO: <https://writing.markfullmer.com/tentative-style> first link
    - TODO: <https://www.reddit.com/r/slatestarcodex/comments/80sd4v/what_are_the_chances_translating_terms_into/>
+- TODO: <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions>
+- TODO: <https://en.wikipedia.org/wiki/Weasel_word>
+- vague
+   - TODO: <https://writing.wisc.edu/Handbook/CCS_vaguenouns.html>
+   - TODO: <http://evilauthor.com/blog/writing-aids/vague-words-list/>
+   - TODO: <https://elfaproject.wordpress.com/2013/07/18/and-so-on-or-something-like-that/>
+   - TODO: <http://dictionary.cambridge.org/grammar/british-grammar/useful-phrases/vague-expressions>
+   - TODO: <https://thewritepractice.com/better-writer-now/>
+   - TODO: <https://www.cdc.gov/healthyyouth/tutorials/writinggoal/docs/wgg_verb-list.pdf>
+- Verbose phrases
+   - This list includes pleonasms and words that add nothing to the meaning.
+   - <https://www.captive.com/newsstand/garyblake/WeaselWords.html>
+   - <http://blog.grammarly.com/post/35908208983/what-other-needless-words-and-phrases-can-you>
+   - <https://www.facebook.com/photo.php?fbid=509831189035876&set=a.158139670871698.33824.139729956046003>
+   - <http://www.kingcounty.gov/exec/styleguide/concisewriting/wordyphrases.aspx>
+   - <https://writing.wisc.edu/Handbook/CCS_wordyphrases.html>
+   - <https://home.comcast.net/~garbl/stylemanual/phrases.htm>
+   - <http://www.lincoln.edu/mhs/owl/redundant.html>
+   - <http://www.dailywritingtips.com/30-wordy-phrases-beginning-with-%E2%80%9Cin%E2%80%9D/>
+   - <https://www.thoughtco.com/common-redundancies-in-english-1692776>
+   - <https://www.dailywritingtips.com/50-redundant-phrases-to-avoid/>
+   - <https://kathysteinemann.com/Musings/redundant/>
+   - <https://falconediting.com/en/blog/top-ten-phrases-to-avoid-in-scientific-writing>
+   - <http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/Word_Usage_Scientific_Writing.pdf>
+   - <http://people.vetmed.wsu.edu/jmgay/courses/documents/ScientificWritingWordUsage.pdf>
+   - <http://www.amamanualofstyle.com/view/10.1093/jama/9780195176339.001.0001/med-9780195176339-div2-347>
+   - DONE (260): <http://writing.rocks/redundancylisthits1000/>
+   - DONE (150+): <http://web.archive.org/web/20131017004744/http://home.comcast.net:80/~garbl/stylemanual/redundant.htm>
+   - <http://home.wavecable.com/~garblswritingcenter/stylemanual/betwrit.htm>
+   - TODO (120): <http://www.westmaneditorial.com/blog/improve-your-writing-120-redundant-phrases-to-avoid>
+   - TODO (105): <http://grammarist.com/redundancies/>
+   - DONE (98): <http://site.uit.no/english/writing-style/verbiage/>
+   - TODO (50): <https://expresswriters.com/50-weak-words-and-phrases-to-cut-out-of-your-blogging/>
+   - TODO (48): <https://www.usingenglish.com/forum/threads/102545-List-of-Redundant-Phrases-Sentences>
+   - TODO (47): <https://www.scribbr.com/academic-writing/47-phrasal-verbs-and-their-one-word-substitutions/>
+   - TODO (36): <https://www.prdaily.com/Main/Articles/36_redundant_phrases_to_eliminate_from_your_writin_16795.aspx>
+   - TODO (20): <http://www.ereleases.com/pr-fuel/20-redundant-phrases-to-eliminate-from-your-writing/>
+   - TODO (17): <http://www.hotpepper.ca/blog/2015/02/24/17-common-redundant-phrases-and-how-to-get-rid-of-them/>
+   - TODO (15): <http://englishcomposition.org/essential-writing/15-redundant-phrases-to-avoid-in-your-writing/>
+   - TODO (~10): <http://writing.rocks/more-redundant-phrases/>
+   - TODO (8): <http://redmallard.com/8-redundant-phrases-to-stop-using/>
+   - TODO (7): <http://baab.biz/7-annoying-redundant-phrases/>
+   - TODO: <http://www.cs.columbia.edu/~hgs/etc/writing-bugs.html>
+   - TODO: <http://www.dartmouth.edu/~bio31/Mack_1986.pdf>
+   - TODO: <http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/>
+   - TODO: <http://www.fun-with-words.com/redundant_phrases.html>
+   - TODO: <https://books.google.com/books?id=CooJY4Mch7EC&pg=PA73&lpg=PA73&dq=%22verbose+phrases%22+OR+%22redundant+phrases%22&source=bl&ots=nvsP9BvosM&sig=HMh0muZu_f0TWlVpxdI5ivy6CwU&hl=en&sa=X&ved=0ahUKEwj30d_JmJLZAhUJWq0KHdFGC244ChDoAQhGMAY#v=onepage&q=%22verbose%20phrases%22%20OR%20%22redundant%20phrases%22&f=false>
+   - TODO: <http://editingandwritingservices.com/redundant-words-phrases/>
+   - TODO: <https://blog.udemy.com/redundancy-examples/>
+   - TODO: <https://en.wikipedia.org/wiki/RAS_syndrome>
+   - TODO: <https://grammarsaurusrex.wordpress.com/tag/redundant-phrases/>
+   - TODO: <https://www.reddit.com/r/todayilearned/comments/1udsum/til_redundant_phrases_such_as_atm_machine_and_pin/>
+   - TODO: <http://www.rogerogreen.com/2015/03/09/careful-scrutiny-of-pleonasms-redundant-phrases/>
+   - TODO: <https://twitter.com/TheUnNovelist/status/782932131441963008>
+   - TODO: <http://writingnorthidaho.blogspot.com/2011/02/redundant-phrases.html>
+   - TODO: <https://smartblogger.com/weak-writing/>
+   - TODO: <https://community.languagetool.org/rule/list?offset=0&max=10&lang=en&filter=&categoryFilter=Redundant+Phrases&_action_list=Filter>
+   - TODO: <http://www.statisticssolutions.com/economy-of-expression/>
+   - TODO: <http://mandymarksteiner.com/scientists-are-you-making-this-common-writing-mistake/>
+   - TODO: <https://en.wikipedia.org/wiki/Legal_doublet>
+   - TODO: <https://news.ycombinator.com/item?id=12559925>
+   - TODO: <https://www.xait.com/resources/blog/cliches-to-avoid-in-proposals/>
+   - TODO: <https://www.rd.com/funny-stuff/ras-syndrome/>
+   - TODO: <https://en.oxforddictionaries.com/writing-help/avoiding-redundant-expressions>
+   - TODO: <https://www.copyblogger.com/clear-writing/>
+   - TODO (100+): <http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm>
+   - TODO (30): <http://web.archive.org/web/20100427114553/http://callcentergal.com/2008/06/05/alright-okay-callcentergal%E2%80%99s-list-of-redundant-phrases/>
+   - TODO (100+): <http://web.archive.org/web/20130508125655/http://www.pleonasms.com/>
+   - TODO (100+): <http://www.wordfocus.com/pleonasm.html>
+   - TODO: slate star codex --- long winded
+   - TODO (24): <https://wordvice.com/avoid-fillers-powerful-writing/>
 
 ## title
 

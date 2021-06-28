@@ -96,14 +96,19 @@
 
 % ## Math macros
 
-% for ensemble averages
-% TODO: Convert to \DeclarePairedDelimiter?
-\newcommand{\avg}[1]{\left\langle #1 \right\rangle}
-\newcommand{\savg}[1]{\langle #1 \rangle}
-% https://tex.stackexchange.com/q/448/9945
-\newcommand{\cavg}[2]{\left\langle #1 \ \middle|\ #2 \right\rangle}
-% https://tex.stackexchange.com/q/187162/9945
-\newcommand{\scavg}[2]{\langle #1 \mid #2 \rangle}
+% for averages
+% Make these semantic as suggested at <https://tex.stackexchange.com/q/98028>.
+% This uses mathtools \DeclarePairedDelimiter.
+%\newcommand{\avg}[1]{\left\langle #1 \right\rangle}
+\DeclarePairedDelimiter{\ensavg}{\langle}{\rangle} % ensemble average
+\newcommand{\spaavg}[1]{\overline{#1}} % spatial average
+
+% TODO: Figure out the mathtools \DeclarePairedDelimiter way to do a conditional average. The following are commented out for now.
+% TODO: Also consider: https://terrytao.wordpress.com/2017/07/07/what-are-some-useful-but-little-known-features-of-the-tools-used-in-professional-mathematics/#comment-483544
+%% https://tex.stackexchange.com/q/448/9945
+%\newcommand{\cavg}[2]{\left\langle #1 \ \middle|\ #2 \right\rangle}
+%% https://tex.stackexchange.com/q/187162/9945
+%\newcommand{\scavg}[2]{\langle #1 \mid #2 \rangle}
 
 % for thermodynamic partial derivatives
 \newcommand{\dpdc}[3]{\left(\dpd{#1}{#2}\right)_{#3}}
@@ -174,13 +179,13 @@
 % also need to change trajectory and jet breakup scripts when changing these
 % 2018-11-30: search for _\text{l
 
-\newcommand{\xbavg}{\savg{x_\text{b}}}
-\newcommand{\tbavg}{\savg{t_\text{b}}}
+\newcommand{\xbavg}{\ensavg*{x_\text{b}}}
+\newcommand{\tbavg}{\ensavg*{t_\text{b}}}
 \newcommand{\sigmaxb}{\sigma_{x_\text{b}}}
-\newcommand{\xiavg}{\savg{x_\text{i}}}
+\newcommand{\xiavg}{\ensavg*{x_\text{i}}}
 \newcommand{\thetai}{{\theta_\text{i}}}
-\newcommand{\udavg}{\savg{u_\text{d}}}
-\newcommand{\vdavg}{\savg{v_\text{d}}}
+\newcommand{\udavg}{\ensavg*{u_\text{d}}}
+\newcommand{\vdavg}{\ensavg*{v_\text{d}}}
 \newcommand{\Dmax}{D_\text{max}}
 \newcommand{\Frh}{\Fr_{h_0}}
 \newcommand{\Xb}{X_\text{b}}
@@ -238,7 +243,7 @@
 \newcommand{\Tubarexp}[1]{\Tubar_0^{\kern1.0pt #1}}
 \newcommand{\mdotp}{\dot{m}^{\prime}}
 \newcommand{\mdotpp}{\dot{m}^{\prime\prime}}
-\newcommand{\avgmdotpp}{\savg{\mdotpp}}
+\newcommand{\avgmdotpp}{\ensavg*{\mdotpp}}
 
 % https://tex.stackexchange.com/a/69017
 \makeatletter
@@ -301,7 +306,7 @@
 
 \newcommand*{\tripleprime}{\prime\prime\prime}
 
-% https://tex.stackexchange.com/a/97246/9945
+% <https://tex.stackexchange.com/a/97246/9945>
 \DeclareMathOperator{\sech}{sech}
 \DeclareMathOperator{\csch}{csch}
 \DeclareMathOperator{\arcsec}{arcsec}
@@ -321,8 +326,8 @@
 % https://blog.roland-kluge.de/?p=720
 % https://github.com/GNUAspell/aspell/issues/305
 % Don't check a section with aspell.
-\newcommand{\aspellskip}[1]{#1}
-\newcommand{\aspellskipinput}[1]{\input{#1}}
+\newcommand{\nospellcheck}[1]{#1}
+\newcommand{\nospellcheckinput}[1]{\input{#1}}
 
 % ## Reference macros
 

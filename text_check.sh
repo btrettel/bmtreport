@@ -44,3 +44,11 @@ grep -H -n -i --color '\badd \w* \w* \w* here\b' $1
 #grep -H -n -i --color '\bpseudo-[a-z]\b' $1
 #grep -H -n -i --color '\b[a-z]-gate\b' $1
 grep -H -n -i --color '\bfall flat on \w* face\b' $1
+grep -H -n -i --color '\bup to [1-9a-f%]\b' $1 # like "up to sixty percent"
+grep -H -n -i --color '\bmore than [1-9a-f%]\b' $1
+grep -H -n -i --color '\b[0-9]+ out of [0-9]+\b' $1 # [0-9]+ (out) of [0-9]+
+# TODO: grep -H -n -i --color '\b$[0-9]+ USD+\b' $1 # https://news.ycombinator.com/item?id=11238603
+#TODO \bwhere () is concerned/about
+#TODO \bbiography of a person's life # biography (of a person's life) (verbose)
+#TODO \bkill () dead # kill () (verbose)
+#\bgreen [or blue or whatever] in color # green [or blue or whatever] (in color) (verbose)

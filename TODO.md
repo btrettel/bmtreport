@@ -4,6 +4,7 @@
 - Tight feedback loop: (make quick or something like that?) (<https://news.ycombinator.com/item?id=20009123>):
    > So knowing this, my approach is to *use a system that continuously shows the typeset output* as I type, if I can. That way errors are usually obvious and easy to find. If that's not practical with your favorite editor, just manually run LaTex on your source frequently to see how your document is progressing. The times I've had to do serious puzzling over what was happening were almost always because I had pages of complex text entered before checking to see the output.
 - <https://www.semipol.de/posts/2018/06/latex-best-practices-lessons-learned-from-writing-a-phd-thesis/>
+- root-mean-square vs. root-mean-squared vs. root mean square (etc.) (Check Google Ngram. Require dashes?)
 
 ## Files
 
@@ -22,6 +23,7 @@
 - refcheck
 - Have flags for various manual checks, e.g., reading out loud.
 - Add macros for the DOI, pagetotal, etc. Add these to XMP metadata, update the citation as appropriate, etc.
+- Make environments for standardized sections like the introduction and conclusions. These will automatically define the labels in a standardized way (for example, `\label{sec:introduction}`) and automatically enforce word counts.
 - maybe
    - Distribution list like some old DOD reports?
    - revision history/changelog after appendices
