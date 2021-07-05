@@ -30,8 +30,12 @@ with open(sys.argv[1]) as csv_file:
       # TODO: assert('(' in row[1])
       # TODO: assert(')' in row[1])
       assert(not('#' in row[0][1:]))
+      assert(not('#' in row[1]))
+      assert(not(' )' in row[1]))
       assert(not('TODO' in row[0]))
       assert(not('TODO' in row[1]))
+      assert(not('[0-9]' in row[0]))
+      assert(not('[0-9]' in row[1]))
       if prev_first_col == row[0]:
          sys.exit('Duplicate: '+row[0]+' ('+sys.argv[1]+')')
       num_rows = num_rows + 1
@@ -42,6 +46,9 @@ with open(sys.argv[1]) as csv_file:
       else:
          if not(row[0].startswith('#')): # These lines are commented out.
             outfile.write(row[0]+'\t'+row[1]+'\n')
+         else:
+            if prev_first_col == row[0][1:]:
+               sys.exit('Commented duplicate: '+row[0]+' ('+sys.argv[1]+')')
       prev_first_col = row[0]
 
 print(num_rows, 'lines converted.')

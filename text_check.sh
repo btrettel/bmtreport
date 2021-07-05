@@ -52,3 +52,11 @@ grep -H -n -i --color '\b[0-9]+ out of [0-9]+\b' $1 # [0-9]+ (out) of [0-9]+
 #TODO \bbiography of a person's life # biography (of a person's life) (verbose)
 #TODO \bkill () dead # kill () (verbose)
 #\bgreen [or blue or whatever] in color # green [or blue or whatever] (in color) (verbose)
+#"#\bDr. () MD","Dr. (), () MD # what about PhDs? (verbose)",
+#"\bin the past [0-9]+ days","before, earlier (verbose)",
+#"\bin the past [0-9]+ months","before, earlier (verbose)",
+#"\bin the past [0-9]+ weeks","before, earlier (verbose)",
+#"\bin the past [0-9]+ years","before, earlier (verbose)",
+#"#\bis said to [verb]","[verb]ies #(e.g., is said to vary (verbose)",
+#"\bolder than [0-9]+ years of age","older than [0-9]+ years of age (verbose)",
+#\byounger than [0-9]+ years of age,younger than [0-9]+ years of age (verbose),

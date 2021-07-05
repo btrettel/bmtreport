@@ -1,8 +1,11 @@
 "\b100% accurate","(probability; remove and instead be quantitative when possible)",
-"\b12 midnight","(12) midnight",(verbose)
-"\b12 noon","(12) noon (verbose)",
+"\b12 midnight","midnight (verbose)",http://stevehanov.ca/blog/?id=52
+"\b12 noon","noon (verbose)",http://stevehanov.ca/blog/?id=52
 "\b2 halves","(2) halves (verbose)",
+"\ba big fan of","a fan of (verbose)",http://stevehanov.ca/blog/?id=52
 "\ba bit",(informal),
+"\ba bit more","more (verbose)",http://stevehanov.ca/blog/?id=52
+"\ba bit of","some (verbose)",http://stevehanov.ca/blog/?id=52
 "\babsolutely certain","(absolutely) certain (verbose)",
 "\babsolutely complete","complete (verbose)",
 "\babsolutely essential","(absolutely) essential (verbose)",
@@ -10,6 +13,8 @@
 "\babsolutely necessary","(absolutely) necessary (verbose)",
 "\babsolutely nothing","nothing (verbose)",
 "\babsolutely sure","(absolutely) sure (verbose)",
+\babsolutely,(verbose),http://stevehanov.ca/blog/?id=52
+"\babsolute minimum","minimum (verbose)",http://stevehanov.ca/blog/?id=52
 \babsurdity,(offensive),
 \babsurdly,(offensive),
 \babsurd,(offensive),
@@ -26,34 +31,43 @@
 "\baccording to our records","we find (verbose)",
 \baccused,"(expressions of doubt)",https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Expressions_of_doubt
 "\ba chance","(probability; remove and instead be quantitative when possible)",
+\bachieve,"get (verbose)",http://stevehanov.ca/blog/?id=52
 \bachievement,(puffery),
 \bachieve,(puffery),
 \bachieves,(puffery),
+"\ba considerable amount of",(verbose),http://stevehanov.ca/blog/?id=52
 "\ba crank","(distinguish from the verb crank)",
-"\bactual experience","(actual) experience (verbose)",
+"\bact to",(verbose),http://stevehanov.ca/blog/?id=52
+"\bactual experience","experience (verbose)",http://stevehanov.ca/blog/?id=52
 "\bactual fact","(actual) fact (verbose)",
 "\bactual facts","(actual) facts (verbose)",
 "\bactual insight",(offensive),
-\bactually,(offensive),
+\bactually,"(offensive, perhaps verbose)",http://stevehanov.ca/blog/?id=52
 "\badd an additional","add (an additional) (verbose)",
-"\badded bonus","(added) bonus (verbose)",
+"\badded bonus","bonus (verbose)",http://stevehanov.ca/blog/?id=52
 "\badd here","(likely incomplete)",
 "\badd in","add (verbose)",
+"\baddress the problem","solve the problem (verbose)",http://stevehanov.ca/blog/?id=52
+"\baddress this problem","solve this problem (verbose)",http://stevehanov.ca/blog/?id=52
 "\badd up","add (up) (verbose)",
 "\badequate enough","adequate (enough) (verbose)",
 "\badequate number (of)","enough (verbose)",
 "\badjacent to","beside, by, close to, near, next to (verbose)",
+\badjust,"change (verbose)",http://stevehanov.ca/blog/?id=52
+\badjustment,"change (verbose)",http://stevehanov.ca/blog/?id=52
 \badmired,(puffery),
 "\badvance forward","advance (forward) (verbose)",
-"\badvance notice","advance notice (verbose)",
-"\badvance planning","(advance) planning (verbose)",
+"\badvance notice","notice (verbose)",http://stevehanov.ca/blog/?id=52
+"\badvance planning","planning (verbose)",http://stevehanov.ca/blog/?id=52
 "\badvance preview","(advance) preview (verbose)",
-"\badvance reservations","(advance) reservations (verbose)",
-"\badvance warning","(advance) warning (verbose)",
+"\badvance reservations","reservations (verbose)",http://stevehanov.ca/blog/?id=52
+"\badvance warning","warning (verbose)",http://stevehanov.ca/blog/?id=52
 \badverse,"(clarity, most people don't know what this means)",
 \badversely,"(clarity, most people don't know what this means)",
 "\baffirmative yes","(affirmative) yes (verbose)",
 "\bafford an opportunity","allow, give, let (verbose)",
+\baforementioned,(verbose),http://stevehanov.ca/blog/?id=52
+"\bafter all is said and done",(verbose),http://stevehanov.ca/blog/?id=52
 \bafterthought,(offensive),
 "\baggregate together","aggregate (together) (verbose)",
 "\bagreement is excellent",(vague),
@@ -71,47 +85,69 @@
 "\ball due respect",(cliche),
 \balleged,"(expressions of doubt)",https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Expressions_of_doubt
 "#\ball of","all (of) unless followed by a pronoun (verbose)",
+"\ball of a sudden","suddenly (verbose)",http://stevehanov.ca/blog/?id=52
 "#\ball of the","all the (verbose)",
+"\ball of the","all the (verbose)",http://stevehanov.ca/blog/?id=52
+"\ball of these","these (verbose)",http://stevehanov.ca/blog/?id=52
 "\ball of us","we all (verbose)",
-"\ball things considered","(all things considered) (verbose)",
+"\ballow me to","i will (verbose)",http://stevehanov.ca/blog/?id=52
+"\ball things considered","(all things considered) (verbose)",http://stevehanov.ca/blog/?id=52
 "\ball throughout","(all) throughout (verbose)",
 "\ball-time record","(all-time) record (verbose)",
-"\balmost all","most (verbose)",
+"\ball time record","record (verbose)",http://stevehanov.ca/blog/?id=52
+"\ball-time record","record (verbose)",http://stevehanov.ca/blog/?id=52
+"\balmost all","most (verbose)",http://stevehanov.ca/blog/?id=52
 "\balmost always",(vague),
-"\balmost certainly",(vague),
+"\balmost certainly","(vague, verbose)",http://stevehanov.ca/blog/?id=52
+"\balmost completely","almost (verbose)",http://stevehanov.ca/blog/?id=52
 "\balmost definitely",(oxymoron),
+"\balmost entirely","mostly (verbose)",http://stevehanov.ca/blog/?id=52
+"\balmost everyone","most people (verbose)",http://stevehanov.ca/blog/?id=52
 "\balmost exactly","nearly/approximately (oxymoron)",
-"\balong the lines of","close to, like, resembling, similar, similar to, such as (verbose)",
-"\ba lot",(informal),
-"#\ba lot",(vague),
+"\balmost never","seldom (verbose)",http://stevehanov.ca/blog/?id=52
+"\balong the lines of","close to, like, resembling, similar, similar to, such as (verbose)",http://stevehanov.ca/blog/?id=52
+"\ba lot","(vague, informal)",
+"\balready exist","exist (verbose)",http://stevehanov.ca/blog/?id=52
 "\balready existing","existing (verbose)",
 "\balready exists","exists (verbose)",
 "\balso too","also (verbose)",
 "\balternative choice","alternative (choice) (verbose)",
 #\balways,(exaggerated),https://www.scribbr.com/academic-writing/taboo-words/
+"\bam able to","can (verbose)",http://stevehanov.ca/blog/?id=52
 "\ba majority of","most (verbose)",
 \bamazingly,(puffery),
 \bamazing,(puffery),
+\bameliorate,"improve (verbose)",http://stevehanov.ca/blog/?id=52
 "\ba.m. in the morning","a.m. (in the morning) (verbose)",
 "\bA.M. in the morning","A.M. (in the morning) (verbose)",
 "\ba.m. in the morning","a.m. (verbose)",
+\bamongst,"among (verbose)",http://stevehanov.ca/blog/?id=52
+"\bamounts to","is (verbose)",http://stevehanov.ca/blog/?id=52
 "\ba myriad of","myriad (verbose)",
+\banalogous,"similar (verbose)",http://stevehanov.ca/blog/?id=52
 \bancient,(offensive),
+"\band also","and (verbose)",http://stevehanov.ca/blog/?id=52
 "\band etc.","(and) etc. (verbose)",
+"\band even worse,","worse, (verbose)",http://stevehanov.ca/blog/?id=52
 "\band so forth",(vague),
 "\band so on",(vague),
 #\banecdotal,(offensive),
 #\banecdote,(offensive),
-"\ban estimated","about, almost, around, close to, more than, nearly, or so, roughly (verbose)",
+"\ban estimated","about, almost, around, close to, more than, nearly, or so, roughly (verbose)",http://stevehanov.ca/blog/?id=52
 "\ban except","an excerpt (atomic typo)",
 \bangered,(offensive),
 \banger,(offensive),
 \bangry,(offensive),
+"\ban individual","a man or woman (verbose)",http://stevehanov.ca/blog/?id=52
 "\ban inspired",(puffery),
 \bannoying,(offensive),
 "\bannual anniversary","(annual) anniversary (verbose)",
 "\banonymous stranger","(anonymous) stranger (verbose)",
 \banti-American,(offensive),
+\banticipate,"expect (verbose)",http://stevehanov.ca/blog/?id=52
+"\bany and all","all (verbose)",http://stevehanov.ca/blog/?id=52
+"\bany given","any (verbose)",http://stevehanov.ca/blog/?id=52
+"\banything resembling",(verbose),http://stevehanov.ca/blog/?id=52
 \banyway,(vague),
 "\ba possibility","(probability; remove and instead be quantitative when possible)",
 "\ba posteriori","derived from observed facts (English is preferred to Latin)",
@@ -119,21 +155,32 @@
 \bappalling,(offensive),
 \bappall,(offensive),
 \bappalls,(offensive),
+\bapparently,(verbose),http://stevehanov.ca/blog/?id=52
+\bapparent,(verbose),http://stevehanov.ca/blog/?id=52
 "#\bappears to","(probability; remove and instead be quantitative when possible)",
 #\bappears,(vague),
+\bappend,"add (verbose)",http://stevehanov.ca/blog/?id=52
+"\ba pretty","a (verbose)",http://stevehanov.ca/blog/?id=52
 "\ba priori","by reasoning alone (English is preferred to Latin)",
 "\ba promising",(puffery),
+"\ba rather","a (verbose)",http://stevehanov.ca/blog/?id=52
 \barcane,(offensive),
 \barchaic,(offensive),
 \bardent,(offensive),
+"\bare able to","can (verbose)",http://stevehanov.ca/blog/?id=52
 "\bare a thing","exist (cliche)",
 "\bare going to",(informal),
 "\bare in possession of","has, have, owns, with (verbose)",
 "\bare key",(puffery),
+"\bare now wondering","are wondering (verbose)",http://stevehanov.ca/blog/?id=52
+"\baren't nearly","aren't (verbose)",http://stevehanov.ca/blog/?id=52
+"\bare of the opinion that","believe (verbose)",http://stevehanov.ca/blog/?id=52
+"\bare presently","are now (verbose)",http://stevehanov.ca/blog/?id=52
 \bargumentation,(cliche),
 "\bargument is weak",(offensive),
 "\barmed gunman","(armed) gunman (verbose)",
 "\barrange to return","return (verbose)",
+"\barrive at the conclusion","conclude (verbose)",http://stevehanov.ca/blog/?id=52
 "\barrived at a compromise","agreed, compromised, concluded, decided, estimated (verbose)",
 "\barrived at a conclusion","agreed, compromised, concluded, decided, estimated (verbose)",
 "\barrived at a decision","agreed, compromised, concluded, decided, estimated (verbose)",
@@ -144,18 +191,23 @@
 "\bartificial prosthesis","(artificial) prosthesis (verbose)",
 "\bas a consequence of","because, because of, from, since (verbose)",
 "\bas a consequence","so, then, thus (verbose)",
-"\bas a matter of fact","(as a matter of fact) (verbose)",
-"\bas a means of","to (verbose)",
+"\bas a matter of fact","(as a matter of fact) (verbose)",http://stevehanov.ca/blog/?id=52
+"\bas a means of","to (verbose)",http://stevehanov.ca/blog/?id=52
+"\bas a means to","to (verbose)",http://stevehanov.ca/blog/?id=52
 "\bas a result of","because, because of, from, since (verbose)",
 "\bas a result","so, then, thus (verbose)",
+"\bas a while",(verbose),http://stevehanov.ca/blog/?id=52
 "\bascend up","ascend (up) (verbose)",
-"\bas far as I'm concerned","(remove) (verbose)",
+\bascertain,"find out whether (verbose)",http://stevehanov.ca/blog/?id=52
+"\bas far as I'm concerned",(verbose),http://stevehanov.ca/blog/?id=52
 "\bas for example","as for example (verbose)",
+"\bas it truly is",(verbose),http://stevehanov.ca/blog/?id=52
 "\bask a question","ask (a question) (verbose)",
-"\bask the question","ask (the question) (verbose)",
+"\bask the question","ask (verbose)",http://stevehanov.ca/blog/?id=52
+"\ba slew of",(verbose),http://stevehanov.ca/blog/?id=52
 "\bas long as","if, since (verbose)",
 "\bas of (date)","about, from, on (verbose)",
-"\bas of now","about, from, on (verbose)",
+"\bas of now","about, from, on (verbose)",http://stevehanov.ca/blog/?id=52
 "\bas of yet","yet (verbose)",
 "\ba spade",(offensive),
 #\baspect,(vague),"but aspect ratio is okay"
@@ -165,9 +217,12 @@
 "\bass hole",(profanity),
 \bass-hole,(profanity),
 \basshole,(profanity),
+\bassistance,"help (verbose)",http://stevehanov.ca/blog/?id=52
+\bassist,"help (verbose)",http://stevehanov.ca/blog/?id=52
 "#\bassuming that","if (but not always) (verbose)",
 \bassuringly,(puffery),
 \bassuring,(puffery),
+"\bas the case may be",(verbose),http://stevehanov.ca/blog/?id=52
 \bastonished,(puffery),
 \bastonishingly,(puffery),
 \bastonishing,(puffery),
@@ -176,8 +231,11 @@
 \bastute,(puffery),
 "\bas well as","also, and (verbose)",
 "\bas yet","(as) yet (verbose)",
-"\bat all times","always # or remove (verbose)",
-"\bat an early date","soon # or a specific date (verbose)",
+"\bat about","at (verbose)",http://stevehanov.ca/blog/?id=52
+"\bat all times","always (or remove) (verbose)",http://stevehanov.ca/blog/?id=52
+"\bat an earlier stage","earlier (verbose)",http://stevehanov.ca/blog/?id=52
+"\bat an early date","soon (or a specific date) (verbose)",
+"\bat first glance",(verbose),http://stevehanov.ca/blog/?id=52
 "\ba the","(double article)",
 "\ba thing","rewrite to use a word like ""exists"" (cliche)",
 "\bATM machine","ATM (verbose)",
@@ -185,18 +243,24 @@
 "\ba total of 5,280","(a total of) 5,280 (verbose)",
 "#\bat present","now, today (verbose)",
 \batrocious,(offensive),
-"\battached herewith is","here are, here is, with this # or remove (verbose)",
+"\battached herewith is","here are, here is, with this (or remove) (verbose)",
 "\battach together","attach (together) (verbose)",
+\battain,"reach (verbose)",http://stevehanov.ca/blog/?id=52
+\battempt,"try (verbose)",http://stevehanov.ca/blog/?id=52
+"\bat the earliest possible date","as soon as possible (verbose)",http://stevehanov.ca/blog/?id=52
 "\bat the end of","after (verbose)",
 "\bat the end of the day",(cliche),
 "\bat the present moment in time","now (verbose)",
 "\bat the present moment","now (verbose)",
-"\bat the present time","now, today, presently (verbose; be specific or remove )",
+"\bat the present time","now, today, presently (verbose; be specific or remove)",http://stevehanov.ca/blog/?id=52
 "\bat the same time as","before, after, as (verbose)",
+"\bat the same time that","while (verbose)",http://stevehanov.ca/blog/?id=52
 "\bat the time that","when (or be specific) (verbose)",
 "\bat the time","when (or be specific) (verbose)",
 "\bat this point in time","now, today, presently (verbose; be specific or remove)",
-"\bat this time","now, today (verbose, be specific or remove)",
+"\bat this time","now, today (verbose, be specific or remove)",http://stevehanov.ca/blog/?id=52
+"\battractive in appearance","attractive (verbose)",http://stevehanov.ca/blog/?id=52
+\baugment,"increase (verbose)",http://stevehanov.ca/blog/?id=52
 \bauthority,(puffery),
 "\bautobiography of his or her own life","autobiography (of his or her own life) (verbose)",
 "\ba variety of","several (verbose)",
@@ -225,9 +289,11 @@
 "\bbarking up the wrong tree",(cliche),
 "\bbased out of","based on (verbose)",
 \bbaseless,(offensive),
-\bbasically,(vague),
+\bbasically,"(verbose, vague)",http://stevehanov.ca/blog/?id=52
 "\bbasic essentials","(basic) essentials (verbose)",
-"\bbasic fundamentals","fundamentals (verbose)",
+"\bbasic fundamental","fundamental (verbose)",http://stevehanov.ca/blog/?id=52
+"\bbasic fundamentals","fundamentals (verbose)",http://stevehanov.ca/blog/?id=52
+"\bbasic necessity","need (verbose)",http://stevehanov.ca/blog/?id=52
 \bbastardly,(profanity),
 \bbastard,(profanity),
 \bbatshit,(offensive),
@@ -235,12 +301,16 @@
 \bbeautiful,(puffery),
 \bbeauty,(puffery),
 "\bbecause of the fact that","because, since, as (verbose)",
+"\bbeen pretty","been (verbose)",http://stevehanov.ca/blog/?id=52
 \bbeloved,(puffery),
 "\bbest ever","best (ever) (verbose)",
 "\bbest in breed",(puffery),
 \bbest-in-breed,(puffery),
+"\bbest possible","best (verbose)",http://stevehanov.ca/blog/?id=52
 \bbetrayed,(offensive),
 "\bbetter than even","(probability; remove and instead be quantitative when possible)",
+"\bbe using","use (verbose)",http://stevehanov.ca/blog/?id=52
+\bbiannually,"twice a year (verbose)",http://stevehanov.ca/blog/?id=52
 \bbig,"large/sizable (informal)",
 \bbigoted,(offensive),
 \bbigot,(offensive),
@@ -251,7 +321,7 @@
 \bbi-weekly,"every other week, twice a week (ambiguous)",https://english.stackexchange.com/questions/50658/are-there-any-words-i-can-use-to-disambiguate-biweekly
 \bbiweekly,"every other week, twice a week (ambiguous)",https://english.stackexchange.com/questions/50658/are-there-any-words-i-can-use-to-disambiguate-biweekly
 \bbizarre,(offensive),
-"\bblack in color","black (verbose)",
+"\bblack in color","black (verbose)",http://stevehanov.ca/blog/?id=52
 \bbland,(offensive),
 \bblasphemy,(offensive),http://www.paulgraham.com/say.html
 \bblatantly,(offensive),
@@ -279,19 +349,21 @@
 "\bbona fides",(puffery),
 \bboring,(offensive),
 "\bboth of","both (of) (verbose)",
-"\bboth of them","both (of them) (verbose)",
+"\bboth of them","both (of them) (verbose)",http://stevehanov.ca/blog/?id=52
+"\bboth of these","both (verbose)",http://stevehanov.ca/blog/?id=52
 "\bbouquet of flowers","bouquet (of flowers) (verbose)",
 \bbrainchild,(puffery),
 \bbrainless,(offensive),
 "\bbrand new","(brand) new (verbose)",
 \bbrazenly,(offensive),
 \bbrazen,(offensive),
+"\bbreak apart","separate (verbose)",http://stevehanov.ca/blog/?id=52
 "\bbreak down","are no longer valid (clarity)",
 "\bbreak down barriers",(cliche),
 "\bbreak things",(cliche),
 \bbreakthrough,(puffery),
 \bbreakthroughs,(puffery),
-"\bbrief in duration","brief (in duration) (verbose)",
+"\bbrief in duration","brief (verbose)",http://stevehanov.ca/blog/?id=52
 "\bbrief moment","(brief) moment (verbose)",
 "\bbrief summary","(brief) summary (verbose)",
 \bbrilliantly,(puffery),
@@ -306,11 +378,16 @@
 "\bburning embers","(burning) embers (verbose)",
 "\bburning fire","fire (verbose)",
 "\bbut nevertheless","(remove one word or the other) (verbose)",
-"\bby means of","by, with, from, in, over, through (verbose)",
+"\bbut the question remains",(verbose),http://stevehanov.ca/blog/?id=52
+"\bby and large",(verbose),http://stevehanov.ca/blog/?id=52
+"\bby definition",(verbose),http://stevehanov.ca/blog/?id=52
+"\bby leaps and bounds",(verbose),http://stevehanov.ca/blog/?id=52
+"\bby means of","by, with, from, in, over, through (verbose)",http://stevehanov.ca/blog/?id=52
 "\bby reason of","because, because of, since (verbose)",
 "\bby the means of","by, with, from, in, over, through (verbose)",
 "\bby the name of","named, called (verbose)",
-"\bby virtue of","by, because of, under (verbose)",
+"\bby virtue of","by, because of, under (verbose)",http://stevehanov.ca/blog/?id=52
+"\bby virtue of the fact that","because (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcacophony of sound","cacophony (of sound) (verbose)",
 \bcaliber,(cliche),
 "\bcall a halt to","halt, stop, end (verbose)",
@@ -318,25 +395,34 @@
 "\bcall a stop to","halt, stop, end (verbose)",
 "\bcame at a time when","came (at a time) when (verbose)",
 "\bcameo appearance","cameo (appearance) (verbose)",
+"\bcame to an abrupt end","ended abruptly (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcame to an agreement","agreed (verbose)",
+"\bcame to a realization","realized (verbose)",http://stevehanov.ca/blog/?id=52
 \bcanard,(offensive),
 "\bcan be approximated as","is approximately (verbose)",
+"\bcan be seen as","is (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcancel out","cancel (out) (verbose)",
 "\bcannot be avoided","must, should (verbose)",
 \bcanonical,(puffery),
+"\bcan potentially","can (verbose)",http://stevehanov.ca/blog/?id=52
+"\bcan truly","can (verbose)",http://stevehanov.ca/blog/?id=52
+"\bcarefully examines","examines (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcareful scrutiny","(careful) scrutiny (verbose)",
 "\bcarry out an evaluation of","evaluate (verbose)",
 "\bcase and effect","cause and effect",
 #\bcase,(vague),
 "\bcash money","cash (money) (verbose)",
+\bcategory,"group (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcause offense","(wordy too; offend would be shorter)",
 \bcavalier,(offensive),
 "\bcease and desist","cease (and desist) (verbose)",
+\bcease,"stop (verbose)",http://stevehanov.ca/blog/?id=52
 \bcelebrated,(puffery),"nazarenko_nonlinear_2000, kumar_asymptotic_2021"
 "\bcenter around","at, center on, in, on, revolve around (verbose)",
 "\bCEO officer","CEO (officer) (verbose)",
 \bcertainly,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 "\bceteris paribus","all else equal (verbose)",
+\bc.f.,"compare with (English is preferred to Latin)",
 \bchampioning,(puffery),
 \bchampion,(puffery),
 \bchampions,(puffery),
@@ -370,6 +456,7 @@
 "\bclassroom environment","classroom (verbose)",
 #\bclear,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 \bclearly,"(editorializing; try apparently)",https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
+"\bclearly evident","obvious (verbose)",http://stevehanov.ca/blog/?id=52
 \bcleave,"(ambiguous, Janus word)",
 \bcleverly,(puffery),
 \bclever,(puffery),
@@ -377,15 +464,16 @@
 #\bclich\'{e},(offensive),
 \bcliché,(offensive),
 \bclickbait,(offensive),
-"\bclimb up","climb (up) (verbose)",
+"\bclimb up","climb (up) (verbose)",http://stevehanov.ca/blog/?id=52
 "\bclinical trail","clinical trial (atomic typo)",https://retractionwatch.com/2017/11/14/phantom-reference-made-article-got-almost-400-citations/#comment-1497535
 "\bclinical trails","clinical trial (atomic typo)",https://retractionwatch.com/2017/11/14/phantom-reference-made-article-got-almost-400-citations/#comment-1497535
 \bclip,"(ambiguous, Janus word)",
 "\bclosed fist","(closed) fist (verbose)",
 "\bclose minded",(offensive),
 \bclose-minded,(offensive),
-"\bclose proximity","(close) proximity (verbose)",
+"\bclose proximity","close (verbose)",http://stevehanov.ca/blog/?id=52
 "\bclose proximity/scrutiny","close proximity/scrutiny (verbose)",
+"\bclose scrutiny","scrutiny (verbose)",http://stevehanov.ca/blog/?id=52
 \bclownish,(offensive),
 \bclueless,(offensive),
 \bclumsiness,(offensive),
@@ -394,26 +482,29 @@
 "\bcock sucker",(profanity),
 \bcock-sucker,(profanity),
 \bcocksucker,(profanity),
-\bcognizant,"(too formal)",
+\bcognizant,"aware (verbose, too formal)",http://stevehanov.ca/blog/?id=52
 "\bcollaborate together","collaborate (together) (verbose)",
-"\bcombine together","combine (together) (verbose)",
+"\bcombine together","combine (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcome to a conclusion","conclude (verbose)",
 "\bcome to an agreement","agree, compromise, decide, resolve, settle (verbose)",
 "\bcome to an end","close, end, finish, halt, stop (verbose)",
 "\bcome to the conclusion","conclude (verbose)",
+\bcommence,"start (verbose)",http://stevehanov.ca/blog/?id=52
 \bcommendable,(puffery),
 \bcommensurate,"(clarity, use synonym)",
 \bcommonplace,(offensive),
 "\bcommon sense",(puffery),
 \bcommon-sense,(puffery),
+"\bcommon similarities","similarities (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcommute back and forth","commute (back and forth) (verbose)",
+"\bcompare and contrast","compare (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcompete with each other","compete (with each other) (verbose)",
 \bcomplacency,(offensive),
 "\bcomplete failure",(offensive),
 "\bcompletely annihilate","(completely) annihilate (verbose)",
 "\bcompletely destroy","(completely) destroy (verbose)",
-"\bcompletely destroyed","(completely) destroyed (verbose)",
-"\bcompletely eliminate","eliminate (verbose)",
+"\bcompletely destroyed","destroyed (verbose)",http://stevehanov.ca/blog/?id=52
+"\bcompletely eliminate","eliminate (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcompletely empty","(completely) empty (verbose)",
 "\bcompletely engulf","(completely) engulf (verbose)",
 "\bcompletely engulfed","(completely) engulfed (verbose)",
@@ -422,15 +513,22 @@
 "\bcompletely finished","completed (verbose)",
 "\bcompletely finish","finish, complete (verbose)",
 "\bcompletely foreign",(offensive),
+"\bcompletely fulfilled","fulfilled (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcompletely full","(completely) full (verbose)",
 "\bcompletely surround","(completely) surround (verbose)",
 "\bcompletely unanimous","(completely) unanimous (verbose)",
 "\bcompletely wrong",(offensive),
+"\bcomplete monopoly","monopoly (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcomplete nonsense",(offensive),
 "\bcomplete opposite","complete opposite (verbose)",
+"\bcomplete stranger","stranger (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcomply with","follow, obey (verbose)",
 "\bcomponent parts","(component) parts (verbose)",
+\bconceal,"hide (verbose)",http://stevehanov.ca/blog/?id=52
+\bconcerning,"about (verbose)",http://stevehanov.ca/blog/?id=52
 "\bconcerning the matter of","about (verbose)",
+"\bconcerting the matter of",(verbose),http://stevehanov.ca/blog/?id=52
+"\bconduct an investigation into","investigate (verbose)",http://stevehanov.ca/blog/?id=52
 "\bconduct an investigation","investigate or examine, explore, find out, look into, research, search, study (verbose)",
 "\bconduct a review of","review (verbose)",
 "\bconduct experiments","experiment (verbose)",
@@ -443,31 +541,42 @@
 \bconfusing,(offensive),
 "\bconnect together","connect (together) (verbose)",
 "\bconnect up","connect (up) (verbose)",
+\bconsensus,"agreement (verbose)",http://stevehanov.ca/blog/?id=52
 "\bconsensus of opinion","agreement, consensus (verbose)",
 "\bconsequence of the fact","consequence of the fact (verbose)",
 "\bconsequence of this fact","consequence of this fact (verbose)",
+\bconsequently,"so (verbose)",http://stevehanov.ca/blog/?id=52
 #\bconsideration,(vague),
 "\bconsidered harmful",(cliche),
+"\bconsidered to be","considered (verbose)",http://stevehanov.ca/blog/?id=52
 "\bconsidering the fact that","because, since, why (verbose)",
+\bconsolidate,"combine (verbose)",http://stevehanov.ca/blog/?id=52
 \bconspiracies,(offensive),https://academia.stackexchange.com/a/151521/31143
 \bconspiracy,(offensive),https://academia.stackexchange.com/a/151521/31143
 "\bconstantly maintained","(constantly) maintained (verbose)",
+\bconstruct,"build (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcontemporaneous in age","contemporaneous (in age) (verbose)",
 "\bcontiguous to","adjoining, next to, touching (verbose)",
-"\bcontinue on","continue (verbose)",
+"\bcontinue on","continue (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcontinue to remain","remain (verbose)",
 "\bcontradict them-self",(offensive),
 "\bcontradict themselves",(offensive),
 "\bcontribute nothing",(offensive),
+"\bcontributing factor","cause (verbose)",http://stevehanov.ca/blog/?id=52
 \bcontroversial,(offensive),
 #\bcontroversy,"(could be okay)",
 \bconveniently,(offensive),
+"\bconvincingly explains","explains (verbose)",http://stevehanov.ca/blog/?id=52
 \bconvoluted,(offensive),
 "\bcookie cutter",(cliche),
-"\bcooperate together","cooperate (together) (verbose)",
+\bcooperate,"help (verbose)",http://stevehanov.ca/blog/?id=52
+"\bcooperate together","cooperate (verbose)",http://stevehanov.ca/blog/?id=52
 \bcopycat,(offensive),
 \bcornerstone,(puffery),
 \bcornerstones,(puffery),
+"\bcorrectional facilities","jails (verbose)",http://stevehanov.ca/blog/?id=52
+"\bcorrectional facility","jail (verbose)",http://stevehanov.ca/blog/?id=52
+"\bcosts a total of","costs (verbose)",http://stevehanov.ca/blog/?id=52
 "\bcould of","could have",
 "\bcould possibly","could (possibly) (verbose)",
 #\bcould,"(probability; remove and instead be quantitative when possible)",
@@ -535,6 +644,7 @@
 \bdefamatory,(offensive),
 \bdefective,(offensive),
 "\bdefinite decision","(definite) decision (verbose)",
+\bdefinitely,(verbose),http://stevehanov.ca/blog/?id=52
 "\bdefinite possibility","possibility (oxymoron)",
 \bdefinitively,(puffery),
 \bdefinitive,(puffery),
@@ -549,11 +659,13 @@
 \bdelusional,(offensive),
 \bdelusion,(offensive),
 \bdelusions,(offensive),
+\bdemise,"death (verbose)",http://stevehanov.ca/blog/?id=52
 "\bdemonstrably false","(might be a bit redundant, and the intensifier seem too harsh)",
 \bdenialist,(offensive),
 \bdenialists,(offensive),
 \bdenier,(offensive),
 \bdeniers,(offensive),
+\bdenote,"mean (verbose)",http://stevehanov.ca/blog/?id=52
 "\bdepreciate in value","depreciate (in value) (verbose)",
 \bderided,(offensive),
 \bderides,(offensive),
@@ -562,10 +674,10 @@
 \bdesiderata,(cliche),
 "\bdesirable benefit","(desirable) benefit (verbose)",
 "\bdesirable benefits","(desirable) benefits (verbose)",
-"\bdesirous of","use a form of want # or remove (verbose)",
+"\bdesirous of","use a form of want (or remove) (verbose)",
 \bdespair,(offensive),
 \bdesperate,(offensive),
-"\bdespite the fact that","although, despite, even though (verbose)",
+"\bdespite the fact that","although, despite, even though (verbose)",http://stevehanov.ca/blog/?id=52
 \bdestined,(puffery),
 \bdestiny,(puffery),
 \bdetrimental,(offensive),
@@ -578,6 +690,7 @@
 \bdevoid,"(devoid/absent, latter is less obscure)",
 "\bdiametrically opposed","(diametrically) opposed (verbose)",
 \bdiatribe,(offensive),
+"\bdid not succeed","failed (verbose)",http://stevehanov.ca/blog/?id=52
 "\bdifferent kinds","(different) kinds (verbose)",
 "\bdifficult dilemma","(difficult) dilemma (verbose)",
 "\bdirect confrontation","(direct) confrontation (verbose)",
@@ -618,6 +731,8 @@
 "\bdivide up","divide (up) (verbose)",
 \bdivisiveness,(offensive),http://www.paulgraham.com/say.html
 \bdivisive,(offensive),http://www.paulgraham.com/say.html
+"\bdoctorate degree","doctorate (verbose)",http://stevehanov.ca/blog/?id=52
+"\bdoes get","gets (verbose)",http://stevehanov.ca/blog/?id=52
 "\bdoes not make sense",(offensive),
 "\bdoesn't make sense",(offensive),
 "\bdog-eat-dog fierce competition","fierce competition (verbose)",
@@ -640,32 +755,35 @@
 "\bdraw attention to","announce, mention, point out, point to, promote, publicize, reveal, show, tell, unveil (verbose)",
 "\bdraw to your attention","point out, remind you of, show, show you (verbose)",
 \bdrivel,(offensive),
-"#\bDr. () MD","Dr. (), () MD # what about PhDs? (verbose)",
 "\bdrop down","drop (down) (verbose)",
 \bdroves,(offensive),
 \bdubiously,(offensive),
 \bdubious,(offensive),
+"\bdue to the effects","because (verbose)",http://stevehanov.ca/blog/?id=52
 "\bdue to the fact","as, because, because of, for, since (verbose)",
 "\bdue to the fact of","as, because, because of, for, since (verbose)",
-"\bdue to the fact that","as, because, because of, for, since (verbose)",
+"\bdue to the fact that","as, because, because of, for, since (verbose)",http://stevehanov.ca/blog/?id=52
 "\bdue to this","accordingly (vague)",
 "\bduring such time","while, during, for, in, over, throughout, when, with (verbose)",
 "\bduring that time","while (verbose)",
-"\bduring the course of","while, during, for, in, over, throughout, when, with (verbose)",
+"\bduring the course of","while, during, for, in, over, throughout, when, with (verbose)",http://stevehanov.ca/blog/?id=52
+"\bduring the month of","in (verbose)",http://stevehanov.ca/blog/?id=52
 "\bduring the period from","while, during, for, in, over, throughout, when, with (verbose)",
 "\bduring the time","while, during, for, in, over, throughout, when, with (verbose)",
 "\bdwindle down","dwindle (down) (verbose)",
-"\beach and every","(each and) every (verbose)",
+"\beach and every","each (or every) (verbose)",http://stevehanov.ca/blog/?id=52
 "\beach individual","each, individual (verbose)",
 "\beach individual person","each (individual) person (verbose)",
 "\bearlier in time","earlier (in time) (verbose)",
+"\bearly, primitive","primitive (verbose)",http://stevehanov.ca/blog/?id=52
 \beccentric,(offensive),
 \beccentrics,(offensive),
 "\becho back","echo (back) (verbose)",
+"\beconomically deprived","poor (verbose)",http://stevehanov.ca/blog/?id=52
 \becosystem,(cliche),
 "\beffect many changes","change (verbose)",
 "\be.g,","e.g.,",
-\be.g.,"for example (English is preferred to Latin)",
+\be.g.,"for example (English is preferred to Latin)",http://stevehanov.ca/blog/?id=52
 \begomania,(offensive),
 \bego,(offensive),
 \begotistical,(offensive),
@@ -675,8 +793,10 @@
 \begregious,(offensive),
 \belegant,(puffery),
 \belementary,(offensive),
+"\belement of surprise","surprise (verbose)",
 "\beliminate altogether","eliminate (altogether) (verbose)",
 "\beliminate entirely","eliminate (entirely) (verbose)",
+\beliminate,"get rid of (verbose)",http://stevehanov.ca/blog/?id=52
 \belite,(puffery),
 \belitist,(offensive),
 \belitists,(offensive),
@@ -692,16 +812,19 @@
 "\bempty space","space (verbose)",
 "\benclosed herein","enclosed (herein) (verbose)",
 "\benclosed herewith/herein","enclosed (herewith/herein) (verbose)",
+\bencounter,"meet (verbose)",http://stevehanov.ca/blog/?id=52
 #\bencouraging,(puffery),
 \bendearing,(puffery),
-"\bend result","result (verbose)",
+\bendeavor,"try (verbose)",http://stevehanov.ca/blog/?id=52
+"\bend product","product (verbose)",http://stevehanov.ca/blog/?id=52
+"\bend result","result (verbose)",http://stevehanov.ca/blog/?id=52
 \benlightened,(puffery),
 \benlightening,(puffery),
 \benlightenment,(puffery),
 \benlighten,(puffery),
 \benormous,(puffery),
 "\benter in","enter (in) (verbose)",
-"\benter into","enter (into) (verbose)",
+"\benter into","enter (verbose)",http://stevehanov.ca/blog/?id=52
 "\bentirely eliminate","(entirely) eliminate (verbose)",
 \bentitlement,(offensive),
 \bepic,(cliche),
@@ -709,6 +832,7 @@
 "\bequally as well as","(equally) as well as (verbose)",
 "\bequal to one another","equal (to one another) (verbose)",
 "\beradicate completely","eradicate (completely) (verbose)",
+"\berode away","erode (verbose)",http://stevehanov.ca/blog/?id=52
 \berroneously,(offensive),
 \berroneous,(offensive),
 "\berror filled",(offensive),
@@ -717,38 +841,52 @@
 \berror-prone,(offensive),
 \berudite,(puffery),
 \berudition,(puffery),
+"\bespecially vital","vital (verbose)",http://stevehanov.ca/blog/?id=52
+\bessentially,(verbose),http://stevehanov.ca/blog/?id=52
 \besteemed,(puffery),
-"\bestimated at about","estimated at (about) (verbose)",
+"\bestimated at about","estimated at (about) (verbose)",http://stevehanov.ca/blog/?id=52
 "\bestimated at roughly","estimated at (roughly) (verbose)",
 "\bet cetera",(vague),
 \betc.,"(vague; unless completely obvious)",https://cs.stanford.edu/people/widom/paper-writing.html
 \bethical,(offensive),
 "\bevery single person","every (single) person (verbose)",
 "\bevolve over time","evolve (over time) (verbose)",
+"\bexactly how","how (verbose)",http://stevehanov.ca/blog/?id=52
+"\bexactly identical","identical (verbose)",http://stevehanov.ca/blog/?id=52
 "\bexactly the same","identical (verbose)",
-"\bexact same","same (verbose)",
+"\bexactly the","the (verbose)",http://stevehanov.ca/blog/?id=52
+"\bexact same","same (verbose)",http://stevehanov.ca/blog/?id=52
 \bexaggerates,(offensive),
 \bexaggerating,(offensive),
 \bexaggeration,(offensive),
+"\bex ante","before the event (English is preferred to Latin)",
+\bex-ante,"before the event (English is preferred to Latin)",
 \bexcellence,(puffery),
 \bexcellent,(puffery),
 \bexceptional,(puffery),
-"\bexcept when","unless (verbose)",
-"\bexcessive number of","too many (verbose)",
+"\bexcept when","unless (verbose)",http://stevehanov.ca/blog/?id=52
+"\bexcessive number of","too many (verbose)",http://stevehanov.ca/blog/?id=52
 "\bexcessive number","too many (verbose)",
+"\bexcess verbiage","verbiage (verbose)",http://stevehanov.ca/blog/?id=52
 \bexciting,(puffery),
 \bexcuse,(offensive),
 \bexcuses,(offensive),
+\bexpedite,"hasten (verbose)",http://stevehanov.ca/blog/?id=52
 "\bexpended no effort",(offensive),
+\bexpenditure,"cost (verbose)",http://stevehanov.ca/blog/?id=52
+\bexpenditures,"costs (verbose)",http://stevehanov.ca/blog/?id=52
+\bexpend,"spend (verbose)",http://stevehanov.ca/blog/?id=52
 "\bexperience shows that","(weasel words)",
 \bexperimentalist,"experimenter (more common)",
 \bexperimentalists,"experimenters (more common)",
 \bexpert,(puffery),
 "\bexperts declare","(weasel words)",
 "\bexposed opening","(exposed) opening (verbose)",
+"\bex post","after the event (English is preferred to Latin)",
+\bex-post,"after the event (English is preferred to Latin)",
 \bexquisitely,(puffery),
 \bexquisite,(puffery),
-"\bextend an invitation","invite (verbose)",
+"\bextend an invitation","invite (verbose)",http://stevehanov.ca/blog/?id=52
 "\bextensive experience",(cliche),
 \bextensively,(puffery),
 #\bextensive,"(puffery, but extensive property can be okay)",
@@ -758,7 +896,7 @@
 \bextreme,(exaggerated),https://www.scribbr.com/academic-writing/taboo-words/
 "\bextremely accurate",(puffery),
 "\bextremely credible",(puffery),
-\bextremely,(exaggerated),https://www.scribbr.com/academic-writing/taboo-words/
+\bextremely,"(exaggerated, verbose)","https://www.scribbr.com/academic-writing/taboo-words/ http://stevehanov.ca/blog/?id=52"
 \bextremist,(offensive),
 \bextremists,(offensive),
 "\beye opener",(puffery),
@@ -768,6 +906,7 @@
 \bfaçade,(offensive),
 "\bface mask","(face) mask (verbose)",
 "\bface up to the facts","face (up to) the facts (verbose)",
+\bfacility,"ease (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfactor of two","two times, doubles, twice, etc. (verbose)",
 \bfad,(offensive),
 \bfailed,(offensive),
@@ -775,7 +914,7 @@
 \bfail,(offensive),
 \bfails,(offensive),
 \bfailure,(offensive),
-\bfaintest,"(offensive, e.g., faintest clue, faintest idea)",
+\bfaintest,"(offensive, for example, faintest clue, faintest idea)",
 "\bfaintly possible","(probability; remove and instead be quantitative when possible)",
 "\bfair chance","(probability; remove and instead be quantitative when possible)",
 "\bfairly likely","(probability; remove and instead be quantitative when possible)",
@@ -795,8 +934,11 @@
 \bfanciful,(offensive),
 \bfantastically,(puffery),
 \bfantastic,(puffery),
+"\bfar beyond","beyond (verbose)",http://stevehanov.ca/blog/?id=52
 \bfarce,(offensive),
 \bfarcical,(offensive),
+"\bfar, far beyond","beyond (verbose)",http://stevehanov.ca/blog/?id=52
+"\bfar, far","far (verbose)",http://stevehanov.ca/blog/?id=52
 \bfascinate,(puffery),
 \bfascinates,(puffery),
 \bfascinating,(puffery),
@@ -805,28 +947,39 @@
 \bfaulty,(offensive),
 "\bfavorable approval","(favorable) approval (verbose)",
 \bfavorable,(puffery),
+\bfeasible,"possible (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfellow classmate","(fellow) classmate (verbose)",
 "\bfellow classmates","(fellow) classmates (verbose)",
 "\bfellow colleague","(fellow) colleague (verbose)",
 "\bfellow colleagues","(fellow) colleagues (verbose)",
 "\bfewer in number","fewer (in number) (verbose)",
-"\bfew in number","few (in number) (verbose)",
+"\bfew in number","few (verbose)",http://stevehanov.ca/blog/?id=52
 #\bfew,(vague),
 \bfictional,(offensive),
 \bfiction,(offensive),
 "\bfighting chance","(probability; remove and instead be quantitative when possible)",
 "\bfigure out","learn (verbose)",
-"\bfilled to capacity","filled (to capacity) (verbose)",
+"\bfilled to capacity","filled (verbose)",http://stevehanov.ca/blog/?id=52
+"\bfilled to the brim","filled (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfilled with errors",(offensive),
-"\bfinal conclusion","(final) conclusion (verbose)",
+"\bfinal completion","completion (verbose)",http://stevehanov.ca/blog/?id=52
+"\bfinal conclusion","conclusion (verbose)",http://stevehanov.ca/blog/?id=52
+"\bfinal demise","demise (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfinal end","(final) end (verbose)",
-"\bfinal outcome","(final) outcome (verbose)",
+"\bfinal outcome","outcome (verbose)",http://stevehanov.ca/blog/?id=52
+"\bfinal result","result (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfinal ultimatum","(final) ultimatum (verbose)",
+"\bfinal verdict","verdict (verbose)",http://stevehanov.ca/blog/?id=52
+"\bfind out","find (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfirm in consistency","firm (in consistency) (verbose)",
-"\bfirst and foremost","(first and) foremost (verbose)",
+"\bfirst and foremost","first (verbose)",http://stevehanov.ca/blog/?id=52
+"\bfirst began","began (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfirst conceived","(first) conceived (verbose)",
+"\bfirst created","created (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfirst ever",(puffery),
 "\bfirst initiated","(first) initiated (verbose)",
+"\bfirst introduced","introduced (verbose)",http://stevehanov.ca/blog/?id=52
+"\bfirst invented","invented (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfirst of all","first (of all) (verbose)",
 "\bfirst rate",(puffery),
 \bfirst-rate,(puffery),
@@ -842,7 +995,7 @@
 \bflippant,(offensive),
 "\bfly through the air","fly (through the air) (verbose)",
 "\bfocus in on","focus (in) on (verbose)",
-"\bfollow after","follow (after) (verbose)",
+"\bfollow after","follow (or after) (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfollowing on","before, after, as (verbose)",
 "\bfood fight",(cliche),
 \bfooled,(offensive),
@@ -850,22 +1003,24 @@
 \bfoolish,(offensive),
 \bfool,(offensive),
 \bfools,(offensive),
-"\bfor all intents and purposes","(for all intents and purposes) (verbose)",
+"\bfoot pedal","pedal (verbose)",http://stevehanov.ca/blog/?id=52
+"\bfor all intents and purposes","(for all intents and purposes) (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfor a number of days","(for a number of) days (verbose)",
 "\bfor a period of days","(for a period of) days (verbose)",
+"\bfor approximately","about (verbose)",http://stevehanov.ca/blog/?id=52
 \bforefront,(puffery),
-"\bforeign imports","(foreign) imports (verbose)",
+"\bforeign imports","imports (verbose)",http://stevehanov.ca/blog/?id=52
 \bforemost,(puffery),
 "\bforever and ever","forever (and ever) (verbose)",
 "\bformer graduate","(former) graduate (verbose)",
 "\bformer veteran","(former) veteran (verbose)",
+"\bfor that which is","for the (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfor the first time",(puffery),
-"\bfor the most part","(for the most part) (verbose)",
-"\bfor the purpose of","for, of, to (verbose)",
+"\bfor the most part","(for the most part) (verbose)",http://stevehanov.ca/blog/?id=52
+"\bfor the purpose of","for, of, to (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfor the reason that","because, since, for, given (verbose)",
 "\bfor the sum of","for (verbose)",
 \bfortunately,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
-#\bfortunately,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 "\bfor various reasons","(vague; state the reasons)",https://cs.stanford.edu/people/widom/paper-writing.html
 \bfragmented,(offensive),
 \bfrankly,(offensive),
@@ -874,7 +1029,7 @@
 \bfraudulent,(offensive),
 "\bfreedom fighter",(offensive),
 "\bfreedom fighters",(offensive),
-"\bfree gift","(free) gift (verbose)",
+"\bfree gift","gift (verbose)",http://stevehanov.ca/blog/?id=52
 #\bfrequently,(vague),
 \bfringe,(offensive),
 "\bfrom the point of view of","from, for (verbose)",
@@ -886,32 +1041,38 @@
 "\bfrozen tundra","(frozen) tundra (verbose)",
 \bfrustrating,(offensive),
 \bfuck,(profanity),
+"\bfulfilled completely","fulfilled (verbose)",http://stevehanov.ca/blog/?id=52
+"\bfull and complete","full (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfull of errors",(offensive),
 "\bfull satisfaction","(full) satisfaction (verbose)",
 "\bfull to capacity","full (to capacity) (verbose)",
 \bfundamentalist,(offensive),
 \bfundamentalists,(offensive),
 \bfundamentally,(puffery),
+"\bfurther explain","explain (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfurther more","furthermore (one word)",
 "\bfuse together","fuse (together) (verbose)",
 \bfutile,(offensive),
-"\bfuture plans","plans (verbose)",
+"\bfuture plans","plans (verbose)",http://stevehanov.ca/blog/?id=52
+"\bfuture prospects","prospects (verbose)",http://stevehanov.ca/blog/?id=52
 "\bfuture recurrence","(future) recurrence (verbose)",
 "\bgame changing",(puffery),
 \bgame-changing,(puffery),
-"\bgarbage in","(e.g., garbage in, garbage out)",
+"\bgarbage in","(for example, garbage in, garbage out)",
 \bgarbage,(offensive),
-"\bgarbage out","(e.g., garbage in, garbage out)",
-"\bgather together","gather (verbose)",
+"\bgarbage out","(for example, garbage in, garbage out)",
+"\bgather together","gather (verbose)",http://stevehanov.ca/blog/?id=52
 \bgaudy,(offensive),
-"\bgeneral consensus","agreement, consensus (verbose)",
+"\bgeneral consensus","agreement, consensus (verbose)",http://stevehanov.ca/blog/?id=52
 "\bgenerally accepted",(puffery),
-\bgenerally,"consider ""typically"", ""usually"", or ""always"" (ambiguity; generally means ""always"" to many but ""typically"" to others)",
-"\bgeneral public","(general) public (verbose)",
+\bgenerally,"consider ""typically"", ""usually"", or ""always"" (or remove if unnecessary/verbose) (ambiguity; generally means ""always"" to many but ""typically"" to others)",http://stevehanov.ca/blog/?id=52
+"\bgeneral pubic","general public (atomic typo)",
+"\bgeneral public","public (verbose)",http://stevehanov.ca/blog/?id=52
 "\bgeneral rule","(general) rule (verbose)",
 \bgenius,(puffery),
 \bgenuinely,(puffery),
 \bgenuine,(puffery),
+"\bget an idea of","visualize (verbose)",http://stevehanov.ca/blog/?id=52
 "\bget around","avoid (informal)",
 "\bgets around","avoids (informal)",
 \bgibberish,(offensive),
@@ -923,15 +1084,17 @@
 "\bgive a shrug","(give a) shrug (verbose)",
 "\bgive a sigh","(give a) sigh (verbose)",
 "\bgive a smile","(give a) smile (verbose)",
-"\bgive consideration to","consider (verbose)",
+"\bgive consideration to","consider (verbose)",http://stevehanov.ca/blog/?id=52
+"\bgiven the fact that","because (verbose)",http://stevehanov.ca/blog/?id=52
 \bgive,"provide, offer, present (informal)",
-"\bgive rise to","cause, lead to, result in (verbose)",
+"\bgive rise to","cause, lead to, result in (verbose)",http://stevehanov.ca/blog/?id=52
 \bgives,"provides, offers, presents (informal)",
 "\bgive up",(offensive),
-\bglimpse,"(e.g., glimpse of promise)",
+\bglimpse,"(for example, glimpse of promise)",
 \bgloriously,(puffery),
 \bglorious,(puffery),
 \bglowing,(puffery),
+"\bgo ahead and",(verbose),http://stevehanov.ca/blog/?id=52
 "\bgo and get","(go and) get (verbose)",
 "\bgoat rope",(cliche),
 "\bgo down","decrease (informal)",
@@ -942,6 +1105,7 @@
 "\bgood chance","(probability; remove and instead be quantitative when possible)",
 "\bGOP party","GOP (party) (verbose)",
 \bgrandiose,(offensive),
+"\bgrave crisis","crisis (verbose)",http://stevehanov.ca/blog/?id=52
 \bgravitas,(puffery),
 "\bgray in color","gray (verbose)",
 "\bgrease the skids",(cliche),
@@ -955,6 +1119,7 @@
 \bground-breaking,(puffery),
 \bgroundbreaking,(puffery),
 "\bground truth",(cliche),
+"\bgroup together","group (verbose)",http://stevehanov.ca/blog/?id=52
 "\bgrow in size","grow (in size) (verbose)",
 "\bgrowth industries",(cliche),
 "\bgrowth industry",(cliche),
@@ -969,6 +1134,7 @@
 \bhalf-assed,(offensive),
 \bhallmark,(puffery),
 \bhallmarks,(puffery),
+\bhand-in-hand,"together (verbose)",http://stevehanov.ca/blog/?id=52
 "\bhand waves",(offensive),
 \bhandwaves,(offensive),
 "\bhand waving",(offensive),
@@ -977,8 +1143,11 @@
 \bhandwavy,(offensive),
 \bhaphazardly,(offensive),
 \bhaphazard,(offensive),
+"\bhappens to be","is (verbose)",http://stevehanov.ca/blog/?id=52
 \bhappily,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
+\bhardly,"not (verbose)",http://stevehanov.ca/blog/?id=52
 "\bharmful injuries","(harmful) injuries (verbose)",
+"\bhas a tendency to","tends to (verbose)",http://stevehanov.ca/blog/?id=52
 "\bhas got","has (got) (verbose)",
 "#\bhas no","lacks (verbose)",
 "\bhas occasion to be","is (verbose)",
@@ -991,15 +1160,22 @@
 \bhate,(offensive),
 \bhates,(offensive),
 "\bhave a clue",(offensive),
-"\bhave an effect on","affect, influence (verbose)",
+"\bhave an effect on","affect, influence (verbose)",http://stevehanov.ca/blog/?id=52
+"\bhave a tendency to","often (verbose)",http://stevehanov.ca/blog/?id=52
 "\bhave failed",(offensive),
 "\bhave got","have (got) (verbose)",
 "\bhave no clue",(offensive),
 "\bhave not read",(offensive),
 "\bhave the ability to","can (verbose)",
+"\bhaving to do","doing (verbose)",http://stevehanov.ca/blog/?id=52
+"\bhaving to make","making (verbose)",http://stevehanov.ca/blog/?id=52
+"\bhaving to take","taking (verbose)",http://stevehanov.ca/blog/?id=52
+\bhazardous,"unsafe (verbose)",http://stevehanov.ca/blog/?id=52
 "\bhead honcho","(head) honcho (verbose)",
 "\bheat up","heat (up) (verbose)",
-"\bhelps to","e.g. helps to explain ==> explains (verbose)",
+"\bheld a meeting","met (verbose)",http://stevehanov.ca/blog/?id=52
+"\bhelps to","explains (for example, helps to explain) (verbose)",
+\bhenceforth,"from now on (verbose)",http://stevehanov.ca/blog/?id=52
 "\bherding cats",(cliche),
 "\bherein we describe","(herein) we describe (verbose)",
 \bheresies,(offensive),http://www.paulgraham.com/say.html
@@ -1008,8 +1184,9 @@
 \bheretic,(offensive),
 \bheretics,(offensive),
 \bheterodox,(offensive),
+"\bhe totally lacked the ability to","he couldn't (verbose)",http://stevehanov.ca/blog/?id=52
 "\bhidden ambush","(hidden) ambush (verbose)",
-\bhide,"(e.g., hide something)",
+\bhide,"(for example, hide something)",
 \bhiding,(offensive),
 \bhid,(offensive),
 "\bhigh accuracy",(puffery),
@@ -1023,12 +1200,13 @@
 "\bhigh probability",(vague),
 \bhippie,(offensive),
 \bhippies,(offensive),
-"\bHIV virus","HIV (virus) (verbose)",
+"\bHIV virus","HIV (verbose)",http://stevehanov.ca/blog/?id=52
 "\bhockey stick growth",(cliche),
 \bhodograph,(archaic),
 "\bhoist up","hoist (up) (verbose)",
 \bhokum,(offensive),
 "\bhold a conference, hold a meeting","confer, meet (verbose)",
+"\bhold a meeting","meet (verbose)",http://stevehanov.ca/blog/?id=52
 "\bholding feet to the fire",(cliche),
 "\bhollow tube","(hollow) tube (verbose)",
 "\bholy grail",(puffery),
@@ -1036,14 +1214,16 @@
 "\bholy grails",(puffery),
 \bholy-grails,(puffery),
 \bhonestly,"(can be okay if clarifying)",
+"\bHonestly,",(verbose),http://stevehanov.ca/blog/?id=52
 #\bhonest,"(to be honest, etc., seems to be a prelude into something potentially offensive)",
-"\bhonest truth","truth (verbose)",
+"\bhonest truth","truth (verbose)",http://stevehanov.ca/blog/?id=52
 \bhonorable,(puffery),
 "\bhopeful optimism","(hopeful) optimism (verbose)",
 \bhopeful,(puffery),
 \bhopelessly,(offensive),
 \bhopeless,(offensive),
 \bhorrible,(offensive),
+"\bhorrible tragedy","tragedy (verbose)",http://stevehanov.ca/blog/?id=52
 \bhorrific,(offensive),
 "\bhot air",(offensive),
 \bhot-air,(offensive),
@@ -1068,19 +1248,27 @@
 \bhypocritical,(offensive),
 \bhysteria,(offensive),
 \bhysterical,(offensive),
+"\bi also claim that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bI am writing to tell you that",(verbose),
+"\bi can guarantee that",(verbose),http://stevehanov.ca/blog/?id=52
+"\bi can guarantee",(verbose),http://stevehanov.ca/blog/?id=52
+"\bi claim that",(verbose),http://stevehanov.ca/blog/?id=52
 \biconoclastic,(offensive),
 \biconoclast,(offensive),
 \biconoclasts,(offensive),
+"\bI'd also argue that",(verbose),http://stevehanov.ca/blog/?id=52
 \bideological,(offensive),
 \bideologue,(offensive),
 \bideologues,(offensive),
 \bideology,(offensive),
+"\bI'd go so far as to say",(verbose),http://stevehanov.ca/blog/?id=52
 \bidiosyncratic,(offensive),
 \bidiot,(offensive),
 \bidiots,(offensive),
 "\bi.e,","i.e.,",
-\bi.e.,"that is (English is preferred to Latin)",
+\bi.e.,"that is (English is preferred to Latin)",http://stevehanov.ca/blog/?id=52
+"\bif and when","if (verbose)",http://stevehanov.ca/blog/?id=52
+"\bi find that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bif it should happen that","if (verbose)",
 "\bif it should transpire that","if (verbose)",
 "\bif that is not the case","if not (verbose)",
@@ -1089,16 +1277,23 @@
 "\bif this is the case","if so (verbose)",
 \bignorance,"(complete ignorance, etc.)",
 \bignorant,(offensive),
-"\bi heard that","(weasel words)",
+"\bI guess",(verbose),http://stevehanov.ca/blog/?id=52
+"\bI heard that","(weasel words)",
+"\bI know I've","I've (verbose)",http://stevehanov.ca/blog/?id=52
 "\bill informed",(offensive),
 \bill-informed,(offensive),
+"\bI'll just","I'll (verbose)",http://stevehanov.ca/blog/?id=52
 \billogical,(offensive),
 \billogic,(offensive),
 "\bill reasoned",(offensive),
 \bill-reasoned,(offensive),
 \billuminating,(puffery),
 "\billustrated drawing","(illustrated) drawing (verbose)",
+\billustrates,"shows (verbose)",http://stevehanov.ca/blog/?id=52
+"\bI'm able to","I can (verbose)",http://stevehanov.ca/blog/?id=52
 \bimaginative,(puffery),
+"\bi might add",(verbose),http://stevehanov.ca/blog/?id=52
+"\bimmediate vicinity","vicinity (verbose)",http://stevehanov.ca/blog/?id=52
 \bimpartiality,(puffery),
 \bimpartial,(puffery),
 "\bimplausible assumption",(offensive),
@@ -1112,35 +1307,43 @@
 \bimpressively,(puffery),
 \bimpressive,(puffery),
 \bimprobable,"(probability; remove and instead be quantitative when possible)",
-\bimproper,"(can be okay, e.g. ""improper integral"")",http://www.paulgraham.com/say.html
+\bimproper,"(can be okay, that is, ""improper integral"")",http://www.paulgraham.com/say.html
 \bimproprieties,(offensive),
 \bimpropriety,(offensive),
+"\bI'm sure",(verbose),http://stevehanov.ca/blog/?id=52
 "\bI myself","I (verbose)",
+"\bi myself","I (verbose)",http://stevehanov.ca/blog/?id=52
 \binaccessible,(offensive),
 "\bin accordance with your request","as you requested (verbose)",
 #\binaccurate,(offensive),
+"\bin actuality",(verbose),http://stevehanov.ca/blog/?id=52
 "\bin addition","also, and, as well, besides, further, then, too (verbose)",
-"\bin addition to","also, and, as well as, besides, beyond (verbose)",
+"\bin addition to","also, and, as well as, besides, beyond (verbose)",http://stevehanov.ca/blog/?id=52
 #\binadequacy,(offensive),
 "\binadequately supported assumption",(offensive),
 "\binadequately supported assumptions",(offensive),
 #\binadequate,(offensive),
-"\bin advance of","ahead of,before, by # or be specific (verbose)",
-"\bin a manner of speaking","(in a manner of speaking) (verbose)",
-"\bin an effort to","to (verbose)",
+"\bin advance of","ahead of,before, by (or be specific) (verbose)",
+"\bin all likelihood","likely (verbose)",http://stevehanov.ca/blog/?id=52
+"\bin a manner of speaking","(in a manner of speaking) (verbose)",http://stevehanov.ca/blog/?id=52
+"\bin an attempt to","to (verbose)",http://stevehanov.ca/blog/?id=52
+"\bin an effort to","to (verbose)",http://stevehanov.ca/blog/?id=52
 \binane,(offensive),
 "\bin anticipation of","before, after, as (verbose)",
 "\bin a nutshell",(cliche),
-"\bin a situation in which","when (verbose)",
+"\bin a sense",(verbose),http://stevehanov.ca/blog/?id=52
+"\bin a situation in which","when (or in) (verbose)",http://stevehanov.ca/blog/?id=52
 "\binasmuch as","because, since, as, as far as (verbose)",
 "\bin a timely manner","at once, on time, quickly (verbose)",
-"\bin a very real sense","(in a very real sense) (verbose)",
+"\bin a very real sense","(in a very real sense) (verbose)",http://stevehanov.ca/blog/?id=52
 "#\bin a way",(vague),
 "\bin back of","behind (verbose)",
 \bincapable,(offensive),
+\binception,"start (verbose)",http://stevehanov.ca/blog/?id=52
 \bincisive,(puffery),
-"\bin close proximity","(in) close (proximity) (verbose)",
+"\bin close proximity","near (verbose)",http://stevehanov.ca/blog/?id=52
 \bincoherent,(offensive),
+"\bin color",(verbose),http://stevehanov.ca/blog/?id=52
 \bincompetence,(offensive),
 \bincompetently,(offensive),
 \bincompetent,(offensive),
@@ -1148,7 +1351,7 @@
 \bincomprehensible,(offensive),
 \binconclusive,"(probability; remove and instead be quantitative when possible)",
 "\bin conjunction with","along with, and, combined with, coupled with, joined with, paired with, with (verbose)",
-"\bin connection with","with, about, for, of, in, on, over (verbose)",
+"\bin connection with","with, about, for, of, in, on, over (verbose)",http://stevehanov.ca/blog/?id=52
 \bincredible,(puffery),
 "\bincredible to believe","incredible (to believe) (verbose)",
 \bincredibly,(puffery),
@@ -1157,13 +1360,17 @@
 "\bin depth",(puffery),
 \bin-depth,(puffery),
 #\bindicates,"(probability; remove and instead be quantitative when possible)",
+\bindication,"sign (verbose)",http://stevehanov.ca/blog/?id=52
 "\bindicted on a charge","indicted (on a charge) (verbose)",
 \bindigestible,(offensive),
 \bindispensable,(puffery),
+\bindividuals,"people (verbose)",http://stevehanov.ca/blog/?id=52
 \bineffective,(offensive),
 \binelegant,(offensive),
 \binept,(offensive),
-"\bin excess of","more than (verbose)",
+"\bin essence",(verbose),http://stevehanov.ca/blog/?id=52
+"\bin excess of","more than (verbose)",http://stevehanov.ca/blog/?id=52
+"\bin fact,",(verbose),http://stevehanov.ca/blog/?id=52
 \binfantilize,(offensive),
 \binfantilizes,(offensive),
 "\bin favor of","for (verbose)",
@@ -1171,26 +1378,34 @@
 \binferior,(offensive),
 \binfluentially,(puffery),
 \binfluential,(puffery),
-"\bin lieu of","for, instead of (verbose)",
-"\bin light of the fact that","because, since, why (verbose)",
+\binform,"tell (verbose)",http://stevehanov.ca/blog/?id=52
+\binitiate,"start (verbose)",http://stevehanov.ca/blog/?id=52
+"\bin lieu of","for, instead of (verbose)",http://stevehanov.ca/blog/?id=52
+"\bin light of the fact that","because, since, why (verbose)",http://stevehanov.ca/blog/?id=52
 "\bin many cases","almost always, commonly, many, most, mostly, most of, most often, most of these, much, nearly all, nearly always, normally, often, typically, usually (verbose)",
 "\bin many instances","almost always, commonly, many, most, mostly, most of, most often, most of these, much, nearly all, nearly always, normally, often, typically, usually (verbose)",
 "\bin most cases","mostly, most of these, often, usually (verbose)",
 "\bin most instances","mostly, most of these, often, usually (verbose)",
 "\bin my opinion","(in my opinion) (verbose)",
+"\bin my opinion,",(verbose),http://stevehanov.ca/blog/?id=52
+"\bin my opinion",(verbose),http://stevehanov.ca/blog/?id=52
+"\bin nature",(verbose),http://stevehanov.ca/blog/?id=52
+"\binner feelings","feelings (verbose)",http://stevehanov.ca/blog/?id=52
 \binnovation,(cliche),
 \binnovative,(cliche),
 "\bin or around",(vague),
-"\bin order to","to, for (verbose)",
+"\bin order to","to, for (verbose)",http://stevehanov.ca/blog/?id=52
 "#\bin place of","for (verbose)",
 "\bin possession of","has, have (verbose)",
 "\bin proximity to","close to, near (verbose)",
 "\binput into","input (into) (verbose)",
+\binquire,"ask (verbose)",http://stevehanov.ca/blog/?id=52
+"\bin reality",(verbose),http://stevehanov.ca/blog/?id=52
 "\bin real life",(informal),
 "\bin receipt of","have, received (verbose)",
 "\bin recent years",(informal),
 "\bin reference to","about, on, for, as for, in, of, over, respecting, to, toward, with (verbose)",
-"\bin regard to","about, on, for, as for, in, of, over, respecting, to, toward, with (verbose)",
+"\bin regard to","about, on, for, as for, in, of, over, respecting, to, toward, with (verbose)",http://stevehanov.ca/blog/?id=52
 "\bin relation to","about, on, for, as for, in, of, over, respecting, to, toward, with (verbose)",
 "\bin respect of","about, as for, for, in, of, on, over, respecting, to, toward, with (verbose)",
 \binsanely,(offensive),
@@ -1203,10 +1418,10 @@
 \binsights,(puffery),"see abstract of maxey_droplets_2017"
 #\binsignificant,(offensive),
 \binsipid,(offensive),
-#\binspired,"(puffery, this can be okay, e.g., was inspired by)",
+#\binspired,"(puffery, this can be okay, for example, was inspired by)",
 \binspiring,(puffery),
-"\bin spite of","after all, apart, aside, despite, even with, for all, with all, although (verbose)",
-"\bin spite of the fact that","despite, although (verbose)",
+"\bin spite of","after all, apart, aside, despite, even with, for all, with all, although (verbose)",http://stevehanov.ca/blog/?id=52
+"\bin spite of the fact that","despite, although (verbose)",http://stevehanov.ca/blog/?id=52
 #\binsufficient,(offensive),
 "\bintegrate together","integrate (together) (verbose)",
 "\bintegrate with each other","integrate (with each other) (verbose)",
@@ -1217,37 +1432,40 @@
 \bintense,(puffery),
 "\binterdependent on each other","interdependent (on each other) (verbose)",
 \binterestingly,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
+"\binterestingly enough",(verbose),http://stevehanov.ca/blog/?id=52
 "#\bin terms of","in, for, about, as, as for, by, of, on, respecting, through, under, with (verbose)",
+"\bin terms of",(verbose),http://stevehanov.ca/blog/?id=52
 "\binterval of time","interval (of time) (verbose)",
 "\bin the absence of","without (verbose)",
 "\bin the amount of","for, of, the (verbose)",
-"\bin the case of","in, with, if, by, for # or delete (verbose)",
+"\bin the area of","in (verbose)",http://stevehanov.ca/blog/?id=52
+"\bin the case of","in, with, if, by, for (or remove) (verbose)",
 "\bin the context of","in, about, for, of (verbose)",
-"\bin the course of","during, at, for, in, over, throughout, when, while, with (verbose)",
+"\bin the course of","during, at, for, in, over, throughout, when, while, with (verbose)",http://stevehanov.ca/blog/?id=52
 "\bin the event of","if, should (verbose)",
-"\bin the event that","if, when (verbose)",
+"\bin the event that","if, when (verbose)",http://stevehanov.ca/blog/?id=52
 "\bin the final analysis","finally (verbose)",
+"\bin the final analysis,",(verbose),http://stevehanov.ca/blog/?id=52
+"\bin the final analysis",(verbose),http://stevehanov.ca/blog/?id=52
 "\bin the nature of","like, about (verbose)",
 "\bin the near future","soon, before long, in a week (month), next month (year), shortly, this month (year), tomorrow (verbose)",
 "\bin the neighborhood of","about, roughly (verbose)",
 "\bin the not so distant future","soon (verbose)",
 "\bin the not too distant future","soon (verbose)",
-"\bin the past [0-9]+ days","before, earlier (verbose)",
-"\bin the past [0-9]+ months","before, earlier (verbose)",
-"\bin the past [0-9]+ weeks","before, earlier (verbose)",
-"\bin the past [0-9]+ years","before, earlier (verbose)",
 "\bin the possession of","has, have (verbose)",
-"\bin the process of","(in the process of) (verbose)",
+"\bin the process of","(in the process of) (verbose)",http://stevehanov.ca/blog/?id=52
 "\bin these economic times",(cliche),
 "\bin the very near future","soon (verbose)",
 "\bin the vicinity of","close to, near, about, close by, in, nearby, around, round, close (verbose)",
 "\bin this day and age","nowadays, today (verbose)",
+"\bin today's society","today (verbose)",http://stevehanov.ca/blog/?id=52
 "\bin today's world",(informal),
 \bintolerance,(offensive),
 \bintolerant,(offensive),
 \bintriguing,(puffery),
 "\bintroduced a new","introduced (verbose)",
 "\bintroduced for the first time","introduced (for the first time) (verbose)",
+"\bin truth,",(verbose),http://stevehanov.ca/blog/?id=52
 \binvariants,(vague),
 \binvariant,(vague),
 \binvective,(offensive),
@@ -1255,59 +1473,103 @@
 "\binvent non-existent",(offensive),
 "\binvent nonexistent",(offensive),
 "\bin view of the fact","because, since, for, given, when (verbose)",
+"\bin view of the fact that","because (verbose)",http://stevehanov.ca/blog/?id=52
 "\binvited guests","(invited) guests (verbose)",
+"\bin which",(verbose),http://stevehanov.ca/blog/?id=52
 "\bI personally","I (verbose)",
 \birrationalism,(offensive),
 \birrefutable,(puffery),
-\birregardless,(cliche),
+\birregardless,"(cliche, verbose)",http://stevehanov.ca/blog/?id=52
 #\birrelevant,(offensive),
 \birresponsible,(offensive),
 \birritate,(offensive),
 \birritates,(offensive),
 \birritating,(offensive),
-"\bis able to","can (verbose)",
+"\bis able to","can (verbose)",http://stevehanov.ca/blog/?id=52
 "\bis a thing","exists (cliche)",
+"\bis aware of the fact that","knows (verbose)",http://stevehanov.ca/blog/?id=52
 "\bI saw it with my own eyes","I saw it (with my own eyes) (verbose)",
 "\bISBN number","ISBN (number) (verbose)",
 "\bis equal to","equals (verbose)",
+"\bis found to be","is (verbose)",http://stevehanov.ca/blog/?id=52
+"\bis going to","will (verbose)",http://stevehanov.ca/blog/?id=52
+"\bi should also mention that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bis in a position to","can (verbose)",
+"\bis in conflict with","conflicts with (verbose)",http://stevehanov.ca/blog/?id=52
+"\bis in contrast with","contrasts with (verbose)",http://stevehanov.ca/blog/?id=52
 "\bis key",(puffery),
+"\bis making","makes (verbose)",http://stevehanov.ca/blog/?id=52
+"\bis of significant importance","is important (verbose)",http://stevehanov.ca/blog/?id=52
+"\bis one reason why","is why (verbose)",http://stevehanov.ca/blog/?id=52
 "\bis over",(cliche),
-"#\bis said to [verb]","[verb]ies #(e.g., is said to vary (verbose)",
+"\bis presently","is now (verbose)",http://stevehanov.ca/blog/?id=52
+"\bis pretty darn",(verbose),http://stevehanov.ca/blog/?id=52
+"\bis required","is needed (verbose)",http://stevehanov.ca/blog/?id=52
+"\bis scared of","fears (verbose)",http://stevehanov.ca/blog/?id=52
+"\bis seen as","is (verbose)",http://stevehanov.ca/blog/?id=52
+"\bis when","is (verbose)",http://stevehanov.ca/blog/?id=52
+"\bis when you want to","is to (verbose)",http://stevehanov.ca/blog/?id=52
+"\bis where",(verbose),http://stevehanov.ca/blog/?id=52
+"\bit almost seems like",(verbose),http://stevehanov.ca/blog/?id=52
+"\bit can be seen that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bit could happen that","may, might, can, could (verbose)",
+"\bit does make","it makes (verbose)",http://stevehanov.ca/blog/?id=52
+"\bit does seem","it's (verbose)",http://stevehanov.ca/blog/?id=52
+"\bit goes to show that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bit has been claimed that","(weasel words)",
 "\bit has been mentioned that","(weasel words)",
+"\bi think that,",(verbose),http://stevehanov.ca/blog/?id=52
+"\bi think that",(verbose),http://stevehanov.ca/blog/?id=52
+"\bi think,",(verbose),http://stevehanov.ca/blog/?id=52
+"\bi think",(verbose),http://stevehanov.ca/blog/?id=52
 "\bit is believed","(weasel words)",
+"\bit is clear that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bit is crucial that","must, should (verbose)",
+"\bit is evident that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bit is important that","must, should (verbose)",
+"\bit is important to keep in mind that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bit is incumbent upon","must, should (verbose)",
+"\bit is interesting to note that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bit is known that","(weasel words)",
+"\bit is likely that","likely (verbose)",
+"\bit is my belief that",(verbose),http://stevehanov.ca/blog/?id=52
+"\bit is my hope that",(verbose),http://stevehanov.ca/blog/?id=52
+"\bit is my opinion that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bit is necessary that","must, should (verbose)",
 "\bit is often reported","(weasel words)",
-"\bit is possible that","may, might, can, could (verbose)",
+"\bit is possible that","may, might, can, could (verbose)",http://stevehanov.ca/blog/?id=52
 "\bit is probable that","probably (verbose)",
+"\bit is probably that","probably (verbose)",http://stevehanov.ca/blog/?id=52
 "\bit is widely thought","(weasel words)",
+"\bit seems like",(verbose),http://stevehanov.ca/blog/?id=52
+"\bit seems that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bit should be noted",(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
+"\bit should be pointed out that",(verbose),http://stevehanov.ca/blog/?id=52
+"\bit should be pointed out",(verbose),http://stevehanov.ca/blog/?id=52
 "\bit stands to reason that","(weasel words)",
+"\bit's worth pointing out that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bit turns out that","(weasel words)",
 "\bit was noted that","(weasel words)",
 "\bit was proved","(weasel words)",
 "\bit would appear that","apparently, clearly, obviously, plainly, seemingly (verbose)",
+"\bi want to say that",(verbose),http://stevehanov.ca/blog/?id=52
+"\bi wish to take this opportunity to","I want to (verbose)",http://stevehanov.ca/blog/?id=52
 \bjarring,(offensive),
 "\bjaw dropping",(puffery),
 \bjaw-dropping,(puffery),
 "\bjoint collaboration","(joint) collaboration (verbose)",
-"\bjoin together","join (together) (verbose)",
+"\bjoin together","join (verbose)",http://stevehanov.ca/blog/?id=52
 \bjoke,(offensive),
 \bjunk,(offensive),
+"\bjust a","a (verbose)",http://stevehanov.ca/blog/?id=52
+"\bjust to","to (verbose)",http://stevehanov.ca/blog/?id=52
 \bjuvenile,(offensive),
 \bkeen,(puffery),
 "\bkeep the plates spinning",(cliche),
 \bkey,(puffery),
 \bkinda,(cliche),
-"\bkind of",(cliche),
 "\bkind of thing",(vague),
-"\bkind of",(vague),
+"\bkind of","(vague, cliche, verbose)",http://stevehanov.ca/blog/?id=52
 \bkludge,(offensive),
 "\bkneel down","kneel (down) (verbose)",
 "\bknowledgeable experts","(knowledgeable) experts (verbose)",
@@ -1318,11 +1580,14 @@
 "\blag behind","lag (behind) (verbose)",
 \blandmark,(puffery),
 \blandmarks,(puffery),
-"\blarge in size","large (in size) (verbose)",
+"\blarge in size","large (verbose)",http://stevehanov.ca/blog/?id=52
 "\blarge potential",(puffery),
 "\blargest ever","largest (ever) (verbose)",
 "\blaser light","laser (light) (verbose)",
 "\blast and final","final (verbose)",
+"\blast but not least","finally (verbose)",http://stevehanov.ca/blog/?id=52
+"\blast, but not least","finally (verbose)",http://stevehanov.ca/blog/?id=52
+"\blater on","later (verbose)",http://stevehanov.ca/blog/?id=52
 "\blater time","later (time) (verbose)",
 \blauded,(puffery),
 \blaud,(puffery),
@@ -1351,13 +1616,16 @@
 \blies,"(offensive, hard to demonstrate that they know something is false, but can be okay in some contexts)",https://discord.com/channels/696106118438453268/696115478866821232/853389450641539093
 "\blift up","lift (up) (verbose)",
 #\blikely,"(probability; remove and instead be quantitative when possible)",
+"\b, like,",(verbose),http://stevehanov.ca/blog/?id=52
 "\blimited contribution",(offensive),
 "\blimited number","few (verbose)",
 "\blimited number of","a couple, a few, little, meager, not many, one or two (two or three), scant, only so many, some, spare, sparse (verbose)",
+"\blink together","link (verbose)",http://stevehanov.ca/blog/?id=52
 \blionized,(puffery),
 "\blisten up","listen (verbose)",
 \bliteracy,(offensive),https://academia.stackexchange.com/a/151521/31143
 "\bliterally impossible","(literally) impossible (verbose)",
+\bliterally,(verbose),http://stevehanov.ca/blog/?id=52
 "\blittle baby","(little) baby (verbose)",
 "\blittle hope",(offensive),
 #\blittle,(vague),
@@ -1379,6 +1647,7 @@
 "\blots of",(cliche),
 \blovely,(puffery),
 "\blow hanging fruit",(cliche),
+"\blow-hanging fruit",(cliche),
 "\blow probability",(vague),
 \blucidly,(puffery),
 \blucid,(puffery),
@@ -1389,7 +1658,8 @@
 \blying,"(offensive, hard to demonstrate that they know something is false)",https://discord.com/channels/696106118438453268/696115478866821232/853389450641539093
 \bmaddening,(offensive),
 "\bmade a statement","said (verbose)",
-"\bmade out of","made (out) of (verbose)",
+"\bmade a statement that","said that (verbose)",http://stevehanov.ca/blog/?id=52
+"\bmade out of","made of (verbose)",http://stevehanov.ca/blog/?id=52
 \bmadness,(offensive),
 \bmagically,(puffery),
 \bmagical,(puffery),
@@ -1402,22 +1672,26 @@
 "\bmajor implications",(puffery),
 "\bmajor problem",(offensive),
 "\bmajor problems",(offensive),
-"\bmake a decision","control, decide, discover, find out, end, fix, settle (verbose)",
+"\bmake a decision","decide, control, discover, find out, end, fix, settle (verbose)",http://stevehanov.ca/blog/?id=52
 "\bmake an application","apply (verbose)",
+"\bmake an assumption","assume (verbose)",http://stevehanov.ca/blog/?id=52
 "\bmake an examination of","examine (verbose)",
-"\bmake reference to","refer to (verbose)",
+"\bmake contact with","contact (verbose)",http://stevehanov.ca/blog/?id=52
+"\bmake reference to","refer to (verbose)",http://stevehanov.ca/blog/?id=52
 "\bmake sense","(do not make sense, etc.)",
 "\bmaking obvious","revealing, highlighting, underlying, emphasizing (verbose)",
+"\bmanner in which","way (verbose)",http://stevehanov.ca/blog/?id=52
+\bmanner,"way (verbose)",http://stevehanov.ca/blog/?id=52
 "\bmanually by hand","manually (by hand) (verbose)",
 "\bmany are of the opinion","(weasel words)",
 \bmarvel,(puffery),
 \bmasterful,(puffery),
 \bmasterstroke,(puffery),
+\bmaterialize,"appear (verbose)",http://stevehanov.ca/blog/?id=52
 "\bmath error","(can be okay)",
 "\bmath errors","(can be okay)",
 \bmaybe,(vague),
-"\bmay/might possibly","may/might (possibly) (verbose)",
-"\bmay possibly","may (possibly) (verbose)",
+"\bmay possibly","may (verbose)",http://stevehanov.ca/blog/?id=52
 #\bmay,"(probability; remove and instead be quantitative when possible)",
 \bmeaninglessly,(offensive),
 \bmeaningless,(offensive),
@@ -1426,6 +1700,7 @@
 "\bmeet together","meet (together) (verbose)",
 "\bmeet with each other","meet (with each other) (verbose)",
 \bmendacity,(offensive),
+"\bmental attitude","attitude (verbose)",http://stevehanov.ca/blog/?id=52
 "\bmentally ill",(offensive),
 "\bmental telepathy","(mental) telepathy (verbose)",
 "\bmerge together","merge (together) (verbose)",
@@ -1433,8 +1708,9 @@
 \bmeticulously,(puffery),
 \bmeticulous,(puffery),
 "\bmight happen",(vague),
-"\bmight possibly","might (possibly) (verbose)",
+"\bmight possibly","might (verbose)",http://stevehanov.ca/blog/?id=52
 #\bmight,"(probability; remove and instead be quantitative when possible)",
+"\bmight very well","may (verbose)",http://stevehanov.ca/blog/?id=52
 "\bmiles apart from one another","miles apart (from one another) (verbose)",
 \bmilitant,(offensive),
 "\bmind boggling",(puffery),
@@ -1442,6 +1718,7 @@
 \bmindless,(offensive),
 "\bmind numbing",(offensive),
 "\bminestrone soup","minestrone (soup) (verbose)",
+\bminuscule,"tiny (verbose)",http://stevehanov.ca/blog/?id=52
 \bmiracle,(puffery),
 \bmiraculous,(puffery),
 #\bmisconception,"(probability; remove and instead be quantitative when possible)",
@@ -1465,18 +1742,28 @@
 "\bmistakes were made",(https://en.wikipedia.org/wiki/Mistakes_were_made),
 \bmisused,(offensive),https://academia.stackexchange.com/a/151521/31143
 \bmisuse,(offensive),https://academia.stackexchange.com/a/151521/31143
-"\bmix together","mix (together) (verbose)",
+\bmitigate,"reduce (verbose)",http://stevehanov.ca/blog/?id=52
+"\bmix together","mix (verbose)",http://stevehanov.ca/blog/?id=52
 "\bMLB baseball","MLB (baseball) (verbose)",
 \bmocking,(offensive),
+\bmodifications,"changes (verbose)",http://stevehanov.ca/blog/?id=52
+\bmodify,"change (verbose)",http://stevehanov.ca/blog/?id=52
 \bmodulate,(cliche),
 \bmodulates,(cliche),
 \bmofo,(profanity),
+"\bmonth after month","each month (verbose)",http://stevehanov.ca/blog/?id=52
+"\bmonth of September","September (verbose)",http://stevehanov.ca/blog/?id=52
 \bmonumentally,(puffery),
 \bmonumental,(puffery),
-"\bmore often than not",(vague),
+"\bmore and more","often (verbose)",http://stevehanov.ca/blog/?id=52
+"\bmore often than not","(verbose, vague)",http://stevehanov.ca/blog/?id=52
 "\bmore often then not","more often than not (atomic typo)",https://afterdeadline.blogs.nytimes.com/2013/02/12/when-spell-check-cant-help-17/
-"\bmore or less",(vague),
+"\bmore or less","(verbose, vague)",http://stevehanov.ca/blog/?id=52
+\bmoreover,"besides (verbose)",http://stevehanov.ca/blog/?id=52
 "\bmore perfect","(more) perfect (verbose)",
+"\bmore preferable","preferable (verbose)",http://stevehanov.ca/blog/?id=52
+"\bmore than adequate","adequate (verbose)",http://stevehanov.ca/blog/?id=52
+"\bmore than a few","some (verbose)",http://stevehanov.ca/blog/?id=52
 "\bmore than ever",(cliche),
 \bmoronic,(offensive),
 \bmoron,(offensive),
@@ -1504,9 +1791,13 @@
 \bmusing,"thinking (cliche)",
 "\bmust read",(puffery),
 \bmust-read,(puffery),
-"\bmutual cooperation","(mutual) cooperation (verbose)",
+"\bmutual agreement","agreement (verbose)",http://stevehanov.ca/blog/?id=52
+"\bmutual communication","communication (verbose)",http://stevehanov.ca/blog/?id=52
+"\bmutual cooperation","cooperation (verbose)",http://stevehanov.ca/blog/?id=52
+"\bmutual friendship","friendship (verbose)",http://stevehanov.ca/blog/?id=52
 "\bmutually interdependent","(mutually) interdependent (verbose)",
 "\bmutual respect for each other","mutual respect (for each other) (verbose)",
+"\bmutual understanding","understanding (verbose)",http://stevehanov.ca/blog/?id=52
 #\bmyth,"(Could be okay even outside of the study of ancient literature. This doesn't seem to have any judgment best I can tell.)",
 "#\bna\""{i}ve",(offensive),
 \bnaive,(offensive),
@@ -1517,17 +1808,24 @@
 \bnasty,(offensive),
 \bnatch,"naturally (cliche)",
 "\bnative habitat","(native) habitat (verbose)",
-"\bnatural instinct","(natural) instinct (verbose)",
+"\bnatural instinct","instinct (verbose)",http://stevehanov.ca/blog/?id=52
 \bnaturally,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 "\bnear miss","near hit",
 \bnear-miss,near-hit,
 "\bnear to","near (to) (verbose)",
+"\bnecessary prerequisite","prerequisite (verbose)",http://stevehanov.ca/blog/?id=52
+\bnecessity,"need (verbose)",http://stevehanov.ca/blog/?id=52
 "\bnever before","never (verbose)",
 \bnever,(exaggerated),https://www.scribbr.com/academic-writing/taboo-words/
+"\bnever once","never (verbose)",http://stevehanov.ca/blog/?id=52
+\bnevertheless,"yet (verbose)",http://stevehanov.ca/blog/?id=52
 "\bnew beginning","(new) beginning (verbose)",
+"\bnew breakthrough","breakthrough (verbose)",http://stevehanov.ca/blog/?id=52
 "\bnew construction","(new) construction (verbose)",
+"\bnew development","development (verbose)",http://stevehanov.ca/blog/?id=52
 "\bnew innovation","(new) innovation (verbose)",
 "\bnew invention","(new) invention (verbose)",
+"\bnew record","record (verbose)",http://stevehanov.ca/blog/?id=52
 "\bnew recruit","(new) recruit (verbose)",
 "\bnew way",(puffery),
 "\bnew ways",(puffery),
@@ -1546,7 +1844,7 @@
 \bnondimensional,"dimensionless (verbose)",
 \bnon-dimensionalization,"nondimensionalization (verbose)",
 #\bnondimensionalization,"okay (verbose)",
-"\bnone at all","none (verbose)",
+"\bnone at all","none (verbose)",http://stevehanov.ca/blog/?id=52
 "\bno new ideas",(offensive),
 "\bno nonsense",(offensive),
 "\bno novelty",(offensive),
@@ -1559,21 +1857,29 @@
 "\bnostalgia for the past","nostalgia (for the past) (verbose)",
 #\bnotable,(puffery),
 \bnotably,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
+"\bnot been kind","been unkind (verbose)",http://stevehanov.ca/blog/?id=52
 "\bnot credible",(offensive),
+"\bnot dissimilar","like (verbose)",http://stevehanov.ca/blog/?id=52
 "\bnot even wrong",(offensive),
 "\bnot good","(e.g., not good enough)",
-"\bnot in a position to","cannot, can't, unable to (verbose)",
-"\bnot many","few (verbose)",
+"\bnot impossible","possible (verbose)",http://stevehanov.ca/blog/?id=52
+"\bnot in a position to","cannot, can't, unable to (verbose)",http://stevehanov.ca/blog/?id=52
+"\bnot infrequent","frequent (verbose)",http://stevehanov.ca/blog/?id=52
+"\bnot infrequently","frequently (verbose)",http://stevehanov.ca/blog/?id=52
+"\bnot many","few (verbose)",http://stevehanov.ca/blog/?id=52
 "\bnot much chance","(probability; remove and instead be quantitative when possible)",
+"\bnot necessarily","not (verbose)",http://stevehanov.ca/blog/?id=52
 "\bnot often",(vague),
-"\bnot old enough","too young (verbose)",
+"\bnot old enough","too young (verbose)",http://stevehanov.ca/blog/?id=52
 \bnotoriously,(offensive),
 \bnotorious,(offensive),
-"\bnot possible","impossible (verbose)",
+"\bnot possible","impossible (verbose)",http://stevehanov.ca/blog/?id=52
 "\bnot quite even","(probability; remove and instead be quantitative when possible)",
 "\bnot ready for prime time",(cliche),
 "\bnot the remotest",(offensive),
-"\bnot the same","different (verbose)",
+"\bnot the same","different (verbose)",http://stevehanov.ca/blog/?id=52
+"\bnot unlike","like (verbose)",http://stevehanov.ca/blog/?id=52
+"\bnot unnoticed","noticed (verbose)",http://stevehanov.ca/blog/?id=52
 "\bnot very probable","(probability; remove and instead be quantitative when possible)",
 "\bnotwithstanding the fact that","although, but, even though, still, though, yet, despite, even if, however (verbose)",
 "\bno understanding",(offensive),
@@ -1581,15 +1887,18 @@
 \bnovelty,"(as an adjective, i.e. this is a novel method)",
 \bnowadays,(informal),
 "\bnow at this time","now (verbose)",
+"\bnow compare","compare (verbose)",http://stevehanov.ca/blog/?id=52
 "\bnow pending","(now) pending (verbose)",
 "\bnumber-one leader in","(number-one) leader in (verbose)",
 "\bnumber one leader","(number one) leader (verbose)",
+\bnumerous,"many (verbose)",http://stevehanov.ca/blog/?id=52
 \bnutcase,(offensive),
 \bnutjob,(offensive),
 \bnutjobs,(offensive),
 \bnut,(offensive),
 \bnuts,(offensive),
 \bnutty,(offensive),
+\bobjective,"goal (verbose)",http://stevehanov.ca/blog/?id=52
 \bobnoxiously,(offensive),
 \bobnoxious,(offensive),
 #\bobscured,"(when used to mean hide)",
@@ -1598,53 +1907,74 @@
 \bobstructionist,(offensive),
 \bobstructionists,(offensive),
 "\bobtained also by","obtained (also) by (verbose)",
-\bobviously,"apparently (not always obvious)",
+\bobtain,"get (verbose)",http://stevehanov.ca/blog/?id=52
+\bobviate,"avoid (verbose)",http://stevehanov.ca/blog/?id=52
+\bobviously,"apparently (not always obvious)",http://stevehanov.ca/blog/?id=52
 #\bobvious,(offensive),
+\boccurred,"happened (verbose)",http://stevehanov.ca/blog/?id=52
+\boccurs,"happens (verbose)",http://stevehanov.ca/blog/?id=52
 "\bodd ball",(offensive),
 \bodd-ball,(offensive),
 \boddball,(offensive),
 "\bof course","not always obvious (cliche)",
+"\b, of course,",(verbose),http://stevehanov.ca/blog/?id=52
 "\bofficially known as","(weasel words)",
 "\boff of","off (of) (verbose)",
-"\bof major importance","are important, is important, was important (verbose)",
+"\bof great importance","that's important (verbose)",http://stevehanov.ca/blog/?id=52
+"\bof major importance","are important, is important, was important (verbose)",http://stevehanov.ca/blog/?id=52
+"\boften times","often (verbose)",http://stevehanov.ca/blog/?id=52
 \boftentimes,(vague),
 #\boften,(vague),
 \bokays,(cliche),
 "\bold adage","(old) adage (verbose)",
-"\bold cliche","(old) cliche (verbose)",
+"\bold cliche","(old) cliche (verbose)",http://stevehanov.ca/blog/?id=52
 "\bold custom","(old) custom (verbose)",
-"\bolder than [0-9]+ years of age","older than [0-9]+ years of age (verbose)",
-"\bold proverb","(old) proverb (verbose)",
-"\bon a daily basis","daily (verbose)",
+"\bold proverb","(old) proverb (verbose)",http://stevehanov.ca/blog/?id=52
+"\bold relic","relic (verbose)",http://stevehanov.ca/blog/?id=52
+"\bon a daily basis","daily (verbose)",http://stevehanov.ca/blog/?id=52
+"\bon a day to day basis","daily (verbose)",http://stevehanov.ca/blog/?id=52
+"\bon a frequent basis","frequently (verbose)",http://stevehanov.ca/blog/?id=52
+"\bon a monthly basis","monthly (verbose)",http://stevehanov.ca/blog/?id=52
 "\bon a regular basis","daily, every other day, hour, monthly, regularly, twice a month, twice a week (verbose)",
-"\bon a weekly basis",(cliche),
+"\bon a weekly basis","weekly (verbose)",http://stevehanov.ca/blog/?id=52
+"\bon a yearly basis","yearly (verbose)",http://stevehanov.ca/blog/?id=52
 "\bon behalf of","backed, for, supported (verbose)",
 "\bone of the","a, an, one (verbose)",
 "\bone possible explanation","(probability; remove and instead be quantitative when possible)",
+\bongoing,"continuing (verbose)",http://stevehanov.ca/blog/?id=52
 "\bon its face",(offensive),
 "\bonly beginning",(puffery),
 "\bonly now beginning",(puffery),
+"\bonly serves to",(verbose),http://stevehanov.ca/blog/?id=52
 "\bon most occasions","usually (verbose)",
 "\bon one hand",(informal),
 "\bon steroids",(cliche),
 "\bon the basis of","by, from, because of, assuming, based on, from (verbose)",
 "\bon the grounds that","because, since, why (verbose)",
-"\bon the occasion of","when (verbose)",
+"\bon the occasion of","when (verbose)",http://stevehanov.ca/blog/?id=52
 "\bon the other hand",(informal),
 "\bon the part of","by, among, for, from, in, of (verbose)",
+"\bon the whole",(verbose),http://stevehanov.ca/blog/?id=52
+"\bon top of all of this","moreover (verbose)",http://stevehanov.ca/blog/?id=52
 "\bon top of",(informal),
 "\bopen a can of worms",(cliche),
 "\bopen trench","(open) trench (verbose)",
 "\bopen up","open (up) (verbose)",
 "\boperate under the assumption (that)","assume (verbose)",
-"\bopt for","choose, select (verbose)",
+"\bopt for","choose, select (verbose)",http://stevehanov.ca/blog/?id=52
+\boptimum,"best (verbose)",http://stevehanov.ca/blog/?id=52
 "\boral conversation","(oral) conversation (verbose)",
+"\bor alternatively","or (verbose)",http://stevehanov.ca/blog/?id=52
+"\bor, alternatively","or (verbose)",http://stevehanov.ca/blog/?id=52
+"\b(^order of) magnitude","size (verbose)",http://stevehanov.ca/blog/?id=52
+\borientate,"orient (verbose)",http://stevehanov.ca/blog/?id=52
 "\boriginally created","(originally) created (verbose)",
 #\boriginal,(puffery),
 \boriginated,(puffery),
 \boriginating,(puffery),
 \boriginator,(puffery),
 \boriginators,(puffery),
+"\bor, say,",(verbose),http://stevehanov.ca/blog/?id=52
 "\bor something","(vague; for example, or something like that)",
 \borthodoxy,(offensive),
 "\bor whatever",(vague),
@@ -1659,6 +1989,10 @@
 "\boutside of the box",(cliche),
 \boutstanding,"(puffery, might be okay as ""outstanding problem"")",
 "\boval in shape","oval (in shape) (verbose)",
+"\boverall goal","goal (verbose)",http://stevehanov.ca/blog/?id=52
+"\boverall plan","plan (verbose)",http://stevehanov.ca/blog/?id=52
+"\boverall structure","structure (verbose)",http://stevehanov.ca/blog/?id=52
+"\bover and over","repeatedly (verbose)",http://stevehanov.ca/blog/?id=52
 \boverblown,(offensive),
 \boverconfidence,(offensive),
 \boverconfident,(offensive),
@@ -1690,7 +2024,7 @@
 "\boverwhelming majority","(weasel words)",
 \boverwhelming,(puffery),
 "\bover with","over (with) (verbose)",
-"\bowing to the fact that","because, since, why (verbose)",
+"\bowing to the fact that","because, since, why (verbose)",http://stevehanov.ca/blog/?id=52
 "\bown personal view","(own) personal view (verbose)",
 "\bpain point",(cliche),
 "\bpain points",(cliche),
@@ -1702,14 +2036,18 @@
 \bparroted,(offensive),
 \bparrot,(offensive),
 \bparrots,(offensive),
+\bparticularly,(verbose),http://stevehanov.ca/blog/?id=52
+"\bparticular type of",(verbose),http://stevehanov.ca/blog/?id=52
 \bpartisan,(offensive),
 \bpassable,(offensive),
 \bpasse,(offensive),
 \bpassé,(offensive),
+"\bpassing craze","craze (verbose)",http://stevehanov.ca/blog/?id=52
 "\bpassing fad","(passing) fad (verbose)",
-"\bpast experience","(past) experience (verbose)",
-"\bpast history","history (verbose)",
-"\bpast memories","(past) memories (verbose)",
+"\bpassing fancy","fancy (verbose)",http://stevehanov.ca/blog/?id=52
+"\bpast experience","(past) experience (verbose)",http://stevehanov.ca/blog/?id=52
+"\bpast history","history (verbose)",http://stevehanov.ca/blog/?id=52
+"\bpast memories","(past) memories (verbose)",http://stevehanov.ca/blog/?id=52
 "\bpast record","(past) record (verbose)",
 "\bpast records","(past) records (verbose)",
 \bpathetic,(offensive),
@@ -1722,11 +2060,12 @@
 "\bper capita","a person, a head (verbose)",
 "\bper diem","a day, daily, daily allowance, for each day (verbose)",
 #\bperfect,(exaggerated),https://www.scribbr.com/academic-writing/taboo-words/
+"\bperfectly legitimate","legitimate (verbose)",http://stevehanov.ca/blog/?id=52
 "\bperform an assessment of","assess (verbose)",
 \bperfunctory,(clarity),
 \bperhaps,(vague),
 "\bperiod of four days","period of) four days (verbose)",
-"\bperiod of time","period (verbose)",
+"\bperiod of time","period (verbose)",http://stevehanov.ca/blog/?id=52
 \bperplexed,"(offensive, puffery)",
 \bperplexity,(offensive),
 \bperplex,(puffery),
@@ -1734,9 +2073,10 @@
 "\bpersonal beliefs","beliefs (verbose)",
 "\bpersonal friend","(personal) friend (verbose)",
 "\bpersonally offended",(offensive),
-"\bpersonal opinion","(personal) opinion (verbose)",
+"\bpersonal opinion","(personal) opinion (verbose)",http://stevehanov.ca/blog/?id=52
+"\bpersonal opinions","opinions (verbose)",http://stevehanov.ca/blog/?id=52
 \bpersuasive,"(puffery; how so?)",
-\bperuse,"(ambiguous, Janus word)",
+\bperuse,"(ambiguous, Janus word)",http://stevehanov.ca/blog/?id=52
 \bperverted,(offensive),
 \bpessimistic,(offensive),
 \bpetty,(offensive),
@@ -1747,6 +2087,7 @@
 "\bpick and choose","pick (and choose) (verbose)",
 \bpinnacle,(puffery),
 "\bPIN number","PIN (number) (verbose)",
+"\bpin number","PIN (verbose)",http://stevehanov.ca/blog/?id=52
 #\bpioneered,(puffery),
 \bpioneering,(puffery),
 \bpioneer,(puffery),
@@ -1754,7 +2095,7 @@
 \bpithy,(offensive),
 \bpity,(offensive),https://academia.stackexchange.com/a/151521/31143
 "\bpizza pie","pizza (pie) (verbose)",
-"\bplan ahead","plan (ahead) (verbose)",
+"\bplan ahead","plan (ahead) (verbose)",http://stevehanov.ca/blog/?id=52
 "\bplan in advance","plan (in advance) (verbose)",
 "\bPlease find attached","I am attaching (verbose)",
 "\bPlease find enclosed","I am enclosing (verbose)",
@@ -1763,7 +2104,7 @@
 "\bplunge down","plunge (down) (verbose)",
 "\bp.m. at night","p.m. (at night) (verbose)",
 "\bp.m. in the afternoon","p.m. (verbose)",
-"\bpoint in time","(point in) time (verbose)",
+"\bpoint in time","(point in) time (verbose)",http://stevehanov.ca/blog/?id=52
 \bpointless,(offensive),
 \bpoisoned,(offensive),
 \bpoisoning,(offensive),
@@ -1784,17 +2125,21 @@
 \bpoppycock,(offensive),
 #\bpopular,(puffery),
 "\bpopular wisdom has it that","(weasel words)",
+\bportion,"part (verbose)",http://stevehanov.ca/blog/?id=52
 \bposer,(offensive),
 \bposers,(offensive),
 \bposeur,(offensive),
 \bposeurs,(offensive),
 "\bpositive identification","(positive) identification (verbose)",
+\bpossess,"have (verbose)",http://stevehanov.ca/blog/?id=52
 #\bpossibilities,"(probability; remove and instead be quantitative when possible)",
-#\bpossibility,"(probability; remove and instead be quantitative when possible)",
+\bpossibility,"chance (verbose; also probability; remove and instead be quantitative when possible?)",http://stevehanov.ca/blog/?id=52
 #\bpossible,"(probability; remove and instead be quantitative when possible)",
 "\bpossibly might","(possibly) might (verbose)",
 #\bpossibly,"(probability; remove and instead be quantitative when possible)",
-"\bpostpone until later","postpone (until later) (verbose)",
+"\bpostpone until later","postpone (until later) (verbose)",http://stevehanov.ca/blog/?id=52
+"\bpotentially dangerous","dangerous (verbose)",http://stevehanov.ca/blog/?id=52
+"\bpotentially hazardous","hazardous (verbose)",http://stevehanov.ca/blog/?id=52
 \bpotently,(puffery),
 \bpotent,(puffery),
 "\bpouring down rain","pouring (down) rain (verbose)",
@@ -1808,12 +2153,16 @@
 \bpreheat,"(pre)heat (verbose)",
 \bpremature,(offensive),https://academia.stackexchange.com/a/151521/31143
 \bpremier,(puffery),
+\bpre-owned,"used (verbose)",http://stevehanov.ca/blog/?id=52
 "\bprepare in advance","prepare (verbose)",
+\bpre-planning,"planning (verbose)",http://stevehanov.ca/blog/?id=52
+\bpre-plan,"plan (verbose)",http://stevehanov.ca/blog/?id=52
 \bpreposterously,(offensive),
 \bpreposterous,(offensive),
 \bprerecord,"(pre)record (verbose)",
-"\bpresent incumbent","(present) incumbent (verbose)",
-"\bpresent time","now, present (verbose)",
+"\bpresent incumbent","(present) incumbent (verbose)",http://stevehanov.ca/blog/?id=52
+"\bpresent time","now, present (verbose)",http://stevehanov.ca/blog/?id=52
+\bpreserve,"keep (verbose)",http://stevehanov.ca/blog/?id=52
 "\bpressing need",(puffery),
 #\bpressing,"(puffery, e.g., pressing need; could be okay otherwise)",
 \bprestige,(puffery),
@@ -1821,20 +2170,28 @@
 \bpresumptuous,(offensive),
 \bpretensions,(offensive),
 \bpretentious,(offensive),
+"\bpretty cool","cool (verbose)",http://stevehanov.ca/blog/?id=52
 "\bpretty good chance","(probability; remove and instead be quantitative when possible)",
+"\bpretty important","important (verbose)",http://stevehanov.ca/blog/?id=52
 \bpretty,(vague),
 "\bpreviously listed above","previously listed (above) (verbose)",
 "\bprevious to","before, after, as, ahead of (verbose)",
 "\bprima facie","as it seems at first sight (English is preferred to Latin)",
 "\bprinciple function","principal function (atomic typo)",https://afterdeadline.blogs.nytimes.com/2013/02/12/when-spell-check-cant-help-17/
-"\bprior to","before, after, as, ahead of (verbose)",
+"\bprior history","history (verbose)",http://stevehanov.ca/blog/?id=52
+"\bprior to","before, after, as, ahead of (verbose)",http://stevehanov.ca/blog/?id=52
 "\bprivate industry","industry (but in socialist countries there are public industries) (verbose)",
 \bprized,(puffery),
 #\bprobable,"(probability; remove and instead be quantitative when possible)",
+"\bprobably occurred-> occurred",(verbose),http://stevehanov.ca/blog/?id=52
 #\bprobably,"(probability; remove and instead be quantitative when possible)",
+"\bprobably true","TRUE (verbose)",http://stevehanov.ca/blog/?id=52
+"\bprobably won't","won't (verbose)",http://stevehanov.ca/blog/?id=52
 \bproblematic,(offensive),
 "\bproblem with this paper",(offensive),
 "\bproceed ahead","proceed (ahead) (verbose)",
+\bproceed,"continue (verbose)",http://stevehanov.ca/blog/?id=52
+\bprocure,"get (verbose)",http://stevehanov.ca/blog/?id=52
 \bprodigy,(puffery),
 "\bprofessional manor","professional manner (atomic typo)",
 \bprofessional,(puffery),
@@ -1850,9 +2207,9 @@
 \bprose,(cliche),
 "\bprotest against","protest (against) (verbose)",
 "\bprotruded out","protruded (out) (verbose)",
-"\bprovided that","if, provided (verbose)",
+"\bprovided that","if, provided (verbose)",http://stevehanov.ca/blog/?id=52
 "\bprovides an understanding","describes (verbose)",
-"\bproviding that","if (verbose)",
+"\bproviding that","provided (verbose)",http://stevehanov.ca/blog/?id=52
 \bpseudo-science,(offensive),
 \bpseudo-scientific,(offensive),
 "\bpubic presentations","(atomic typo)",https://www.chronicle.com/forums/index.php?ChronicleUser=umt56nk3lksvmb41qc3q0u5822&topic=83780.msg2019401#msg2019401
@@ -1868,9 +2225,11 @@
 \bquestionable,(offensive),
 "\bquestions have been raised","(weasel words)",
 \bquintessential,(puffery),
+"\bquite clearly",(verbose),http://stevehanov.ca/blog/?id=52
 "\bquite good",(vague),
 "\bquite likely","(probability; remove and instead be quantitative when possible)",
 "\bquite unlikely","(probability; remove and instead be quantitative when possible)",
+\bquite,(verbose),http://stevehanov.ca/blog/?id=52
 \bracist,(offensive),
 \bracists,(offensive),
 \bradically,(puffery),
@@ -1888,45 +2247,65 @@
 \brants,(offensive),
 \brarely,(vague),
 \brare,"(probability; remove and instead be quantitative when possible)",
+"\brate of speed","speed (verbose)",http://stevehanov.ca/blog/?id=52
 "\brather likely","(probability; remove and instead be quantitative when possible)",
 #\brather,"(probability; remove and instead be quantitative when possible)",
 "\brather unlikely","(probability; remove and instead be quantitative when possible)",
+\brather,(verbose),http://stevehanov.ca/blog/?id=52
 \braving,(offensive),
-"\breach at","reach # not always, though? (verbose)",
+"\breach at","reach (not always, though?) (verbose)",
 "\breal insight",(offensive),
-"\brealize a savings of","save (verbose)",
+"\brealize a savings of","save (verbose)",http://stevehanov.ca/blog/?id=52
+"\breal life","life (verbose)",http://stevehanov.ca/blog/?id=52
 \breally,(exaggerated),https://www.scribbr.com/academic-writing/taboo-words/
+"\breally just",(verbose),http://stevehanov.ca/blog/?id=52
+\breally,(verbose),http://stevehanov.ca/blog/?id=52
 "\breal possibility",(vague),
-"\breason is because","reason is (because) (verbose)",
-"\breason why","reason (why) (verbose)",
+"\breal truth","truth (verbose)",http://stevehanov.ca/blog/?id=52
+"\breasonable expect","expect (verbose)",http://stevehanov.ca/blog/?id=52
+"\breasonable substitute","substitute (verbose)",http://stevehanov.ca/blog/?id=52
+"\breasonably well","well (verbose)",http://stevehanov.ca/blog/?id=52
+"\breason is because","reason is (because) (verbose)",http://stevehanov.ca/blog/?id=52
+"\breason why","reason (why) (verbose)",http://stevehanov.ca/blog/?id=52
 "\breassessed again","reassessed (again) (verbose)",
 \breassuring,(puffery),
-"\brectangular in shape","rectangular (in shape) (verbose)",
+\breceive,"get (verbose)",http://stevehanov.ca/blog/?id=52
+"\brecord high","record (verbose)",http://stevehanov.ca/blog/?id=52
+"\brectangular in shape","rectangular (in shape) (verbose)",http://stevehanov.ca/blog/?id=52
+\brecte,"corrected: (English is preferred to Latin)",
 "\brecur again","recur (again) (verbose)",
 "\bred herring",(cliche),
 "\bred in color","red (verbose)",
 "\bre-elect for another term","re-elect (for another term) (verbose)",
-"\brefer back","refer (back) (verbose)",
-"\brefer to as","call, name, term (verbose)",
+"\brefer back","refer (back) (verbose)",http://stevehanov.ca/blog/?id=52
+"\breferred to as","called (verbose)",http://stevehanov.ca/blog/?id=52
+"\breferring back","referring (verbose)",http://stevehanov.ca/blog/?id=52
+"\brefer to as","call, name, term (verbose)",http://stevehanov.ca/blog/?id=52
 "\breflect back","reflect (back) (verbose)",
-"\bregardless of the fact that","although, even, though (verbose)",
+"\bregardless of the fact that","although, even, though (verbose)",http://stevehanov.ca/blog/?id=52
 "\bregards to","about, as for, for, in, of, on, over, respecting, to, toward, with (verbose)",
 "\bregular routine","(regular) routine (verbose)",
 "\breinvented the wheel",(offensive),
 "\breinventing the wheel",(offensive),
 "\breinvent the wheel",(cliche),
 "\brelating to","about, as for, for, in, of, on, over, to, toward, with (verbose)",
+\bremainder,"rest (verbose)",http://stevehanov.ca/blog/?id=52
 \bremarkable,(puffery),
+\bremunerate,"pay (verbose)",http://stevehanov.ca/blog/?id=52
 \brenowned,(puffery),
+\breoccur,"recur (verbose)",http://stevehanov.ca/blog/?id=52
 "\brepeat again","repeat (again) (verbose)",
 \brepetitive,(offensive),
 \breplete,"(replete with errors)",
 "\breply back","reply (back) (verbose)",
+\brepresents,"is (verbose)",http://stevehanov.ca/blog/?id=52
 "\bresearch has shown","(weasel words)",
 \brespectable,(offensive),
 \brespected,(puffery),
 "#\bresult in","lead to (verbose)",
 \bresults-oriented,(cliche),
+\bretain,"keep (verbose)",http://stevehanov.ca/blog/?id=52
+\bretains,"keeps (verbose)",http://stevehanov.ca/blog/?id=52
 "\bretreat back","retreat (back) (verbose)",
 "\breturn again","return (again) (verbose)",
 "\breturn back","return (verbose)",
@@ -1941,6 +2320,7 @@
 \bridicule,(offensive),
 \bridiculous,(offensive),
 "\bright now","now (verbose)",
+"\bright up to the","to the (verbose)",http://stevehanov.ca/blog/?id=52
 "\bripe old age","(ripe) old age (verbose)",
 "\brip off",(offensive),
 \brip-off,(offensive),
@@ -1949,7 +2329,7 @@
 \briveting,(puffery),
 #\brobust,"(puffery, but this one can be okay)",
 "\brough in texture","rough (in texture) (verbose)",
-"\bround in shape","round (in shape) (verbose)",
+"\bround in shape","round (in shape) (verbose)",http://stevehanov.ca/blog/?id=52
 \brubbish,(offensive),
 \bruined,(puffery),
 \bruin,(puffery),
@@ -1959,7 +2339,7 @@
 \bsacrilegious,(offensive),http://www.paulgraham.com/say.html
 \bsadly,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 "\bsafe guard","safeguard (one word)",
-"\bsafe haven","(safe) haven (verbose)",
+"\bsafe haven","(safe) haven (verbose)",http://stevehanov.ca/blog/?id=52
 "\bsafe sanctuary","(safe) sanctuary (verbose)",
 \bsage,(puffery),
 \bsaint,(puffery),
@@ -1994,24 +2374,34 @@
 \bsecond-rate,(offensive),
 \bsect,(offensive),
 \bsects,(offensive),
+"\bseemed to make","made (verbose)",http://stevehanov.ca/blog/?id=52
+\bseemingly,(verbose),http://stevehanov.ca/blog/?id=52
+"\bseems to have","has (verbose)",http://stevehanov.ca/blog/?id=52
 "#\bseems to","(probability; remove and instead be quantitative when possible)",
 #\bseems,(vague),
+"\bseem to have","have (verbose)",http://stevehanov.ca/blog/?id=52
+"\bseem to me","seem (verbose)",http://stevehanov.ca/blog/?id=52
 "\bsee this project through completion","finish this project (verbose)",
 "\bsee this project through","finish this project (verbose)",
 \bseldom,"(probability; remove and instead be quantitative when possible)",
+\bselect,"choose (verbose)",http://stevehanov.ca/blog/?id=52
 \bself-contradictory,(offensive),
 "\bself defeating",(offensive),
 \bself-defeating,(offensive),
 \bself-important,(offensive),
 "\bself licking ice cream cone",(cliche),
 \bself-promotion,(offensive),https://academia.stackexchange.com/a/151521/31143
+\bsemiannually,"twice a year (verbose)",http://stevehanov.ca/blog/?id=52
 \bseminal,(puffery),https://academia.stackexchange.com/questions/68148/when-to-refer-to-a-paper-as-seminal
 \bsenseless,(offensive),
 "\bsense of urgency",(cliche),
 "\bseparated apart from each other","separated (apart from each other) (verbose)",
 "\bseparated apart","separated (apart) (verbose)",
 "\bseparate entities","entities (verbose)",
+"\bseparate instances","instances (verbose)",http://stevehanov.ca/blog/?id=52
+"\bseparate pieces","pieces (verbose)",http://stevehanov.ca/blog/?id=52
 "\bserious danger","(serious) danger (verbose)",
+"\bseriously need","need (verbose)",http://stevehanov.ca/blog/?id=52
 \bserious,(offensive),
 "\bserious possibility",(vague),
 "\bserves to","e.g. serves to explain ==> explains (verbose)",
@@ -2040,13 +2430,16 @@
 \bshrewd,(puffery),
 "\bshrug the shoulders","shrug (the shoulders) (verbose)",
 "\bshut down","shut (down) (verbose)",
+\bsic,"as printed (English is preferred to Latin)",
 "\bsigh of relief","sigh (of relief) (verbose)",
 \bsilly,(offensive),
 "\bsimilar reasons",(vague),
 "\bsimilar reason",(vague),
 "\bsimilar results were","similar results were (verbose)",
+"\bsimple and unsophisticated","simple (verbose)",http://stevehanov.ca/blog/?id=52
 #\bsimplistic,(offensive),
 "\bsimultaneously with","before, after, as (verbose)",
+"\bsince left","left (verbose)",http://stevehanov.ca/blog/?id=52
 "\bsince the time that","since (the time that) (verbose)",
 "\bsince the time when","since (the time when) (verbose)",
 "\bsingle unit","(single) unit (verbose)",
@@ -2062,12 +2455,13 @@
 "\bslippery slope",(cliche),
 \bsloppy,(offensive),
 "\bslow speed","slow (speed) (verbose)",
-"\bsmall in size","small (in size) (verbose)",
+"\bsmall in size","small (in size) (verbose)",http://stevehanov.ca/blog/?id=52
 "\bsmall size","small (size) (verbose)",
 "\bsmall speck","(small) speck (verbose)",
 \bsmart,(puffery),
 "\bsmoke and mirrors",(offensive),
 "\bsmooth in texture","smooth (in texture) (verbose)",
+"\bsmooth to the touch","smooth (verbose)",http://stevehanov.ca/blog/?id=52
 \bsmug,(offensive),
 "\bsnake oil",(offensive),
 "\bsneaking suspicion","(sneaking) suspicion (verbose)",
@@ -2085,7 +2479,7 @@
 "\bsome argue","(weasel words)",
 \bsomebody,(vague),
 \bsomehow,(vague),
-"\bsome kind of",(vague),
+"\bsome kind of",(verbose),http://stevehanov.ca/blog/?id=52
 "\bsome of the","some (verbose)",
 \bsomeone,(vague),
 "\bsome people say","(weasel words)",
@@ -2096,14 +2490,18 @@
 "\bsomewhat likely","(probability; remove and instead be quantitative when possible)",
 "\bsomewhat unlikely","(probability; remove and instead be quantitative when possible)",
 \bsomewhat,"(vague; for example, somewhat like)",
+"\bsomewhere in the neighborhood of","about (verbose)",http://stevehanov.ca/blog/?id=52
 \bsomewhere,(vague),
 "\bsooner rather than later",(cliche),
 \bsophisticated,(puffery),
+"\bsorely disappointed","disappointed (verbose)",http://stevehanov.ca/blog/?id=52
 \bsorely,(puffery),
 "\bsort of thing",(vague),
-"\bsort of",(vague),
+"\bsort of",(verbose),http://stevehanov.ca/blog/?id=52
+"\bsorts of",(verbose),http://stevehanov.ca/blog/?id=52
 "\bsour tasting","sour (tasting) (verbose)",
 "\bspaghetti code",(offensive),
+"\bspecific highlights","highlights (verbose)",http://stevehanov.ca/blog/?id=52
 \bspectacularly,(puffery),
 \bspectacular,(puffery),
 "\bspeed quickly","speed (verbose)",
@@ -2116,7 +2514,7 @@
 \bsquandered,(offensive),
 \bsquander,(offensive),
 \bsquanders,(offensive),
-"\bsquare in shape","square (in shape) (verbose)",
+"\bsquare in shape","square (in shape) (verbose)",http://stevehanov.ca/blog/?id=52
 \bstaggering,(puffery),
 \bstagnant,(offensive),
 \bstagnated,(offensive),
@@ -2125,17 +2523,19 @@
 "\bstart off or out","start (off) or (out) (verbose)",
 "\bstart off","start (off) (verbose)",
 "\bstart out","start (out) (verbose)",
+"\bstarve to death","starve (verbose)",http://stevehanov.ca/blog/?id=52
 "\bstate of the art",(puffery),
 \bstate-of-the-art,(puffery),
 "\bstate with confidence","use a form of be confident (verbose)",
 \bstellar,(puffery),
 "\bstill continues","(still) continues (verbose)",
 "\bstill persists","persists (verbose)",
-"\bstill remains","(still) remains (verbose)",
+"\bstill remains","(still) remains (verbose)",http://stevehanov.ca/blog/?id=52
 \bstilted,(offensive),
 "\bstove pipe",(cliche),
 \bstrangely,(offensive),
 \bstrange,(offensive),
+\bstrategize,"plan (verbose)",http://stevehanov.ca/blog/?id=52
 "\bstraw man",(offensive),
 \bstrawman,(offensive),
 \bstrikingly,(puffery),
@@ -2145,6 +2545,7 @@
 \bstubbornly,(offensive),
 \bstubborn,(offensive),
 "\bstudies show","(weasel words)",
+"\bstudy in depth","study (verbose)",http://stevehanov.ca/blog/?id=52
 "\bstuff like that",(vague),
 \bstuff,(vague),
 \bstunned,(puffery),
@@ -2155,20 +2556,25 @@
 \bsublime,(puffery),
 "\bsubmit an application for","apply for (verbose)",
 \bsubsequent,"after, afterward, later, next, since, then, following, as (verbose)",
-"\bsubsequent to","after, afterward, later, next, since, then, following, as (verbose)",
+"\bsubsequent to","after, afterward, later, next, since, then, following, as (verbose)",http://stevehanov.ca/blog/?id=52
 \bsubstandard,(offensive),
+\bsubstantiate,"back up (verbose)",http://stevehanov.ca/blog/?id=52
 \bsucceeded,(puffery),
 \bsucceed,(puffery),
+"\bsuccessfully obtains","obtains (verbose)",http://stevehanov.ca/blog/?id=52
 \bsuccessfully,(puffery),
 \bsuccess,(puffery),
 "\bsuch as like",(wordy),
+"\bsudden crisis","crisis (verbose)",http://stevehanov.ca/blog/?id=52
 "\bsudden impulse","(sudden) impulse (verbose)",
 "\bsuddenly exploded","(suddenly) exploded (verbose)",
+\bsufficient,"enough (verbose)",http://stevehanov.ca/blog/?id=52
 "\bsufficient number","enough, plenty (verbose)",
 "\bsufficient number of","enough, plenty (verbose)",
 "#\bsuggests to","(probability; remove and instead be quantitative when possible)",
 "\bsummarize briefly","summarize (briefly) (verbose)",
-"\bsum total","sum (total) (verbose)",
+\bsummon,"call (verbose)",http://stevehanov.ca/blog/?id=52
+"\bsum total","sum (total) (verbose)",http://stevehanov.ca/blog/?id=52
 \bsuperbly,(puffery),
 \bsuperb,(puffery),
 #\bsuperficial,(offensive),
@@ -2185,56 +2591,73 @@
 "\bsurrounded on all sides","surrounded (on all sides) (verbose)",
 "\bsurrounding circumstances","(surrounding) circumstances (verbose)",
 "\bsweet tasting","sweet (tasting (verbose)",
+"\bsymbolically represents","symbolizes (verbose)",http://stevehanov.ca/blog/?id=52
 \bsynergies,(cliche),
 \bsynergism,(cliche),
 \bsynergistic,(cliche),
 \bsynergize,(cliche),
 \bsynergy,(cliche),
-"\btake action","act (verbose)",
+"\btake action","act (verbose)",http://stevehanov.ca/blog/?id=52
 "\btake a look at","(take a) look at (verbose)",
+"\btake a look","look (verbose)",http://stevehanov.ca/blog/?id=52
 "\btake a taste","(take a) taste (verbose)",
 "\btake exception to","challenge, disagree (with), dispute, object (verbose)",
 "\btake into consideration","consider (verbose)",
 "\btake it to the next level",(cliche),
 "\btaken into account","considered (verbose)",
+"\btake the time to",(verbose),http://stevehanov.ca/blog/?id=52
 "\btalk off line",(cliche),
 "\btall in height/stature","tall (in height/stature) (verbose)",
-"\btall in height","tall (in height) (verbose)",
+"\btall in height","tall (in height) (verbose)",http://stevehanov.ca/blog/?id=52
 "\btall in stature","tall (in stature) (verbose)",
 \btantalizing,(puffery),
 "\bteach how to fish",(cliche),
 \btedious,(offensive),
 "\btell a lie","(tell a) lie (verbose)",
 "\btemper tantrum","(temper) tantrum (verbose)",
+"\btemporary loan","loan (verbose)",http://stevehanov.ca/blog/?id=52
 "\btender to the touch","tender (to the touch) (verbose)",
 "#\btends to","(probability; remove and instead be quantitative when possible)",
+"\btend to",(verbose),http://stevehanov.ca/blog/?id=52
 "\bten in number","ten (in number) (verbose)",
+\bterminate,"end (verbose)",http://stevehanov.ca/blog/?id=52
 \bterrible,(offensive),
 "\bterrible science",(offensive),
 "\bterribly tragedy","tragedy (verbose)",
 \bterrorist,(offensive),
 \bterrorists,(offensive),
+"\bthat being said",(verbose),http://stevehanov.ca/blog/?id=52
 "\bthat be",(unlikely),
+"\bthat effectively","that (verbose)",http://stevehanov.ca/blog/?id=52
+"\bthat exists",(verbose),http://stevehanov.ca/blog/?id=52
+"\bthat is to say",(verbose),http://stevehanov.ca/blog/?id=52
 "\bthe a","(double article)",
 "\bthe affect","the effect (likely)",
 "\bthe best",(exaggerated),https://www.scribbr.com/academic-writing/taboo-words/
 "\bthe cart before the horse",(cliche),
+"\bthe color green",(verbose),http://stevehanov.ca/blog/?id=52
 "\bthe fact is",(cliche),
 "\bthe fact of the matter is",(cliche),
 "#\bthe first","(puffery, but can be okay, e.g., ""in the first equation"")",
 "\bthe future of",(puffery),
 "\bthe future to come","the future (to come) (verbose)",
 "\bthe gravity of",(puffery),
+"\bthe last point i would like to make is that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bthe law",(puffery),
 "\bthe laws",(puffery),
 "\bthe long and short of it is",(cliche),
+"\bthe month of",(verbose),http://stevehanov.ca/blog/?id=52
 "\bthe point is that","(the point is that) (verbose)",
+"\bthe point that i am trying to make is that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bthe possibility exists for","may, might, can, could (verbose)",
-"\bthe question as to whether","the question whether (verbose)",
+"\bthe question as to whether","the question whether (verbose)",http://stevehanov.ca/blog/?id=52
 "\btherapeutic treatment","(therapeutic) treatment (verbose)",
+"\bthere appear to be","there are (verbose)",http://stevehanov.ca/blog/?id=52
 "\bthere are many who think","(there are) many (who) think (verbose)",
 "\bthe reason for","because, since, why (verbose)",
+"\bthe reason is because","the reason is (verbose)",http://stevehanov.ca/blog/?id=52
 "\bthe reason why","the reason (why) (verbose)",
+\btherefore,"so (verbose)",http://stevehanov.ca/blog/?id=52
 "\bthere is a chance that","may, might, can, could (verbose)",
 "\bthere is a man who","(there is) a man (who) (verbose)",
 "\bthere is a necessity for","must, should (verbose)",
@@ -2243,10 +2666,13 @@
 "\bthere too few","there are too few (likely)",
 "\bthe ultimate",(puffery),
 "\bThe undersigned","I, me, we, us (verbose)",
+"\bthe way in which","the way (verbose)",http://stevehanov.ca/blog/?id=52
+"\bthey just","they (verbose)",http://stevehanov.ca/blog/?id=52
 "\bthey shows","(conjugation error)",
 "\bthings like that",(vague),
 \bthings,(vague),
 \bthing,(vague),
+"\bthing you'll need to do","step (verbose)",http://stevehanov.ca/blog/?id=52
 "\bthinking out of the box",(cliche),
 "\bthinking outside of the box",(cliche),
 "\bthinking outside the box",(cliche),
@@ -2260,8 +2686,11 @@
 "\bthree a.m. in the morning","three a.m. (in the morning) (verbose)",
 "\bthree triplets","(three) triplets (verbose)",
 "\bthree-way love triangle","(three-way) love triangle (verbose)",
+"\bthroughout the course of","throughout the (verbose)",http://stevehanov.ca/blog/?id=52
+"\bthrough the use of","through (verbose)",http://stevehanov.ca/blog/?id=52
 \bthug,(offensive),
 \bthugs,(offensive),
+\bthus,"so (verbose)",http://stevehanov.ca/blog/?id=52
 "\btilt the head sideways","tilt the head (sideways) (verbose)",
 "\btime frame","age, era, interval, period, time (verbose)",
 \btimeliness,(puffery),
@@ -2274,22 +2703,30 @@
 \btiresome,(offensive),
 \btits,(profanity),
 "\bto a certain degree","in a sense, in part, less often, less so, partially, some (verbose)",
+"\bto a further extent","further (verbose)",http://stevehanov.ca/blog/?id=52
 "\bto a large degree","largely (verbose)",
 "\bto be honest with you",(cliche),
 "\bto coin a phrase","(to coin a phrase) (verbose)",
 \btodo,"(likely incomplete)",
 "\bto illicit","to elicit",
 "\bto make a long story short","(to make a long story short (verbose)",
+"\btook a solid","took (verbose)",http://stevehanov.ca/blog/?id=52
 "\btop of the line",(puffery),
 \btop-of-the-line,(puffery),
 "\btop researcher",(puffery),
+"\bto put it charitably",(verbose),http://stevehanov.ca/blog/?id=52
 \btortuous,(offensive),
 "\bto setup","to set up (atomic typo)",
 "\btoss up","(probability; remove and instead be quantitative when possible)",
 \btoss-up,"(probability; remove and instead be quantitative when possible)",
+"\btotal abstinence","abstinence (verbose)",http://stevehanov.ca/blog/?id=52
+"\btotal annihilation","annihilation (verbose)",http://stevehanov.ca/blog/?id=52
 "\btotal destruction","(total) destruction (verbose)",
 "\btotally free","(totally) free (verbose)",
-\btotally,(offensive),
+"\btotally obvious","obvious (verbose)",http://stevehanov.ca/blog/?id=52
+\btotally,(offensive),http://stevehanov.ca/blog/?id=52
+"\btotal number","number (verbose)",http://stevehanov.ca/blog/?id=52
+"\btotal sum","total (verbose)",http://stevehanov.ca/blog/?id=52
 "\bto tell the truth","to tell the truth) (verbose)",
 "\btouch base",(cliche),
 "\bto whatever extent","however (verbose)",
@@ -2302,6 +2739,9 @@
 \btranscends,(puffery),
 \btransformational,(puffery),
 \btransformative,(puffery),
+\btransition,"change (verbose)",http://stevehanov.ca/blog/?id=52
+\btransitioned,"changed (verbose)",http://stevehanov.ca/blog/?id=52
+\btransitioning,"changing (verbose)",http://stevehanov.ca/blog/?id=52
 \btrash,(offensive),
 \btravesty,(offensive),
 \btremendous,(puffery),
@@ -2318,12 +2758,15 @@
 \btroubled,(offensive),
 \btroubles,(offensive),
 \btroubling,(offensive),
-"\btrue facts","(true) facts (verbose)",
+"\btrue fact","fact (verbose)",http://stevehanov.ca/blog/?id=52
+"\btrue facts","(true) facts (verbose)",http://stevehanov.ca/blog/?id=52
 "\btrue fact","(true) fact (verbose)",
 "\btrue insight",(offensive),
 "\btruly sincere","(truly) sincere (verbose)",
 "\btrying to actually understand",(offensive),
 "\btrying to impress",(offensive),
+"\btrying unsuccessfully","trying (verbose)",http://stevehanov.ca/blog/?id=52
+"\btry it out","try it (verbose)",http://stevehanov.ca/blog/?id=52
 "\btuna fish","tuna (fish) (verbose)",
 \bturgid,(offensive),
 "\btwelve midnight","(twelve) midnight (verbose)",
@@ -2332,9 +2775,12 @@
 "\btwo equal halves","(two equal) halves (verbose)",
 "\btwo halves","(two) halves (verbose)",
 "\btwo twins","(two) twins (verbose)",
+"\btype I","false positive (hard to remember)",
+"\btype II","false negative (hard to remember)",
+"\btype of",(verbose),http://stevehanov.ca/blog/?id=52
+\btypically,"usually (verbose)",http://stevehanov.ca/blog/?id=52
 \bugly,(offensive),
 "\bultimate goal","(ultimate) goal (verbose)",
-\bultimately,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 #\bultimately,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 \bunacceptable,(offensive),
 \bunamerican,(offensive),http://www.paulgraham.com/say.html
@@ -2361,7 +2807,6 @@
 "\bunexpected emergency","(unexpected) emergency (verbose)",
 "\bunexpected surprise","(unexpected) surprise (verbose)",
 \bunforgivable,(offensive),
-\bunfortunately,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 #\bunfortunately,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 \bunfounded,(offensive),
 \bunhinged,(offensive),
@@ -2375,6 +2820,8 @@
 "\bunintentional mistake","(unintentional) mistake (verbose)",
 \buninteresting,(offensive),
 #\bunique,(puffery),
+"\bunited as one","united (verbose)",http://stevehanov.ca/blog/?id=52
+"\bunite together","unite (verbose)",http://stevehanov.ca/blog/?id=52
 "\buniversal panacea","(universal) panacea (verbose)",
 #\bunlikely,"(probability; remove and instead be quantitative when possible)",
 "\bunnamed anonymous","(unnamed) anonymous (verbose)",
@@ -2397,7 +2844,7 @@
 \bunsurpassed,(puffery),
 "\buntil such point as","until, when (verbose)",
 "\buntil such point when","until, when (verbose)",
-"\buntil such time as","until (verbose)",
+"\buntil such time as","until (verbose)",http://stevehanov.ca/blog/?id=52
 "\buntil such time when","until, when (verbose)",
 "\bUPC code","UPC (code) (verbose)",
 \burgency,(puffery),
@@ -2406,18 +2853,25 @@
 \buseless,(offensive),
 "\buse up","use (verbose)",
 "\busual custom","(usual) custom (verbose)",
+"\busual habit","habit (verbose)",http://stevehanov.ca/blog/?id=52
 \busually,"(probability; remove and instead be quantitative when possible)",
 "\busually use","typically use (avoid duplication of words)",
-\butilize,"use (clarity)",
+\butilized,"used (verbose)",http://stevehanov.ca/blog/?id=52
+\butilize,"use (verbose)",http://stevehanov.ca/blog/?id=52
+\butilizing,"using (verbose)",http://stevehanov.ca/blog/?id=52
+"\butmost perfection","perfection (verbose)",http://stevehanov.ca/blog/?id=52
 \bUtopian,"(used sarcastically)",
-\butterly,"(offensive, e.g., utterly failed, failed utterly, failed you utterly)",
+\butterly,"(offensive, e.g., utterly failed, failed utterly, failed you utterly)",http://stevehanov.ca/blog/?id=52
 \butter,(offensive),
 "\bvacillate back and forth","vacillate (back and forth) (verbose)",
 \bvacuous,(offensive),
 #\bvague,(offensive),
 \bvain,(offensive),
+"\bvaluable asset","asset (verbose)",http://stevehanov.ca/blog/?id=52
 \bvaluable,(puffery),
 \bvapid,(offensive),
+"\bvarious differences","differences (verbose)",http://stevehanov.ca/blog/?id=52
+"\bvarious different","various (verbose)",http://stevehanov.ca/blog/?id=52
 \bvarious,(vague),
 "\bvast majority","(weasel words)",
 "\bveiled ambush","(veiled) ambush (verbose)",
@@ -2429,6 +2883,7 @@
 \bvery,(exaggerated),https://www.scribbr.com/academic-writing/taboo-words/
 "\bvery full","nearly full (verbose)",
 "\bvery likely","(probability; remove and instead be quantitative when possible)",
+"\bvery own","own (verbose)",http://stevehanov.ca/blog/?id=52
 "\bvery pregnant","(very) pregnant (verbose)",
 "\bvery probable","(probability; remove and instead be quantitative when possible)",
 "\bvery unique","unique (verbose)",
@@ -2437,16 +2892,22 @@
 "\bvery wrong",(offensive),
 \bvibrant,(puffery),
 \bvicious,(offensive),
+\bvidelicet,"namely, that is to say, to wit, which is, as follows (English is preferred to Latin)",
+"\bvidere licet","namely, that is to say, to wit, which is, as follows (English is preferred to Latin)",
 \bvindictive,(offensive),
 "\bVIN number","VIN (verbose)",
 "\bviolate the laws","(of physics, thermodynamics, etc.)",
+\bvirtually,"almost (verbose)",http://stevehanov.ca/blog/?id=52
 \bvirtuoso,(puffery),
-"\bvisible to the eye","visible (to the eye) (verbose)",
+\bvis-a-vis,"compared with (verbose, prefer English to French)",http://stevehanov.ca/blog/?id=52
+\bvis-à-vis,"compared with (verbose, prefer English to French)",http://stevehanov.ca/blog/?id=52
+"\bvisible to the eye","visible (to the eye) (verbose)",http://stevehanov.ca/blog/?id=52
 \bvisionary,(puffery),
 \bvision,"(puffery, but could be okay but probably not in my work)",
 \bvital,(puffery),
 \bvividly,(puffery),
 \bvivid,(puffery),
+\bviz.,"namely, that is to say, to wit, which is, as follows (English is preferred to Latin)",
 \bvocal,"(could be okay)",
 "\bvoice of reason",(puffery),
 \bvomit,(offensive),
@@ -2454,10 +2915,12 @@
 \bwackos,(offensive),
 "\bwake up","wake (up) (verbose)",
 "\bwall mural","(wall) mural (verbose)",
-"\bwarn in advance","warn (in advance) (verbose)",
+"\bwarn in advance","warn (in advance) (verbose)",http://stevehanov.ca/blog/?id=52
+"\bwas a little","was (verbose)",http://stevehanov.ca/blog/?id=52
 "\bwas of the opinion that","believed, said, thought (verbose)",
 \bwasted,"(e.g., wasted two years)",
 \bwaste,"(e.g., waste of time, etc.)",
+"\bway more","more (verbose)",http://stevehanov.ca/blog/?id=52
 #\bweak,(offensive),
 "\bweak paper",(offensive),
 "\bwe are of the opinion","we believe, we think (verbose)",
@@ -2465,19 +2928,34 @@
 "\bweather situation","weather (situation) (verbose)",
 "\bwell actually",(offensive),
 "\bwell, actually",(offensive),
+"\bwell, at least","at least (verbose)",http://stevehanov.ca/blog/?id=52
+"\bwell aware of","aware (verbose)",http://stevehanov.ca/blog/?id=52
 "\bwell cited",(puffery),
 \bwell-cited,(puffery),
 "\bwell known",(puffery),
 \bwell-known,(puffery),
 "\bwell respected",(puffery),
 \bwell-respected,(puffery),
+"\bwell,",(verbose),http://stevehanov.ca/blog/?id=52
+"\bwent so far as to",(verbose),http://stevehanov.ca/blog/?id=52
+"\bwe're using","we use (verbose)",http://stevehanov.ca/blog/?id=52
+"\bwhat i mean to say is that",(verbose),http://stevehanov.ca/blog/?id=52
 "\bwhat I mean to say is","(what I mean to say is) (verbose)",
+"\bwhat I'm seeing is","I see (verbose)",http://stevehanov.ca/blog/?id=52
+"\bwhat is important is",(verbose),http://stevehanov.ca/blog/?id=52
+"\bwhat is needed is","we need (verbose)",http://stevehanov.ca/blog/?id=52
+"\bwhat it is is","it is (verbose)",http://stevehanov.ca/blog/?id=52
 "#\bwhat's in a name",(annoying),
+\bwhatsoever,(verbose),http://stevehanov.ca/blog/?id=52
+"\bwhat they don't realize is","they don't realize (verbose)",http://stevehanov.ca/blog/?id=52
+"\bwhat we need is","we need (verbose)",http://stevehanov.ca/blog/?id=52
+"\bwhen all is said and done",(verbose),http://stevehanov.ca/blog/?id=52
 \bwhenever,(vague),
 "\bwhen I think about it","(when I think about it) (verbose)",
 "\bwhere to start",(vague),
 "\bwhether or not","whether (unless the intent is to give equal emphasis to the alternative) (verbose)",
 "\bwhich causes","causing (verbose)",
+"\bwhile at the same time","while (verbose)",http://stevehanov.ca/blog/?id=52
 "\bwhirl around","whirl (around) (verbose)",
 "\bwhisper softly","whisper (softly) (verbose)",
 "\bwhite in color","white (verbose)",
@@ -2492,9 +2970,10 @@
 "\bwithout a doubt",(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 "\bwithout doubt",(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
 "\bwith reference to","about, on, for, as for, in, of, over, respecting, to, toward, with (or remove) (verbose)",
-"\bwith regard to","about, on, for, as for, in, of, over, respecting, to, toward, with (or remove) (verbose)",
+"\bwith regard to","regarding (verbose)",http://stevehanov.ca/blog/?id=52
 "#\bwith respect to","about, on, for, with (verbose)",
-"\bwith the exception of","except for (verbose)",
+"\bwith the exception of","except for (verbose)",http://stevehanov.ca/blog/?id=52
+"\bwitnessed first hand","witnessed (verbose)",http://stevehanov.ca/blog/?id=52
 \bwonderfully,(puffery),
 \bwonderful,(puffery),
 \bwonk,(cliche),
@@ -2511,6 +2990,7 @@
 "\bworld's best",(puffery),
 "\bworld's finest",(puffery),
 "\bworld's first",(puffery),
+"\bworld we live in","world (verbose)",http://stevehanov.ca/blog/?id=52
 \bworrisome,(offensive),
 \bworst,(exaggerated),https://www.scribbr.com/academic-writing/taboo-words/
 "\bworth considering","worth considering (verbose)",
@@ -2536,7 +3016,10 @@
 "\bwrote out","wrote (verbose)",
 "\byell loudly","yell (loudly) (verbose)",
 "\byellow in color","yellow (verbose)",
-"\byounger than [0-9]+ years of age","younger than [0-9]+ years of age (verbose)",
+"\byou just have to","you have to (verbose)",http://stevehanov.ca/blog/?id=52
+"\byou might consider","consider (verbose)",http://stevehanov.ca/blog/?id=52
+"\byou're starting","you start (verbose)",http://stevehanov.ca/blog/?id=52
+"\byou should know about",(verbose),http://stevehanov.ca/blog/?id=52
 \bzealot,(offensive),
 \bzealotry,(offensive),
 \bzealots,(offensive),
