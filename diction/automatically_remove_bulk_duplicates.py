@@ -35,10 +35,11 @@ with open(sys.argv[1]) as csv_file:
             second_col = prev_second_col
          else:
             second_col = row[1]
-         if len(prev_third_col) > len(row[2]):
-            third_col = prev_third_col
-         else:
-            third_col = row[2]
+         # if len(prev_third_col) > len(row[2]):
+            # third_col = prev_third_col
+         # else:
+            # third_col = row[2]
+         third_col = prev_third_col+' '+row[2]
          all_lines.pop()
          all_lines.append([row[0], second_col, third_col])
       else:
