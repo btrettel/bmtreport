@@ -60,3 +60,13 @@ grep -H -n -i --color '\b[0-9]+ out of [0-9]+\b' $1 # [0-9]+ (out) of [0-9]+
 #"#\bis said to [verb]","[verb]ies #(e.g., is said to vary (verbose)",
 #"\bolder than [0-9]+ years of age","older than [0-9]+ years of age (verbose)",
 #\byounger than [0-9]+ years of age,younger than [0-9]+ years of age (verbose),
+#in an X manner;Xly, e.g., "hastily" instead of "in a hasty manner";volokh_how_2009
+#accord (verb);give;volokh_how_2009
+#attempt (verb);try;volokh_how_2009
+#evidence (verb);show/demonstrate;volokh_how_2009
+#exhibit (verb);show/demonstrate;volokh_how_2009
+#exit (verb);leave;volokh_how_2009
+#individual (noun);person;volokh_how_2009
+#request (verb);ask;volokh_how_2009
+#objective (noun);goal;volokh_how_2009
+#said (adjective);the or this ("this contract" not "said contract");volokh_how_2009

@@ -56,6 +56,7 @@
 "\badd up","add (up) (verbose)",
 "\badequate enough","adequate (enough) (verbose)",
 "\badequate number (of)","enough (verbose)",
+"\bad hoc","(English is preferred to Latin, could also be considered offensive)",https://planetmath.org/AdHoc
 \badjacent,"next or near (too formal)",volokh_how_2009
 "\badjacent to","beside, by, close to, near, next to (verbose)",volokh_how_2009
 \badjudicate,"determine, try (too formal)",volokh_how_2009
@@ -364,6 +365,7 @@
 "\bboat marina","(boat) marina (verbose)",
 \bbogus,(offensive),
 \bbold,(puffery),
+"\bbolt of lightning","lightning (verbose)",day_economics_1983
 \bbombshell,(puffery),
 "\bbona fide",(puffery),
 "\bbona fides",(puffery),
@@ -567,6 +569,7 @@
 \bcongressman,"member of Congress (discriminatory language)",volokh_how_2009
 "\bconnect together","connect (together) (verbose)",
 "\bconnect up","connect (up) (verbose)",
+"\bconscious effort","effort (verbose)",
 \bconsensus,"agreement (verbose)",http://stevehanov.ca/blog/?id=52
 "\bconsensus of opinion","agreement, consensus (verbose)",volokh_how_2009
 "\bconsequence of the fact","consequence of the fact (verbose)",
@@ -662,6 +665,7 @@
 \bdazzling,(puffery),
 "\bdead end","impasse (verbose, unnecessary metaphor)",
 \bdead-end,"(unnecessary metaphor)","for example, dead-end job (not dead end job)"
+"\bdead obvious","clear (slang)",
 "\bdead wrong",(offensive),
 \bdean,(puffery),
 \bdebunked,(offensive),
@@ -876,6 +880,7 @@
 \berroneous,(offensive),
 "\berror filled",(offensive),
 \berror-filled,(offensive),
+\berror,"prefer ""margin of error"" or ""uncertainty"" in one sense, ""mistake"" in another sense, as ""error"" alone can be ambiguous, and some find this term offensive (see one AAS review)","Searching for ""error"" and wanting *uncertainty* returns the word error mostly outside of the uncertainty context."
 "\berror prone",(offensive),
 \berror-prone,(offensive),
 \berudite,(puffery),
@@ -986,6 +991,7 @@
 \bfascinates,(puffery),
 \bfascinating,(puffery),
 \bfascination,(puffery),
+\bfascist,"tyrannical, autocratic, coercive, despotic, dictatorial (though none of these should appear in a technical document)",https://www.washingtonpost.com/opinions/2021/07/11/tossing-around-nazi-fascist-insults-is-reckless-historically-illiterate/
 "\bfatal blow",(offensive),
 \bfaulty,(offensive),
 "\bfavorable approval","(favorable) approval (verbose)",
@@ -1883,6 +1889,7 @@
 "\bnative habitat","(native) habitat (verbose)",
 "\bnatural instinct","instinct (verbose)",http://stevehanov.ca/blog/?id=52
 \bnaturally,(editorializing),https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Editorializing
+\bNazi,"tyrannical, autocratic, coercive, despotic, dictatorial (though none of these should appear in a technical document)",https://www.washingtonpost.com/opinions/2021/07/11/tossing-around-nazi-fascist-insults-is-reckless-historically-illiterate/
 "\bnear miss","near hit",
 \bnear-miss,near-hit,
 "\bnear to","near (to) (verbose)",

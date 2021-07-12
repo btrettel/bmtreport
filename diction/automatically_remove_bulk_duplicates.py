@@ -40,6 +40,7 @@ with open(sys.argv[1]) as csv_file:
          # else:
             # third_col = row[2]
          third_col = prev_third_col+' '+row[2]
+         third_col = third_col.strip()
          all_lines.pop()
          all_lines.append([row[0], second_col, third_col])
       else:

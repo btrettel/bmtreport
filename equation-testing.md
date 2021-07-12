@@ -26,3 +26,8 @@ Also see: <http://lurchmath.org/> and <https://monks.scranton.edu/lurch/>
    - Replace the existing environments in bmtmacros.sty (for example, `uncheckedequation`) with something that uses the normal environment names.
    - etoolbox package to patch these environments with `\AtBeginEnvironment`?
    - environ package per <https://tex.stackexchange.com/a/596396/9945>
+
+## TODO
+
+- TODO: How to require labels for all equations? Ask on tex.stackexchange.com. One approach: Count the number of equation and align environments with a regular expression. The number of labels must be greater than or equal to the number of equation and align environments. Align environments are likely to have more than one equation, but do not necessarily do so.
+- Make eqcheck highlight errors in color like grep matches.

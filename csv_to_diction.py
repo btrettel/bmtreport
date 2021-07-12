@@ -36,6 +36,7 @@ with open(sys.argv[1]) as csv_file:
       assert(not('TODO' in row[1]))
       assert(not('[0-9]' in row[0]))
       assert(not('[0-9]' in row[1]))
+      assert(row[2] == row[2].strip())
       if prev_first_col == row[0]:
          sys.exit('Duplicate: '+row[0]+' ('+sys.argv[1]+')')
       num_rows = num_rows + 1

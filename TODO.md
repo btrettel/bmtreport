@@ -5,6 +5,7 @@
    > So knowing this, my approach is to *use a system that continuously shows the typeset output* as I type, if I can. That way errors are usually obvious and easy to find. If that's not practical with your favorite editor, just manually run LaTex on your source frequently to see how your document is progressing. The times I've had to do serious puzzling over what was happening were almost always because I had pages of complex text entered before checking to see the output.
 - <https://www.semipol.de/posts/2018/06/latex-best-practices-lessons-learned-from-writing-a-phd-thesis/>
 - root-mean-square vs. root-mean-squared vs. root mean square (etc.) (Check Google Ngram. Require dashes?)
+- Include comments in template on what to include in abstract, introduction, conclusions, etc.
 
 ## Files
 
@@ -35,6 +36,8 @@
       - <https://www.pdf-insecurity.org/>
       - <http://jsignpdf.sourceforge.net/>
          - <https://github.com/kwart/jsignpdf>
+   - Add macros to bmtreport to keep track of important/critical lessons you want the paper to make. These will need to be put early in the paper (inverted pyramid) and be repeated later in the paper for spaced repetition.
+   - <https://nhigham.com/2020/06/18/six-useful-latex-packages/>: > By loading the upref package you ensure that every \ref or \eqref reference is set in an upright font. This is normal typesetting practice, but it is not enforced by all \LaTeX classes. It is enforced by the SIAM class, for example.
 - later
    - Automatically embed files? embedfile does not seem to support LuaTeX.
    - Make CJK font available with a flag.
@@ -78,6 +81,8 @@
 - <https://tex.stackexchange.com/q/358831/9945>
 - <https://tex.stackexchange.com/q/26990/9945>
 - <https://news.ycombinator.com/item?id=21850466>
+- <https://tex.stackexchange.com/q/83663>
+- <https://terrytao.wordpress.com/2017/07/07/what-are-some-useful-but-little-known-features-of-the-tools-used-in-professional-mathematics/#comment-551741>
 
 ### make check
 
@@ -96,6 +101,31 @@
    - Google search: command line plagiarism detection
    - <https://github.com/frizensami/plagiarism-basic>
    - <https://github.com/diogocabral/sherlock>
+- List warnings in make check.
+- Make Makefile detect document class used to pass warningsaserrors appropriately. Or pass warningsaserrors to all bmt document classes to catch them all? What happens if that document class is not loaded? Nothing?
+- Run gnu style with make check too.
+- ambiguity detection
+   - <https://cs.nyu.edu/~davise/ai/ambiguity.html>
+- Disable detection of double words for diction -L tex
+- Find most commonly used words in your document, switch with most common versions of each *in general* (not just in your document).
+   - <https://unix.stackexchange.com/questions/41479/find-n-most-frequent-words-in-a-file>
+   - <https://superuser.com/questions/799440/create-a-word-cloud-on-linux-command-line>
+- Tasks for each document to list and manually check off:
+   - Keyword/keyphrase research
+   - DOUBTSS
+   - Reading over, reading out loud, reading backwards
+   - Getting external feedback
+- Check that you refer to the figures in the body of the paper in numerical order.
+- Check equations for closed parentheses.
+
+#### make draft
+
+This would produce a separate PDF file that needs to be checked manually.
+
+- refcheck
+   - <https://tex.stackexchange.com/questions/87610/making-refcheck-work-with-cleveref>
+- Check for overfull hboxes: <https://texblog.org/2007/08/15/using-draft-to-show-overfull-hboxes/>
+- <https://terrytao.wordpress.com/2017/07/07/what-are-some-useful-but-little-known-features-of-the-tools-used-in-professional-mathematics/#comment-483543>: > I’m now reminded of another LaTeX package I learned to use from some coauthors: showkeys, which labels all references to equations, theorems, and citations by their label, which is useful when proofreading a draft. Of course one should comment out the package when it is finally time to submit, but this just requires editing one line of code.
 
 #### bib file checks
 
