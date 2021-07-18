@@ -6,6 +6,7 @@
 - <https://www.semipol.de/posts/2018/06/latex-best-practices-lessons-learned-from-writing-a-phd-thesis/>
 - root-mean-square vs. root-mean-squared vs. root mean square (etc.) (Check Google Ngram. Require dashes?)
 - Include comments in template on what to include in abstract, introduction, conclusions, etc.
+- Switch to a structured abstract.
 
 ## Files
 
@@ -89,6 +90,9 @@
 - Check text itself for particular phrases with diction and shell script for what diction can't handle. diction is preferred, however, as it can put the recommendations inline.
 - For text which should not appear in the bibliography, write a Python script with an input CSV file rather than the clunky shell script. That'll be easier to manage in the long run.
 - Use [TeXtidote](https://github.com/sylvainhalle/textidote) for grammar checking.
+   - <https://sylvainhalle.github.io/textidote/>
+   - <https://github.com/sylvainhalle/textidote>
+   - <http://wiki.languagetool.org/checking-la-tex-with-languagetool>
 - <https://news.ycombinator.com/item?id=13297379>
 - Add ability to make comments to diction CSV file and add commented out items from previous file.
 - <https://github.com/get-alex/alex>
@@ -117,6 +121,7 @@
    - Getting external feedback
 - Check that you refer to the figures in the body of the paper in numerical order.
 - Check equations for closed parentheses.
+- <https://github.com/redpen-cc/redpen>
 
 #### make draft
 

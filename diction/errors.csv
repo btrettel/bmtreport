@@ -134,6 +134,7 @@
 \bamongst,"among (verbose)",http://stevehanov.ca/blog/?id=52
 "\bamounts to","is (verbose)",http://stevehanov.ca/blog/?id=52
 "\ba myriad of","myriad (verbose)",
+"\banalogous signal","analog signal (atomic typo)",
 \banalogous,"similar (verbose)",http://stevehanov.ca/blog/?id=52
 \bancient,(offensive),
 "\band also","and (verbose)",http://stevehanov.ca/blog/?id=52
@@ -1445,6 +1446,7 @@
 \binfluentially,(puffery),
 \binfluential,(puffery),
 \binform,"tell (verbose)",http://stevehanov.ca/blog/?id=52
+"\bin isolation","alone (verbose)",
 \binitiate,"start (verbose)",http://stevehanov.ca/blog/?id=52
 "\bin lieu of","for, instead of, in place of (verbose)","http://stevehanov.ca/blog/?id=52 https://www.chicagotribune.com/lifestyles/ct-xpm-2012-11-21-ct-tribu-words-work-grammar-gripes-20121121-story.html"
 "\bin light of the fact that","because or given that (verbose)","volokh_how_2009 http://stevehanov.ca/blog/?id=52"
@@ -1575,6 +1577,7 @@
 "\bis over",(cliche),
 "\bis presently","is now (verbose)",http://stevehanov.ca/blog/?id=52
 "\bis pretty darn",(verbose),http://stevehanov.ca/blog/?id=52
+"\bis quotes","is quoted (atomic typo)",
 "\bis required","is needed (verbose)",http://stevehanov.ca/blog/?id=52
 "\bis scared of","fears (verbose)",http://stevehanov.ca/blog/?id=52
 "\bis seen as","is (verbose)",http://stevehanov.ca/blog/?id=52
@@ -2032,6 +2035,7 @@
 "\bon a weekly basis","weekly (verbose)",http://stevehanov.ca/blog/?id=52
 "\bon a yearly basis","yearly (verbose)",http://stevehanov.ca/blog/?id=52
 "\bon behalf of","backed, for, supported (verbose)",
+"\bone and only one","one (verbose)",
 "\bone of the","a, an, one (verbose)",
 "\bone possible explanation","(probability; remove and instead be quantitative when possible)",
 \bongoing,"continuing (verbose)",http://stevehanov.ca/blog/?id=52
@@ -2233,6 +2237,7 @@
 #\bpossibilities,"(probability; remove and instead be quantitative when possible)",
 \bpossibility,"chance (verbose; also probability; remove and instead be quantitative when possible?)",http://stevehanov.ca/blog/?id=52
 #\bpossible,"(probability; remove and instead be quantitative when possible)",
+"\bpossibly issues","possible issues (atomic typo)",
 "\bpossibly might","(possibly) might (verbose)",
 #\bpossibly,"(probability; remove and instead be quantitative when possible)",
 "\bpost hoc","hindsight (English is preferred to Latin)",volokh_how_2009
@@ -2972,6 +2977,7 @@
 \bunsophisticated,(offensive),
 \bunsubstantiated,(offensive),
 \bunsurpassed,(puffery),
+"\bUntied States","United States (atomic typo)",
 "\buntil such point as","until, when (verbose)",
 "\buntil such point when","until, when (verbose)",
 "\buntil such time as","until (verbose)","http://stevehanov.ca/blog/?id=52 volokh_how_2009"

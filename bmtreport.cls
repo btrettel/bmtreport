@@ -310,6 +310,7 @@ end
 
 \RequirePackage{siunitx}
 \DeclareSIUnit[number-unit-product = ]\percent{\char`\%} % remove space before percentage sign
+\sisetup{per-mode = symbol}
 
 % http://texd.cvs.sourceforge.net/viewvc/texd/latex/sty/strict.sty?view=log
 \RequirePackage{strict}

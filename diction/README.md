@@ -230,6 +230,7 @@ Make patent drafting diction database. Put appropriate case law in the comment. 
 
 - Google search for "patent profanity" (no quotes).
 - Include relative phrases.
+- "etc." could be 112b issue and also signals that you should list more possibly embodiments, for example, this is not good as it does not list a condensate drain as a possibility:
 - <https://patents.stackexchange.com/questions/19186/why-not-refer-to-the-invention-as-the-invention>
 - <https://patents.stackexchange.com/a/3295>
 - <https://corridorlaw.com/words-to-avoid-when-filing-patent-applications/>
