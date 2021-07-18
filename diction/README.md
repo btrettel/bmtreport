@@ -161,7 +161,7 @@
    - <http://www.dailywritingtips.com/30-wordy-phrases-beginning-with-%E2%80%9Cin%E2%80%9D/>
    - <https://www.thoughtco.com/common-redundancies-in-english-1692776>
    - <https://www.dailywritingtips.com/50-redundant-phrases-to-avoid/>
-   - <https://kathysteinemann.com/Musings/redundant/>
+   - DONE: <https://kathysteinemann.com/Musings/redundant/>
    - <https://falconediting.com/en/blog/top-ten-phrases-to-avoid-in-scientific-writing>
    - <http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/Word_Usage_Scientific_Writing.pdf>
    - <http://people.vetmed.wsu.edu/jmgay/courses/documents/ScientificWritingWordUsage.pdf>
@@ -170,7 +170,7 @@
    - DONE (150+): <http://web.archive.org/web/20131017004744/http://home.comcast.net:80/~garbl/stylemanual/redundant.htm>
    - <http://home.wavecable.com/~garblswritingcenter/stylemanual/betwrit.htm>
    - TODO (120): <http://www.westmaneditorial.com/blog/improve-your-writing-120-redundant-phrases-to-avoid>
-   - TODO (105): <http://grammarist.com/redundancies/>
+   - DONE (105): <http://grammarist.com/redundancies/>
    - DONE (98): <http://site.uit.no/english/writing-style/verbiage/>
    - TODO (50): <https://expresswriters.com/50-weak-words-and-phrases-to-cut-out-of-your-blogging/>
    - TODO (48): <https://www.usingenglish.com/forum/threads/102545-List-of-Redundant-Phrases-Sentences>
@@ -205,9 +205,9 @@
    - TODO: <https://www.rd.com/funny-stuff/ras-syndrome/>
    - TODO: <https://en.oxforddictionaries.com/writing-help/avoiding-redundant-expressions>
    - TODO: <https://www.copyblogger.com/clear-writing/>
-   - TODO (100+): <http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm>
+   - TODO (100+): <https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm>
    - TODO (30): <http://web.archive.org/web/20100427114553/http://callcentergal.com/2008/06/05/alright-okay-callcentergal%E2%80%99s-list-of-redundant-phrases/>
-   - TODO (100+): <http://web.archive.org/web/20130508125655/http://www.pleonasms.com/>
+   - DONE (100+): <http://web.archive.org/web/20130508125655/http://www.pleonasms.com/>
    - TODO (100+): <http://www.wordfocus.com/pleonasm.html>
    - TODO: slate star codex --- long winded
    - TODO (24): <https://wordvice.com/avoid-fillers-powerful-writing/>

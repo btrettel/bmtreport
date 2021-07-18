@@ -70,3 +70,4 @@ grep -H -n -i --color '\b[0-9]+ out of [0-9]+\b' $1 # [0-9]+ (out) of [0-9]+
 #request (verb);ask;volokh_how_2009
 #objective (noun);goal;volokh_how_2009
 #said (adjective);the or this ("this contract" not "said contract");volokh_how_2009
+#\b(^order of) magnitude;size (verbose);http://stevehanov.ca/blog/?id=52
