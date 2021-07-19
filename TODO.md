@@ -107,7 +107,6 @@
    - <https://github.com/diogocabral/sherlock>
 - List warnings in make check.
 - Make Makefile detect document class used to pass warningsaserrors appropriately. Or pass warningsaserrors to all bmt document classes to catch them all? What happens if that document class is not loaded? Nothing?
-- Run gnu style with make check too.
 - ambiguity detection
    - <https://cs.nyu.edu/~davise/ai/ambiguity.html>
 - Disable detection of double words for diction -L tex
@@ -122,6 +121,11 @@
 - Check that you refer to the figures in the body of the paper in numerical order.
 - Check equations for closed parentheses.
 - <https://github.com/redpen-cc/redpen>
+
+#### make analyze
+
+- Run gnu style.
+- List most frequent words and phrases. This could be useful to identify new rules to add to your diction files (global and local). For example, adding rules for whether to use a or an in front of a word.
 
 #### make draft
 

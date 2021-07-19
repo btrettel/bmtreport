@@ -36,7 +36,8 @@ with open(sys.argv[1]) as csv_file:
       assert(not('/' in row[0])) # due to where some of these came from, alternatives were sometimes separated with a shash; these won't be processed by diction correctly as each needs to be on their own line
       assert(not('^' in row[0]))
       #assert(not(',' in row[0])) # Sometimes has false positives.
-      assert(not(';' in row[0]))
+      if row[1] != '(duplicate punctuation)':
+         assert(not(';' in row[0]))
       assert(not('[0-9]' in row[0]))
       assert(not('[0-9]' in row[1]))
       assert(row[2] == row[2].strip())
