@@ -71,3 +71,6 @@ grep -H -n -i --color '\b[0-9]+ out of [0-9]+\b' $1 # [0-9]+ (out) of [0-9]+
 #objective (noun);goal;volokh_how_2009
 #said (adjective);the or this ("this contract" not "said contract");volokh_how_2009
 #\b(^order of) magnitude;size (verbose);http://stevehanov.ca/blog/?id=52
+
+# https://books.google.com/ngrams/graph?content=contraction+ratio%2Carea+ratio%2Cdiameter+ratio%2Ccontraction+area+ratio%2Ccontraction+diameter+ratio%2Carea+contraction+ratio%2Cdiameter+contraction+ratio&year_start=1800&year_end=2008&corpus=15&smoothing=3&share=&direct_url=t1%3B%2Ccontraction%20ratio%3B%2Cc0%3B.t1%3B%2Carea%20ratio%3B%2Cc0%3B.t1%3B%2Cdiameter%20ratio%3B%2Cc0%3B.t1%3B%2Ccontraction%20area%20ratio%3B%2Cc0%3B.t1%3B%2Carea%20contraction%20ratio%3B%2Cc0
+grep -n --color '\bcontraction ratio\b' $1 | grep -v '\barea contraction ratio\b' | grep -v '\bdiameter contraction ratio\b' | grep --color '\bcontraction ratio\b' # before more specific: area contraction ratio or diameter contraction ratio (or switch area and contraction, etc.)
