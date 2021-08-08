@@ -4,7 +4,11 @@ It would be nice to perform "spot checks" on equations printed in a document. A 
 
 Idea: Require good practices that help with error detection, like grouping terms into dimensionless numbers to help spot dimensionality errors.
 
-Also see: <http://lurchmath.org/> and <https://monks.scranton.edu/lurch/>
+## Also see
+
+- <http://lurchmath.org/> and <https://monks.scranton.edu/lurch/>
+- <https://xenaproject.wordpress.com/2021/06/05/half-a-year-of-the-liquid-tensor-experiment-amazing-developments/>
+- <https://academia.stackexchange.com/questions/171673/automated-proof-checking-at-journals>
 
 ## How can the same equation be tested?
 

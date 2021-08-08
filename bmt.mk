@@ -75,6 +75,8 @@ $(key).diction: $(key).csv
 check: $(key).tex $(key).txt title.tex abstract.tex subjclass.txt $(diction_file)
 	aspell -t -c $(key).tex
 	aspell -c $(key).txt
+	grep -n '^%' trettel_turbulent_2021.bib | grep -v '% =' | grep -v '% ?' | less -r
+	-bib_check.sh $(key).bib | less -r
 	chktex -q -I0 -n1 -n2 -n44 -n25 $(key).tex | less
 	test -f $(key).diction && diction -sn -f $(key).diction $(key).txt | grep --color=always '\[[^][]*]' | less -r || true
 	diction -s -L errors $(key).txt | grep --color=always '\[[^][]*]' | less -r

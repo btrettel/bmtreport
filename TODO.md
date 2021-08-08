@@ -55,6 +55,10 @@
          - Extra math commands from commath aren't recognized, making the equations not render.
          - pandoc does recognize my bib file correctly, but the inline citations are a bit mangled; the "p." part that starts many of optional arguments is cut off for some reason: "Wu (1992, 68, fig. 4.2)" should be "Wu (1992, p. 68, fig. 4.2)".
 
+## bmtslides.cls
+
+- Follow USPTO internal presentation guidelines.
+
 ## Makefile
 
 ### make
@@ -121,6 +125,7 @@
 - Check that you refer to the figures in the body of the paper in numerical order.
 - Check equations for closed parentheses.
 - <https://github.com/redpen-cc/redpen>
+- Check that page ranges are possible, for example, pages 115-101 is unlikely to be right. <https://academia.stackexchange.com/a/173146/31143>
 
 #### make analyze
 

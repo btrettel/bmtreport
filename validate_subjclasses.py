@@ -7,6 +7,19 @@
 import os
 import csv
 
+# https://stackoverflow.com/a/17303428/1124489
+class color:
+   PURPLE = '\033[95m'
+   CYAN = '\033[96m'
+   DARKCYAN = '\033[36m'
+   BLUE = '\033[94m'
+   GREEN = '\033[92m'
+   YELLOW = '\033[93m'
+   RED = '\033[91m'
+   BOLD = '\033[1m'
+   UNDERLINE = '\033[4m'
+   END = '\033[0m'
+
 subjclasses_path = os.environ['BMTPATH']+'/subjclasses/'
 
 # def get_classification_abbreviation(classification_name):
@@ -58,6 +71,6 @@ for subjclass in subjclasses:
    
    for classification in classifications:
       if classification not in valid_classifications:
-         print('Invalid classification:', classification_abbreviation, classification)
+         print(color.RED+color.BOLD+'Invalid classification:', classification_abbreviation, classification+color.END)
 
 #print('All classifications validated.')

@@ -1079,7 +1079,7 @@
 "\balternative choice","alternative (choice) (verbose)","https://kathysteinemann.com/Musings/redundant/ https://mrsatterly.com/diction.txt"
 "\balternative choices","alternatives (redundant)",https://mrsatterly.com/diction.txt
 "\balternative facts","lies (euphemism)",https://mrsatterly.com/diction.txt
-\balternatively,"or (complex)",https://mrsatterly.com/diction.txt
+#\balternatively,"or (complex)",https://mrsatterly.com/diction.txt
 \balternative,"other (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
 "\balter or change","(redundant pair)",https://mrsatterly.com/diction.txt
 "\balters or changes","= alter or change",https://mrsatterly.com/diction.txt
@@ -5163,12 +5163,14 @@
 "\bapple of your eyes","= apple of my eye",https://mrsatterly.com/diction.txt
 "\bapple polisher","(overused phrase)",https://mrsatterly.com/diction.txt
 "\bapple polishers","= apple polisher",https://mrsatterly.com/diction.txt
+"\bapples to oranges","apples-to-oranges (though avoid anyway) (consistency, idioms)",
 \bappreciable,"many (complex)",https://mrsatterly.com/diction.txt
 "\bappreciated in value","= appreciate in value",https://mrsatterly.com/diction.txt
 "\bappreciate in value","appreciate (redundant group)",https://mrsatterly.com/diction.txt
 "\bappreciates in value","= appreciate in value",https://mrsatterly.com/diction.txt
 "\bappreciating in value","= appreciate in value",https://mrsatterly.com/diction.txt
 \bapprise,"tell, advise (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
+"\bapproaching statistical significance","(rewrite) (statistics)",https://www.sciencedirect.com/science/article/pii/S0887617705001071
 "\bappropriate and proper","(redundant pair)",https://mrsatterly.com/diction.txt
 \bappropriate,"proper, right, fitting, suitable, apt, correct (long word)","https://mrsatterly.com/diction.txt https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm"
 \bapproximately,"about, roughly, almost, around, close to, nearly, or so (long word)","https://mrsatterly.com/diction.txt https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm volokh_how_2009"
@@ -5366,7 +5368,7 @@
 "\ba theirs","a, theirs (article or possessive pronoun)",https://mrsatterly.com/diction.txt
 "\ba thing","rewrite to use a word like ""exists"" (cliche)",
 "\bat large","missing (complex)",https://mrsatterly.com/diction.txt
-"\bat least",(vague),volokh_how_2009
+"#\bat least",(vague),volokh_how_2009
 "\bATM machine","ATM {automated teller machine}(redundant acronym)","https://mrsatterly.com/diction.txt https://kathysteinemann.com/Musings/redundant/"
 "\bATM machines","= ATM machine",https://mrsatterly.com/diction.txt
 "\bat once","simultaneously (clarity)",
@@ -5582,6 +5584,7 @@
 "\bbawled eagle","bald eagle (homophone)",https://mrsatterly.com/diction.txt
 "\bbawled man","bald man (homophone)",https://mrsatterly.com/diction.txt
 "\bBayer works wonders",(slogan),https://mrsatterly.com/diction.txt
+"\bBayes theorem","Bayes' theorem (statistics)",
 "\bbeacon of change","(overused phrase)",https://mrsatterly.com/diction.txt
 "\bbeacon of hope","(overused phrase)",https://mrsatterly.com/diction.txt
 "\bbeacons of change","= beacon of change",https://mrsatterly.com/diction.txt
@@ -5607,6 +5610,7 @@
 "\bbeef curtain","labia (sex slang)",https://mrsatterly.com/diction.txt
 "\bbeef curtains","= beef curtain",https://mrsatterly.com/diction.txt
 "\bbeen pretty","been (verbose)",http://stevehanov.ca/blog/?id=52
+"\bbefore existing","before exiting (atomic typo)",https://twitter.com/Pale_0ntologist/status/987012954804621314
 \bbegat,"= beget",https://mrsatterly.com/diction.txt
 \bbeget,(old),https://mrsatterly.com/diction.txt
 \bbegets,"= beget",https://mrsatterly.com/diction.txt
@@ -5630,6 +5634,9 @@
 "\bbenefit scrounger","(political jargon)",https://mrsatterly.com/diction.txt
 "\bbenefit scroungers","= benefit scrounger",https://mrsatterly.com/diction.txt
 \bbenevolent,"kind (complex)",https://mrsatterly.com/diction.txt
+"\bBenjamin Michael Trettel","Ben Trettel","inspired by eves_mathematical_1972 p. 161 #342"
+"\bBenjamin M. Trettel","Ben Trettel","inspired by eves_mathematical_1972 p. 161 #342"
+"\bBenjamin Trettel","Ben Trettel","inspired by eves_mathematical_1972 p. 161 #342"
 "\bbent the truth","= bend the truth",https://mrsatterly.com/diction.txt
 \bbereft,"without (complex)",https://mrsatterly.com/diction.txt
 \bbeseech,"beg (old)",https://mrsatterly.com/diction.txt
@@ -5918,6 +5925,7 @@
 "\bboot licker",(slang),https://mrsatterly.com/diction.txt
 "\bboot licking","= boot licker",https://mrsatterly.com/diction.txt
 "\bboots on the ground","invade, invasion (euphemism)",https://mrsatterly.com/diction.txt
+"\bborderline significant","(rewrite) (statistics)",https://www.sciencedirect.com/science/article/pii/S0887617705001071
 \bboring,(offensive),
 "\bbotany field","botany (redundant group)",https://mrsatterly.com/diction.txt
 "\bboth of","both (of) (verbose)",
@@ -6733,6 +6741,7 @@
 "\bconducting an examination of","= conduct an examination of",https://mrsatterly.com/diction.txt
 "\bconducts an examination of","= conduct an examination of",https://mrsatterly.com/diction.txt
 "\bconfer together","confer (together) (verbose)",https://kathysteinemann.com/Musings/redundant/
+"\bconfidence interval","interval (statistics)",https://statmodeling.stat.columbia.edu/2010/12/21/lets_say_uncert/
 \bconflate,(offensive),
 \bconfused,(offensive),
 "\bconfused state","confused (state) (verbose)",
@@ -6767,7 +6776,7 @@
 "\bconsequence of the fact",(verbose),
 "\bconsequence of this fact",(verbose),
 \bconsequence,"result, effect, outcome, importance, note, weight (long word)","https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm volokh_how_2009"
-\bconsequently,"so, thus (long word)","https://mrsatterly.com/diction.txt https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm http://stevehanov.ca/blog/?id=52"
+#\bconsequently,"so, thus (long word)","https://mrsatterly.com/diction.txt https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm http://stevehanov.ca/blog/?id=52"
 #\bconsideration,(vague),
 "\bconsidered harmful",(cliche),
 "\bconsidered to be","considered (verbose)",http://stevehanov.ca/blog/?id=52
@@ -7009,6 +7018,8 @@
 "\bcross the arms over the chest","cross the arms (over the chest) (verbose)",https://kathysteinemann.com/Musings/redundant/
 "\bcross their mind",(offensive),
 "\bcross to bear","(overused phrase)",https://mrsatterly.com/diction.txt
+"\bcross validated","cross-validated (statistics)",
+"\bcross validation","cross-validation (statistics)",
 "\bcross your mind","(e.g., did the thought ever cross your mind)",
 "\bcrotch fruit","children (dysphemism)",https://mrsatterly.com/diction.txt
 "\bcrotch fruits","= crotch fruit",https://mrsatterly.com/diction.txt
@@ -7244,9 +7255,9 @@
 \bdetainee,"prisoner, prisoner of war (euphemism)",https://mrsatterly.com/diction.txt
 \bdetainees,"= detainee",https://mrsatterly.com/diction.txt
 \bdetain,"hold (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
-\bdetermine,"figure out, learn, find out, fit, decide, settle, end, control, fix, discover (long word)","https://mrsatterly.com/diction.txt https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm"
-\bdetermines,"= determine",https://mrsatterly.com/diction.txt
-\bdetermining,"= determine",https://mrsatterly.com/diction.txt
+#\bdetermine,"figure out, learn, find out, fit, decide, settle, end, control, fix, discover (long word)","https://mrsatterly.com/diction.txt https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm"
+#\bdetermines,"= determine",https://mrsatterly.com/diction.txt
+#\bdetermining,"= determine",https://mrsatterly.com/diction.txt
 \bdetrimental,(offensive),
 \bdetriment,(offensive),
 \bDeutschland,"Germany (exonym)",https://mrsatterly.com/diction.txt
@@ -8167,6 +8178,7 @@
 "\bfirst invented","invented (verbose)",http://stevehanov.ca/blog/?id=52
 \bfirstly,"first (too formal)",volokh_how_2009
 "\bfirst of all","first (of all) (verbose)",https://kathysteinemann.com/Musings/redundant/
+"\bfirst order",first-order,
 "\bfirst rate",(puffery),
 \bfirst-rate,(puffery),
 "\bfirst responders","{fire fighters, EMS, police, ...}(complex)",https://mrsatterly.com/diction.txt
@@ -8298,6 +8310,7 @@
 \bfour-and-twenty,"24, twenty-four (old number)",https://mrsatterly.com/diction.txt
 \bfourscore,"80, eighty (old number)",https://mrsatterly.com/diction.txt
 \bfourthly,"fourth (too formal)",volokh_how_2009
+"\bfourth order",fourth-order,
 "\bfowl ball","foul ball (homophone)",https://mrsatterly.com/diction.txt
 "\bfowl balls","= fowl ball",https://mrsatterly.com/diction.txt
 \bfox-kin,"(furry jargon)",https://mrsatterly.com/diction.txt
@@ -12157,6 +12170,7 @@
 "\bHarry Balls","{hairy balls}(gag name)",https://mrsatterly.com/diction.txt
 "\bHarry Pitts","{hairy pits}(gag name)",https://mrsatterly.com/diction.txt
 "\bHarry Sachs","{hairy sacks}(gag name)",https://mrsatterly.com/diction.txt
+"\bHarvard comma","serial comma",https://en.wikipedia.org/wiki/Serial_comma
 "\bharvesting efficiencies","(corporate jargon)",https://mrsatterly.com/diction.txt
 "\bhas a duty to","must (complex)",https://mrsatterly.com/diction.txt
 "\bhas an ability to","= has the ability to",https://mrsatterly.com/diction.txt
@@ -12282,6 +12296,7 @@
 "\bhe's a silver fox","= he is a silver fox",https://mrsatterly.com/diction.txt
 "\bHe stay","(African-American Vernacular English)",https://mrsatterly.com/diction.txt
 \bheterodox,(offensive),
+\bheteroscedasticity,"unequal variability (statistics)",https://stats.stackexchange.com/a/202886/217644
 "\bhe totally lacked the ability to","he couldn't (verbose)",http://stevehanov.ca/blog/?id=52
 "\bhe was a silver fox","= he is a silver fox",https://mrsatterly.com/diction.txt
 \bhiatus,"break (complex)",https://mrsatterly.com/diction.txt
@@ -12303,6 +12318,7 @@
 "\bhighly improbable","(probability; remove and instead be quantitative when possible)",
 \bhighly,"like very (verbose)",
 "\bhighly probable","(probability; remove and instead be quantitative when possible)",
+"\bhighly significant","(rewrite) (statistics)",https://www.sciencedirect.com/science/article/pii/S0887617705001071
 "\bhigh probability",(vague),
 "\bhigh school 2.0","college (slang)",https://mrsatterly.com/diction.txt
 \bhillbilly,"White (ethnic slur)",https://mrsatterly.com/diction.txt
@@ -12405,7 +12421,7 @@
 "\bhouses of ill repute","= house of ill repute",https://mrsatterly.com/diction.txt
 \bhovercrafts,"hovercraft (identical plural)",https://mrsatterly.com/diction.txt
 \bhowbeit,"although, nevertheless (old)",https://mrsatterly.com/diction.txt
-\bhowever,"but, yet (complex)",https://mrsatterly.com/diction.txt
+#\bhowever,"but, yet (complex)",https://mrsatterly.com/diction.txt
 \bhowlers,(offensive),
 \bhowling,(offensive),
 "\bHPV virus","HPV (virus) (verbose)",https://kathysteinemann.com/Musings/redundant/
@@ -12571,7 +12587,6 @@
 \bimpressively,(puffery),
 \bimpressive,(puffery),
 \bimprobable,"(probability; remove and instead be quantitative when possible)",
-\bimproper,"(can be okay, that is, ""improper integral"")",http://www.paulgraham.com/say.html
 \bimproprieties,(offensive),
 \bimpropriety,(offensive),
 "\bimprovised explosive device","bomb (complex)",https://mrsatterly.com/diction.txt
@@ -12604,6 +12619,7 @@
 "\bin a situation in which","when (or in) (verbose)",http://stevehanov.ca/blog/?id=52
 "\binasmuch as","because, since, as, as far as (verbose)",volokh_how_2009
 "\bin a timely manner","at once, on time, quickly (verbose)",
+"\bin a vacuum","in isolation, by itself (avoid idioms)",
 "\bin a very real sense","(in a very real sense) (verbose)","http://stevehanov.ca/blog/?id=52 https://kathysteinemann.com/Musings/redundant/"
 "#\bin a way",(vague),
 "\bin back of","behind (verbose)",
@@ -12728,7 +12744,8 @@
 \binsightful,(puffery),"see abstract of maxey_droplets_2017"
 \binsight,(puffery),"see abstract of maxey_droplets_2017"
 \binsights,(puffery),"see abstract of maxey_droplets_2017"
-#\binsignificant,(offensive),
+\binsignificance,"non-significance (statistics)",
+\binsignificant,"non-significant (insignificant is also possibly offensive) (statistics)",
 \binsipid,(offensive),
 "\bin situ","in place, in position, locally, on site (Latin)",https://mrsatterly.com/diction.txt
 "\binspiration comes standard",(slogan),https://mrsatterly.com/diction.txt
@@ -12761,10 +12778,11 @@
 \bintermarry,(verbose),https://grammarist.com/redundancies/
 \bintermingle,(verbose),https://grammarist.com/redundancies/
 "\bin term of","= in terms of",https://mrsatterly.com/diction.txt
-"\bin terms of","in, for, about, as, as for, by, of, on, respecting, through, under, with (verbose)","volokh_how_2009 http://stevehanov.ca/blog/?id=52 https://mrsatterly.com/diction.txt"
+"#\bin terms of","in, for, about, as, as for, by, of, on, respecting, through, under, with (verbose)","volokh_how_2009 http://stevehanov.ca/blog/?id=52 https://mrsatterly.com/diction.txt"
 "\binternalized misogyny","(political jargon)",https://mrsatterly.com/diction.txt
 "\binternalized racism","(political jargon)",https://mrsatterly.com/diction.txt
 "\binternational community","{which groups or people?}(weasel words)",https://mrsatterly.com/diction.txt
+\binterplay,"interaction (pompous)",
 \binterred,"= inter",https://mrsatterly.com/diction.txt
 \binterring,"= inter",https://mrsatterly.com/diction.txt
 \binterrogatories,"(legal jargon)",https://mrsatterly.com/diction.txt
@@ -12797,7 +12815,7 @@
 "\bin the midst of","during, while (complex)",https://mrsatterly.com/diction.txt
 "\bin the nature of","like, about (verbose)","volokh_how_2009 https://mrsatterly.com/diction.txt"
 "\bin the near future","soon, before long, in a week (month), next month (year), shortly, this month (year), tomorrow (verbose)",https://mrsatterly.com/diction.txt
-"\bin the negative",(verbose),https://grammarist.com/redundancies/
+"#\bin the negative","(verbose, but ""in the negative direction"" can be okay)",https://grammarist.com/redundancies/
 "\bin the neighborhood of","about, roughly (verbose)",
 "\bin the not so distant future","soon (verbose)",
 "\bin the not too distant future","soon (verbose)",https://mrsatterly.com/diction.txt
@@ -12883,7 +12901,7 @@
 "\bis making","makes (verbose)",http://stevehanov.ca/blog/?id=52
 "\bis of significant importance","is important (verbose)","https://mrsatterly.com/diction.txt http://stevehanov.ca/blog/?id=52"
 "\bis one reason why","is why (verbose)",http://stevehanov.ca/blog/?id=52
-"\bis over",(cliche),
+"#\bis over",(cliche),
 "\bis presently","is now (verbose)",http://stevehanov.ca/blog/?id=52
 "\bis pretty darn",(verbose),http://stevehanov.ca/blog/?id=52
 "\bis quotes","is quoted (atomic typo)",
@@ -12893,7 +12911,7 @@
 "\bis unable to","cannot (verbose)",volokh_how_2009
 "\bis when","is (verbose)",http://stevehanov.ca/blog/?id=52
 "\bis when you want to","is to (verbose)",http://stevehanov.ca/blog/?id=52
-"\bis where",(verbose),http://stevehanov.ca/blog/?id=52
+"#\bis where",(verbose),http://stevehanov.ca/blog/?id=52
 "\bit almost seems like",(verbose),http://stevehanov.ca/blog/?id=52
 "\bIt be","(African-American Vernacular English)",https://mrsatterly.com/diction.txt
 "\bit can be seen that","so (complex)","https://mrsatterly.com/diction.txt http://stevehanov.ca/blog/?id=52"
@@ -13193,6 +13211,7 @@
 "\blead enema","{shooting someone}(weapons jargon)",https://mrsatterly.com/diction.txt
 \bleader,"(puffery, market leader especially)",
 \bleadership,(puffery),
+"\bleading order",leading-order,https://en.wikipedia.org/wiki/Leading-order_term
 #\bleading,(puffery),
 "\bleaning forward in the saddle",(cliche),
 "\blearn the ropes","(overused phrase)",https://mrsatterly.com/diction.txt
@@ -13355,6 +13374,7 @@
 "\blow and behold","= lo and behold",https://mrsatterly.com/diction.txt
 "\blow blow","(overused phrase)",https://mrsatterly.com/diction.txt
 "\blow economic status","poor (euphemism)",https://mrsatterly.com/diction.txt
+"\blowest order",lowest-order,
 "\blow hanging fruit",(cliche),
 "\blow-hanging fruit",(cliche),
 "\blow hanging fruit","easiest problems (corporate jargon)",https://mrsatterly.com/diction.txt
@@ -13381,6 +13401,7 @@
 "\bmad as a cut snake","angry (Australian English)",https://mrsatterly.com/diction.txt
 "\bmad as a hatter","(overused simile)",https://mrsatterly.com/diction.txt
 \bmaddening,(offensive),
+"\bmade a correlation","did regression analysis (though this is wordy) (statistics)",
 "\bmade a decision","= make a decision",https://mrsatterly.com/diction.txt
 "\bmade a statement","said (verbose)",
 "\bmade a statement that","said that (verbose)",http://stevehanov.ca/blog/?id=52
@@ -13399,6 +13420,7 @@
 \bmagically,(puffery),
 \bmagical,(puffery),
 \bmagic,(puffery),
+\bmagisterial,(pompous),
 \bmagnitude,"size, extent, importance, greatness (long word)","https://mrsatterly.com/diction.txt https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm"
 "\bmagnum opus","great work, masterpiece (Latin)",https://mrsatterly.com/diction.txt
 "\bmain protagonist",(verbose),https://grammarist.com/redundancies/
@@ -13425,6 +13447,7 @@
 "\bmakes a decision","= make a decision",https://mrsatterly.com/diction.txt
 "\bmake sense","(do not make sense, etc.)",
 "\bmakes off like a bandit","= make off like a bandit",https://mrsatterly.com/diction.txt
+"\bmake up","(avoid due to possible misinterpretation)",http://retractionwatch.com/2013/08/08/insert-data-here-did-researcher-instruct-co-author-to-make-up-results-for-chemistry-paper/
 "\bmaking a decision","= make a decision",https://mrsatterly.com/diction.txt
 "\bmaking obvious","revealing, highlighting, underlying, emphasizing (verbose)",
 "\bmaking off like a bandit","= make off like a bandit",https://mrsatterly.com/diction.txt
@@ -13480,7 +13503,7 @@
 "\bmauve in color","mauve (redundant group)",https://mrsatterly.com/diction.txt
 \bmaven,"expert (Yiddish)",https://mrsatterly.com/diction.txt
 \bmavens,"= maven",https://mrsatterly.com/diction.txt
-\bmaximum,"most, largest, greatest (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
+#\bmaximum,"most, largest, greatest (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
 "\bmaybe it is Maybelline","= maybe it's Maybelline",https://mrsatterly.com/diction.txt
 "\bmaybe it's Maybelline",{Maybelline}(slogan),https://mrsatterly.com/diction.txt
 \bmaybe,(vague),volokh_how_2009
@@ -13630,13 +13653,12 @@
 \bmocking,(offensive),
 "\bmoderate rebels","= moderate rebel",https://mrsatterly.com/diction.txt
 "\bmoderate rebel","terrorist (euphemism)",https://mrsatterly.com/diction.txt
-\bmodification,"change (complex)",https://mrsatterly.com/diction.txt
-\bmodifications,"changes (verbose)","http://stevehanov.ca/blog/?id=52 https://mrsatterly.com/diction.txt"
-\bmodified,"= modify",https://mrsatterly.com/diction.txt
-\bmodifies,"= modify",https://mrsatterly.com/diction.txt
-\bmodify,"change (too formal)","https://mrsatterly.com/diction.txt volokh_how_2009 http://stevehanov.ca/blog/?id=52"
-\bmodifying,"= modify",https://mrsatterly.com/diction.txt
-"\bmodify, modifications","change, vary, adapt, adjust; changes, variations, adjustments (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
+#\bmodification,"change (complex)",https://mrsatterly.com/diction.txt
+#\bmodifications,"changes (verbose)","http://stevehanov.ca/blog/?id=52 https://mrsatterly.com/diction.txt https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm"
+#\bmodified,"= modify",https://mrsatterly.com/diction.txt
+#\bmodifies,"= modify",https://mrsatterly.com/diction.txt
+#\bmodify,"change, vary, adapt, adjust; changes, variations, adjustments (long word)","https://mrsatterly.com/diction.txt volokh_how_2009 http://stevehanov.ca/blog/?id=52 https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm"
+#\bmodifying,"= modify",https://mrsatterly.com/diction.txt
 \bmodulate,(cliche),
 \bmodulates,(cliche),
 "\bMoe Lester","{molester, molest her}(gag name)",https://mrsatterly.com/diction.txt
@@ -17183,6 +17205,7 @@
 \bNdjamena,"N'Djamena {Chad}(exonym)",https://mrsatterly.com/diction.txt
 "\bnear miss","near hit",
 \bnear-miss,near-hit,
+"\bnear significant","(rewrite) (statistics)",https://www.sciencedirect.com/science/article/pii/S0887617705001071
 "\bnear to","near (to) (verbose)",
 "\bnecessary prerequisite","prerequisite (redundant)","https://mrsatterly.com/diction.txt http://stevehanov.ca/blog/?id=52"
 "\bnecessary prerequisites","= necessary prerequisite",https://mrsatterly.com/diction.txt
@@ -17821,7 +17844,7 @@
 \bobstructionists,(offensive),
 "\bobtained also by","obtained (also) by (verbose)",
 \bobtained,"= obtain",https://mrsatterly.com/diction.txt
-\bobtain,"get , earn, gain, buy, exist, hold, stand (long word)","https://mrsatterly.com/diction.txt https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm volokh_how_2009 http://stevehanov.ca/blog/?id=52"
+\bobtain,"get, earn, gain, buy, exist, hold, stand (long word)","https://mrsatterly.com/diction.txt https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm volokh_how_2009 http://stevehanov.ca/blog/?id=52"
 \bobtaining,"= obtain",https://mrsatterly.com/diction.txt
 \bobtains,"= obtain",https://mrsatterly.com/diction.txt
 \bobviate,"avoid (long word)","https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm http://stevehanov.ca/blog/?id=52"
@@ -17883,6 +17906,7 @@
 "\bon a monthly basis","monthly (verbose)","https://mrsatterly.com/diction.txt http://stevehanov.ca/blog/?id=52"
 "\bon a number of occasions","often or sometimes (verbose)",volokh_how_2009
 "\bon a regular basis","daily, every other day, hour, monthly, regularly, twice a month, twice a week (verbose)",
+"#\bon average","typical (statistics)","http://anesthesia.mcmaster.ca/docs/librariesprovider17/default-document-library/interest-group-meetings/2010/common-22misuse-22-22nonuse-22-and-22abuse-22-of-statistical-language-and-concepts-in-manuscripts--part-i.pdf?sfvrsn=1da23363_0 p. 16"
 "\bon a weekly basis","weekly (verbose)",http://stevehanov.ca/blog/?id=52
 "\bon a wing and a prayer","(overused phrase)",https://mrsatterly.com/diction.txt
 "\bon a yearly basis","yearly (verbose)","https://mrsatterly.com/diction.txt http://stevehanov.ca/blog/?id=52"
@@ -18061,6 +18085,7 @@
 "\bowning the decision","= own the decision",https://mrsatterly.com/diction.txt
 "\bown personal view","(own) personal view (verbose)",
 "\bown the decision","(corporate jargon)",https://mrsatterly.com/diction.txt
+"\bOxford comma","serial comma",https://en.wikipedia.org/wiki/Serial_comma
 "\bpack a powerful punch","(overused phrase)",https://mrsatterly.com/diction.txt
 "\bpacked a powerful punch","= pack a powerful punch",https://mrsatterly.com/diction.txt
 "\bpacked in like sardines","(overused simile)",https://mrsatterly.com/diction.txt
@@ -18678,8 +18703,8 @@
 "\bpretty important","important (verbose)",http://stevehanov.ca/blog/?id=52
 \bpretty,(vague),
 \bpreventative,"preventive (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
-\bprevious,"earlier (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
-\bpreviously,"before, earlier (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
+#\bprevious,"earlier (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
+#\bpreviously,"before, earlier (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
 "\bpreviously listed above","previously listed (above) (verbose)",https://kathysteinemann.com/Musings/redundant/
 "\bprevious to","before, after, as, ahead of (verbose)",
 "\bprice point","(corporate jargon)",https://mrsatterly.com/diction.txt
@@ -18689,7 +18714,7 @@
 "\bPrince Edward Island Canada","Prince Edward Island, Canada (missing comma)",https://mrsatterly.com/diction.txt
 \bprincipal,"main, chief (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
 "\bprinciple function","principal function (atomic typo)",https://afterdeadline.blogs.nytimes.com/2013/02/12/when-spell-check-cant-help-17/
-\bprior,"earlier (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
+#\bprior,"earlier (long word)",https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm
 "\bprior experience","experience (redundant)",https://mrsatterly.com/diction.txt
 "\bprior experiences","= prior experience",https://mrsatterly.com/diction.txt
 "\bprior experience",(verbose),https://grammarist.com/redundancies/
@@ -18698,6 +18723,7 @@
 "\bprior to","before (too formal)","https://mrsatterly.com/diction.txt volokh_how_2009 volokh_how_2009"
 "\bprivate industry","industry (but in socialist countries there are public industries) (verbose)",
 \bprized,(puffery),
+"\bprobability distribution","probability density function (statistics)",https://en.m.wikipedia.org/wiki/Probability_density_function
 #\bprobable,"(probability; remove and instead be quantitative when possible)",
 "\bprobably occurred-> occurred",(verbose),http://stevehanov.ca/blog/?id=52
 #\bprobably,"(probability; remove and instead be quantitative when possible)",
@@ -18762,6 +18788,7 @@
 \bproviding,"= provide",https://mrsatterly.com/diction.txt
 "\bproviding that","provided (verbose)",http://stevehanov.ca/blog/?id=52
 "\bprovision of law","law (too formal)",volokh_how_2009
+\bproximal,(pompous),
 \bpsalm-book,"psalmbook (hyphen)",https://mrsatterly.com/diction.txt
 \bpsalm-books,"= psalm-book",https://mrsatterly.com/diction.txt
 \bpseudo-science,(offensive),
@@ -18933,6 +18960,8 @@
 \brambles,(offensive),
 \brambling,(offensive),
 "\bRAM memory","RAM (memory) (verbose)",https://kathysteinemann.com/Musings/redundant/
+\branged,"varied (statistics)","http://anesthesia.mcmaster.ca/docs/librariesprovider17/default-document-library/interest-group-meetings/2010/common-22misuse-22-22nonuse-22-and-22abuse-22-of-statistical-language-and-concepts-in-manuscripts--part-i.pdf?sfvrsn=1da23363_0 p. 16"
+\branging,"varying (statistics)","http://anesthesia.mcmaster.ca/docs/librariesprovider17/default-document-library/interest-group-meetings/2010/common-22misuse-22-22nonuse-22-and-22abuse-22-of-statistical-language-and-concepts-in-manuscripts--part-i.pdf?sfvrsn=1da23363_0 p. 16"
 "\brang off the hook","(overused phrase)",https://mrsatterly.com/diction.txt
 "\bran it up the flagpole","= run it up the flagpole",https://mrsatterly.com/diction.txt
 \branting,(offensive),
@@ -19008,12 +19037,12 @@
 \brednecks,"= redneck",https://mrsatterly.com/diction.txt
 \bredneck,"White (ethnic slur)",https://mrsatterly.com/diction.txt
 \bredressal,"redress (Indian English)",https://mrsatterly.com/diction.txt
-\breduce,"cut (complex)",https://mrsatterly.com/diction.txt
-\breduced,"= reduce",https://mrsatterly.com/diction.txt
-\breduces,"= reduce",https://mrsatterly.com/diction.txt
-\breducing,"= reduce",https://mrsatterly.com/diction.txt
-\breduction,"cut (complex)",https://mrsatterly.com/diction.txt
-\breductions,"= reduction",https://mrsatterly.com/diction.txt
+#\breduce,"cut (complex)",https://mrsatterly.com/diction.txt
+#\breduced,"= reduce",https://mrsatterly.com/diction.txt
+#\breduces,"= reduce",https://mrsatterly.com/diction.txt
+#\breducing,"= reduce",https://mrsatterly.com/diction.txt
+#\breduction,"cut (complex)",https://mrsatterly.com/diction.txt
+#\breductions,"= reduction",https://mrsatterly.com/diction.txt
 "\breed and write","read and write (homophone)",https://mrsatterly.com/diction.txt
 "\breeds and writes","= reed and write",https://mrsatterly.com/diction.txt
 \breefer,"marijuana cigarette (drug jargon)",https://mrsatterly.com/diction.txt
@@ -19037,6 +19066,8 @@
 "\bregressed back","= regress back",https://mrsatterly.com/diction.txt
 "\bregresses back","= regress back",https://mrsatterly.com/diction.txt
 "\bregressing back","= regress back",https://mrsatterly.com/diction.txt
+"\bregression equation","regression (statistics)",
+"\bregression equations","regressions (statistics)",
 "\bregular routine","(regular) routine (verbose)","https://kathysteinemann.com/Musings/redundant/ https://mrsatterly.com/diction.txt"
 "\bregular routines","= regular routine",https://mrsatterly.com/diction.txt
 \breimburse,"pay back, repay (complex)",https://mrsatterly.com/diction.txt
@@ -22701,6 +22732,7 @@
 "\bseamless integration","(corporate jargon)",https://mrsatterly.com/diction.txt
 "\bsecond hand goods","secondhand goods (homophone)",https://mrsatterly.com/diction.txt
 \bsecondly,"second (too formal)",volokh_how_2009
+"\bsecond order",second-order,
 "\bsecond rate",(offensive),
 \bsecond-rate,(offensive),
 \bsect,(offensive),
@@ -22769,6 +22801,7 @@
 "\bsequential order",(verbose),https://grammarist.com/redundancies/
 \bSerb,"(demonym) Serbian",https://mrsatterly.com/diction.txt
 \bSerbs,"= Serb",https://mrsatterly.com/diction.txt
+"\bseries comma","serial comma",https://en.wikipedia.org/wiki/Serial_comma
 "\bserious danger","(serious) danger (verbose)",https://kathysteinemann.com/Musings/redundant/
 "\bseriously need","need (verbose)",http://stevehanov.ca/blog/?id=52
 \bserious,(offensive),
@@ -22889,6 +22922,8 @@
 "\bshut down","shut (down) (verbose)",https://kathysteinemann.com/Musings/redundant/
 \bshutterbug,"photography enthusiast (photography jargon)",https://mrsatterly.com/diction.txt
 \bshutterbugs,"= shutterbug",https://mrsatterly.com/diction.txt
+"\bshutter speed","exposure time (preferred because it has units of time)",
+"\bshutter speeds","exposure times (preferred because it has units of time)",
 \bshylock,"Jew (ethnic slur)",https://mrsatterly.com/diction.txt
 \bsic,"as printed (English is preferred to Latin)",
 "\bsick as a dog","(overused simile)",https://mrsatterly.com/diction.txt
@@ -23298,7 +23333,7 @@
 "\bstatistics field","statistics (redundant group)",https://mrsatterly.com/diction.txt
 \bstatist,"{opposite of anarchist}(political jargon)",https://mrsatterly.com/diction.txt
 "\bstatue of limitations","statute of limitations (atomic typo)","shatz_watch_2007 https://mrsatterly.com/diction.txt"
-"\bstatus quo","way things are (Latin)",https://mrsatterly.com/diction.txt
+"\bstatus quo","way things are, present, present state of affairs (though longer) (English is preferred to Latin)",https://mrsatterly.com/diction.txt
 \bstatutory,"legal, by law (complex)",https://mrsatterly.com/diction.txt
 "\bstay at hospital","(British English)",https://mrsatterly.com/diction.txt
 "\bstay at uni","(British English)",https://mrsatterly.com/diction.txt
@@ -27248,6 +27283,7 @@
 "\bthinning on top","balding (euphemism)",https://mrsatterly.com/diction.txt
 "\bthin privilege","(political jargon)",https://mrsatterly.com/diction.txt
 \bthirdly,"third (too formal)",volokh_how_2009
+"\bthird order",third-order,
 "\bthird rate",(offensive),
 \bthird-rate,(offensive),
 "\bthird world problem",(slang),https://mrsatterly.com/diction.txt
@@ -33079,6 +33115,7 @@
 \btremendous,(puffery),
 "\btrench monkey","(military jargon)",https://mrsatterly.com/diction.txt
 "\btrench monkeys","= trench monkey",https://mrsatterly.com/diction.txt
+\btrettle,"Trettel (should be upper-case)","inspired by eves_mathematical_1972 p. 161 #342"
 "\btriangular in shape","triangular (redundant group)",https://mrsatterly.com/diction.txt
 \btribalism,"sectarianism (racist)",
 \btribal,"sectarian (racist)",
@@ -38782,10 +38819,10 @@
 "\btwo equal halves","(two equal) halves (verbose)",https://kathysteinemann.com/Musings/redundant/
 "\btwo halves","(two) halves (verbose)",
 "\btwo twins","(two) twins (verbose)",https://kathysteinemann.com/Musings/redundant/
-"\btype I","false positive (hard to remember)",
-"\btype II","false negative (hard to remember)",
+"\btype I","false positive (hard to remember)","https://news.ycombinator.com/item?id=22822697 https://www.facebook.com/silas.barta/posts/10117813962074084"
+"\btype II","false negative (hard to remember)","https://news.ycombinator.com/item?id=22822697 https://www.facebook.com/silas.barta/posts/10117813962074084"
 "\btype of",(verbose),http://stevehanov.ca/blog/?id=52
-\btypically,"usually (verbose)",http://stevehanov.ca/blog/?id=52
+#\btypically,"usually (verbose)",http://stevehanov.ca/blog/?id=52
 "\bUDP protocol","UDP {User Datagram Protocol}(redundant acronym)",https://mrsatterly.com/diction.txt
 \bugh,(interjection),https://mrsatterly.com/diction.txt
 "\bugly as sin","(overused simile)",https://mrsatterly.com/diction.txt
@@ -38960,10 +38997,10 @@
 "\bvaginal Jew","woman, women (ethnic slur)",https://mrsatterly.com/diction.txt
 #\bvague,(offensive),
 \bvain,(offensive),
-\bvalidate,"confirm (complex)",https://mrsatterly.com/diction.txt
-\bvalidated,"= validate",https://mrsatterly.com/diction.txt
-\bvalidates,"= validate",https://mrsatterly.com/diction.txt
-\bvalidating,"= validate",https://mrsatterly.com/diction.txt
+#\bvalidate,"confirm (complex)",https://mrsatterly.com/diction.txt
+#\bvalidated,"= validate",https://mrsatterly.com/diction.txt
+#\bvalidates,"= validate",https://mrsatterly.com/diction.txt
+#\bvalidating,"= validate",https://mrsatterly.com/diction.txt
 "\bvaluable asset","asset (verbose)",http://stevehanov.ca/blog/?id=52
 \bvaluable,(puffery),
 \bvalue-added,"(corporate jargon)",https://mrsatterly.com/diction.txt

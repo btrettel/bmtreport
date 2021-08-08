@@ -74,3 +74,30 @@ grep -H -n -i --color '\b[0-9]+ out of [0-9]+\b' $1 # [0-9]+ (out) of [0-9]+
 
 # https://books.google.com/ngrams/graph?content=contraction+ratio%2Carea+ratio%2Cdiameter+ratio%2Ccontraction+area+ratio%2Ccontraction+diameter+ratio%2Carea+contraction+ratio%2Cdiameter+contraction+ratio&year_start=1800&year_end=2008&corpus=15&smoothing=3&share=&direct_url=t1%3B%2Ccontraction%20ratio%3B%2Cc0%3B.t1%3B%2Carea%20ratio%3B%2Cc0%3B.t1%3B%2Cdiameter%20ratio%3B%2Cc0%3B.t1%3B%2Ccontraction%20area%20ratio%3B%2Cc0%3B.t1%3B%2Carea%20contraction%20ratio%3B%2Cc0
 grep -n --color '\bcontraction ratio\b' $1 | grep -v '\barea contraction ratio\b' | grep -v '\bdiameter contraction ratio\b' | grep --color '\bcontraction ratio\b' # before more specific: area contraction ratio or diameter contraction ratio (or switch area and contraction, etc.)
+
+# math
+grep -H -n -i --color '\\mathrm{sin}' $1 # \sin
+grep -H -n -i --color '\\mathrm{cos}' $1 # \cos
+grep -H -n -i --color '\\mathrm{tan}' $1 # \tan
+grep -H -n -i --color '\\mathrm{log}' $1 # \log
+grep -H -n -i --color '\\log(' $1 # Require subscript for the base (e.g. "\log_{base}(") or use \ln as these are unambiguous
+# TODO: Add check for \log without subscript without parentheses.
+grep -H -n -i --color '\\sin_{-1}' $1 # \arcsin
+grep -H -n -i --color '\\cos_{-1}' $1 # \arccos
+grep -H -n -i --color '\\tan_{-1}' $1 # \arctan
+grep -H -n -i --color '\bLambert W\b' $1 # Lambert~W
+
+# typography
+grep -H -n -i --color '\[p\. ' $1 # use non-breaking space after page range
+grep -H -n -i --color '\[pp\. ' $1 # use non-breaking space after page range
+grep -H -n -i --color '\[pp\.~[0-9]*-[0-9]*\]' $1 # Ranges use en dash.
+grep -H -n -i --color '\[figs\.~[0-9]*-[0-9]*\]' $1 # Ranges use en dash.
+
+# TeX
+grep -H -n -i --color '\\cite{}' $1
+grep -H -n -i --color '\\citet{}' $1
+grep -H -n -i --color '\^{1}' $1 # probably should be ^{-1}
+grep -H -n -i --color '\^{2}' $1 # probably should be ^{-2}
+grep -H -n -i --color '\\cdots' $1 # use \dots instead with amsmath as this apparently automatically aligns itself; see https://nickhigham.wordpress.com/2015/09/29/top-tips-for-new-latex-users/#comment-2512
+
+grep -H -n -i --color '\bBenjamin M.\ Trettel\b' $1 # Ben Trettel
