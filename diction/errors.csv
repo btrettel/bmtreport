@@ -789,6 +789,7 @@
 \bafore,"before (old)",https://mrsatterly.com/diction.txt
 \baforementioned,"(omit) (verbose)","http://stevehanov.ca/blog/?id=52 volokh_how_2009"
 \baforesaid,"earlier in this document, this (complex)",https://mrsatterly.com/diction.txt
+"\ba fortiori","even more compelling (English is preferred to Latin)",https://en.wikipedia.org/wiki/Argumentum_a_fortiori
 \bafro-engineering,"= afro engineering",https://mrsatterly.com/diction.txt
 "\bafro engineering","{jury rigging}(ethnic slur)",https://mrsatterly.com/diction.txt
 \bafro-Saxon,"(ethnic slur)",https://mrsatterly.com/diction.txt
@@ -5734,8 +5735,8 @@
 "\bbitter in taste","bitter (redundant group)",https://mrsatterly.com/diction.txt
 "\bbitter tasting","bitter (tasting) (verbose)",
 "\bbit the dust","= bite the dust",https://mrsatterly.com/diction.txt
-\bbi-weekly,"every other week, twice a week (ambiguous)",https://english.stackexchange.com/questions/50658/are-there-any-words-i-can-use-to-disambiguate-biweekly
-\bbiweekly,"every other week, twice a week (ambiguous)",https://english.stackexchange.com/questions/50658/are-there-any-words-i-can-use-to-disambiguate-biweekly
+\bbi-weekly,"= biweekly",https://english.stackexchange.com/questions/50658/are-there-any-words-i-can-use-to-disambiguate-biweekly
+\bbiweekly,"every other week, twice a week, twice-weekly (ambiguous)",https://english.stackexchange.com/questions/50658/are-there-any-words-i-can-use-to-disambiguate-biweekly
 \bbizarre,(offensive),
 "\bblack as coal","(overused simile)",https://mrsatterly.com/diction.txt
 "\bblack as night","(overused simile)",https://mrsatterly.com/diction.txt
@@ -18777,6 +18778,7 @@
 "\bprotest against","protest (against) (verbose)",https://kathysteinemann.com/Musings/redundant/
 "\bprotruded out","protruded (out) (verbose)",https://kathysteinemann.com/Musings/redundant/
 "\bproud as a peacock","(overused simile)",https://mrsatterly.com/diction.txt
+"\bprove to be",(remove),
 "\bprovided guidance for","= provide guidance for",https://mrsatterly.com/diction.txt
 "\bprovided that","as long as, only if (complex)","https://mrsatterly.com/diction.txt volokh_how_2009 http://stevehanov.ca/blog/?id=52"
 \bprovide,"give, offer (complex)","https://mrsatterly.com/diction.txt https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm volokh_how_2009"
@@ -33056,6 +33058,8 @@
 "\bto tell the truth",(verbose),https://kathysteinemann.com/Musings/redundant/
 "\btotem polls","= totem poll",https://mrsatterly.com/diction.txt
 "\btotem poll","totem pole (homophone)",https://mrsatterly.com/diction.txt
+"\bto the best of my knowledge","to my knowledge, as far as I am aware (verbose)",
+"\bto the best of our knowledge","to our knowledge, as far as we are aware (verbose)",
 "\bto the effect that","that (verbose)",volokh_how_2009
 "\bto the extent that","if, when (complex)",https://mrsatterly.com/diction.txt
 "\btouch base","(corporate jargon)",https://mrsatterly.com/diction.txt
@@ -42689,7 +42693,8 @@
 "\bwidely accepted",(puffery),
 "\bwide ranging",(puffery),
 \bwide-ranging,(puffery),
-\bWiFi,"WLAN, wireless network (trademark)",https://mrsatterly.com/diction.txt
+\bWiFi,"= Wi-Fi",
+\bWi-Fi,"WLAN, wireless network (trademark)",https://mrsatterly.com/diction.txt
 \bwigging,"(drug jargon)",https://mrsatterly.com/diction.txt
 "\bwild bores","= wild bore",https://mrsatterly.com/diction.txt
 "\bwild bore","wild boar (homophone)",https://mrsatterly.com/diction.txt

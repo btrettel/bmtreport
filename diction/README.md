@@ -22,6 +22,10 @@
 - Relative terminology: about, superior, similar, comparable, essentially, type, of the order of, substantially, substantial portion, the order of about
 - Exemplary language: e.g. "material such as rock wool or asbestos", "halogen, for example, chlorine" (It is the broader example or the specific example? I would read it as broader. This seems to be more of a problem for claims than writing in general.) (I also recall that "i.e." and "e.g." are misunderstood in general so should be discouraged in favor of "that is" and "for example" respectively.)
 - MPEP 2173.05 has many good suggestions about how to write unambiguously (and also some that are specific to patents or particular parts of patents)
+- TODO: https://drive.google.com/file/d/11a8cUt1SCfIxQRBZk_TnRYM5ltENL7LI/view
+   - Words Matter Task Force Recommendations
+- TODO: bollen_historical_2021
+   - <https://news.ycombinator.com/item?id=27952176>
 - day_economics_1983
 - TODO: <https://stats.stackexchange.com/questions/202879/what-misused-statistical-terms-are-worth-correcting>
 - TODO: <https://statmodeling.stat.columbia.edu/2009/05/24/handy_statistic/>

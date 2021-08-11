@@ -22,7 +22,6 @@
 ## bmtreport.cls
 
 - draft option
-- refcheck
 - Have flags for various manual checks, e.g., reading out loud.
 - Add macros for the DOI, pagetotal, etc. Add these to XMP metadata, update the citation as appropriate, etc.
 - Make environments for standardized sections like the introduction and conclusions. These will automatically define the labels in a standardized way (for example, `\label{sec:introduction}`) and automatically enforce word counts.
@@ -39,6 +38,7 @@
          - <https://github.com/kwart/jsignpdf>
    - Add macros to bmtreport to keep track of important/critical lessons you want the paper to make. These will need to be put early in the paper (inverted pyramid) and be repeated later in the paper for spaced repetition.
    - <https://nhigham.com/2020/06/18/six-useful-latex-packages/>: > By loading the upref package you ensure that every \ref or \eqref reference is set in an upright font. This is normal typesetting practice, but it is not enforced by all \LaTeX classes. It is enforced by the SIAM class, for example.
+   - cleverref package instead of non-standard macros?
 - later
    - Automatically embed files? embedfile does not seem to support LuaTeX.
    - Make CJK font available with a flag.
@@ -58,6 +58,7 @@
 ## bmtslides.cls
 
 - Follow USPTO internal presentation guidelines.
+   - Have a macro for the "Thank you" closing slide.
 
 ## Makefile
 
