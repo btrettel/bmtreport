@@ -5137,6 +5137,7 @@
 "\ba oxygen","an oxygen (indefinite article)",https://mrsatterly.com/diction.txt
 "\ba oyster","an oyster (indefinite article)",https://mrsatterly.com/diction.txt
 "\ba possibility","(probability; remove and instead be quantitative when possible)",
+\ba-posteriori,"= a posteriori",
 "\ba posteriori","derived from observed facts (English is preferred to Latin)",
 \bappalled,(offensive),
 \bappalling,(offensive),
@@ -5176,6 +5177,7 @@
 \bappropriate,"proper, right, fitting, suitable, apt, correct (long word)","https://mrsatterly.com/diction.txt https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm"
 \bapproximately,"about, roughly, almost, around, close to, nearly, or so (long word)","https://mrsatterly.com/diction.txt https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm volokh_how_2009"
 "\ba pretty","a (verbose)",http://stevehanov.ca/blog/?id=52
+\ba-priori,"= a priori",
 "\ba priori","by reasoning alone (English is preferred to Latin)",
 "\ba promising",(puffery),
 \bapropos,"fitting, opportune, relevant (French)",https://mrsatterly.com/diction.txt
@@ -7178,6 +7180,7 @@
 "\bde facto","in reality or fact (English is preferred to Latin)",
 \bdefamatory,(offensive),
 \bdefective,(offensive),
+"\bdefies logic","is mistaken (offensive)",
 "\bdefinite decision","(definite) decision (verbose)",https://kathysteinemann.com/Musings/redundant/
 \bdefinitely,(meaningless),"https://mrsatterly.com/diction.txt http://stevehanov.ca/blog/?id=52"
 "\bdefinite possibility","possibility (oxymoron)",
@@ -12719,6 +12722,7 @@
 "\bin or around",(vague),
 "\bin order that","for, so (complex)",https://mrsatterly.com/diction.txt
 "\bin order to","to, for (verbose)","https://mrsatterly.com/diction.txt http://stevehanov.ca/blog/?id=52 volokh_how_2009"
+"\bin phantom","drawn with dashed lines",
 "#\bin place of","for (verbose)",
 "\bin plane sight","in plain sight (homophone)",https://mrsatterly.com/diction.txt
 "\bin point of fact","in fact (or omit altogether) (verbose)",volokh_how_2009
@@ -12747,6 +12751,7 @@
 \binsights,(puffery),"see abstract of maxey_droplets_2017"
 \binsignificance,"non-significance (statistics)",
 \binsignificant,"non-significant (insignificant is also possibly offensive) (statistics)",
+"\bin silico","via computer simulation (English is preferred to pseudo-Latin)",
 \binsipid,(offensive),
 "\bin situ","in place, in position, locally, on site (Latin)",https://mrsatterly.com/diction.txt
 "\binspiration comes standard",(slogan),https://mrsatterly.com/diction.txt
@@ -12849,6 +12854,8 @@
 "\bin view of the fact","because, since, for, given, when (verbose)",
 "\bin view of the fact that","because (verbose)","https://mrsatterly.com/diction.txt http://stevehanov.ca/blog/?id=52"
 "\binvited guests","(invited) guests (verbose)",
+"\bin vitro","within the glass (English is preferred to Latin)",
+"\bin vivo","within the living (English is preferred to Latin)",
 "\binvoluntary suicide","murder (euphemism)",https://mrsatterly.com/diction.txt
 "\binvoluntary suicides","= involuntary suicide",https://mrsatterly.com/diction.txt
 "\binvolved in a collision","collided (verbose)",volokh_how_2009
@@ -12860,6 +12867,7 @@
 "\bI.P. Freely","= I. P. Freely",https://mrsatterly.com/diction.txt
 "\bIP protocol","IP {Internet Protocol}(redundant acronym)",https://mrsatterly.com/diction.txt
 "\bIPsec protocol","IPsec {Internet Protocol Security}(redundant acronym)",https://mrsatterly.com/diction.txt
+"\bipso facto","by the fact itself (English is preferred to Latin)",
 "\bIPv4 protocol","IPv4 {Internet Protocol version 4}(redundant acronym)",https://mrsatterly.com/diction.txt
 "\bIPv6 protocol","IPv6 {Internet Protocol version 6}(redundant acronym)",https://mrsatterly.com/diction.txt
 "\bIRA account","IRA {individual retirement account}(redundant acronym)",https://mrsatterly.com/diction.txt

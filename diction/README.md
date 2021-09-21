@@ -80,6 +80,7 @@
 - TODO: <https://github.com/dspinellis/unix-history-repo/blob/BSD-4_1_snap-Snapshot-Development/.ref-BSD-4/usr/src/cmd/diction/dict.d>
 - TODO: <https://github.com/dspinellis/unix-history-repo/blob/BSD-4_1_snap-Snapshot-Development/.ref-BSD-4/usr/src/cmd/diction/explain.d>
 - TODO: <https://en.wikipedia.org/wiki/Weasel_word>
+- TODO: <https://scite.ai/blog/7-things-scientists-probably-shouldnt-be-writing-in-their-papers>
 - <https://www.scribbr.com/academic-writing/taboo-words/>
 - <https://web.archive.org/web/20130115032012/http://www.economist.com/style-guide/unnecessary-words>
 - <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Expressions_of_doubt>
@@ -251,3 +252,4 @@ Make patent drafting diction database. Put appropriate case law in the comment. 
 - <https://www.bpmlegal.com/content/howtopat7>
 - <https://ocpatentlawyer.com/lesson/word-invention/>
 - <https://www.finnegan.com/en/insights/articles/practical-considerations-and-strategies-in-drafting-u-s-patent.html>
+- <https://en.wikipedia.org/wiki/List_of_Latin_legal_terms>

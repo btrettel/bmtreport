@@ -18,6 +18,9 @@
 - eqcheck Python package; add to Python PATH
 - Business card
 - Invoice
+- Writing checklist
+   - List the person you have in mind when writing.
+      - <https://jvns.ca/blog/confusing-explanations/#pattern-2-having-inconsistent-expectations-of-the-reader-s-knowledge>: > instead: pick 1 specific person and write for them!
 
 ## bmtreport.cls
 
@@ -127,6 +130,13 @@
 - Check equations for closed parentheses.
 - <https://github.com/redpen-cc/redpen>
 - Check that page ranges are possible, for example, pages 115-101 is unlikely to be right. <https://academia.stackexchange.com/a/173146/31143>
+- Check for titles, journal names, etc., in all caps.
+- Check for \todo commands.
+- Some ideas from users of Kedit.
+   - <https://signalsandthreads.com/writing-technically/>
+   - <https://www.newyorker.com/magazine/2013/01/14/structure>
+- <https://www.researchinformation.info/analysis-opinion/language-barrier-publishing>
+   - "NLP for automated proofreading"
 
 #### make analyze
 
