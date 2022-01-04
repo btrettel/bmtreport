@@ -7,10 +7,14 @@
 - root-mean-square vs. root-mean-squared vs. root mean square (etc.) (Check Google Ngram. Require dashes?)
 - Include comments in template on what to include in abstract, introduction, conclusions, etc.
 - Switch to a structured abstract.
+- Break up sections into multiple files?
+   - <https://academia.stackexchange.com/a/180254/31143>
+   - <https://tex.stackexchange.com/q/29577/9945>
 
 ## Files
 
 - Add bmtcv.cls.
+   - Based on <https://nitens.org/w/cvtex/>?
 - Add bmtbook.cls.
 - Finish make check.
 - Convert existing writing check file to a diction file.
@@ -42,6 +46,9 @@
    - Add macros to bmtreport to keep track of important/critical lessons you want the paper to make. These will need to be put early in the paper (inverted pyramid) and be repeated later in the paper for spaced repetition.
    - <https://nhigham.com/2020/06/18/six-useful-latex-packages/>: > By loading the upref package you ensure that every \ref or \eqref reference is set in an upright font. This is normal typesetting practice, but it is not enforced by all \LaTeX classes. It is enforced by the SIAM class, for example.
    - cleverref package instead of non-standard macros?
+   - topic sentences:
+      - <https://web.eecs.utk.edu/~azh/blog/lessonsfrommyphd.html>
+      - <https://news.ycombinator.com/item?id=29723973>
 - later
    - Automatically embed files? embedfile does not seem to support LuaTeX.
    - Make CJK font available with a flag.
@@ -92,6 +99,7 @@
 - <https://news.ycombinator.com/item?id=21850466>
 - <https://tex.stackexchange.com/q/83663>
 - <https://terrytao.wordpress.com/2017/07/07/what-are-some-useful-but-little-known-features-of-the-tools-used-in-professional-mathematics/#comment-551741>
+- <https://news.ycombinator.com/item?id=29352868>
 
 ### make check
 
@@ -137,6 +145,11 @@
    - <https://www.newyorker.com/magazine/2013/01/14/structure>
 - <https://www.researchinformation.info/analysis-opinion/language-barrier-publishing>
    - "NLP for automated proofreading"
+- <https://github.com/Kingsford-Group/biblint>
+   - <https://news.ycombinator.com/item?id=29340573>
+- <https://github.com/nbartlomiej/lisense>
+- <https://news.ycombinator.com/item?id=4454070>
+   - <http://backreaction.blogspot.com/2011/07/blablameter.html>
 
 #### make analyze
 

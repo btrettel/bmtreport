@@ -6491,8 +6491,8 @@
 "\bCleveland steamer","{fictional sex act}(euphemism)",https://mrsatterly.com/diction.txt
 \bcleverly,(puffery),
 \bclever,(puffery),
-\bcliche,(offensive),
 #\bclich\'{e},(offensive),
+\bcliche,(offensive),
 \bcliché,(offensive),
 "\bclick bait","= clickbait",https://mrsatterly.com/diction.txt
 \bclick-bait,"= clickbait",https://mrsatterly.com/diction.txt
@@ -7576,23 +7576,23 @@
 "\bdummy value","placeholder value, sample value (inclusivity)",https://twitter.com/TwitterEng/status/1278733305190342656
 "\bdumpster dive","take garbage (slang)",https://mrsatterly.com/diction.txt
 \bdunno,"don't know (informal contraction)",https://mrsatterly.com/diction.txt
-"\b, ,","(duplicate punctuation)",https://mrsatterly.com/diction.txt
-"\b,,,,","(duplicate punctuation)",https://mrsatterly.com/diction.txt
-"\b,,,","(duplicate punctuation)",https://mrsatterly.com/diction.txt
-"\b,,","(duplicate punctuation)",https://mrsatterly.com/diction.txt
-"\b; ;","(duplicate punctuation)",https://mrsatterly.com/diction.txt
-"\b: :","(duplicate punctuation)",https://mrsatterly.com/diction.txt
 "\b! !","(duplicate punctuation)",https://mrsatterly.com/diction.txt
+"\b, ,","(duplicate punctuation)",https://mrsatterly.com/diction.txt
+"\b,,","(duplicate punctuation)",https://mrsatterly.com/diction.txt
+"\b,,,","(duplicate punctuation)",https://mrsatterly.com/diction.txt
+"\b,,,,","(duplicate punctuation)",https://mrsatterly.com/diction.txt
+"\b: :","(duplicate punctuation)",https://mrsatterly.com/diction.txt
+"\b; ;","(duplicate punctuation)",https://mrsatterly.com/diction.txt
 "\b? ?","(duplicate punctuation)",https://mrsatterly.com/diction.txt
-\b;;,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
-\b;;;,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
-\b;;;;,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
+\b!!!!,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
+\b!!!,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
+\b!!,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
 \b::,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
 \b:::,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
 \b::::,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
-\b!!,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
-\b!!!,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
-\b!!!!,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
+\b;;,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
+\b;;;,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
+\b;;;;,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
 \b??,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
 \b???,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
 \b????,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
@@ -12168,6 +12168,8 @@
 "\bhardly nothing","(double negative)",https://mrsatterly.com/diction.txt
 \bhardly,"not (verbose)",http://stevehanov.ca/blog/?id=52
 "\bhardly nowhere","(double negative)",https://mrsatterly.com/diction.txt
+"\bhard not to crack","hard nut to crack (atomic typo)",
+"\bhard science","(vague, unnecessary)",https://twitter.com/OpenSexism/status/1453016395801784320
 "\bhardy meal","hearty meal (homophone)",https://mrsatterly.com/diction.txt
 "\bhardy meals","= hardy meal",https://mrsatterly.com/diction.txt
 "\bharmful injuries","(harmful) injuries (verbose)",https://kathysteinemann.com/Musings/redundant/
@@ -12709,9 +12711,7 @@
 "\bin many instances","almost always, commonly, many, most, mostly, most of, most often, most of these, much, nearly all, nearly always, normally, often, typically, usually (verbose)",
 "\bin most cases","mostly, most of these, often, usually (verbose)",
 "\bin most instances","mostly, most of these, often, usually (verbose)",
-"\bin my opinion","(in my opinion) (verbose)","https://mrsatterly.com/diction.txt https://kathysteinemann.com/Musings/redundant/"
-"\bin my opinion,",(verbose),http://stevehanov.ca/blog/?id=52
-"\bin my opinion",(verbose),http://stevehanov.ca/blog/?id=52
+"\bin my opinion","(in my opinion) (verbose)","https://mrsatterly.com/diction.txt https://kathysteinemann.com/Musings/redundant/ http://stevehanov.ca/blog/?id=52"
 "\bin nature",(verbose),http://stevehanov.ca/blog/?id=52
 "\binner feelings","feelings (verbose)",http://stevehanov.ca/blog/?id=52
 \binnit,"isn't it (informal contraction)",https://mrsatterly.com/diction.txt
@@ -12813,9 +12813,7 @@
 "\bin the course of","during, at, for, in, over, throughout, when, while, with (verbose)","http://stevehanov.ca/blog/?id=52 volokh_how_2009 https://mrsatterly.com/diction.txt"
 "\bin the event of","if, should (verbose)",
 "\bin the event that","if, when (verbose)","https://mrsatterly.com/diction.txt volokh_how_2009 http://stevehanov.ca/blog/?id=52"
-"\bin the final analysis","finally (verbose)",https://kathysteinemann.com/Musings/redundant/
-"\bin the final analysis,",(verbose),http://stevehanov.ca/blog/?id=52
-"\bin the final analysis",(verbose),http://stevehanov.ca/blog/?id=52
+"\bin the final analysis","finally (verbose)","https://kathysteinemann.com/Musings/redundant/ http://stevehanov.ca/blog/?id=52"
 "\bin the heat of the moment","(overused phrase)",https://mrsatterly.com/diction.txt
 "\bin the long run","(overused phrase)",https://mrsatterly.com/diction.txt
 "\bin the midst of","during, while (complex)",https://mrsatterly.com/diction.txt
@@ -12917,6 +12915,7 @@
 "\bis required","is needed (verbose)",http://stevehanov.ca/blog/?id=52
 "\bis scared of","fears (verbose)",http://stevehanov.ca/blog/?id=52
 "\bis seen as","is (verbose)",http://stevehanov.ca/blog/?id=52
+"\bISSN number","ISSN (number) (verbose)",
 "\bis unable to","cannot (verbose)",volokh_how_2009
 "\bis when","is (verbose)",http://stevehanov.ca/blog/?id=52
 "\bis when you want to","is to (verbose)",http://stevehanov.ca/blog/?id=52
@@ -12938,12 +12937,12 @@
 "\bit has been said that","(weasel words)",https://mrsatterly.com/diction.txt
 "\bit has been suggested that","(weasel words)",https://mrsatterly.com/diction.txt
 "\bit has to be remembered","remember (complex)",https://mrsatterly.com/diction.txt
-"\bI think that,",(verbose),http://stevehanov.ca/blog/?id=52
 "\bI think that",(verbose),http://stevehanov.ca/blog/?id=52
+"\bI think that,",(verbose),http://stevehanov.ca/blog/?id=52
 "\bI think, therefore IBM",{IBM}(slogan),https://mrsatterly.com/diction.txt
 "\bI think therefore IBM","= I think, therefore IBM",https://mrsatterly.com/diction.txt
-"\bI think,",(verbose),http://stevehanov.ca/blog/?id=52
 "\bI think",(verbose),http://stevehanov.ca/blog/?id=52
+"\bI think,",(verbose),http://stevehanov.ca/blog/?id=52
 "\bit is apparent that","clearly (complex)",https://mrsatterly.com/diction.txt
 "\bit is believed that","(weasel words)",https://mrsatterly.com/diction.txt
 "\bit is believed","(weasel words)",
@@ -17371,7 +17370,10 @@
 "\bnobody wanted nothing","(double negative)",https://mrsatterly.com/diction.txt
 "\bnobody wanted nowhere","(double negative)",https://mrsatterly.com/diction.txt
 "\bno can do","I can't, I wont (overused phrase)",https://mrsatterly.com/diction.txt
+"\bno clear evidence","unclear (or something else) (commonly misunderstood as equivalent to false)","https://astralcodexten.substack.com/p/the-phrase-no-evidence-is-a-red-flag https://twitter.com/diviacaroline/status/1247581168922288129 https://www.lesswrong.com/posts/h4Wct9gsLsNk9bAhv/no-evidence-as-a-valley-of-bad-rationality https://www.overcomingbias.com/2008/08/doctor-there-ar.html"
 "\bnod the head","nod (the head) (verbose)",https://kathysteinemann.com/Musings/redundant/
+"\bno evidence","unclear (or something else) (commonly misunderstood as equivalent to false)","https://astralcodexten.substack.com/p/the-phrase-no-evidence-is-a-red-flag https://twitter.com/diviacaroline/status/1247581168922288129 https://www.lesswrong.com/posts/h4Wct9gsLsNk9bAhv/no-evidence-as-a-valley-of-bad-rationality https://www.overcomingbias.com/2008/08/doctor-there-ar.html"
+"\bno hard evidence","unclear (or something else) (commonly misunderstood as equivalent to false)","https://astralcodexten.substack.com/p/the-phrase-no-evidence-is-a-red-flag https://twitter.com/diviacaroline/status/1247581168922288129 https://www.lesswrong.com/posts/h4Wct9gsLsNk9bAhv/no-evidence-as-a-valley-of-bad-rationality https://www.overcomingbias.com/2008/08/doctor-there-ar.html"
 "\bno holds barred","(overused phrase)",https://mrsatterly.com/diction.txt
 \bno-homo,"= no homo",https://mrsatterly.com/diction.txt
 "\bno homo",(slang),https://mrsatterly.com/diction.txt
@@ -18989,6 +18991,7 @@
 "\brather than","and not (complex)",https://mrsatterly.com/diction.txt
 "\brather unlikely","(probability; remove and instead be quantitative when possible)",
 \brather,(verbose),http://stevehanov.ca/blog/?id=52
+"\bratio if","ratio of (atomic typo)",
 \braving,(offensive),
 "\braw dogged","intercourse without a condom (euphemism)",https://mrsatterly.com/diction.txt
 "\braw dogging","intercourse without a condom (euphemism)",https://mrsatterly.com/diction.txt
@@ -23127,6 +23130,7 @@
 "\bsoft as silk","(overused simile)",https://mrsatterly.com/diction.txt
 "\bsoft in consistency","soft (in consistency) (verbose)",
 "\bsoft in texture [or to the touch]","soft (in texture) [or (to the touch)] (verbose)",
+"\bsoft science","(vague, unnecessary)",https://twitter.com/OpenSexism/status/1453016395801784320
 "\bsoft to the touch","soft (to the touch) (verbose)",https://kathysteinemann.com/Musings/redundant/
 "\bsoftware program","program, software (redundant)",https://mrsatterly.com/diction.txt
 "\bsoftware programs","= software program","https://mrsatterly.com/diction.txt https://grammarist.com/redundancies/"
@@ -42901,6 +42905,7 @@
 \bzealotry,(offensive),
 \bzealots,(offensive),
 \bzeitgeist,"spirit of the age (German)",https://mrsatterly.com/diction.txt
+"\bzero evidence","unclear (or something else) (commonly misunderstood as equivalent to false)","https://astralcodexten.substack.com/p/the-phrase-no-evidence-is-a-red-flag https://twitter.com/diviacaroline/status/1247581168922288129 https://www.lesswrong.com/posts/h4Wct9gsLsNk9bAhv/no-evidence-as-a-valley-of-bad-rationality https://www.overcomingbias.com/2008/08/doctor-there-ar.html"
 "\bzero rationale",(offensive),
 "\bzero reason",(offensive),
 "\bzero reasons",(offensive),
@@ -42909,16 +42914,16 @@
 \bZOG,"{Zionist operated government}(ethnic slur)",https://mrsatterly.com/diction.txt
 "\bzombie weed","PCP, phencyclidine (drug jargon)",https://mrsatterly.com/diction.txt
 "\bzoology field","zoology (redundant group)",https://mrsatterly.com/diction.txt
-;;,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
-::,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
 !!,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
-??,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
+"! !","(duplicate punctuation)",https://mrsatterly.com/diction.txt
 ", ,","(duplicate punctuation)",https://mrsatterly.com/diction.txt
 ",,","(duplicate punctuation)",https://mrsatterly.com/diction.txt
-"; ;","(duplicate punctuation)",https://mrsatterly.com/diction.txt
 ": :","(duplicate punctuation)",https://mrsatterly.com/diction.txt
-"! !","(duplicate punctuation)",https://mrsatterly.com/diction.txt
+"; ;","(duplicate punctuation)",https://mrsatterly.com/diction.txt
 "? ?","(duplicate punctuation)",https://mrsatterly.com/diction.txt
+::,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
+;;,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
+??,"(duplicate punctuation)",https://mrsatterly.com/diction.txt
 "n't accept","= not accept",https://mrsatterly.com/diction.txt
 "n't allow nobody","(double negative)",https://mrsatterly.com/diction.txt
 "n't allow no","(double negative)",https://mrsatterly.com/diction.txt

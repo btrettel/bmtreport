@@ -92,6 +92,7 @@ todo: $(key).tex
 # old: espeak -s 155 -v en-us --ipa -f $(key).txt
 # https://www.linuxlinks.com/speechtools/
 # https://askubuntu.com/q/53896/39992
+# https://news.ycombinator.com/item?id=28651588
 .PHONY: speak
 speak: $(key).txt abstract.txt
 	$(eval tempdir:=$(shell mktemp -d))

@@ -89,6 +89,7 @@
 - <https://retractionwatch.com/2017/11/14/phantom-reference-made-article-got-almost-400-citations/#comment-1497583>
 - MAYBE: <http://www.tameri.com/write/academese.html>
 - TODO: <https://www.words-to-use.com/words/movies-tv/>
+- TODO: <https://blogs.lse.ac.uk/impactofsocialsciences/2021/09/30/it-could-be-effective-uncertainty-and-over-promotion-in-the-abstracts-of-covid-19-preprints/>
 - mondegreens, misunderstood phrases
    - TODO: <http://grammarist.com/mondegreens/>
    - TODO: <http://www.lifehack.org/articles/communication/25-common-phrases-that-youre-saying-wrong.html>
@@ -253,3 +254,8 @@ Make patent drafting diction database. Put appropriate case law in the comment. 
 - <https://ocpatentlawyer.com/lesson/word-invention/>
 - <https://www.finnegan.com/en/insights/articles/practical-considerations-and-strategies-in-drafting-u-s-patent.html>
 - <https://en.wikipedia.org/wiki/List_of_Latin_legal_terms>
+- <https://www.fargopatentlaw.com/blog/2020/12/31/what-is-patent-profanity>
+   - > Some of these terms include the words, “all, always, certain, each, important, invention, necessary, need, should, and so forth.”
+- stark_key_2016
+- <https://patentlyo.com/patent/2020/03/consisting-and-optionally.html>
+- <https://patents.stackexchange.com/questions/17485/how-do-i-explain-the-advantages-and-avoid-using-invention-or-object-in-the-d>

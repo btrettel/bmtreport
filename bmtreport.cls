@@ -87,6 +87,8 @@
 
 \RequirePackage{asserts}
 
+\RequirePackage{xcolor} % https://tex.stackexchange.com/a/89765/9945
+
 % TODO: document fnref and fnpageref in bmtmacros
 % TODO: document \linelabel
 % TODO: make pararef? Look into refcount package. https://tex.stackexchange.com/q/474807/9945 https://www.overleaf.com/learn/latex/Counters
@@ -124,6 +126,7 @@
 \modulolinenumbers[5]
 % The \BeginAccSupp and \EndAccSupp parts make the line numbers not selectable text, which presumably will help those using screen readers and also definitely helps when copying text.
 % https://tex.stackexchange.com/a/158886/9945
+% Could add \color{black!40} to make gray.
 \renewcommand{\linenumberfont}{\bfseries\footnotesize\BeginAccSupp{ActualText=}}
 \appto{\LineNumber}{\enspace\EndAccSupp{}} % Could remove \enspace before the \EndAccSupp{} to move number closer
 \newcommand\para{}
@@ -182,8 +185,6 @@
 
 % https://tex.stackexchange.com/a/17726/9945
 \RequirePackage{caption}
-
-\RequirePackage{color}
 
 % https://nickhigham.wordpress.com/2016/01/28/typesetting-mathematics-according-to-the-iso-standard/#comment-3038
 \RequirePackage{commath}
@@ -251,13 +252,13 @@ end
    % Has Cyrillic characters. Does not have Chinese or Japanese characters.
    % https://www.overleaf.com/learn/latex/Articles/OpenType-based_math_typesetting:_An_introduction_to_the_STIX2_OpenType_fonts
    % https://ctan.org/pkg/stix2-otf/
-   \setmainfont{STIX2Text}[
+   \setmainfont{STIXTwoText}[
       Extension=.otf,
       UprightFont=*-Regular,
       BoldFont=*-Bold,
       ItalicFont=*-Italic,
       BoldItalicFont=*-BoldItalic]
-   \setmathfont{STIX2Math}[Extension=.otf]
+   \setmathfont{STIXTwoMath}%[Extension=.otf] % For some reason the extension part doesn't work on TeX Live 2021.
    
    % Option: EB Garamond (no associated math font; ebgaramond-maths is a hack)
    %\setmainfont{EB Garamond}
