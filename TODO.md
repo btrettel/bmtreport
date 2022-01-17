@@ -64,6 +64,9 @@
          - siunitx doesn't seem to work, though it seems that they added support for it?
          - Extra math commands from commath aren't recognized, making the equations not render.
          - pandoc does recognize my bib file correctly, but the inline citations are a bit mangled; the "p." part that starts many of optional arguments is cut off for some reason: "Wu (1992, 68, fig. 4.2)" should be "Wu (1992, p. 68, fig. 4.2)".
+   - <https://github.com/synercys/annotated_latex_equations>
+      - <https://twitter.com/sibinmohan/status/1480583840858996743>
+      - <https://news.ycombinator.com/item?id=29898655> (many other similar ideas here)
 
 ## bmtslides.cls
 

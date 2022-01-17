@@ -6045,6 +6045,7 @@
 \bbuggery,"(British English)",https://mrsatterly.com/diction.txt
 "\bbuilding bridges",(cliche),
 "\bbuilt like a tank","(overused simile)",https://mrsatterly.com/diction.txt
+"\bbuilt up",built,
 "\bbulky in size","bulky (in size) (verbose)",
 \bbulletproof,(puffery),
 \bbullshit,(offensive),
@@ -7072,7 +7073,8 @@
 "\bcurb check",(slang),https://mrsatterly.com/diction.txt
 "\bcurrant affair","current affair (homophone)",https://mrsatterly.com/diction.txt
 "\bcurrant affairs","= currant affair",https://mrsatterly.com/diction.txt
-"\bcurrant topic","current topic (homophone)","https://mrsatterly.com/diction.txt https://mrsatterly.com/diction.txt"
+"\bcurrant topic","current topic (homophone)",https://mrsatterly.com/diction.txt
+\bcurrent,"(ambiguous between electrical current and the present; prefer present for time)",
 "\bcurrent incumbent","(current) incumbent (verbose)",https://mrsatterly.com/diction.txt
 "\bcurrent incumbents","= current incumbent",https://mrsatterly.com/diction.txt
 "\bcurrently being","currently (verbose)",
@@ -12590,6 +12592,7 @@
 \bimportant,(puffery),
 #\bimpossible,"(probability; remove and instead be quantitative when possible; also could be offensive)",
 \bimpotent,(offensive),
+\bimpressive,(editorializing),
 \bimpressively,(puffery),
 \bimpressive,(puffery),
 \bimprobable,"(probability; remove and instead be quantitative when possible)",
@@ -13598,6 +13601,7 @@
 "\bmight happen",(vague),
 "\bmight possibly","might (verbose)","http://stevehanov.ca/blog/?id=52 https://kathysteinemann.com/Musings/redundant/"
 #\bmight,"(probability; remove and instead be quantitative when possible)",
+"\bmight recommend",recommend,
 "\bmight very well","may (verbose)",http://stevehanov.ca/blog/?id=52
 "\bMike Hawke","= Mike Hawk",https://mrsatterly.com/diction.txt
 "\bMike Hawk","{my cock}(gag name)",https://mrsatterly.com/diction.txt
@@ -18759,6 +18763,7 @@
 "\bprofessional victims","= professional victim",https://mrsatterly.com/diction.txt
 \bproficiencies,"= proficiency",https://mrsatterly.com/diction.txt
 \bproficiency,"skill (complex)",https://mrsatterly.com/diction.txt
+"\bpro forma","= as a courtesy (English is preferred to Latin)",
 \bprofoundly,(puffery),
 \bprofound,(puffery),
 "\bproletariat of the world unite","= proletariat of the world, unite",https://mrsatterly.com/diction.txt

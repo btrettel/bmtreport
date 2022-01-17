@@ -42,6 +42,9 @@ ifdef extra_runs
 	lualatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
 	biber $(key) --validate-datamodel --fixinits --isbn13 --isbn-normalise
 endif
+	# Alert you to warnings.
+	#! grep 'WARN - No data sources defined!' $(key).blg
+	! grep 'WARN' $(key).blg
 
 # https://thorehusfeldt.com/2011/05/13/including-git-revision-identifiers-in-latex/
 # https://tex.stackexchange.com/q/455396/9945

@@ -90,6 +90,7 @@
 - MAYBE: <http://www.tameri.com/write/academese.html>
 - TODO: <https://www.words-to-use.com/words/movies-tv/>
 - TODO: <https://blogs.lse.ac.uk/impactofsocialsciences/2021/09/30/it-could-be-effective-uncertainty-and-over-promotion-in-the-abstracts-of-covid-19-preprints/>
+- TODO: <https://en.wikipedia.org/wiki/Buzzword>
 - mondegreens, misunderstood phrases
    - TODO: <http://grammarist.com/mondegreens/>
    - TODO: <http://www.lifehack.org/articles/communication/25-common-phrases-that-youre-saying-wrong.html>
