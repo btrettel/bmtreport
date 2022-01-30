@@ -528,10 +528,14 @@ end
          \luaexec{%
             s = \luastring{\thetitle}
             n = string.len(s)
+            % https://zyppy.com/blog/google-title-rewrite-study/
             texio.write_nl("Title character count: ")
             texio.write(n)
+            if n<16 then
+               tex.error("Title is under 16 characters long")
+            end
             if n>75 then
-               tex.error("Title is over 75 characters long")
+               tex.error("Title is over 60 characters long")
             end
             _,n_words = s:gsub("\%S+","")
             texio.write_nl("Title word count: ")
