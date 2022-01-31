@@ -101,3 +101,99 @@ grep -H -n -i --color '\^{2}' $1 # probably should be ^{-2}
 grep -H -n -i --color '\\cdots' $1 # use \dots instead with amsmath as this apparently automatically aligns itself; see https://nickhigham.wordpress.com/2015/09/29/top-tips-for-new-latex-users/#comment-2512
 
 grep -H -n -i --color '\bBenjamin M.\ Trettel\b' $1 # Ben Trettel
+
+#at a \w+ rate # at/by/-(al)ly/delete, Fiske p. 55
+#at the \w+ rate # at/by/-(al)ly/delete, Fiske p. 55
+#solid [0-9]* seconds
+#solid [0-9]* minutes
+#solid [0-9]* hours
+#solid [0-9]* days
+#solid [0-9]* years
+#[0-9]+ out of [0-9]+ # [0-9]+ (out) of [0-9]+
+## TODO: $[0-9]+ USD+ # https://news.ycombinator.com/item?id=11238603
+##TODO biography of a person's life # biography (of a person's life)
+#a \w+ action # delete, Fiske p. 35R
+#the \w+ action # delete, Fiske p. 35R
+#\w+ activity # delete, Fiske p. 36L
+#additional \w+ added # added, Fiske p. 36
+#additional \w+ extra # extra, Fiske p. 36
+#additional \w+ further # further, Fiske p. 36
+#additional \w+ more # more, Fiske p. 36
+#additional \w+ other # other, Fiske p. 36
+#age \d+ # delete, Fiske p. 39L
+#aged \d+ # delete, Fiske p. 39L
+#aid in \wing # help, Fiske p. 39R
+#all \w+ long # all, Fiske p. 40L
+#allow \w+ to # let, Fiske p. 40R
+#allow \w+ \w+ to # let, Fiske p. 40R
+#and \w+ also;also/and;Fiske, To the point: a dictionary of concise writing p. 43L
+#and \w+ \w+ also;also/and;Fiske, To the point: a dictionary of concise writing p. 43L
+#and \w+ too;and/too;Fiske, To the point: a dictionary of concise writing p. 43R
+#and \w, too;and/too;Fiske, To the point: a dictionary of concise writing p. 43R
+#anywhere between \w+ and;between ... and;Fiske, To the point: a dictionary of concise writing p. 44R
+#somewhere between \w+ and;between ... and;Fiske, To the point: a dictionary of concise writing p. 44R
+#anywhere in the range of \w+ to;in the range of ... to;Fiske, To the point: a dictionary of concise writing p. 44R
+#somewhere in the range of \w+ to;in the range of ... to;Fiske, To the point: a dictionary of concise writing p. 44R
+#as a way for \w+ing;for (-ing)/so as to/to;Fiske, To the point: a dictionary of concise writing p. 49L
+#as a way of \w+ing;for (-ing)/so as to/to;Fiske, To the point: a dictionary of concise writing p. 49L
+#as a way to \w+ing;for (-ing)/so as to/to;Fiske, To the point: a dictionary of concise writing p. 49L
+#ask \w+ the question;ask;Fiske, To the point: a dictionary of concise writing p. 51L
+#assist in \w*ing;help;Fiske, To the point: a dictionary of concise writing
+#as the basis for \w*ing;for (-ing)/so as to/to;Fiske, To the point: a dictionary of concise writing
+#the most basic \w+ of all;the most basic \w+
+#green [or blue or whatever] in color;green [or blue or whatever] (in color)
+#in the past [0-9]+ days;before/earlier
+#in the past [0-9]+ months;before/earlier
+#in the past [0-9]+ weeks;before/earlier
+#in the past [0-9]+ years;before/earlier
+##is said to [verb];[verb]ies #(e.g., is said to vary;varies)
+##TODO kill () dead;kill ()
+#older than [0-9]+ years of age;older than [0-9]+ years of age
+#soft in texture [or to the touch];soft (in texture) [or (to the touch)]
+#younger than [0-9]+ years of age;younger than [0-9]+ years of age
+#it is an aim of [[:blank:][:upper:][:lower:]]+ to;x aims to
+#the intention of [[:blank:][:upper:][:lower:]]+ is to;X intends to
+#used for [[:blank:][:upper:][:lower:]]+ purposes;used for xxx
+#under [0-9]+ minutes or less;
+#quick [0-9]+ minute;;Johnston, You can say that again: 750 redundant phrases to think twice about
+#[0-9]+ different bridges;;Johnston, You can say that again: 750 redundant phrases to think twice about
+#[0-9]+ separate buildings;;Johnston, You can say that again: 750 redundant phrases to think twice about
+#top [0-9]+ most important criteria;;Johnston, You can say that again: 750 redundant phrases to think twice about
+##TODO as far as I'm concerned;(as far as I'm concerned)
+##TODO where () is concerned;about
+## TODO: after ... first;Fiske, To the point: a dictionary of concise writing p. 38R
+## TODO: after ... later/subsequently;Fiske, To the point: a dictionary of concise writing p. 38R
+## TODO: after ... next;Fiske, To the point: a dictionary of concise writing p. 39L
+## TODO: after ... then;Fiske, To the point: a dictionary of concise writing p. 39L
+## TODO: again re;Fiske, To the point: a dictionary of concise writing p. 39L
+## TODO: also ... as well;Fiske, To the point: a dictionary of concise writing p. 41R
+## TODO: also ... too;Fiske, To the point: a dictionary of concise writing p. 41R
+## TODO: -ance/-ence of;Fiske, To the point: a dictionary of concise writing p. 42R
+## TODO: and ... as well;Fiske, To the point: a dictionary of concise writing p. 43L
+## TODO: apart from ... also/as well;Fiske, To the point: a dictionary of concise writing p. 45L
+## TODO: as/so far as ... (goes/is concerned);Fiske, To the point: a dictionary of concise writing p. 50L
+## TODO: as ... for example/for instance;Fiske, To the point: a dictionary of concise writing p. 50R
+#\b(an/the) area/locale/locality/location/place/point/position/region/site/spot where/whereever	Fiske, To the point: a dictionary of concise writing p. 45R	
+#\b(an/the) area/locale/locality/location/place/point/position/region/site/spot	where/wherever	Fiske, To the point: a dictionary of concise writing p. 45R
+#\bas of (date)	about/from/on
+#\bas of (date)	about, from, on (verbose)
+##\bas (the) days/decades/months/weeks/years go on	Fiske, To the point: a dictionary of concise writing p. 50L
+##\bat (a/the) ... pace (of)	Fiske, To the point: a dictionary of concise writing p. 55
+##\b(a/the) ... attitude (of)	Fiske, To the point: a dictionary of concise writing p. 58
+##\b(a/the) ... being	Fiske, To the point: a dictionary of concise writing p. 62
+##\bbear (a/the) ... resemblance/similarity to	Fiske, To the point: a dictionary of concise writing p. 61
+##\bDr. () MD	Dr. ()/() MD	what about PhDs?
+##\b(even) as I/we speak	Fiske, To the point: a dictionary of concise writing p. 51L
+##\b(the) ... area (of)	Fiske, To the point: a dictionary of concise writing p. 45R
+#\bas compared to/with ... relatively	Fiske, To the point: a dictionary of concise writing p. 49R
+#\baside from ... also/as well	Fiske, To the point: a dictionary of concise writing p. 51L
+#\bas opposed to ... relatively	Fiske, To the point: a dictionary of concise writing
+#\bassure/ensure/insure	guarantee	Fiske, To the point: a dictionary of concise writing
+#\battention ... focused on/upon	Fiske, To the point: a dictionary of concise writing p. 56
+#\bat that moment, etc.	Fiske, To the point: a dictionary of concise writing p. 56
+#\bat what/which...	Fiske, To the point: a dictionary of concise writing p. 58
+#\bbefore ... First	(verbose)	Fiske, To the point: a dictionary of concise writing p. 61
+#\bbegin ... first	Fiske, To the point: a dictionary of concise writing p. 61
+#\bbegin/start at ... and end/finish at	Fiske, To the point: a dictionary of concise writing p. 61
+#\bbesides ... also/as well	Fiske, To the point: a dictionary of concise writing p. 62
+#\bbetween ... as compared to/as opposed to/compared to/versus	Fiske, To the point: a dictionary of concise writing p. 62

@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# You must sort the file before running this.
+
 import sys
 import csv
 
@@ -27,7 +29,7 @@ with open(sys.argv[1]) as csv_file:
       assert(not(' )' in row[1]))
       assert(not('TODO' in row[0]))
       assert(not('TODO' in row[1]))
-      if prev_first_col == row[0]:
+      if prev_first_col == row[0].lower():
          print('Duplicate: '+row[0]+' ('+sys.argv[1]+')')
          second_col = None
          third_col = None
@@ -47,7 +49,7 @@ with open(sys.argv[1]) as csv_file:
          all_lines.append([row[0], row[1], row[2]])
          
       num_rows = num_rows + 1
-      prev_first_col  = row[0]
+      prev_first_col  = row[0].lower()
       prev_second_col = row[1]
       prev_third_col  = row[2]
 
