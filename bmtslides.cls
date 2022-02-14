@@ -174,7 +174,7 @@ end
 % https://www.semipol.de/2018/06/12/latex-best-practices.html#hyperlinks-to-floats-and-not-their-captions
 \RequirePackage{hypcap} % load after hyperref
 
-\input{/home/ben/notes/computer-setup/headers/macros.tex}
+\RequirePackage{bmtmacros}
 
 % Remove "In:" from the bibliography
 % https://tex.stackexchange.com/a/10686
