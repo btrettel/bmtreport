@@ -55,7 +55,7 @@ git.tex: $(git_root)/.git/logs/HEAD
 
 .PHONY: clean
 clean:
-	-rm -rvf *.blg *.bcf *.log *.blg *.lot *.toc *.idx *.aux *.bbl *.lof *.out *.run.xml /tmp/par* abstract.tex title.tex *.tmp $(key).txt title.txt abstract.txt git.tex $(key).diction
+	-rm -rvf *.blg *.bcf *.log *.blg *.lot *.toc *.idx *.aux *.bbl *.lof *.out *.run.xml *.nav *.snm /tmp/par* abstract.tex title.tex *.tmp $(key).txt title.txt abstract.txt git.tex $(key).diction
 
 # old: detex -n $(key).tex > $(key).txt
 # old version of Pandoc: pandoc --lua-filter=remove-math-and-images.lua --bibliography trettel_turbulent_2021.bib trettel_turbulent_2021.tex -s -t plain -o trettel_turbulent_2021.txt
