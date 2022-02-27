@@ -2,14 +2,14 @@
 
 - DONE: Make *warning* diction file to identify things which are not necessarily wrong but could indicate that something is wrong. Run this less frequently; bmt.diction is intended to identify likely errors, not simply possible errors.
 - <https://en.wikipedia.org/wiki/Politics_and_the_English_Language#Remedy_of_Six_Rules>
-   1. Never use a metaphor, simile, or other figure of speech which you are used to seeing in print. [...]
-   2. Never use a long word where a short one will do.
-   3. If it is possible to cut a word out, always cut it out.
-   4. Never use the passive where you can use the active.
-   5. Never use a foreign phrase, a scientific word, or a jargon word if you can think of an everyday English equivalent.
-   
-   - <https://en.wikipedia.org/wiki/List_of_English-language_metaphors>
-   - <https://github.com/DomDomDoy/Figurative-Speech-Detection>
+    1. Never use a metaphor, simile, or other figure of speech which you are used to seeing in print. [...]
+    2. Never use a long word where a short one will do.
+    3. If it is possible to cut a word out, always cut it out.
+    4. Never use the passive where you can use the active.
+    5. Never use a foreign phrase, a scientific word, or a jargon word if you can think of an everyday English equivalent.
+    
+    - <https://en.wikipedia.org/wiki/List_of_English-language_metaphors>
+    - <https://github.com/DomDomDoy/Figurative-Speech-Detection>
 
 ## Other diction files available
 
@@ -23,9 +23,9 @@
 - Exemplary language: e.g. "material such as rock wool or asbestos", "halogen, for example, chlorine" (It is the broader example or the specific example? I would read it as broader. This seems to be more of a problem for claims than writing in general.) (I also recall that "i.e." and "e.g." are misunderstood in general so should be discouraged in favor of "that is" and "for example" respectively.)
 - MPEP 2173.05 has many good suggestions about how to write unambiguously (and also some that are specific to patents or particular parts of patents)
 - TODO: https://drive.google.com/file/d/11a8cUt1SCfIxQRBZk_TnRYM5ltENL7LI/view
-   - Words Matter Task Force Recommendations
+    - Words Matter Task Force Recommendations
 - TODO: bollen_historical_2021
-   - <https://news.ycombinator.com/item?id=27952176>
+    - <https://news.ycombinator.com/item?id=27952176>
 - day_economics_1983
 - TODO: <https://stats.stackexchange.com/questions/202879/what-misused-statistical-terms-are-worth-correcting>
 - TODO: <https://statmodeling.stat.columbia.edu/2009/05/24/handy_statistic/>
@@ -56,27 +56,27 @@
 - TODO: <http://web.archive.org/web/20081002153726/http://people.engr.ncsu.edu/txie/publications/writeissues.pdf>
 - TODO: <https://jugad2.blogspot.com/2015/07/cut-crap-absolutely-essential-tool-for.html>
 - TODO: <https://mourner.github.io/bullshit.js/>
-   - <https://news.ycombinator.com/item?id=21234753>
-   - <https://github.com/mourner/bullshit.js/blob/master/src/terms.js>
+    - <https://news.ycombinator.com/item?id=21234753>
+    - <https://github.com/mourner/bullshit.js/blob/master/src/terms.js>
 - TODO: <https://themarkup.org/google-the-giant/2020/08/07/google-documents-show-taboo-words-antitrust>
-   - <https://news.ycombinator.com/item?id=24082381>
+    - <https://news.ycombinator.com/item?id=24082381>
 - TODO: <https://www.gkogan.co/blog/bad-words/>
-   - <https://news.ycombinator.com/item?id=19124568>
+    - <https://news.ycombinator.com/item?id=19124568>
 - TODO: <https://whyevolutionistrue.com/2019/11/18/words-and-phrases-i-hate-5/>
 - TODO: <https://news.ycombinator.com/item?id=17834084>
 - TODO: <https://lifehacker.com/replace-these-words-in-your-writing-1831622515>
 - TODO: <https://www.atrixnet.com/bs-generator.html>
 - TODO: <https://johnaugust.com/2016/the-workaholics-list-of-banned-phrases>
 - ambiguous
-   - <https://english.stackexchange.com/questions/50658/are-there-any-words-i-can-use-to-disambiguate-biweekly>
-   - <https://github.com/zonination/perceptions>
+    - <https://english.stackexchange.com/questions/50658/are-there-any-words-i-can-use-to-disambiguate-biweekly>
+    - <https://github.com/zonination/perceptions>
 - annoying words or phrases, pretentious words, buzzwords, cliches
-   - <http://www.cs.columbia.edu/~hgs/etc/writing-rules.html>
-   - <https://www.builtinla.com/2015/03/23/50-startup-words-and-phrases-should-be-banned>
+    - <http://www.cs.columbia.edu/~hgs/etc/writing-rules.html>
+    - <https://www.builtinla.com/2015/03/23/50-startup-words-and-phrases-should-be-banned>
 - clarity
-   - TODO: <https://www.muckrock.com/news/archives/2017/jul/14/cias-style-guide/>
+    - TODO: <https://www.muckrock.com/news/archives/2017/jul/14/cias-style-guide/>
 - contradictions, oxymorons
-   - TODO: <https://groups.google.com/forum/#!topic/usaafricadialogue/21VgaOKZQqI>
+    - TODO: <https://groups.google.com/forum/#!topic/usaafricadialogue/21VgaOKZQqI>
 - TODO: <https://github.com/dspinellis/unix-history-repo/blob/BSD-4_1_snap-Snapshot-Development/.ref-BSD-4/usr/src/cmd/diction/dict.d>
 - TODO: <https://github.com/dspinellis/unix-history-repo/blob/BSD-4_1_snap-Snapshot-Development/.ref-BSD-4/usr/src/cmd/diction/explain.d>
 - TODO: <https://en.wikipedia.org/wiki/Weasel_word>
@@ -91,135 +91,138 @@
 - TODO: <https://www.words-to-use.com/words/movies-tv/>
 - TODO: <https://blogs.lse.ac.uk/impactofsocialsciences/2021/09/30/it-could-be-effective-uncertainty-and-over-promotion-in-the-abstracts-of-covid-19-preprints/>
 - TODO: <https://en.wikipedia.org/wiki/Buzzword>
+- TODO: <https://straight2spam.xyz/>
+    - <https://news.ycombinator.com/item?id=30228403>
+    - "#1 $$$ 100% Act now Action Additional income Affordable All natural/new Amazed Apply now Avoid Be amazed/your own boss Beneficiary Billing Billion Bonus Boss Buy Call!!!!!! free/now Cancel Cash Casino Certified Cheap Click here Clearance Collect Compare rates Congratulations Credit card/check/offers Cures Deal Dear friend/somebody Debt Discount!!!!!! Direct email Don't delete/hesitate Double your income/cash Earn Extra Expire Fantastic Free!!!!! access/money/gift Freedom Friend Get it now/started/paid Great Guarantee Hello Income Increase sales/traffic Instant Investment Junk Limited Lose Lowest price Luxury Make $/money???? Medicine Money Name!!!!!!! No credit check/experience Now Obligation Offer Only Open Order now Please Presently Problem Promise Purchase Quote Rates Refinance Refund Remove Request Risk-free Sales Satisfaction!!!!!! Save Score Serious Spam Success Supplies Take action Terms Traffic Trial Unlimited Urgent!!!!! Weight While supplies last Win Winner XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X"
 - mondegreens, misunderstood phrases
-   - TODO: <http://grammarist.com/mondegreens/>
-   - TODO: <http://www.lifehack.org/articles/communication/25-common-phrases-that-youre-saying-wrong.html>
-   - TODO: <https://www.inc.com/christina-desmarais/20-embarrassing-phrases-even-smart-people-misuse.html>
-   - TODO: <https://www.fluentu.com/blog/english/phrases-people-say-wrong/>
-   - TODO: <https://thoughtcatalog.com/nico-lang/2013/08/44-everyday-phrases-you-might-not-know-youve-been-saying-incorrectly/>
-   - TODO: <http://www.independent.co.uk/life-style/most-misused-phrases-words-english-language-uk-revealed-to-be-pacific-a8098791.html>
-   - TODO: <https://www.buzzfeed.com/kristatorres/xx-common-phrases-youll-be-surprised-to-know-youre-saying>
-   - TODO: <https://lifehacker.com/5635042/commonly-misheard-expressions-to-avoid-in-your-writing>
-   - TODO: <https://www.workandmoney.com/s/commonly-misused-phrases-that-will-make-you-sound-unprofessional-1923fda75f53419d>
-   - TODO: <https://www.phrases.org.uk/meanings/phrases-that-people-get-wrong.html>
-   - TODO: <http://www.telegraph.co.uk/news/uknews/12026653/The-51-most-commonly-misused-words-and-phrases-do-you-get-these-wrong.html>
-   - <https://www.merriam-webster.com/words-at-play/words-own-opposites>
-   - <https://www.reddit.com/r/etymology/comments/30l1mt/when_did_all_but_stop_meaning_everything_except/>
-   - <https://english.stackexchange.com/questions/9323/to-be-all-but-x>
+    - TODO: <http://grammarist.com/mondegreens/>
+    - TODO: <http://www.lifehack.org/articles/communication/25-common-phrases-that-youre-saying-wrong.html>
+    - TODO: <https://www.inc.com/christina-desmarais/20-embarrassing-phrases-even-smart-people-misuse.html>
+    - TODO: <https://www.fluentu.com/blog/english/phrases-people-say-wrong/>
+    - TODO: <https://thoughtcatalog.com/nico-lang/2013/08/44-everyday-phrases-you-might-not-know-youve-been-saying-incorrectly/>
+    - TODO: <http://www.independent.co.uk/life-style/most-misused-phrases-words-english-language-uk-revealed-to-be-pacific-a8098791.html>
+    - TODO: <https://www.buzzfeed.com/kristatorres/xx-common-phrases-youll-be-surprised-to-know-youre-saying>
+    - TODO: <https://lifehacker.com/5635042/commonly-misheard-expressions-to-avoid-in-your-writing>
+    - TODO: <https://www.workandmoney.com/s/commonly-misused-phrases-that-will-make-you-sound-unprofessional-1923fda75f53419d>
+    - TODO: <https://www.phrases.org.uk/meanings/phrases-that-people-get-wrong.html>
+    - TODO: <http://www.telegraph.co.uk/news/uknews/12026653/The-51-most-commonly-misused-words-and-phrases-do-you-get-these-wrong.html>
+    - <https://www.merriam-webster.com/words-at-play/words-own-opposites>
+    - <https://www.reddit.com/r/etymology/comments/30l1mt/when_did_all_but_stop_meaning_everything_except/>
+    - <https://english.stackexchange.com/questions/9323/to-be-all-but-x>
 - offensive or insulting phrases
-   - <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Contentious_labels>
-   - <https://www.timeshighereducation.com/features/the-worst-piece-of-peer-review-ive-ever-received>
-   - <https://www.buzzfeed.com/kellyoakes/more-like-smear-review-amirite>
-   - <https://shitmyreviewerssay.tumblr.com/>
-   - <http://www.skeptical-science.com/science/witty-funny-peer-review-comments/>
-   - <http://onlinelibrary.wiley.com/doi/10.1111/j.1462-2920.2010.02394.x/full>
-   - <http://www.uky.edu/~cfox/PeerReview/Index.htm>
-   - <http://web.archive.org/web/20050914170427/http://sunflower.bio.indiana.edu:80/~bbrodie/ReviewersPast.html>
-   - <http://www.faculty.virginia.edu/brodie/ghosts.html>
-   - <http://www.bmj.com/content/351/bmj.h6467>
-   - <https://www.chronicle.com/article/Why-You-Gotta-Be-So-Mean-/140469>
-   - <https://twitter.com/yourpapersucks>
-   - <https://en.wikipedia.org/wiki/GOPAC#GOPAC_memo_of_1994>
-   - <http://www.tandfonline.com/doi/full/10.1080/21670811.2014.972079?scroll=top&needAccess=true>
-   - <http://www.independent.co.uk/voices/comment/no-offence-but-and-heres-where-you-cause-some-offence-8748579.html>
-   - <http://bactra.org/reviews/wolfram/>
-   - <http://member.tokoha-u.ac.jp/~dixonfdm/Writing%20Topics%20htm/Movie%20Review%20Folder/movie_descrip_vocab.htm>
-   - <https://blog.oxforddictionaries.com/2014/11/04/political-insults/>
-   - TODO: RationalWiki
-   - TODO: Taleb
-   - TODO: we hunted the mammoth
-   - TODO: <http://journals.sagepub.com/doi/full/10.1177/1073191115599052>
-   - TODO: <https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/blob/master/en>
-   - TODO: <https://en.wikipedia.org/wiki/User:ClueBot/Source#Score_list>
-   - TODO: <https://www.hatebase.org/recent_sightings> (see dropdown menu)
-   - TODO: <http://perspectiveapi.com/>
-   - TODO: <http://www.bannedwordlist.com/>
-   - TODO: <https://retractionwatch.com/2017/11/13/lawyers-call-libel-suit-journal-critic-lawless-well-written/>
-   - TODO: <http://www.synonym.com/synonyms/wrong>
-   - TODO: <https://en.m.wikipedia.org/wiki/Varieties_of_criticism>
-   - TODO: <https://english.stackexchange.com/questions/tagged/offensive-language>
-   - TODO: <http://www.insult.wiki/wiki/Insult_List>
-   - Okay: misstate, misnomer, skeptical, myth, overstate (but not overstatement), discrepancy, discrepancies, misinformed, implausible, mistaken, misconduct
-   - <http://www.paulgraham.com/say.html>
-   - <https://www.recurse.com/manual>
+    - <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Contentious_labels>
+    - <https://www.timeshighereducation.com/features/the-worst-piece-of-peer-review-ive-ever-received>
+    - <https://www.buzzfeed.com/kellyoakes/more-like-smear-review-amirite>
+    - <https://shitmyreviewerssay.tumblr.com/>
+    - <http://www.skeptical-science.com/science/witty-funny-peer-review-comments/>
+    - <http://onlinelibrary.wiley.com/doi/10.1111/j.1462-2920.2010.02394.x/full>
+    - <http://www.uky.edu/~cfox/PeerReview/Index.htm>
+    - <http://web.archive.org/web/20050914170427/http://sunflower.bio.indiana.edu:80/~bbrodie/ReviewersPast.html>
+    - <http://www.faculty.virginia.edu/brodie/ghosts.html>
+    - <http://www.bmj.com/content/351/bmj.h6467>
+    - <https://www.chronicle.com/article/Why-You-Gotta-Be-So-Mean-/140469>
+    - <https://twitter.com/yourpapersucks>
+    - <https://en.wikipedia.org/wiki/GOPAC#GOPAC_memo_of_1994>
+    - <http://www.tandfonline.com/doi/full/10.1080/21670811.2014.972079?scroll=top&needAccess=true>
+    - <http://www.independent.co.uk/voices/comment/no-offence-but-and-heres-where-you-cause-some-offence-8748579.html>
+    - <http://bactra.org/reviews/wolfram/>
+    - <http://member.tokoha-u.ac.jp/~dixonfdm/Writing%20Topics%20htm/Movie%20Review%20Folder/movie_descrip_vocab.htm>
+    - <https://blog.oxforddictionaries.com/2014/11/04/political-insults/>
+    - TODO: RationalWiki
+    - TODO: Taleb
+    - TODO: we hunted the mammoth
+    - TODO: <http://journals.sagepub.com/doi/full/10.1177/1073191115599052>
+    - TODO: <https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/blob/master/en>
+    - TODO: <https://en.wikipedia.org/wiki/User:ClueBot/Source#Score_list>
+    - TODO: <https://www.hatebase.org/recent_sightings> (see dropdown menu)
+    - TODO: <http://perspectiveapi.com/>
+    - TODO: <http://www.bannedwordlist.com/>
+    - TODO: <https://retractionwatch.com/2017/11/13/lawyers-call-libel-suit-journal-critic-lawless-well-written/>
+    - TODO: <http://www.synonym.com/synonyms/wrong>
+    - TODO: <https://en.m.wikipedia.org/wiki/Varieties_of_criticism>
+    - TODO: <https://english.stackexchange.com/questions/tagged/offensive-language>
+    - TODO: <http://www.insult.wiki/wiki/Insult_List>
+    - Okay: misstate, misnomer, skeptical, myth, overstate (but not overstatement), discrepancy, discrepancies, misinformed, implausible, mistaken, misconduct
+    - <http://www.paulgraham.com/say.html>
+    - <https://www.recurse.com/manual>
 - probability
-   - TODO: <https://en.wikipedia.org/wiki/Words_of_estimative_probability>
-   - TODO: <https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays/6words.html>
-   - TODO: gelman_beyond_2017
-   - TODO: <http://web.archive.org/web/20120428195642/http://www2.napier.ac.uk:80/getready/writing_presenting/style.html#cautious>
-   - TODO: <https://writing.markfullmer.com/tentative-style> first link
-   - TODO: <https://www.reddit.com/r/slatestarcodex/comments/80sd4v/what_are_the_chances_translating_terms_into/>
+    - TODO: <https://en.wikipedia.org/wiki/Words_of_estimative_probability>
+    - TODO: <https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays/6words.html>
+    - TODO: gelman_beyond_2017
+    - TODO: <http://web.archive.org/web/20120428195642/http://www2.napier.ac.uk:80/getready/writing_presenting/style.html#cautious>
+    - TODO: <https://writing.markfullmer.com/tentative-style> first link
+    - TODO: <https://www.reddit.com/r/slatestarcodex/comments/80sd4v/what_are_the_chances_translating_terms_into/>
 - TODO: <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions>
 - TODO: <https://en.wikipedia.org/wiki/Weasel_word>
 - vague
-   - TODO: <https://writing.wisc.edu/Handbook/CCS_vaguenouns.html>
-   - TODO: <http://evilauthor.com/blog/writing-aids/vague-words-list/>
-   - TODO: <https://elfaproject.wordpress.com/2013/07/18/and-so-on-or-something-like-that/>
-   - TODO: <http://dictionary.cambridge.org/grammar/british-grammar/useful-phrases/vague-expressions>
-   - TODO: <https://thewritepractice.com/better-writer-now/>
-   - TODO: <https://www.cdc.gov/healthyyouth/tutorials/writinggoal/docs/wgg_verb-list.pdf>
+    - TODO: <https://writing.wisc.edu/Handbook/CCS_vaguenouns.html>
+    - TODO: <http://evilauthor.com/blog/writing-aids/vague-words-list/>
+    - TODO: <https://elfaproject.wordpress.com/2013/07/18/and-so-on-or-something-like-that/>
+    - TODO: <http://dictionary.cambridge.org/grammar/british-grammar/useful-phrases/vague-expressions>
+    - TODO: <https://thewritepractice.com/better-writer-now/>
+    - TODO: <https://www.cdc.gov/healthyyouth/tutorials/writinggoal/docs/wgg_verb-list.pdf>
 - Verbose phrases
-   - This list includes pleonasms and words that add nothing to the meaning.
-   - <https://www.captive.com/newsstand/garyblake/WeaselWords.html>
-   - <http://blog.grammarly.com/post/35908208983/what-other-needless-words-and-phrases-can-you>
-   - <https://www.facebook.com/photo.php?fbid=509831189035876&set=a.158139670871698.33824.139729956046003>
-   - <http://www.kingcounty.gov/exec/styleguide/concisewriting/wordyphrases.aspx>
-   - <https://writing.wisc.edu/Handbook/CCS_wordyphrases.html>
-   - <https://home.comcast.net/~garbl/stylemanual/phrases.htm>
-   - <http://www.lincoln.edu/mhs/owl/redundant.html>
-   - <http://www.dailywritingtips.com/30-wordy-phrases-beginning-with-%E2%80%9Cin%E2%80%9D/>
-   - <https://www.thoughtco.com/common-redundancies-in-english-1692776>
-   - <https://www.dailywritingtips.com/50-redundant-phrases-to-avoid/>
-   - DONE: <https://kathysteinemann.com/Musings/redundant/>
-   - <https://falconediting.com/en/blog/top-ten-phrases-to-avoid-in-scientific-writing>
-   - <http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/Word_Usage_Scientific_Writing.pdf>
-   - <http://people.vetmed.wsu.edu/jmgay/courses/documents/ScientificWritingWordUsage.pdf>
-   - <http://www.amamanualofstyle.com/view/10.1093/jama/9780195176339.001.0001/med-9780195176339-div2-347>
-   - DONE (260): <http://writing.rocks/redundancylisthits1000/>
-   - DONE (150+): <http://web.archive.org/web/20131017004744/http://home.comcast.net:80/~garbl/stylemanual/redundant.htm>
-   - <http://home.wavecable.com/~garblswritingcenter/stylemanual/betwrit.htm>
-   - TODO (120): <http://www.westmaneditorial.com/blog/improve-your-writing-120-redundant-phrases-to-avoid>
-   - DONE (105): <http://grammarist.com/redundancies/>
-   - DONE (98): <http://site.uit.no/english/writing-style/verbiage/>
-   - TODO (50): <https://expresswriters.com/50-weak-words-and-phrases-to-cut-out-of-your-blogging/>
-   - TODO (48): <https://www.usingenglish.com/forum/threads/102545-List-of-Redundant-Phrases-Sentences>
-   - TODO (47): <https://www.scribbr.com/academic-writing/47-phrasal-verbs-and-their-one-word-substitutions/>
-   - TODO (36): <https://www.prdaily.com/Main/Articles/36_redundant_phrases_to_eliminate_from_your_writin_16795.aspx>
-   - TODO (20): <http://www.ereleases.com/pr-fuel/20-redundant-phrases-to-eliminate-from-your-writing/>
-   - TODO (17): <http://www.hotpepper.ca/blog/2015/02/24/17-common-redundant-phrases-and-how-to-get-rid-of-them/>
-   - TODO (15): <http://englishcomposition.org/essential-writing/15-redundant-phrases-to-avoid-in-your-writing/>
-   - TODO (~10): <http://writing.rocks/more-redundant-phrases/>
-   - TODO (8): <http://redmallard.com/8-redundant-phrases-to-stop-using/>
-   - TODO (7): <http://baab.biz/7-annoying-redundant-phrases/>
-   - TODO: <http://www.cs.columbia.edu/~hgs/etc/writing-bugs.html>
-   - TODO: <http://www.dartmouth.edu/~bio31/Mack_1986.pdf>
-   - TODO: <http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/>
-   - TODO: <http://www.fun-with-words.com/redundant_phrases.html>
-   - TODO: <https://books.google.com/books?id=CooJY4Mch7EC&pg=PA73&lpg=PA73&dq=%22verbose+phrases%22+OR+%22redundant+phrases%22&source=bl&ots=nvsP9BvosM&sig=HMh0muZu_f0TWlVpxdI5ivy6CwU&hl=en&sa=X&ved=0ahUKEwj30d_JmJLZAhUJWq0KHdFGC244ChDoAQhGMAY#v=onepage&q=%22verbose%20phrases%22%20OR%20%22redundant%20phrases%22&f=false>
-   - TODO: <http://editingandwritingservices.com/redundant-words-phrases/>
-   - TODO: <https://blog.udemy.com/redundancy-examples/>
-   - TODO: <https://en.wikipedia.org/wiki/RAS_syndrome>
-   - TODO: <https://grammarsaurusrex.wordpress.com/tag/redundant-phrases/>
-   - TODO: <https://www.reddit.com/r/todayilearned/comments/1udsum/til_redundant_phrases_such_as_atm_machine_and_pin/>
-   - TODO: <http://www.rogerogreen.com/2015/03/09/careful-scrutiny-of-pleonasms-redundant-phrases/>
-   - TODO: <https://twitter.com/TheUnNovelist/status/782932131441963008>
-   - TODO: <http://writingnorthidaho.blogspot.com/2011/02/redundant-phrases.html>
-   - TODO: <https://smartblogger.com/weak-writing/>
-   - TODO: <https://community.languagetool.org/rule/list?offset=0&max=10&lang=en&filter=&categoryFilter=Redundant+Phrases&_action_list=Filter>
-   - TODO: <http://www.statisticssolutions.com/economy-of-expression/>
-   - TODO: <http://mandymarksteiner.com/scientists-are-you-making-this-common-writing-mistake/>
-   - TODO: <https://en.wikipedia.org/wiki/Legal_doublet>
-   - TODO: <https://news.ycombinator.com/item?id=12559925>
-   - TODO: <https://www.xait.com/resources/blog/cliches-to-avoid-in-proposals/>
-   - TODO: <https://www.rd.com/funny-stuff/ras-syndrome/>
-   - TODO: <https://en.oxforddictionaries.com/writing-help/avoiding-redundant-expressions>
-   - TODO: <https://www.copyblogger.com/clear-writing/>
-   - TODO (100+): <https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm>
-   - TODO (30): <http://web.archive.org/web/20100427114553/http://callcentergal.com/2008/06/05/alright-okay-callcentergal%E2%80%99s-list-of-redundant-phrases/>
-   - DONE (100+): <http://web.archive.org/web/20130508125655/http://www.pleonasms.com/>
-   - TODO (100+): <http://www.wordfocus.com/pleonasm.html>
-   - TODO: slate star codex --- long winded
-   - TODO (24): <https://wordvice.com/avoid-fillers-powerful-writing/>
+    - This list includes pleonasms and words that add nothing to the meaning.
+    - <https://www.captive.com/newsstand/garyblake/WeaselWords.html>
+    - <http://blog.grammarly.com/post/35908208983/what-other-needless-words-and-phrases-can-you>
+    - <https://www.facebook.com/photo.php?fbid=509831189035876&set=a.158139670871698.33824.139729956046003>
+    - <http://www.kingcounty.gov/exec/styleguide/concisewriting/wordyphrases.aspx>
+    - <https://writing.wisc.edu/Handbook/CCS_wordyphrases.html>
+    - <https://home.comcast.net/~garbl/stylemanual/phrases.htm>
+    - <http://www.lincoln.edu/mhs/owl/redundant.html>
+    - <http://www.dailywritingtips.com/30-wordy-phrases-beginning-with-%E2%80%9Cin%E2%80%9D/>
+    - <https://www.thoughtco.com/common-redundancies-in-english-1692776>
+    - <https://www.dailywritingtips.com/50-redundant-phrases-to-avoid/>
+    - DONE: <https://kathysteinemann.com/Musings/redundant/>
+    - <https://falconediting.com/en/blog/top-ten-phrases-to-avoid-in-scientific-writing>
+    - <http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/Word_Usage_Scientific_Writing.pdf>
+    - <http://people.vetmed.wsu.edu/jmgay/courses/documents/ScientificWritingWordUsage.pdf>
+    - <http://www.amamanualofstyle.com/view/10.1093/jama/9780195176339.001.0001/med-9780195176339-div2-347>
+    - DONE (260): <http://writing.rocks/redundancylisthits1000/>
+    - DONE (150+): <http://web.archive.org/web/20131017004744/http://home.comcast.net:80/~garbl/stylemanual/redundant.htm>
+    - <http://home.wavecable.com/~garblswritingcenter/stylemanual/betwrit.htm>
+    - TODO (120): <http://www.westmaneditorial.com/blog/improve-your-writing-120-redundant-phrases-to-avoid>
+    - DONE (105): <http://grammarist.com/redundancies/>
+    - DONE (98): <http://site.uit.no/english/writing-style/verbiage/>
+    - TODO (50): <https://expresswriters.com/50-weak-words-and-phrases-to-cut-out-of-your-blogging/>
+    - TODO (48): <https://www.usingenglish.com/forum/threads/102545-List-of-Redundant-Phrases-Sentences>
+    - TODO (47): <https://www.scribbr.com/academic-writing/47-phrasal-verbs-and-their-one-word-substitutions/>
+    - TODO (36): <https://www.prdaily.com/Main/Articles/36_redundant_phrases_to_eliminate_from_your_writin_16795.aspx>
+    - TODO (20): <http://www.ereleases.com/pr-fuel/20-redundant-phrases-to-eliminate-from-your-writing/>
+    - TODO (17): <http://www.hotpepper.ca/blog/2015/02/24/17-common-redundant-phrases-and-how-to-get-rid-of-them/>
+    - TODO (15): <http://englishcomposition.org/essential-writing/15-redundant-phrases-to-avoid-in-your-writing/>
+    - TODO (~10): <http://writing.rocks/more-redundant-phrases/>
+    - TODO (8): <http://redmallard.com/8-redundant-phrases-to-stop-using/>
+    - TODO (7): <http://baab.biz/7-annoying-redundant-phrases/>
+    - TODO: <http://www.cs.columbia.edu/~hgs/etc/writing-bugs.html>
+    - TODO: <http://www.dartmouth.edu/~bio31/Mack_1986.pdf>
+    - TODO: <http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/>
+    - TODO: <http://www.fun-with-words.com/redundant_phrases.html>
+    - TODO: <https://books.google.com/books?id=CooJY4Mch7EC&pg=PA73&lpg=PA73&dq=%22verbose+phrases%22+OR+%22redundant+phrases%22&source=bl&ots=nvsP9BvosM&sig=HMh0muZu_f0TWlVpxdI5ivy6CwU&hl=en&sa=X&ved=0ahUKEwj30d_JmJLZAhUJWq0KHdFGC244ChDoAQhGMAY#v=onepage&q=%22verbose%20phrases%22%20OR%20%22redundant%20phrases%22&f=false>
+    - TODO: <http://editingandwritingservices.com/redundant-words-phrases/>
+    - TODO: <https://blog.udemy.com/redundancy-examples/>
+    - TODO: <https://en.wikipedia.org/wiki/RAS_syndrome>
+    - TODO: <https://grammarsaurusrex.wordpress.com/tag/redundant-phrases/>
+    - TODO: <https://www.reddit.com/r/todayilearned/comments/1udsum/til_redundant_phrases_such_as_atm_machine_and_pin/>
+    - TODO: <http://www.rogerogreen.com/2015/03/09/careful-scrutiny-of-pleonasms-redundant-phrases/>
+    - TODO: <https://twitter.com/TheUnNovelist/status/782932131441963008>
+    - TODO: <http://writingnorthidaho.blogspot.com/2011/02/redundant-phrases.html>
+    - TODO: <https://smartblogger.com/weak-writing/>
+    - TODO: <https://community.languagetool.org/rule/list?offset=0&max=10&lang=en&filter=&categoryFilter=Redundant+Phrases&_action_list=Filter>
+    - TODO: <http://www.statisticssolutions.com/economy-of-expression/>
+    - TODO: <http://mandymarksteiner.com/scientists-are-you-making-this-common-writing-mistake/>
+    - TODO: <https://en.wikipedia.org/wiki/Legal_doublet>
+    - TODO: <https://news.ycombinator.com/item?id=12559925>
+    - TODO: <https://www.xait.com/resources/blog/cliches-to-avoid-in-proposals/>
+    - TODO: <https://www.rd.com/funny-stuff/ras-syndrome/>
+    - TODO: <https://en.oxforddictionaries.com/writing-help/avoiding-redundant-expressions>
+    - TODO: <https://www.copyblogger.com/clear-writing/>
+    - TODO (100+): <https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm>
+    - TODO (30): <http://web.archive.org/web/20100427114553/http://callcentergal.com/2008/06/05/alright-okay-callcentergal%E2%80%99s-list-of-redundant-phrases/>
+    - DONE (100+): <http://web.archive.org/web/20130508125655/http://www.pleonasms.com/>
+    - TODO (100+): <http://www.wordfocus.com/pleonasm.html>
+    - TODO: slate star codex --- long winded
+    - TODO (24): <https://wordvice.com/avoid-fillers-powerful-writing/>
 
 ## title
 
@@ -256,7 +259,8 @@ Make patent drafting diction database. Put appropriate case law in the comment. 
 - <https://www.finnegan.com/en/insights/articles/practical-considerations-and-strategies-in-drafting-u-s-patent.html>
 - <https://en.wikipedia.org/wiki/List_of_Latin_legal_terms>
 - <https://www.fargopatentlaw.com/blog/2020/12/31/what-is-patent-profanity>
-   - > Some of these terms include the words, “all, always, certain, each, important, invention, necessary, need, should, and so forth.”
+    - > Some of these terms include the words, “all, always, certain, each, important, invention, necessary, need, should, and so forth.”
 - stark_key_2016
 - <https://patentlyo.com/patent/2020/03/consisting-and-optionally.html>
 - <https://patents.stackexchange.com/questions/17485/how-do-i-explain-the-advantages-and-avoid-using-invention-or-object-in-the-d>
+- 112(f) words: means structure module device unit component element member apparatus machine system mechanism

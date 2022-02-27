@@ -52,25 +52,25 @@
 
 % This seems to conflict with the mathtools package and needs to be loaded after it or else it won't work. It is preferable to load this as soon as possible in order to catch as many warnings as possible.
 \iftoggle{warningsaserrors}{
-   \typeout{Treating warnings as errors.}
-   % treat warnings as errors to catch minor mistakes
-   
-   % The following does not seem to catch all warnings as of 2021-04-24.
-   % https://stackoverflow.com/a/3277465/1124489
-   \RequirePackage{silence} % Needs to be before the following in order for this to work.
-   \renewcommand{\GenericWarning}[2]{\GenericError{#1}{#2}{}{This warning has been turned into a fatal error.}}
-   %\ErrorFilter{latex}{Marginpar on page}
-   %\ErrorFilter{latexfont}{Font}
-   %\ErrorFilter{biblatex}{Please rerun LaTeX}
-   
-   %\ErrorFilter{atenddvi}{Rerun}
-   %\ErrorFilter{lastpage}{Rerun}
-   %\ErrorFilter{latex}{Reference `LastPage'}
-   %\ErrorFilter{latex}{There were undefined references}
-   %\ErrorFilter{lineno}{Linenumber reference failed}
-   %\ErrorFilter{lineno}{Rerun}
-   %\ErrorFilter{rerunfilecheck}{File}
-   }{}
+    \typeout{Treating warnings as errors.}
+    % treat warnings as errors to catch minor mistakes
+    
+    % The following does not seem to catch all warnings as of 2021-04-24.
+    % https://stackoverflow.com/a/3277465/1124489
+    \RequirePackage{silence} % Needs to be before the following in order for this to work.
+    \renewcommand{\GenericWarning}[2]{\GenericError{#1}{#2}{}{This warning has been turned into a fatal error.}}
+    %\ErrorFilter{latex}{Marginpar on page}
+    %\ErrorFilter{latexfont}{Font}
+    %\ErrorFilter{biblatex}{Please rerun LaTeX}
+    
+    %\ErrorFilter{atenddvi}{Rerun}
+    %\ErrorFilter{lastpage}{Rerun}
+    %\ErrorFilter{latex}{Reference `LastPage'}
+    %\ErrorFilter{latex}{There were undefined references}
+    %\ErrorFilter{lineno}{Linenumber reference failed}
+    %\ErrorFilter{lineno}{Rerun}
+    %\ErrorFilter{rerunfilecheck}{File}
+    }{}
 
 \RequirePackage{amssymb}
 
@@ -107,13 +107,13 @@
 \directlua{
 f = io.open("Makefile", "r")
 if f==nil then
-   out = io.open("Makefile", "w")
-   out:write("key=\jobname\noexpand\ninclude bmt.mk")
-   io.close(out)
-   texio.write_nl("Makefile created.")
+    out = io.open("Makefile", "w")
+    out:write("key=\jobname\noexpand\ninclude bmt.mk")
+    io.close(out)
+    texio.write_nl("Makefile created.")
 else
-   io.close(f)
-   texio.write_nl("Makefile already present, not creating.")
+    io.close(f)
+    texio.write_nl("Makefile already present, not creating.")
 end
 }
 \fi
@@ -123,69 +123,69 @@ end
 % https://tug.org/FontCatalogue/mathfonts.html
 % https://tex.stackexchange.com/a/413046
 \ifluatex
-   \RequirePackage{fontspec}
-   \RequirePackage{unicode-math}
-   \RequirePackage{lualatex-math}
-   
-   % I like the integrals in newtx better than TeX Gyre Termes Math. I think that's why I used this before.
-   % https://tex.stackexchange.com/a/145382/9945
-   
-   % Option: TeX Gyre Termes 
-   % It is better to use Unicode fonts in LuaTeX, so don't pick newtx.
-   % https://tex.stackexchange.com/a/552351/9945 
-   % No Cyrillic characters.
-   %\setmainfont{TeX Gyre Termes}
-   %\setmathfont{TeX Gyre Termes Math}
-   
-   % Option: STIX (no longer updated)
-   % Has Cyrillic characters.
-   %\setmainfont{STIX}
-   %\setmathfont{STIX Math} % Also leads to font errors like newtxmath but looks like newtxmath and I assume this is a Unicode font. Unfortuantely this is no longer developed.
-   
-   % Option: STIX Two
-   % Thicker and less detailed than Times New Roman, which I don't like.
-   % Has Cyrillic characters. Does not have Chinese or Japanese characters.
-   % https://www.overleaf.com/learn/latex/Articles/OpenType-based_math_typesetting:_An_introduction_to_the_STIX2_OpenType_fonts
-   % https://ctan.org/pkg/stix2-otf/
-   \setmainfont{STIX2Text}[
-      Extension=.otf,
-      UprightFont=*-Regular,
-      BoldFont=*-Bold,
-      ItalicFont=*-Italic,
-      BoldItalicFont=*-BoldItalic]
-   \setmathfont{STIX2Math}[Extension=.otf]
-   
-   % Option: EB Garamond (no associated math font; ebgaramond-maths is a hack)
-   %\setmainfont{EB Garamond}
-   
-   % Option: DejaVu serif
-   %\setmainfont{DejaVu Serif}
-   %\setmainfont{TeX Gyre DejaVu Math}
-   
-   % Option: TeX Gyre Pagella
-   % Looks nice. No Cyrillic support.
-   %\setmainfont{TeX Gyre Pagella}
-   %\setmathfont{TeX Gyre Pagella Math}
-   
-   % Option: TeX Gyre Schola
-   % Looks nice. No Cyrillic support.
-   %\setmainfont{TeX Gyre Schola}
-   %\setmathfont{TeX Gyre Schola Math}
-   
-   % https://md.ekstrandom.net/blog/2014/07/tex-modern-fonts
-   % https://tex.stackexchange.com/a/248608/9945
-   % https://texfaq.org/FAQ-otf-maths
-   % http://www.tug.dk/FontCatalogue/newtx/
-   % https://tex.stackexchange.com/a/552351/9945
-   % https://tex.stackexchange.com/a/79866/9945
+    \RequirePackage{fontspec}
+    \RequirePackage{unicode-math}
+    \RequirePackage{lualatex-math}
+    
+    % I like the integrals in newtx better than TeX Gyre Termes Math. I think that's why I used this before.
+    % https://tex.stackexchange.com/a/145382/9945
+    
+    % Option: TeX Gyre Termes 
+    % It is better to use Unicode fonts in LuaTeX, so don't pick newtx.
+    % https://tex.stackexchange.com/a/552351/9945 
+    % No Cyrillic characters.
+    %\setmainfont{TeX Gyre Termes}
+    %\setmathfont{TeX Gyre Termes Math}
+    
+    % Option: STIX (no longer updated)
+    % Has Cyrillic characters.
+    %\setmainfont{STIX}
+    %\setmathfont{STIX Math} % Also leads to font errors like newtxmath but looks like newtxmath and I assume this is a Unicode font. Unfortuantely this is no longer developed.
+    
+    % Option: STIX Two
+    % Thicker and less detailed than Times New Roman, which I don't like.
+    % Has Cyrillic characters. Does not have Chinese or Japanese characters.
+    % https://www.overleaf.com/learn/latex/Articles/OpenType-based_math_typesetting:_An_introduction_to_the_STIX2_OpenType_fonts
+    % https://ctan.org/pkg/stix2-otf/
+    \setmainfont{STIX2Text}[
+        Extension=.otf,
+        UprightFont=*-Regular,
+        BoldFont=*-Bold,
+        ItalicFont=*-Italic,
+        BoldItalicFont=*-BoldItalic]
+    \setmathfont{STIX2Math}[Extension=.otf]
+    
+    % Option: EB Garamond (no associated math font; ebgaramond-maths is a hack)
+    %\setmainfont{EB Garamond}
+    
+    % Option: DejaVu serif
+    %\setmainfont{DejaVu Serif}
+    %\setmainfont{TeX Gyre DejaVu Math}
+    
+    % Option: TeX Gyre Pagella
+    % Looks nice. No Cyrillic support.
+    %\setmainfont{TeX Gyre Pagella}
+    %\setmathfont{TeX Gyre Pagella Math}
+    
+    % Option: TeX Gyre Schola
+    % Looks nice. No Cyrillic support.
+    %\setmainfont{TeX Gyre Schola}
+    %\setmathfont{TeX Gyre Schola Math}
+    
+    % https://md.ekstrandom.net/blog/2014/07/tex-modern-fonts
+    % https://tex.stackexchange.com/a/248608/9945
+    % https://texfaq.org/FAQ-otf-maths
+    % http://www.tug.dk/FontCatalogue/newtx/
+    % https://tex.stackexchange.com/a/552351/9945
+    % https://tex.stackexchange.com/a/79866/9945
 \else
-   \RequirePackage[T1]{fontenc}
-   
-   % Option: newtx
-   %\RequirePackage{newtxtext,newtxmath} % https://ctan.org/pkg/newtx (2017, no font errors)
-   
-   % Option: STIX Two
-   \usepackage{stix2}
+    \RequirePackage[T1]{fontenc}
+    
+    % Option: newtx
+    %\RequirePackage{newtxtext,newtxmath} % https://ctan.org/pkg/newtx (2017, no font errors)
+    
+    % Option: STIX Two
+    \usepackage{stix2}
 \fi
 
 % load microtype
@@ -196,10 +196,10 @@ end
 % Some notes on margins: https://practicaltypography.com/page-margins.html
 % TODO: Update this to have smaller top and bottom margins per the link on the previous line.
 \RequirePackage[
-   paperwidth=6in,
-   paperheight=9in,
-   margin=0.5in
-   ]{geometry}
+    paperwidth=6in,
+    paperheight=9in,
+    margin=0.5in
+    ]{geometry}
 % Your Selection
 % Book Size: US Trade (6 x 9 in / 152 x 229 mm)
 % Page Count: 250
@@ -235,13 +235,13 @@ end
 
 % biblatex documentation: > When using the hyperref package, it is preferable to load it after biblatex.
 \RequirePackage[
-   backref=true,
-   natbib=true,
-   style=alphabetic,
-   backend=biber,
-   giveninits=true,
-   maxcitenames=3,
-   maxbibnames=99
+    backref=true,
+    natbib=true,
+    style=alphabetic,
+    backend=biber,
+    giveninits=true,
+    maxcitenames=3,
+    maxbibnames=99
 ]{biblatex}
 % was style=numeric-comp, but changed due to:
 % https://dblab.cs.toronto.edu/~miller/Research/writing.html
@@ -251,53 +251,53 @@ end
 \RequirePackage[unicode]{hyperref}
 %\RequirePackage{breakurl}
 \hypersetup{
-   colorlinks    = false,
-   urlcolor      = black,
-   pdfpagemode   = UseNone,
-   pdflang       = {en-US},
-   pdfcontacturl = {http://trettel.us/contact.html}
+    colorlinks    = false,
+    urlcolor      = black,
+    pdfpagemode   = UseNone,
+    pdflang       = {en-US},
+    pdfcontacturl = {http://trettel.us/contact.html}
 }
 
 \newcommand*{\docids}[2][]{
-   \assertnonempty{#2}
-   \newcommand*{\docnumber}{#2}
-   \iftoggle{note}{}{\RequirePosInt{\docnumber}}
-   \ifstrempty{#1}{}{\toggletrue{revnoset}\newcommand*{\revno}{#1}}
-   }
+    \assertnonempty{#2}
+    \newcommand*{\docnumber}{#2}
+    \iftoggle{note}{}{\RequirePosInt{\docnumber}}
+    \ifstrempty{#1}{}{\toggletrue{revnoset}\newcommand*{\revno}{#1}}
+    }
 \newcommand*{\subjclass}[2][Universal Decimal Classification]{%
-   \assertnonempty{#1}%
-   \assertnonempty{#2}%
-   \begin{quotation}
-   \small%
-   \hypersetup{pdfsubject = {#1: #2}}%
-   \noindent\textbf{#1:} #2 \\%
-   \gdef\thesubjclass{#1: #2}% needs to be defined with gdef as otherwise the scope would be limited to the environment
-   \asserttogglefalse{keywordsset}%
-   \global\toggletrue{subjclassset}%
-   }
+    \assertnonempty{#1}%
+    \assertnonempty{#2}%
+    \begin{quotation}
+    \small%
+    \hypersetup{pdfsubject = {#1: #2}}%
+    \noindent\textbf{#1:} #2 \\%
+    \gdef\thesubjclass{#1: #2}% needs to be defined with gdef as otherwise the scope would be limited to the environment
+    \asserttogglefalse{keywordsset}%
+    \global\toggletrue{subjclassset}%
+    }
 \newcommand*{\extrasubjclass}[2]{%
-   \assertnonempty{#1}%
-   \assertnonempty{#2}%
-   \noindent \textbf{#1:} #2 \\%
-   \global\appto{\thesubjclass}{, #1: #2}%
-   \asserttoggletrue{subjclassset}%
-   }
+    \assertnonempty{#1}%
+    \assertnonempty{#2}%
+    \noindent \textbf{#1:} #2 \\%
+    \global\appto{\thesubjclass}{, #1: #2}%
+    \asserttoggletrue{subjclassset}%
+    }
 \newcommand*{\keywords}[1]{%
-   \assertnonempty{#1}%
-   \hypersetup{pdfkeywords = {#1}}%
-   \noindent\textbf{Keywords:} #1%
-   \gdef\thekeywords{#1}% needs to be defined with gdef as otherwise the scope would be limited to the environment
-   \end{quotation}
-   \asserttoggletrue{subjclassset}%
-   \global\toggletrue{keywordsset}%
-   \iftoggle{translation}{}{\linenumbers}%
-   }
+    \assertnonempty{#1}%
+    \hypersetup{pdfkeywords = {#1}}%
+    \noindent\textbf{Keywords:} #1%
+    \gdef\thekeywords{#1}% needs to be defined with gdef as otherwise the scope would be limited to the environment
+    \end{quotation}
+    \asserttoggletrue{subjclassset}%
+    \global\toggletrue{keywordsset}%
+    \iftoggle{translation}{}{\linenumbers}%
+    }
 \newcommand*{\setdoi}[1]{%
-   \assertnonempty{#1}%
-   \hypersetup{pdfdoi = {#1}}%
-   \gdef\thedoi{\DOI{#1}}% needs to be defined with gdef as otherwise the scope would be limited to the environment
-   \global\toggletrue{doiset}%
-   }
+    \assertnonempty{#1}%
+    \hypersetup{pdfdoi = {#1}}%
+    \gdef\thedoi{\DOI{#1}}% needs to be defined with gdef as otherwise the scope would be limited to the environment
+    \global\toggletrue{doiset}%
+    }
 
 % https://www.semipol.de/2018/06/12/latex-best-practices.html#hyperlinks-to-floats-and-not-their-captions
 \RequirePackage{hypcap} % load after hyperref
@@ -324,7 +324,7 @@ end
 % Change issue number to be in parentheses
 % https://tex.stackexchange.com/a/97729
 \xpatchbibmacro{volume+number+eid}{%
-   \setunit*{\adddot}%
+    \setunit*{\adddot}%
 }{%
 }{}{}
 \DeclareFieldFormat[article]{number}{\mkbibparens{#1}}

@@ -78,38 +78,38 @@
 \directlua{
 f = io.open("Makefile", "r")
 if f==nil then
-   out = io.open("Makefile", "w")
-   out:write("key=\jobname\noexpand\ninclude bmt.mk")
-   io.close(out)
-   texio.write_nl("Makefile created.")
+    out = io.open("Makefile", "w")
+    out:write("key=\jobname\noexpand\ninclude bmt.mk")
+    io.close(out)
+    texio.write_nl("Makefile created.")
 else
-   io.close(f)
-   texio.write_nl("Makefile already present, not creating.")
+    io.close(f)
+    texio.write_nl("Makefile already present, not creating.")
 end
 }
 \fi
 
 % Load fonts here.
 \ifluatex
-   \RequirePackage{fontspec}
-   \RequirePackage{unicode-math}
-   \RequirePackage{lualatex-math}
-   
-   \setmainfont{FiraSans}
-   \setsansfont{FiraSans} % FiraMath has no bold.
-   \setmathfont{FiraMath}
-   \setmonofont{FiraMono}
-   
-   %\setmainfont{Open Sans}
-   %\setsansfont{Open Sans}
-   %\setmathfont{FiraMath}
+    \RequirePackage{fontspec}
+    \RequirePackage{unicode-math}
+    \RequirePackage{lualatex-math}
+    
+    \setmainfont{FiraSans}
+    \setsansfont{FiraSans} % FiraMath has no bold.
+    \setmathfont{FiraMath}
+    \setmonofont{FiraMono}
+    
+    %\setmainfont{Open Sans}
+    %\setsansfont{Open Sans}
+    %\setmathfont{FiraMath}
 \else
-   \RequirePackage[T1]{fontenc}
-   
-   % Change math to sans serif in a crude way.
-   \renewcommand{\rmdefault}{cmss}
-   
-   \newcommand{\ct}{\tt\small} % eventually will be deprecated due to http://www.tex.ac.uk/cgi-bin/texfaq2html?label=2letterfontcmd
+    \RequirePackage[T1]{fontenc}
+    
+    % Change math to sans serif in a crude way.
+    \renewcommand{\rmdefault}{cmss}
+    
+    \newcommand{\ct}{\tt\small} % eventually will be deprecated due to http://www.tex.ac.uk/cgi-bin/texfaq2html?label=2letterfontcmd
 \fi
 
 % load microtype
@@ -144,14 +144,14 @@ end
 
 % biblatex documentation: > When using the hyperref package, it is preferable to load it after biblatex.
 \RequirePackage[
-   backref=true,
-   natbib=true,
-   style=alphabetic,
-   backend=biber,
-   giveninits=true,
-   maxcitenames=3,
-   maxbibnames=99,
-   isbn=false
+    backref=true,
+    natbib=true,
+    style=alphabetic,
+    backend=biber,
+    giveninits=true,
+    maxcitenames=3,
+    maxbibnames=99,
+    isbn=false
 ]{biblatex}
 % was style=numeric-comp, but changed due to:
 % https://dblab.cs.toronto.edu/~miller/Research/writing.html
@@ -161,15 +161,15 @@ end
 % https://tex.stackexchange.com/a/553815/9945
 
 \newcommand*{\docids}[2][]{
-   \assertnonempty{#2}
-   \newcommand*{\docnumber}{#2}
-   \ifstrempty{#1}{}{\toggletrue{revnoset}\newcommand*{\revno}{#1}}
-   }
+    \assertnonempty{#2}
+    \newcommand*{\docnumber}{#2}
+    \ifstrempty{#1}{}{\toggletrue{revnoset}\newcommand*{\revno}{#1}}
+    }
 \newcommand*{\setdoi}[1]{%
-   \assertnonempty{#1}%
-   \gdef\thedoi{\DOI{#1}}% needs to be defined with gdef as otherwise the scope would be limited to the environment
-   \global\toggletrue{doiset}%
-   }
+    \assertnonempty{#1}%
+    \gdef\thedoi{\DOI{#1}}% needs to be defined with gdef as otherwise the scope would be limited to the environment
+    \global\toggletrue{doiset}%
+    }
 
 % https://www.semipol.de/2018/06/12/latex-best-practices.html#hyperlinks-to-floats-and-not-their-captions
 \RequirePackage{hypcap} % load after hyperref
@@ -183,7 +183,7 @@ end
 % Change issue number to be in parentheses
 % https://tex.stackexchange.com/a/97729
 \xpatchbibmacro{volume+number+eid}{%
-   \setunit*{\adddot}%
+    \setunit*{\adddot}%
 }{%
 }{}{}
 \DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
@@ -229,15 +229,15 @@ end
 % Change frame total in Beamer footer to be last slide number
 % https://tex.stackexchange.com/a/333684
 \setbeamertemplate{footline}{%
-   \large%
-   \hspace{1em}BMT-P-\docnumber%
-   \hfill%
-   \iftoggle{doiset}{\thedoi\hfill}{}%
-   \usebeamercolor[fg]{page number in head/foot}% 
-   \usebeamerfont{page number in head/foot}% 
-   \large\insertframenumber%
-   \,/\,\inserttotalframenumber%
-   \kern1em\vskip2pt%
+    \large%
+    \hspace{1em}BMT-P-\docnumber%
+    \hfill%
+    \iftoggle{doiset}{\thedoi\hfill}{}%
+    \usebeamercolor[fg]{page number in head/foot}% 
+    \usebeamerfont{page number in head/foot}% 
+    \large\insertframenumber%
+    \,/\,\inserttotalframenumber%
+    \kern1em\vskip2pt%
 }
 
 \usetikzlibrary{patterns}
