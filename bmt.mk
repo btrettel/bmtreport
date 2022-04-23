@@ -54,7 +54,7 @@ git.tex: $(git_root)/.git/logs/HEAD
 	git log -1 --format="format:\\gdef\\GitHash{%h}" > $(git_file)
 
 .PHONY: clean
-clean:
+clean: ## Clean up the document's folder
 	-rm -rvf *.blg *.bcf *.log *.blg *.lot *.toc *.idx *.aux *.bbl *.lof *.out *.run.xml *.nav *.snm /tmp/par* abstract.tex title.tex *.tmp $(key).txt title.txt abstract.txt git.tex $(key).diction subjclass.txt
 
 # old: detex -n $(key).tex > $(key).txt
@@ -75,11 +75,12 @@ $(key).diction: $(key).csv
 #  | less -r -F --no-init
 # TODO: Add abstract diction file and checking.
 .PHONY: check
-check: $(key).tex $(key).txt title.tex abstract.tex subjclass.txt $(diction_file)
+check: $(key).tex $(key).pdf $(key).txt title.tex abstract.tex subjclass.txt $(diction_file) ## Run spell check and other checkers
 	aspell -t -c $(key).tex
 	aspell -c $(key).txt
 	grep -n '^%' trettel_turbulent_2021.bib | grep -v '% =' | grep -v '% ?' | less -r
 	-bib_check.sh $(key).bib | less -r
+	pdfgrep '\?' $(key).pdf | less -r
 	chktex -q -I0 -n1 -n2 -n44 -n25 $(key).tex | less
 	test -f $(key).diction && diction -sn -f $(key).diction $(key).txt | grep --color=always '\[[^][]*]' | less -r || true
 	diction -s -L errors $(key).txt | grep --color=always '\[[^][]*]' | less -r
@@ -89,15 +90,15 @@ check: $(key).tex $(key).txt title.tex abstract.tex subjclass.txt $(diction_file
 	validate_subjclasses.py
 
 .PHONY: todo
-todo: $(key).tex
+todo: $(key).tex ## List tasks to do
 	grep -in TODO $(key).tex
 
 # old: espeak -s 155 -v en-us --ipa -f $(key).txt
-# https://www.linuxlinks.com/speechtools/
-# https://askubuntu.com/q/53896/39992
-# https://news.ycombinator.com/item?id=28651588
+# <https://www.linuxlinks.com/speechtools/>
+# <https://askubuntu.com/q/53896/39992>
+# <https://news.ycombinator.com/item?id=28651588>
 .PHONY: speak
-speak: $(key).txt abstract.txt
+speak: $(key).txt abstract.txt ## Read the document out loud
 	$(eval tempdir:=$(shell mktemp -d))
 	echo $(tempdir)
 	cat abstract.txt | pico2wave -w $(tempdir)/abstract.wav
@@ -107,8 +108,13 @@ speak: $(key).txt abstract.txt
 	rm -rv $(tempdir)/
 
 .PHONY: pdflatex
-pdflatex: $(key).tex
+pdflatex: $(key).tex ## Compile the document with pdflatex
 	pdflatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
 	biber $(key) --validate-datamodel --fixinits --isbn13 --isbn-normalise
 	pdflatex --halt-on-error -draftmode "\PassOptionsToClass{normalwarnings}{bmtreport}\input{$(key)}"
 	pdflatex --halt-on-error $(key).tex
+
+# <https://www.thapaliya.com/en/writings/well-documented-makefiles/>
+.PHONY: help
+help: ## Display this help
+	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n  make \033[36m\033[0m\n\nTargets:\n"} /^[a-zA-Z_-]+:.*?##/ { printf "  \033[36m%-10s\033[0m %s\n", $$1, $$2 }' $(MAKEFILE_LIST)

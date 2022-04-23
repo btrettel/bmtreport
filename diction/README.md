@@ -243,6 +243,7 @@ Make patent drafting diction database. Put appropriate case law in the comment. 
 
 - Google search for "patent profanity" (no quotes).
 - Include relative phrases.
+- "Trans fat" problem with "patent profanity": a term is replaced by something that is untested which could be worse. (Analogous to trans fats being used to replace saturated fats, when trans fats are worse.)
 - "etc." could be 112b issue and also signals that you should list more possibly embodiments, for example, this is not good as it does not list a condensate drain as a possibility:
 - <https://patents.stackexchange.com/questions/19186/why-not-refer-to-the-invention-as-the-invention>
 - <https://patents.stackexchange.com/a/3295>
@@ -265,3 +266,7 @@ Make patent drafting diction database. Put appropriate case law in the comment. 
 - <https://patentlyo.com/patent/2020/03/consisting-and-optionally.html>
 - <https://patents.stackexchange.com/questions/17485/how-do-i-explain-the-advantages-and-avoid-using-invention-or-object-in-the-d>
 - 112(f) words: means structure module device unit component element member apparatus machine system mechanism
+- predetermined
+    - <https://www.mriplaw.com/blog/rq5dxcegaabvgmqfblhce7dsbl6ktn>
+    - <https://steiniplaw.wordpress.com/2006/12/01/federal-circuit-defines-term-predetermined/>
+    - <https://patentlyo.com/patent/2006/12/even_under_doe_.html>
