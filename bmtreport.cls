@@ -344,8 +344,11 @@ end
     maxbibnames=99
 ]{biblatex}
 % was style=numeric-comp, but changed due to:
-% https://dblab.cs.toronto.edu/~miller/Research/writing.html
+% <https://dblab.cs.toronto.edu/~miller/Research/writing.html>
 % > Unless required by the restrictions of a journal or conference, use more than cryptic numbers for citations. It is hard for a reader to remember the meaning of Reference 42. This forces her to repeatedly look this up as she is reading. If you use the more common convention of author initials and year (e.g., [AO72]), it is much easier to remember common references.
+% alphabetical sorting preferred:
+% <https://www.ece.ucdavis.edu/~jowens/biberrors.html>
+% > If at all possible, arrange your reference list in alphabetical order by author's last name. Going in cited order is much less useful to readers of your paper. The only reason I've heard that cited-order is useful is in a survey article where nearby (and presumably related) citations from the paper are next to each other in the bibliography. I don't find this argument particularly compelling.
 
 \RequirePackage{hyperxmp}
 \RequirePackage[unicode]{hyperref}

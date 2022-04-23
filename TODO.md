@@ -177,6 +177,7 @@
      - <https://news.ycombinator.com/item?id=22582857>
 - <https://winworldpc.com/product/grammatik/iv>
 - <https://winworldpc.com/product/rightwriter/50-for-windows>
+- <http://kurtstephens.com/icstars/wshop/src/fun_Defensive_Programming/>
 
 #### make analyze
 
