@@ -10,6 +10,8 @@
 - Break up sections into multiple files?
      - <https://academia.stackexchange.com/a/180254/31143>
      - <https://tex.stackexchange.com/q/29577/9945>
+- Compile xfig files with transfig.
+    - <https://news.ycombinator.com/item?id=31224924>
 
 ## Files
 
