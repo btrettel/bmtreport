@@ -15,8 +15,6 @@
 
 ## Files
 
-- Add bmtcv.cls.
-     - Based on <https://nitens.org/w/cvtex/>?
 - Add bmtbook.cls.
 - Finish make check.
 - Convert existing writing check file to a diction file.

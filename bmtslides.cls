@@ -37,12 +37,12 @@
 
 \RequirePackage{amssymb}
 
-\usepackage{appendixnumberbeamer} % https://stackoverflow.com/a/1738033/1124489
+\RequirePackage{appendixnumberbeamer} % https://stackoverflow.com/a/1738033/1124489
 
 \RequirePackage{cancel}
 
 % https://tex.stackexchange.com/a/17726/9945
-\usepackage[small,it,labelformat=empty]{caption}
+\RequirePackage[small,it,labelformat=empty]{caption}
 
 \RequirePackage{color}
 
@@ -60,7 +60,7 @@
 % Needs to be loaded before unicode-math when using Unicode math fonts.
 \RequirePackage{isomath}
 
-\usepackage{media9}
+\RequirePackage{media9}
 
 \RequirePackage{iftex}
 
@@ -119,11 +119,11 @@ end
 
 \RequirePackage{graphicx}
 
-\usepackage{overpic}
+\RequirePackage{overpic}
 
-\usepackage{subfigure}
+\RequirePackage{subfigure}
 
-\usepackage{perpage}
+\RequirePackage{perpage}
 \MakePerPage{footnote}
 
 \RequirePackage{siunitx}
@@ -136,7 +136,7 @@ end
 
 % Discussion of a possible conflict between onlyamsmath and TikZ:
 % https://tex.stackexchange.com/q/31860/9945
-\usepackage[all,error]{onlyamsmath}
+\RequirePackage[all,error]{onlyamsmath}
 
 \RequirePackage{tikz,tikz-3dplot,pgfplots}
 \pgfplotsset{compat=1.16} % https://tex.stackexchange.com/a/81912

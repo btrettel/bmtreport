@@ -1,4 +1,4 @@
-% Copyright 2021 Ben Trettel.
+% Copyright 2022 Ben Trettel.
 % This file is part of bmtreport <https://github.com/btrettel/bmtreport>.
 % 
 % bmtreport is free software: you can redistribute it and/or modify
@@ -102,11 +102,11 @@
 \iftoggle{parano}{
 \asserttogglefalse{lineno}
 %\setlength{\parindent}{0pt} % Similar to the line below but apparently with negative effects.
-%\usepackage[skip=0em]{parskip} % Removes all paragraph indentation. The paragraph number will indicate that a new paragraph has started now.
+%\RequirePackage[skip=0em]{parskip} % Removes all paragraph indentation. The paragraph number will indicate that a new paragraph has started now.
 % wright_presenting_1977 p. 98: > Hartley and Burnhill (1976) have suggested on the basis of their own research findings that leaving an empty line between paragraphs is a more effective cue for the reader than just indenting the first line of the new paragraph.
 % https://tex.stackexchange.com/a/74173/9945
-%\usepackage[parfill]{parskip}
-\usepackage[skip=0.5em]{parskip}
+%\RequirePackage[parfill]{parskip}
+\RequirePackage[skip=0.5em]{parskip}
 \RequirePackage{parano}
 \RequirePackage{accsupp}
 %\renewcommand\theparano{\BeginAccSupp{ActualText=}{\bfseries\footnotesize[\arabic{parano}]}\EndAccSupp{}}
@@ -292,7 +292,7 @@ end
     %\RequirePackage{newtxtext,newtxmath} % https://ctan.org/pkg/newtx (2017, no font errors)
     
     % Option: STIX Two
-    \usepackage{stix2}
+    \RequirePackage{stix2}
 \fi
 
 % load microtype
@@ -322,7 +322,7 @@ end
 
 % Discussion of a possible conflict between onlyamsmath and TikZ:
 % https://tex.stackexchange.com/q/31860/9945
-\usepackage[all,error]{onlyamsmath}
+\RequirePackage[all,error]{onlyamsmath}
 
 \RequirePackage{tikz,tikz-3dplot,pgfplots}
 \pgfplotsset{compat=1.16} % https://tex.stackexchange.com/a/81912
@@ -431,7 +431,7 @@ end
 
 % For putting the number of references, figures, etc. at the end of an abstract.
 % https://en.wikibooks.org/wiki/LaTeX/Counters#LaTeX_default_counters
-\usepackage{totcount}
+\RequirePackage{totcount}
 % Requires biblatex.
 % https://tex.stackexchange.com/a/202797/9945
 \newtotcounter{citenum}
