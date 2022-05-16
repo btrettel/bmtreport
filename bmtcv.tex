@@ -1,14 +1,106 @@
 \documentclass[cv]{bmtcv}
 
-\usepackage{svn-multi}
-\svnidlong
-{$LastChangedBy: $}
-{$LastChangedRevision: $}
-{$LastChangedDate: $}
-{$HeadURL: $}
+\begin{document}
+
+\newcommand*{\name}{Your Name}
+\newcommand*{\email}{email@example.com}
+\newcommand*{\phone}{555-555-5555}
+\newcommand*{\homepageUrl}{https://yourwebsite.com/}
+
+\hypersetup{
+    pdfauthor   = {\name},
+    pdfkeywords = {your keywords},
+    pdftitle    = {\name's \cvtype}
+}
+
+\iftoggle{cv}{%
+\bibliography{cv}
+\addtocategory{journals}{}
+\addtocategory{conferences}{}
+\addtocategory{phd}{}
+\addtocategory{techreports}{}
+\addtocategory{translations}{}
+\addtocategory{mentions}{}
+
+% Add all papers in the bib file.
+\nocite{*}
+}{}
 
 \begin{document}
 
+\iftoggle{cv}{}{\thispagestyle{empty}}
 
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\textbf{\Large \name} & Email: \href{mailto:\email}{\email} \\
+\url{\homepageUrl} & Phone: \href{tel:\phone}{\phone}
+\end{tabular*}
+
+\section*{Work Experience}
+
+\resumeItem{Organization}{City, State}{Job Title}{Start Date}{End Date}
+\begin{resumeList}
+    \item Blah blah blah
+\end{resumeList}
+
+\resumeItem{Organization With No List Has Different Spacing afterwards}{City, State}{Job Title}{Start Date}{End Date}
+\resumeHalfSpacing{}
+
+\resumeItem{Organization With No List Is Okay As-Is At The End}{City, State}{Job Title}{Start Date}{End Date}
+
+\section*{Education}
+
+\resumeItem{School}{City, State}{BS in Field}{Start Date}{End Date}
+
+\section*{Skills}
+
+\begin{resumeListAlways}
+    \item \textbf{Operating systems:} Blah
+    \item \textbf{Programming languages:} Blah
+\end{resumeListAlways}
+
+\iftoggle{cv}{%
+\section*{Open Source Contributions}
+
+\begin{resumeListAlways}
+   \item GitHub: \url{https://github.com/githubprofile}
+\end{resumeListAlways}
+
+\section*{Teaching Experience}
+
+\begin{resumeListAlways}
+    \item Class
+\end{resumeListAlways}
+
+\section*{Professional Service}
+
+\begin{resumeListAlways}
+    \item \textbf{Reviewer:} Journal
+\end{resumeListAlways}
+
+\section*{Honors, Awards, Fellowships, and Grants}
+
+\begin{resumeListAlways}
+    \item YEAR: Award
+\end{resumeListAlways}
+}{}
+
+\iftoggle{cv}{%
+\section*{Publications}
+
+\printbib{journals}
+\printbib{phd}
+\printbib{conferences}
+%\printbib{chapters}
+\printbib{techreports}
+%\printbib{presentations}
+%\printbib{subpapers}
+%\printbib{preprints}
+%\printbib{translations}
+%\printbib{inpreparation}
+%\printbib{mentions}
+}{}
+
+\vfill
+\hfill Last updated: \today.
 
 \end{document}
