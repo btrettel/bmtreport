@@ -362,20 +362,20 @@ end
 }
 
 \newcommand*{\docids}[2][]{
-    \assertnonempty{#2}
+    \assertnonemptystr{#2}
     \newcommand*{\docnumber}{#2}
     \iftoggle{note}{}{\RequirePosInt{\docnumber}}
     \ifstrempty{#1}{}{\toggletrue{revnoset}\newcommand*{\revno}{#1}}
     }
 \newcommand*{\opendata}[2][Data and processing scripts]{
-    \assertnonempty{#2}
+    \assertnonemptystr{#2}
     \newcommand*{\opendataprefix}{#1}
     \newcommand*{\opendatasource}{#2}
     \toggletrue{opendata}
     }
 \newcommand*{\subjclass}[2][Universal Decimal Classification]{%
-    \assertnonempty{#1}%
-    \assertnonempty{#2}%
+    \assertnonemptystr{#1}%
+    \assertnonemptystr{#2}%
     \begin{quotation}
     \small%
     \hypersetup{pdfsubject = {#1: #2}}%
@@ -385,14 +385,14 @@ end
     \global\toggletrue{subjclassset}%
     }
 \newcommand*{\extrasubjclass}[2]{%
-    \assertnonempty{#1}%
-    \assertnonempty{#2}%
+    \assertnonemptystr{#1}%
+    \assertnonemptystr{#2}%
     \noindent \textbf{#1:} #2 \\%
     \global\appto{\thesubjclass}{; #1: #2}%
     \asserttoggletrue{subjclassset}%
     }
 \newcommand*{\keywords}[1]{%
-    \assertnonempty{#1}%
+    \assertnonemptystr{#1}%
     \hypersetup{pdfkeywords = {#1}}%
     \noindent\textbf{Keywords:} #1%
     \gdef\thekeywords{#1}% needs to be defined with gdef as otherwise the scope would be limited to the environment
@@ -402,15 +402,15 @@ end
     \iftoggle{translation}{}{\iftoggle{lineno}{\linenumbers}{}\iftoggle{parano}{\parano}{}}%
     }
 \newcommand*{\setdoi}[1]{%
-    \assertnonempty{#1}%
+    \assertnonemptystr{#1}%
     \hypersetup{pdfdoi = {#1}}%
     \gdef\thedoi{\DOI{#1}}% needs to be defined with gdef as otherwise the scope would be limited to the environment
     \global\toggletrue{doiset}%
     }
 
 \newcommand*{\translationboilerplate}[3]{%
-    \assertnonempty{#1}%
-    \assertnonempty{#2}%
+    \assertnonemptystr{#1}%
+    \assertnonemptystr{#2}%
     \asserttoggletrue{translation}%
     \begingroup%
     \renewcommand\thefootnote{}\footnote{Translation from #1 of: \fullcite{#2}\mybibexclude{#2}. \par The right margin indicates the page of the original text. This is a lightly edited machine translation made with \href{https://translate.google.com/}{Google Translate}. Last updated on #3.

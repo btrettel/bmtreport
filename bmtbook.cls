@@ -259,14 +259,14 @@ end
 }
 
 \newcommand*{\docids}[2][]{
-    \assertnonempty{#2}
+    \assertnonemptystr{#2}
     \newcommand*{\docnumber}{#2}
     \iftoggle{note}{}{\RequirePosInt{\docnumber}}
     \ifstrempty{#1}{}{\toggletrue{revnoset}\newcommand*{\revno}{#1}}
     }
 \newcommand*{\subjclass}[2][Universal Decimal Classification]{%
-    \assertnonempty{#1}%
-    \assertnonempty{#2}%
+    \assertnonemptystr{#1}%
+    \assertnonemptystr{#2}%
     \begin{quotation}
     \small%
     \hypersetup{pdfsubject = {#1: #2}}%
@@ -276,14 +276,14 @@ end
     \global\toggletrue{subjclassset}%
     }
 \newcommand*{\extrasubjclass}[2]{%
-    \assertnonempty{#1}%
-    \assertnonempty{#2}%
+    \assertnonemptystr{#1}%
+    \assertnonemptystr{#2}%
     \noindent \textbf{#1:} #2 \\%
     \global\appto{\thesubjclass}{, #1: #2}%
     \asserttoggletrue{subjclassset}%
     }
 \newcommand*{\keywords}[1]{%
-    \assertnonempty{#1}%
+    \assertnonemptystr{#1}%
     \hypersetup{pdfkeywords = {#1}}%
     \noindent\textbf{Keywords:} #1%
     \gdef\thekeywords{#1}% needs to be defined with gdef as otherwise the scope would be limited to the environment
@@ -293,7 +293,7 @@ end
     \iftoggle{translation}{}{\linenumbers}%
     }
 \newcommand*{\setdoi}[1]{%
-    \assertnonempty{#1}%
+    \assertnonemptystr{#1}%
     \hypersetup{pdfdoi = {#1}}%
     \gdef\thedoi{\DOI{#1}}% needs to be defined with gdef as otherwise the scope would be limited to the environment
     \global\toggletrue{doiset}%

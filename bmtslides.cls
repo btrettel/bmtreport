@@ -161,12 +161,12 @@ end
 % https://tex.stackexchange.com/a/553815/9945
 
 \newcommand*{\docids}[2][]{
-    \assertnonempty{#2}
+    \assertnonemptystr{#2}
     \newcommand*{\docnumber}{#2}
     \ifstrempty{#1}{}{\toggletrue{revnoset}\newcommand*{\revno}{#1}}
     }
 \newcommand*{\setdoi}[1]{%
-    \assertnonempty{#1}%
+    \assertnonemptystr{#1}%
     \gdef\thedoi{\DOI{#1}}% needs to be defined with gdef as otherwise the scope would be limited to the environment
     \global\toggletrue{doiset}%
     }
