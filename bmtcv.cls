@@ -185,6 +185,20 @@
     {\begin{resumeListAlways}}
     {\end{resumeListAlways}}
 
+\newcommand*{\resumeKeywordsStart}{%
+\begin{center}
+\begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}}ccccc}
+}
+
+\newcommand*{\resumeKeywordsEnd}{%
+\end{tabular*}
+\end{center}%
+}
+
+\newcommand*{\resumeKeywordsRow}[5]{#1 & #2 & #3 & #4 & #5 \\}
+
+\newcommand*{\resumeKeywordsLastRow}[5]{#1 & #2 & #3 & #4 & #5}
+
 % If run with the nolists option, all the lists are removed for brevity. The versions package works but comment does not. <https://tex.stackexchange.com/a/230044/9945>
 \iftoggle{nolists}{%
 \RequirePackage{versions}
