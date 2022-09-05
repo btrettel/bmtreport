@@ -1,5 +1,5 @@
-\badvance,(puffery),
-\badvances,(puffery),
+\badvance,(pompous),
+\badvances,(pompous),
 \bassessment,(redundant),
 "\bat the",(clickbait),https://blog.bufferapp.com/the-most-popular-words-in-most-viral-headlines
 "\bblessing in disguise",(annoying),
@@ -12,14 +12,14 @@
 \bdispatch,(redundant),
 \bdocumentation,(redundant),
 \bearly,(transient),
-\befficient,(puffery),
+\befficient,(pompous),
 "\bElvis has left the building",(annoying),
-\benhanced,(puffery),
+\benhanced,(pompous),
 \bessay,(redundant),
 "\beye of the beholder",(annoying),
 \bfirst,(transient),
-\bfoundation,(puffery),
-\bfoundations,(puffery),
+\bfoundation,(pompous),
+\bfoundations,(pompous),
 \bfundamental,(pompous),
 \bgreen,(buzzword),
 "\bhere are the",(clickbait),https://blog.bufferapp.com/the-most-popular-words-in-most-viral-headlines
@@ -45,6 +45,7 @@
 \bnote,(redundant),
 \bnotes,(redundant),
 \bnovel,(transient),https://www.uspto.gov/web/offices/pac/mpep/s606.html
+\binnovative,(transient),
 \bobservation,(redundant),
 \bobservations,(redundant),
 "#\bof the",(clickbait),https://blog.bufferapp.com/the-most-popular-words-in-most-viral-headlines
@@ -63,7 +64,7 @@
 \bstate-of-the-art,(transient),
 \bstudies,(redundant),
 \bstudy,(redundant),
-\bsuperior,(puffery),
+\bsuperior,(pompous),
 \bsustainable,(buzzword),
 \btechnical,(redundant),
 "\bthat will",(clickbait),https://blog.bufferapp.com/the-most-popular-words-in-most-viral-headlines
@@ -96,3 +97,7 @@
 "\byou need to",(clickbait),https://blog.bufferapp.com/the-most-popular-words-in-most-viral-headlines
 "\byou see",(clickbait),https://blog.bufferapp.com/the-most-popular-words-in-most-viral-headlines
 "\byou see what",(clickbait),https://blog.bufferapp.com/the-most-popular-words-in-most-viral-headlines
+\bunique,(transient),
+\bfoundational,(pompous),
+\bfoundations,(pompous),
+\bfoundation,(pompous),

@@ -1,6 +1,6 @@
 # External LaTeX packages not on CTAN that I use
 
-Many LaTeX packages were not distributed formally on CTAN and are poorly available. Here I will archive useful packages that I've come across.
+Many LaTeX packages were not distributed formally on CTAN and are poorly available. Here I will archive useful packages that I've come across. I claim no copyright in these.
 
 ## parano.sty
 

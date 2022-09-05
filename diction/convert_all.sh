@@ -20,6 +20,6 @@ done
 # spell check the diction files
 for f in *.diction
 do
-    aspell --home-dir=../ -c $f
+    aspell --home-dir=./ -c $f
     # The home-dir option allows me to use a different dictionary for spell checking the diction files than is used for normal spell checking. This is desirable as I may want words that appear in the diction files to be marked as spelling errors in aspell. That'll mean that I have two opportunities to spot the error.
 done

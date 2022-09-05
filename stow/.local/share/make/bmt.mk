@@ -1,4 +1,4 @@
-# Copyright 2021 Ben Trettel.
+# Copyright 2021-2022 Ben Trettel.
 # This file is part of bmtreport <https://github.com/btrettel/bmtreport>.
 # 
 # bmtreport is free software: you can redistribute it and/or modify
@@ -14,20 +14,42 @@
 # You should have received a copy of the GNU General Public License
 # along with bmtreport.  If not, see <https://www.gnu.org/licenses/>.
 
+# Include some things from my own std.mk rather than putting std.mk in this repository:
+
+# Warn when variables are undefined. There appears to be no way to get an error when variables are undefined. <https://stackoverflow.com/a/14391872/1124489>
+MAKEFLAGS += --warn-undefined-variables
+
+.DELETE_ON_ERROR:
+
+# <https://www.oreilly.com/library/view/managing-projects-with/0596006101/ch12.html>
+# <https://www.oreilly.com/library/view/managing-projects-with/0596006101/ch04.html#flow_control>
+# $(call assert,condition,message)
+define assert
+    $(if $1,,$(error Assertion failed: $2))
+endef
+# $(call assert-file-exists,wildcard-pattern)
+define assert-file-exists
+    $(call assert,$(wildcard $1),$1 does not exist)
+endef
+# $(call assert-not-null,make-variable)
+define assert-not-null
+    $(call assert,$($1),The variable "$1" is null)
+endef
+
 # This will detect the word git on the documentclass line. If git is used then the appropriate files will be generated.
 ifeq ($(shell grep {bmtreport} $(key).tex | grep git),)
-git_file=
+git_file:=
 else
-git_file=git.tex
+git_file:=git.tex
 # https://stackoverflow.com/q/957928/1124489
 git_root:=$(shell git rev-parse --show-toplevel)
 endif
 
 # If I do it this way rather than having multiple copies of the target, then there is less duplicate code that needs to be kept consistent.
 ifeq (,$(wildcard $(key).csv))
-diction_file=
+diction_file:=
 else
-diction_file=$(key).diction
+diction_file:=$(key).diction
 endif
 
 $(key).pdf: $(key).bcf $(key).tex
@@ -49,7 +71,7 @@ endif
 # https://thorehusfeldt.com/2011/05/13/including-git-revision-identifiers-in-latex/
 # https://tex.stackexchange.com/q/455396/9945
 # This'll return the latest for the entire repository, not the particular file.
-# Can get for a series of file like this: git log -1 -- asserts.sty LICENSE
+# Can get for a series of files like this: git log -1 -- asserts.sty LICENSE
 git.tex: $(git_root)/.git/logs/HEAD
 	git log -1 --format="format:\\gdef\\GitHash{%h}" > $(git_file)
 
@@ -83,8 +105,8 @@ check: $(key).tex $(key).pdf $(key).txt title.tex abstract.tex subjclass.txt $(d
 	pdfgrep '\?' $(key).pdf | less -r
 	chktex -q -I0 -n1 -n2 -n44 -n25 $(key).tex | less
 	test -f $(key).diction && diction -sn -f $(key).diction $(key).txt | grep --color=always '\[[^][]*]' | less -r || true
-	diction -s -L errors $(key).txt | grep --color=always '\[[^][]*]' | less -r
-	diction -s -L titles title.txt | grep --color=always '\[[^][]*]' | less -r
+	diction --suggest --file $$BMTPATH/diction/errors.diction $(key).txt | grep --color=always '\[[^][]*]' | less -r
+	diction --suggest --file $$BMTPATH/diction/titles.diction title.txt | grep --color=always '\[[^][]*]' | less -r
 	test -f $(key).sh && ./$(key).sh $(key).tex | less -r || true
 	#test -f $(key)-eqcheck.ini && eqcheck.py $(key)-eqcheck.ini | less -r || true
 	validate_subjclasses.py

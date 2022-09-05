@@ -1,6 +1,8 @@
 # bmtreport diction files
 
-- DONE: Make *warning* diction file to identify things which are not necessarily wrong but could indicate that something is wrong. Run this less frequently; bmt.diction is intended to identify likely errors, not simply possible errors.
+- TODO: Prune main diction file down to reduce false positives and make editing easier. Focus first on ambiguity. gleich_ambiguity_2010
+    - Remove most mrsatterly entries.
+    - Old: Make *warning* diction file to identify things which are not necessarily wrong but could indicate that something is wrong. Run this less frequently; bmt.diction is intended to identify likely errors, not simply possible errors.
 - <https://en.wikipedia.org/wiki/Politics_and_the_English_Language#Remedy_of_Six_Rules>
     1. Never use a metaphor, simile, or other figure of speech which you are used to seeing in print. [...]
     2. Never use a long word where a short one will do.
@@ -22,6 +24,8 @@
 - Relative terminology: about, superior, similar, comparable, essentially, type, of the order of, substantially, substantial portion, the order of about
 - Exemplary language: e.g. "material such as rock wool or asbestos", "halogen, for example, chlorine" (It is the broader example or the specific example? I would read it as broader. This seems to be more of a problem for claims than writing in general.) (I also recall that "i.e." and "e.g." are misunderstood in general so should be discouraged in favor of "that is" and "for example" respectively.)
 - MPEP 2173.05 has many good suggestions about how to write unambiguously (and also some that are specific to patents or particular parts of patents)
+- <https://medium.com/analysts-corner/holy-ambiguity-crapman-ec15c77dc880>
+- <https://medium.com/analysts-corner/six-tips-for-writing-unambiguous-requirements-70bad5422427>
 - TODO: https://drive.google.com/file/d/11a8cUt1SCfIxQRBZk_TnRYM5ltENL7LI/view
     - Words Matter Task Force Recommendations
 - TODO: bollen_historical_2021
@@ -67,6 +71,7 @@
 - TODO: <https://lifehacker.com/replace-these-words-in-your-writing-1831622515>
 - TODO: <https://www.atrixnet.com/bs-generator.html>
 - TODO: <https://johnaugust.com/2016/the-workaholics-list-of-banned-phrases>
+- TODO: kilicoglu_automatic_2018
 - ambiguous
     - <https://english.stackexchange.com/questions/50658/are-there-any-words-i-can-use-to-disambiguate-biweekly>
     - <https://github.com/zonination/perceptions>
@@ -81,6 +86,7 @@
 - TODO: <https://github.com/dspinellis/unix-history-repo/blob/BSD-4_1_snap-Snapshot-Development/.ref-BSD-4/usr/src/cmd/diction/explain.d>
 - TODO: <https://en.wikipedia.org/wiki/Weasel_word>
 - TODO: <https://scite.ai/blog/7-things-scientists-probably-shouldnt-be-writing-in-their-papers>
+- TODO: sufficient vs. necessary: <https://twitter.com/nntaleb/status/1555518938695585794>
 - <https://www.scribbr.com/academic-writing/taboo-words/>
 - <https://web.archive.org/web/20130115032012/http://www.economist.com/style-guide/unnecessary-words>
 - <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Expressions_of_doubt>
@@ -235,38 +241,4 @@
 - TODO: <http://buzzsumo.com/blog/most-shared-headlines-study/>
 - <http://datacolada.org/9>
 - <https://scholar.google.com/scholar?cluster=995761586192180436&hl=en&as_sdt=0,44>
-- <TODO: http://bjgp.org/content/62/605/656>
-
-## TODO: patents
-
-Make patent drafting diction database. Put appropriate case law in the comment. Label as "patent profanity" as that term seems to be in common use. If unclear about why someone included a particular term, ask on the Patents Stack Exchange.
-
-- Google search for "patent profanity" (no quotes).
-- Include relative phrases.
-- "Trans fat" problem with "patent profanity": a term is replaced by something that is untested which could be worse. (Analogous to trans fats being used to replace saturated fats, when trans fats are worse.)
-- "etc." could be 112b issue and also signals that you should list more possibly embodiments, for example, this is not good as it does not list a condensate drain as a possibility:
-- <https://patents.stackexchange.com/questions/19186/why-not-refer-to-the-invention-as-the-invention>
-- <https://patents.stackexchange.com/a/3295>
-- <https://corridorlaw.com/words-to-avoid-when-filing-patent-applications/>
-- <https://krajec.com/prohibited-words-in-a-patent-must/>
-- <https://attorneyatlawmagazine.com/patent-profanity>
-- <https://sites.nd.edu/patentlaw/2013/02/04/patent-profanity-its-not-what-you-think/>
-- <https://web.archive.org/web/20090210131413/http://www.patentlyo.com/patent/2009/02/no-no-words-what-words-do-you-avoid-in-patent-applications.html>
-- <https://web.archive.org/web/20090211234220/http://www.patentlyo.com/patent/2009/02/no-no-words-what-words-do-you-avoid-in-patent-applications/comments/page/2/>
-- <https://web.archive.org/web/20090405094459/http://www.patentlyo.com/patent/2009/02/no-no-words-what-words-do-you-avoid-in-patent-applications/comments/page/3/>
-- <https://web.archive.org/web/20090406011742/http://www.patentlyo.com/patent/2009/02/no-no-words-what-words-do-you-avoid-in-patent-applications/comments/page/4/>
-- <https://patentablydefined.com/2007/05/21/prosecution-profanity-words-to-avoid-in-prosecution-part-1/>
-- <https://www.bpmlegal.com/content/howtopat7>
-- <https://ocpatentlawyer.com/lesson/word-invention/>
-- <https://www.finnegan.com/en/insights/articles/practical-considerations-and-strategies-in-drafting-u-s-patent.html>
-- <https://en.wikipedia.org/wiki/List_of_Latin_legal_terms>
-- <https://www.fargopatentlaw.com/blog/2020/12/31/what-is-patent-profanity>
-    - > Some of these terms include the words, “all, always, certain, each, important, invention, necessary, need, should, and so forth.”
-- stark_key_2016
-- <https://patentlyo.com/patent/2020/03/consisting-and-optionally.html>
-- <https://patents.stackexchange.com/questions/17485/how-do-i-explain-the-advantages-and-avoid-using-invention-or-object-in-the-d>
-- 112(f) words: means structure module device unit component element member apparatus machine system mechanism
-- predetermined
-    - <https://www.mriplaw.com/blog/rq5dxcegaabvgmqfblhce7dsbl6ktn>
-    - <https://steiniplaw.wordpress.com/2006/12/01/federal-circuit-defines-term-predetermined/>
-    - <https://patentlyo.com/patent/2006/12/even_under_doe_.html>
+- TODO: <http://bjgp.org/content/62/605/656>

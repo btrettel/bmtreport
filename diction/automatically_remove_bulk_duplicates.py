@@ -6,7 +6,7 @@
 import sys
 import csv
 
-assert(sys.argv[1].endswith('.csv'))
+assert sys.argv[1].endswith('.csv')
 print('Reading:', sys.argv[1])
 
 all_lines = []
@@ -19,16 +19,16 @@ with open(sys.argv[1]) as csv_file:
     prev_third_col = None
     for row in csv_reader:
         print(row[0])
-        assert(len(row) == 3)
-        assert(row[0] != '')
-        assert(row[1] != '')
-        # TODO: assert('(' in row[1])
-        # TODO: assert(')' in row[1])
-        assert(not('#' in row[0][1:]))
-        assert(not('#' in row[1]))
-        assert(not(' )' in row[1]))
-        assert(not('TODO' in row[0]))
-        assert(not('TODO' in row[1]))
+        assert len(row) == 3
+        assert row[0] != ''
+        assert row[1] != ''
+        # TODO: assert '(' in row[1]
+        # TODO: assert ')' in row[1]
+        assert not('#' in row[0][1:])
+        assert not('#' in row[1])
+        assert not(' )' in row[1])
+        assert not('TODO' in row[0])
+        assert not('TODO' in row[1])
         if prev_first_col == row[0].lower():
             print('Duplicate: '+row[0]+' ('+sys.argv[1]+')')
             second_col = None

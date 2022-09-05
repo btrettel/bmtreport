@@ -45,7 +45,7 @@ while line:
     # advance line
     old_line = line
     line = subjclassfile.readline()
-assert(no_lines == 1)
+assert no_lines == 1
 
 subjclasses = old_line.split('; ')
 for subjclass in subjclasses:

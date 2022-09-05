@@ -6050,7 +6050,7 @@
 "\bbad science",(offensive),
 "\bbad trouble",trouble,"Johnston, You can say that again: 750 redundant phrases to think twice about Johnston, You can say that again: 750 redundant phrases to think twice about"
 \bbaffle,(offensive),
-\bbaffling,(offensive),
+\bbaffling,(offensive),https://twitter.com/keturner8/status/1508445915664822277
 "\bbag your face",(Valspeak),https://mrsatterly.com/diction.txt
 \bbah,(interjection),https://mrsatterly.com/diction.txt
 "\bbaited breath","= bated breath",https://mrsatterly.com/diction.txt
@@ -8308,6 +8308,7 @@
 \bdisappointing,(offensive),
 \bdisappointment,(offensive),
 \bdisappoint,(offensive),
+\bdisappointingly,(offensive),https://www.nature.com/articles/d41586-020-03394-y
 \bdisaster,(offensive),
 \bdisclosed,"= disclose",https://mrsatterly.com/diction.txt
 \bdiscloses,"= disclose",https://mrsatterly.com/diction.txt
@@ -9115,8 +9116,8 @@
 \bfailed,(offensive),https://www.cs.cmu.edu/~biglou/resources/
 "\bfailed to show inability","showed ability (verbose, double negative)",volokh_how_2009
 \bfailing,"(offensive, but failure, fails, etc. can be okay)",
-\bfail,(offensive),
-\bfails,(offensive),
+\bfail,(offensive),https://www.nature.com/articles/d41586-020-03394-y
+\bfails,(offensive),https://www.nature.com/articles/d41586-020-03394-y
 \bfailure,(offensive),https://www.cs.cmu.edu/~biglou/resources/
 \bfain,"fond, glad, inclined (old)",https://mrsatterly.com/diction.txt
 \bfaintest,"(offensive, for example, faintest clue, faintest idea)",
@@ -14795,7 +14796,7 @@
 \bjunglebunny,(offensive),https://www.cs.cmu.edu/~biglou/resources/
 "\bjungle fever","(ethnic slur)",https://mrsatterly.com/diction.txt
 \bjunk,(offensive),
-"\bjust a","a (verbose)",http://stevehanov.ca/blog/?id=52
+"\bjust a","a (verbose, possibly offensive)","http://stevehanov.ca/blog/?id=52 https://www.nature.com/articles/d41586-020-03394-y"
 "\bjust exactly",(verbose),https://grammarist.com/redundancies/
 "\bjustice is blind","(overused phrase)",https://mrsatterly.com/diction.txt
 "\bjust one instead of two",(verbose),"Johnston, You can say that again: 750 redundant phrases to think twice about Johnston, You can say that again: 750 redundant phrases to think twice about"
@@ -19877,7 +19878,7 @@
 \bobtaining,"= obtain",https://mrsatterly.com/diction.txt
 \bobtains,"= obtain",https://mrsatterly.com/diction.txt
 \bobviate,"avoid (long word)","https://web.archive.org/web/20200124203655/http://home.wavecable.com/~garblswritingcenter/stylemanual/words.htm http://stevehanov.ca/blog/?id=52"
-\bobviously,"apparently (not always obvious) (also could delete if this the word ""obviously"" adds nothing)",http://stevehanov.ca/blog/?id=52
+\bobviously,"apparently (not always obvious) (also could delete if this the word ""obviously"" adds nothing) (could be offensive)","http://stevehanov.ca/blog/?id=52 https://www.nature.com/articles/d41586-020-03394-y"
 "\bobvious no brainer",(verbose),
 "\bobvious no-brainer",(verbose),
 #\bobvious,(offensive),
@@ -26000,6 +26001,7 @@
 "\bstiff as a board","(overused simile)",https://mrsatterly.com/diction.txt
 \bstiffy,(offensive),https://www.cs.cmu.edu/~biglou/resources/
 "\bstill continues","(still) continues (verbose)",
+"\bstill currently","currently (redundant)",
 "\bstill lingers",(verbose),
 "\bstill persists","persists (verbose)",https://kathysteinemann.com/Musings/redundant/
 "\bstill remain",remain,
@@ -29594,7 +29596,7 @@
 \bsupposedly,(offensive),
 "\bsupposed to",(offensive),
 "\bsup protocol","SUP {Simple Update Protocol}(redundant acronym)",https://mrsatterly.com/diction.txt
-\bsurprisingly,(puffery),
+\bsurprisingly,"(puffery, could be offensive)",https://www.nature.com/articles/d41586-020-03394-y
 \bsurprising,(puffery),
 \bsurreptitious,"secret, sly (complex)",https://mrsatterly.com/diction.txt
 "\bsurrounded on all sides","surrounded (on all sides) (verbose)",https://kathysteinemann.com/Musings/redundant/
@@ -41788,7 +41790,7 @@
 "\bunintended mistakes","= unintended mistake",https://mrsatterly.com/diction.txt
 "\bunintended mistake","(unintended) mistake (verbose)",
 "\bunintentional mistake","(unintentional) mistake (verbose)",https://kathysteinemann.com/Musings/redundant/
-\buninteresting,(offensive),
+\buninteresting,(offensive),https://www.nature.com/articles/d41586-020-03394-y
 "\bunique opportunity",(verbose),"Johnston, You can say that again: 750 redundant phrases to think twice about Johnston, You can say that again: 750 redundant phrases to think twice about"
 #\bunique,(puffery),
 "\bunited as one","united (verbose)",http://stevehanov.ca/blog/?id=52
@@ -41923,7 +41925,7 @@
 \bvalue-added,"(corporate jargon)",https://mrsatterly.com/diction.txt
 "\bvalued heirloom",(verbose),
 \bvampire-kin,"(furry jargon)",https://mrsatterly.com/diction.txt
-\bvapid,(offensive),
+\bvapid,(offensive),https://twitter.com/lindacbotterill/status/1390783884426547200
 \bvaporware,"(computing jargon)",https://mrsatterly.com/diction.txt
 "\bvapor ware","= vaporware",https://mrsatterly.com/diction.txt
 "\bvariety is the spice of life","(overused phrase)",https://mrsatterly.com/diction.txt
@@ -46266,3 +46268,20 @@
 "n't want none","(double negative)",https://mrsatterly.com/diction.txt
 "n't want nothing","(double negative)",https://mrsatterly.com/diction.txt
 "n't want nowhere","(double negative)",https://mrsatterly.com/diction.txt
+"\bsupper and lower","upper and lower (atomic typo)",http://www.ams.org/notices/199703/comm-mr.pdf
+"\bdidn't even",(insensitive),https://www.nature.com/articles/d41586-020-03394-y
+"\bdidn't bother",(insensitive),https://www.nature.com/articles/d41586-020-03394-y
+"\bdid not even",(insensitive),https://www.nature.com/articles/d41586-020-03394-y
+"\bdid not bother",(insensitive),https://www.nature.com/articles/d41586-020-03394-y
+\bcareless,(insensitive),https://www.nature.com/articles/d41586-020-03394-y
+\bcarelessly,(insensitive),https://www.nature.com/articles/d41586-020-03394-y
+\bpoor,(insensitive),https://www.nature.com/articles/d41586-020-03394-y
+\bbarely,(offensive),https://www.nature.com/articles/d41586-020-03394-y
+"\bhappen to",(offensive),https://www.nature.com/articles/d41586-020-03394-y
+"\bmanage to",(offensive),https://www.nature.com/articles/d41586-020-03394-y
+"\bremember to",(offensive),https://www.nature.com/articles/d41586-020-03394-y
+"\bgreat fir","great fit (atomic typo)",
+\brespectively,"(commonly misunderstood, avoid if possible)",
+"\bthe latter","(commonly misunderstood, avoid if possible)",
+"\bthe former","(commonly misunderstood, avoid if possible)",
+"\bmore additional",(verbose),
