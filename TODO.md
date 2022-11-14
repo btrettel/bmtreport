@@ -1,5 +1,7 @@
 # To-do list
 
+- Make more similar to this: <https://www.cs.princeton.edu/~bwk/202/index.html>
+- Reduce dependencies to better future-proof. <https://tex.stackexchange.com/a/664793/9945>
 - <https://www.dickimaw-books.com/latex/admin/>
 - Tight feedback loop: (make quick or something like that?) (<https://news.ycombinator.com/item?id=20009123>):
     > So knowing this, my approach is to *use a system that continuously shows the typeset output* as I type, if I can. That way errors are usually obvious and easy to find. If that's not practical with your favorite editor, just manually run LaTex on your source frequently to see how your document is progressing. The times I've had to do serious puzzling over what was happening were almost always because I had pages of complex text entered before checking to see the output.
@@ -74,6 +76,7 @@
 
 - Follow USPTO internal presentation guidelines.
     - Have a macro for the "Thank you" closing slide.
+- Since James Chen (and presumably others) didn't like my minimalist slide style (he seemed to think it was unprofessional), try something more typical. John Lienhard has a nice format that uses the Fira fonts and seems to be a modification of a standard Beamer template: <https://dspace.mit.edu/bitstream/handle/1721.1/124894/Turb-bl-lecture-for-posting.pdf> (lienhard_heat_2020-1).
 
 ## Makefile
 

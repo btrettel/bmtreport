@@ -97,7 +97,7 @@
 \RequirePackage{luacode}
 \fi
 
-% Create a Makefile if none exists.
+% Create a GNUmakefile if none exists.
 % \noexpand is needed for the newline: https://tex.stackexchange.com/a/69207/9945
 % The filecontents environment doesn't work because it seems to automatically add a file extension if none is given.
 % Could also try something based on this: https://tex.stackexchange.com/a/521819/9945
@@ -105,15 +105,15 @@
 % https://stackoverflow.com/a/4991602/1124489
 \ifluatex
 \directlua{
-f = io.open("Makefile", "r")
+f = io.open("GNUmakefile", "r")
 if f==nil then
-    out = io.open("Makefile", "w")
+    out = io.open("GNUmakefile", "w")
     out:write("key=\jobname\noexpand\ninclude bmt.mk")
     io.close(out)
-    texio.write_nl("Makefile created.")
+    texio.write_nl("GNUmakefile created.")
 else
     io.close(f)
-    texio.write_nl("Makefile already present, not creating.")
+    texio.write_nl("GNUmakefile already present, not creating.")
 end
 }
 \fi
