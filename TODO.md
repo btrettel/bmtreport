@@ -1,5 +1,7 @@
 # To-do list
 
+- Simplify all files to have less dependencies. Remove line numbers as few would use them.
+- How did I convert from xfig to LaTeX by the command line? Also document how to start LaTeX math mode in xfig. Find where the official documentation says how to do this and link to that. With GNU Make, make targets to convert .gp (gnuplot) and .fig to LaTeX.
 - Make more similar to this: <https://www.cs.princeton.edu/~bwk/202/index.html>
 - Reduce dependencies to better future-proof. <https://tex.stackexchange.com/a/664793/9945>
 - <https://www.dickimaw-books.com/latex/admin/>
@@ -14,6 +16,10 @@
     - <https://tex.stackexchange.com/q/29577/9945>
 - Compile xfig files with transfig.
     - <https://news.ycombinator.com/item?id=31224924>
+- TODO: Switch to cumulative numbering of all personal reports, presentations, notes, etc.
+- Examples of templates:
+    - <https://www.fooledbyrandomness.com/bmn.pdf>
+    - <https://github.com/davidwhogg/DataAnalysisRecipes>
 
 ## Files
 

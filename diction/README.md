@@ -161,6 +161,8 @@
     - TODO: <https://www.reddit.com/r/slatestarcodex/comments/80sd4v/what_are_the_chances_translating_terms_into/>
 - TODO: <https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Words_to_watch#Unsupported_attributions>
 - TODO: <https://en.wikipedia.org/wiki/Weasel_word>
+- TODO: <https://itcommunity.stanford.edu/ehli>
+- TODO: <https://news.ycombinator.com/item?id=34104530>
 - vague
     - TODO: <https://writing.wisc.edu/Handbook/CCS_vaguenouns.html>
     - TODO: <http://evilauthor.com/blog/writing-aids/vague-words-list/>
