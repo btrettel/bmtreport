@@ -12,6 +12,12 @@
     
     - <https://en.wikipedia.org/wiki/List_of_English-language_metaphors>
     - <https://github.com/DomDomDoy/Figurative-Speech-Detection>
+- Make diction database for rationalist jargon to avoid
+    - TODO: Get some from the A-Z book, other glossaries
+    - object level
+    - epistemic status
+    - credence
+    - false positives: Bayesian, update
 
 ## Other diction files available
 
