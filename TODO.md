@@ -1,5 +1,6 @@
 # To-do list
 
+- Split bmtreport.cls further so that you can use various checks and metadata adding and whatnot in other class files
 - Simplify all files to have less dependencies. Remove line numbers as few would use them.
 - How did I convert from xfig to LaTeX by the command line? Also document how to start LaTeX math mode in xfig. Find where the official documentation says how to do this and link to that. With GNU Make, make targets to convert .gp (gnuplot) and .fig to LaTeX.
 - Make more similar to this: <https://www.cs.princeton.edu/~bwk/202/index.html>
