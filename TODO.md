@@ -1,8 +1,44 @@
 # To-do list
 
+- Use a LaTeX subset that is widely compatible.
+    - targets:
+        - arXiv
+            - <https://info.arxiv.org/help/faq/texlive.html>
+            - TeX Live 2020: <https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2020/>
+            - Does ArXiv work with later biblatex versions now?
+                - <https://ramblingacademic.com/2018/03/22/biblatex-arxiv-simple-workaround/>
+                - <https://github.com/plk/biblatex/issues/663>
+        - Physical Review Fluids
+        - Journal of Fluid Mechanics
+        - Atomization and Sprays
+        - International Journal of Multiphase Flows
+        - Journal of Fluids Engineering
+        - ILASS-Americas
+        - ICLASS
+        - TeX Live
+            - Debian/Ubuntu base package subset
+                - texlive-latex-recommended
+                - <https://tex.stackexchange.com/a/504566>
+        - MikTeX
+        - Overleaf
+        - converters
+            - <https://en.wikipedia.org/wiki/LaTeX#Compatibility_and_converters>
+            - <https://tug.org/tex4ht/>: > it supports most LaTeX packages and custom commands, including: BibLaTeX, TikZ, Fontspec
+            - <https://en.wikipedia.org/wiki/LaTeXML>: > LaTeXML supports a large range of LaTeX packages
+            - <https://en.wikipedia.org/wiki/Pandoc>: > any of five formats: BibTeX, BibLaTeX, CSL JSON or CSL YAML, or RIS
+        - <https://www.latex-project.org/get/>
+    - far fewer dependencies
+    - reduce number of external files; have one for things common to reports/slides, one for reports, and one for slides
+    - bibtex, not biblatex
+        - You can use biber with BibTeX, *except with natbib*, unfortunately: <https://en.wikipedia.org/wiki/Biber_(LaTeX)>. I suppose sticking to notation that's common to both the BibTeX natbib and BibLaTeX's reimplementation is safest. Switching to BibTeX itself would require changes to your Zotero entries, unfortunately.
+- Improve compilation time.
+
+## Old
+
 - Split bmtreport.cls further so that you can use various checks and metadata adding and whatnot in other class files
 - Simplify all files to have less dependencies. Remove line numbers as few would use them.
 - How did I convert from xfig to LaTeX by the command line? Also document how to start LaTeX math mode in xfig. Find where the official documentation says how to do this and link to that. With GNU Make, make targets to convert .gp (gnuplot) and .fig to LaTeX.
+    - Compile xfig files with transfig: <https://news.ycombinator.com/item?id=31224924>
 - Make more similar to this: <https://www.cs.princeton.edu/~bwk/202/index.html>
 - Reduce dependencies to better future-proof. <https://tex.stackexchange.com/a/664793/9945>
 - <https://www.dickimaw-books.com/latex/admin/>
@@ -15,8 +51,6 @@
 - Break up sections into multiple files?
     - <https://academia.stackexchange.com/a/180254/31143>
     - <https://tex.stackexchange.com/q/29577/9945>
-- Compile xfig files with transfig.
-    - <https://news.ycombinator.com/item?id=31224924>
 - TODO: Switch to cumulative numbering of all personal reports, presentations, notes, etc.
 - Examples of templates:
     - <https://www.fooledbyrandomness.com/bmn.pdf>
