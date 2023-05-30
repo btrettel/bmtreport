@@ -26,6 +26,9 @@
             - <https://tug.org/tex4ht/>: > it supports most LaTeX packages and custom commands, including: BibLaTeX, TikZ, Fontspec
             - <https://en.wikipedia.org/wiki/LaTeXML>: > LaTeXML supports a large range of LaTeX packages
             - <https://en.wikipedia.org/wiki/Pandoc>: > any of five formats: BibTeX, BibLaTeX, CSL JSON or CSL YAML, or RIS
+        - itex (and other subsets of TeX intended for web pages)
+            - <https://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html>
+            - <https://jblevins.org/notes/itex>
         - <https://www.latex-project.org/get/>
     - far fewer dependencies
     - reduce number of external files; have one for things common to reports/slides, one for reports, and one for slides
