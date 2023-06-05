@@ -19,6 +19,7 @@
             - Debian/Ubuntu base package subset
                 - texlive-latex-recommended
                 - <https://tex.stackexchange.com/a/504566>
+            - <https://wiki.archlinux.org/title/TeX_Live#Arch-packaged_TeX_Live>
         - MikTeX
         - Overleaf
         - converters
@@ -26,15 +27,20 @@
             - <https://tug.org/tex4ht/>: > it supports most LaTeX packages and custom commands, including: BibLaTeX, TikZ, Fontspec
             - <https://en.wikipedia.org/wiki/LaTeXML>: > LaTeXML supports a large range of LaTeX packages
             - <https://en.wikipedia.org/wiki/Pandoc>: > any of five formats: BibTeX, BibLaTeX, CSL JSON or CSL YAML, or RIS
-        - itex (and other subsets of TeX intended for web pages)
-            - <https://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html>
-            - <https://jblevins.org/notes/itex>
+        - subsets of TeX intended for web pages
+            - itex
+                - <https://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html>
+                - <https://jblevins.org/notes/itex>
+            - MathJax
+                - <https://docs.mathjax.org/en/latest/input/tex/differences.html>
         - <https://www.latex-project.org/get/>
     - far fewer dependencies
     - reduce number of external files; have one for things common to reports/slides, one for reports, and one for slides
     - bibtex, not biblatex
         - You can use biber with BibTeX, *except with natbib*, unfortunately: <https://en.wikipedia.org/wiki/Biber_(LaTeX)>. I suppose sticking to notation that's common to both the BibTeX natbib and BibLaTeX's reimplementation is safest. Switching to BibTeX itself would require changes to your Zotero entries, unfortunately.
 - Improve compilation time.
+- Reduce the number of files.
+    - <https://tex.stackexchange.com/questions/116719/how-can-i-balance-uniformity-of-style-files-against-modularity>
 
 ## Old
 
