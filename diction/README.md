@@ -169,6 +169,9 @@
 - TODO: <https://en.wikipedia.org/wiki/Weasel_word>
 - TODO: <https://itcommunity.stanford.edu/ehli>
 - TODO: <https://news.ycombinator.com/item?id=34104530>
+- TODO: <https://twitter.com/awsTO/status/1517137843750981632>
+    - use the following regex `\b(\w+)\s+\1\b` to check if there are repeated words like "of of" "and and"
+- <https://web.archive.org/web/20210804155737/https://people.cs.uchicago.edu/~dinoj/scilies.html>
 - vague
     - TODO: <https://writing.wisc.edu/Handbook/CCS_vaguenouns.html>
     - TODO: <http://evilauthor.com/blog/writing-aids/vague-words-list/>

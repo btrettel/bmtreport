@@ -230,7 +230,7 @@ end
 % https://tex.stackexchange.com/a/333684
 \setbeamertemplate{footline}{%
     \large%
-    \hspace{1em}BMT-P-\docnumber%
+    %\hspace{1em}BMT-P-\docnumber%
     \hfill%
     \iftoggle{doiset}{\thedoi\hfill}{}%
     \usebeamercolor[fg]{page number in head/foot}% 

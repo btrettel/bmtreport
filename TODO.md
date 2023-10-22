@@ -3,11 +3,6 @@
 - Use a LaTeX subset that is widely compatible.
     - targets:
         - arXiv
-            - <https://info.arxiv.org/help/faq/texlive.html>
-            - TeX Live 2020: <https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2020/>
-            - Does ArXiv work with later biblatex versions now?
-                - <https://ramblingacademic.com/2018/03/22/biblatex-arxiv-simple-workaround/>
-                - <https://github.com/plk/biblatex/issues/663>
         - Physical Review Fluids
         - Journal of Fluid Mechanics
         - Atomization and Sprays
@@ -19,35 +14,94 @@
             - Debian/Ubuntu base package subset
                 - texlive-latex-recommended
                 - <https://tex.stackexchange.com/a/504566>
+                - <https://tex.stackexchange.com/a/13601/9945>
             - <https://wiki.archlinux.org/title/TeX_Live#Arch-packaged_TeX_Live>
         - MikTeX
         - Overleaf
+        - various LaTeX compilers
+            - `latex` - how to obtain?
+            - `pdflatex`
+            - `lualatex`
+            - <https://tug.org/levels.html>
         - converters
             - <https://en.wikipedia.org/wiki/LaTeX#Compatibility_and_converters>
+            - <https://github.com/arxiv-vanity/engrafo/issues/159>
+            - <http://hevea.inria.fr/>
+                - `sudo apt install hevea`
+                - <https://github.com/maranget/hevea>
+                - <http://hevea.inria.fr/doc/manual007.html#both>
+            - <https://www.latex2html.org/>
+                - `sudo apt install latex2html`
+                - <https://github.com/latex2html/latex2html/blob/master/docs/features.tex>
             - <https://tug.org/tex4ht/>: > it supports most LaTeX packages and custom commands, including: BibLaTeX, TikZ, Fontspec
+                - in TeX Live
             - <https://en.wikipedia.org/wiki/LaTeXML>: > LaTeXML supports a large range of LaTeX packages
+                - `sudo apt install latexml`
+                - Used by these:
+                    - <https://www.arxiv-vanity.com/>
+                    - <https://ar5iv.labs.arxiv.org/>
+                - <https://github.com/arxiv-vanity/engrafo/issues/159>
+                - <https://github.com/brucemiller/LaTeXML>
+                - <https://web.archive.org/web/20190327205151/https://math.nist.gov/~BMiller/LaTeXML/manual/included.bindings/>
+                    - This should correspond to the version Ubuntu 20.04 LTS has.
             - <https://en.wikipedia.org/wiki/Pandoc>: > any of five formats: BibTeX, BibLaTeX, CSL JSON or CSL YAML, or RIS
-        - subsets of TeX intended for web pages
+                - `sudo apt install pandoc`
+            - latex2man
+                - in TeX Live
+            - <https://academ.us/>
+            - latex2rtf
+                - <https://latex2rtf.sourceforge.net/>
+                - <https://ctan.org/pkg/latex2rtf?lang=en>
+                    - > many packages are supported (in whole or as implementation of a subset of their commands) — for example, the whole of natbib is implemented.
+                - <https://github.com/magsilva/latex2rtf>
+            - TTH
+            - tex2page
+                - <http://ds26gte.github.io/tex2page/index.html>
+            - <https://ctan.org/topic/cvt-html>
+            - comparison table (latex-subsets.xml)
+            - text extraction
+                - This highlights the importance of making the text accessible, using Unicode math, and hiding text like line numbers.
+                - `pdf2txt`
+                - <https://github.com/karpathy/arxiv-sanity-preserver>
+        - subsets of TeX intended for equations on web pages
             - itex
                 - <https://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html>
                 - <https://jblevins.org/notes/itex>
             - MathJax
                 - <https://docs.mathjax.org/en/latest/input/tex/differences.html>
+        - subset that is easy to spell check with aspell...
         - <https://www.latex-project.org/get/>
+        - subsets that make linters happy
+            - <https://tex.stackexchange.com/questions/418500/how-to-use-a-linter-with-latexmk>
+            - <https://tex.stackexchange.com/questions/163/is-there-a-program-equivalent-to-lint-for-latex>
     - far fewer dependencies
     - reduce number of external files; have one for things common to reports/slides, one for reports, and one for slides
     - bibtex, not biblatex
         - You can use biber with BibTeX, *except with natbib*, unfortunately: <https://en.wikipedia.org/wiki/Biber_(LaTeX)>. I suppose sticking to notation that's common to both the BibTeX natbib and BibLaTeX's reimplementation is safest. Switching to BibTeX itself would require changes to your Zotero entries, unfortunately.
+    - compiles in at least pdflatex and lualatex
 - Improve compilation time.
 - Reduce the number of files.
     - <https://tex.stackexchange.com/questions/116719/how-can-i-balance-uniformity-of-style-files-against-modularity>
+- Makefile
+    - Compatible with both GNU and BSD Make.
+    - Simpler and shorter.
+    - No recursive Make.
+    - `latexmk`
+        - <https://lobste.rs/s/sq9h3p/unreasonable_effectiveness_makefiles#c_v7pkr0>
+    - figures
+        - .gp (gnuplot)
+        - Compile xfig files with transfig: <https://news.ycombinator.com/item?id=31224924>
+- Simple examples and templates.
+    - <https://www.fooledbyrandomness.com/bmn.pdf>
+    - <https://github.com/davidwhogg/DataAnalysisRecipes>    
+- No unique numbering.
+- Include comments in template on what to include in abstract, introduction, conclusions, etc.
+- Generic (works on any language) regex linter with input file similar to what Flint uses (YAML), not what plint uses (CSV). Could use configparser and `.sections()` to get all sections. Could have lists at the end like Flint.
 
 ## Old
 
 - Split bmtreport.cls further so that you can use various checks and metadata adding and whatnot in other class files
 - Simplify all files to have less dependencies. Remove line numbers as few would use them.
-- How did I convert from xfig to LaTeX by the command line? Also document how to start LaTeX math mode in xfig. Find where the official documentation says how to do this and link to that. With GNU Make, make targets to convert .gp (gnuplot) and .fig to LaTeX.
-    - Compile xfig files with transfig: <https://news.ycombinator.com/item?id=31224924>
 - Make more similar to this: <https://www.cs.princeton.edu/~bwk/202/index.html>
 - Reduce dependencies to better future-proof. <https://tex.stackexchange.com/a/664793/9945>
 - <https://www.dickimaw-books.com/latex/admin/>
@@ -55,15 +109,11 @@
     > So knowing this, my approach is to *use a system that continuously shows the typeset output* as I type, if I can. That way errors are usually obvious and easy to find. If that's not practical with your favorite editor, just manually run LaTex on your source frequently to see how your document is progressing. The times I've had to do serious puzzling over what was happening were almost always because I had pages of complex text entered before checking to see the output.
 - <https://www.semipol.de/posts/2018/06/latex-best-practices-lessons-learned-from-writing-a-phd-thesis/>
 - root-mean-square vs. root-mean-squared vs. root mean square (etc.) (Check Google Ngram. Require dashes?)
-- Include comments in template on what to include in abstract, introduction, conclusions, etc.
 - Switch to a structured abstract.
 - Break up sections into multiple files?
     - <https://academia.stackexchange.com/a/180254/31143>
     - <https://tex.stackexchange.com/q/29577/9945>
 - TODO: Switch to cumulative numbering of all personal reports, presentations, notes, etc.
-- Examples of templates:
-    - <https://www.fooledbyrandomness.com/bmn.pdf>
-    - <https://github.com/davidwhogg/DataAnalysisRecipes>
 
 ## Files
 
@@ -143,7 +193,7 @@
 
 ### make arxiv
 
-- put everything in `arxiv/` directory
+- put everything in `arxiv/` directory, zip it
 - change absolute filenames to relative
 - <https://arxiv.org/help/faq/texlive>
 - Use specific versions of pdflatex and biber per <https://tex.stackexchange.com/a/467471/9945>.
@@ -158,6 +208,10 @@
 - <https://tex.stackexchange.com/q/83663>
 - <https://terrytao.wordpress.com/2017/07/07/what-are-some-useful-but-little-known-features-of-the-tools-used-in-professional-mathematics/#comment-551741>
 - <https://news.ycombinator.com/item?id=29352868>
+- <https://www.cmcrossroads.com/article/making-directories-gnu-make>
+- <https://github.com/adynathos/tex-submission-purify>
+- <https://converged.yt/notes/lyx_arxiv>
+- <https://tex.stackexchange.com/q/500160/9945>
 
 ### make check
 
