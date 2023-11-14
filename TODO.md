@@ -97,6 +97,7 @@
 - No unique numbering.
 - Include comments in template on what to include in abstract, introduction, conclusions, etc.
 - Generic (works on any language) regex linter with input file similar to what Flint uses (YAML), not what plint uses (CSV). Could use configparser and `.sections()` to get all sections. Could have lists at the end like Flint.
+- PDFs produced by LaTeX: less than 80 characters per line so that it'll fit in a terminal properly (74 on my monitor)
 
 ## Old
 
